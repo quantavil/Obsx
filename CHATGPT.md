@@ -27,8 +27,18 @@ Example response:
 | for      | Preposition    | Preposition                  | Shows the purpose or target of the preparation |
 | the      | Article        | Definite Article             | Modifies "exam"                                |
 | exam     | Noun           | Common Noun                  | Object of the Preposition "for"                |
+|          |                |                              |                                                |
+|          |                |                              |                                                |
 
+```c
+I will provide a bunch of words. Please uppercase each word and generate a single sentence that contain only words separated by ; semi-colon
+```
+
+```c
+I will provide a list of words. For each word, perform the following steps: Identify its base or root form (e.g., 'running' → 'run'). Generate all relevant word forms derived from the base word, including but not limited to: Past tense (e.g., 'ran'). Noun, verb, and adjective forms (e.g., 'runner', 'running', 'run'). Combine all derived word forms into a single sentence, ensuring each word is separated by a semicolon (;). Capitalize every word in the final sentence. Ensure the output is a single, cohesive sentence with no additional punctuation or spaces between words and semicolons. Example: Input: 'running' Output: RUN;RAN;RUNNER;RUNNING; AND COMBINE ALL OUTPUT IN SINGLE SENTENCE
+```
 # Comprehensive Vocabulary Builder GPT
+
 
 ```c
 
@@ -37,20 +47,20 @@ I will give you word(s) , Follow the format below for each word and ensure clari
 ### WORD
 @@ 
 [All applicable forms of Part of Speech] | हिंदी: [translation]  : [Clear, concise meaning with brief context in English]
-- ***Synonyms*:** [2-6 most relevant synonyms]
-- ***Antonyms*:** [2-5 most relevant synonyms]
+- ***Synonyms***: [2-6 most relevant direct synonyms]
+- ***Antonyms***: [2-5 most relevant direct antonyms]
 
 _Examples_
 1. [Contextual sentence showing primary usage] *(Part of Speech)*
 2. [Contextual sentence showing secondary usage if applicable] *(Part of Speech)*
 	[If the word has additional relevant usages or nuances, provide further contextual sentences here, each preceded by a number.] *(Part of Speech)*
 	
-_Word Form Examples (if applicable)_
+_Word Form Examples_
 [List all relevant word forms derived from the base word, past tense, comparative/superlative forms, noun/verb/adjective forms, etc. ]
 For each derived word:
 [Derived word] : 
 [Contextual sentence using the derived word]*(Part of Speech)*
-[Synonyms: [2-6 most relevant synonyms for the derived form]]
+[Synonyms: [2-6 most relevant direct synonyms for the derived form]]
 
 =====
 
@@ -61,14 +71,14 @@ HERE IS AN EXAMPLE RESULT THAT YOU NEED TO REPRODUCE:
 @@  
 **Adjective** | हिंदी: तीव्र, नुकीला : 
 
-1. Sharp or severe in effect; intense.
+1. Sharp or severe in effect, intense.
 2. Having a sharp or pointed end.
 3. Keenly perceptive or intelligent.
 4. Referring to an angle less than 90 degrees in geometry.
 5. A condition or disease with rapid onset and severe symptoms.
 
-- ***Synonyms*:** sharp, severe, intense, keen, critical
-- ***Antonyms*:** dull, mild, chronic, blunt, sluggish
+- ***Synonyms***: sharp, severe, intense, keen, critical
+- ***Antonyms***: dull, mild, chronic, blunt, sluggish
 
 _Examples_
 
@@ -76,7 +86,7 @@ _Examples_
 2. She has an **acute** sense of hearing, able to detect even the faintest sounds. _(Adjective: keen/perceptive)_
 3. The **acute** angle in the triangle measured 45 degrees. _(Adjective: geometric)_
 
-_Word Form_
+_Word Form Examples_
 
 1. **Acutely**:
 	- The disease manifested in an **acutely** painful form, requiring strong medication. _(Adverb: intensely)_
@@ -85,14 +95,18 @@ _Word Form_
 2. **Acuity**:
 	- The **acuity** of her vision allowed her to notice subtle details in the painting._((Noun: keenness of perception )
 	- ***Synonyms***: sharpness, keenness, perceptiveness, sensitivity
-
- 3. **Acuteness**: 
-	- The **acuteness** of the argument led to an immediate resolution.
-	- ***Synonyms:*** intensity, severity, bitterness, poignancy, sharpness
-
+				  
 =====
+
+NOTE : NEVER FORGET "=====" AT END .
 ```
 
+```
+_Note_
+
+"Acute" differs from "chronic" as it refers to conditions or situations that are **severe but short-term**, while "chronic" implies **long-term persistence**. It can describe **physical pain, mental awareness, crises, or sensory sharpness**.
+
+```
 
 ```c
 
@@ -105,8 +119,8 @@ I will give you word(s) , Follow the format below for each word and ensure clari
 ##### 1. **[Primary Part of Speech]**: Detailed definition for this usage.
 
 as in _[specific sense/context]_ (brief explanation of this sense):
-	- ***Synonyms*:** [2-6 most relevant synonyms]
-	- ***Antonyms*:** [2-5 most relevant synonyms]
+	- ***Synonyms***: [2-6 most relevant synonyms]
+	- ***Antonyms***: [2-5 most relevant synonyms]
 
 _Examples_
 	1.[Example sentence using the word]. _(Part of Speech: specific sense)_
@@ -134,13 +148,13 @@ HERE IS AN EXAMPLE RESULT THAT YOU NEED TO REPRODUCE:
 
 as in _totter_ (to sway or move back and forth unsteadily):
 
-- **_Synonyms_:** totter, sway, stumble, reel, lurch
-- **_Antonyms_:** steady, stabilize, balance
+- ***Synonyms***: totter, sway, stumble, reel, lurch
+- ***Antonyms***: steady, stabilize, balance
 
 as in _astonish_ (to cause someone to be extremely surprised):
 
-- **_Synonyms_:** astonish, shock, amaze, astound, dumbfound, flabbergast
-- **_Antonyms_:** reassure, clarify, explain
+- ***Synonyms***: astonish, shock, amaze, astound, dumbfound, flabbergast
+- ***Antonyms***: reassure, clarify, explain
 
 _Examples:_
 
@@ -152,8 +166,8 @@ _Examples:_
 
 as in _lurch_ (a sudden, unsteady motion):
 
-- **_Synonyms_:** lurch, stumble, reel, totter
-- **_Antonyms_:** stability, steadiness, balance
+- ***Synonyms***: lurch, stumble, reel, totter
+- ***Antonyms***: stability, steadiness, balance
 
 _Examples:_
 
@@ -166,17 +180,19 @@ _Word Form Examples:_
 1. **Staggering**:
     
     - The **staggering** beauty of the mountain left us speechless. _(Adjective: overwhelming)_
-    - **_Synonyms_:** astounding, shocking, overwhelming
+    - ***Synonyms***: astounding, shocking, overwhelming
 2. **Staggered**:
     
     - She was **staggered** by the sudden news. _(Verb: past tense, shocked)_
-    - **_Synonyms_:** shocked, astonished, amazed
+    - ***Synonyms***: shocked, astonished, amazed
 3. **Staggeringly**:
     
     - The view was **staggeringly** beautiful. _(Adverb: extremely)_
-    - **_Synonyms_:** incredibly, astonishingly, remarkably
+    - ***Synonyms***: incredibly, astonishingly, remarkably
 
 =====
+
+NOTE : NEVER FORGET "=====" AT END .
 
 ```
 
@@ -186,30 +202,25 @@ _Word Form Examples:_
 # Phrase & Idioms
 
 ```c
-I will give you a phrasal verb, idiom, or phrase.  Follow the format below for each word and ensure clarity, accuracy, and completeness:
+I will give you a phrasal verb, idiom, phrase, OR OWS.  Follow the format below for each word and ensure clarity, accuracy, and completeness:
 
-### Phrase/Idiom/Phrasal Verb
+### Phrase/Idiom/Phrasal Verb/ OWS
 @@
 [Clear, concise meaning with brief context in English]
 - ***Synonyms***: [Synonyms/Similar expressions]
-*Examples*
-1. [Contextual sentence showing primary usage] 
-2. [Contextual sentence showing secondary usage if applicable] 
-
+_Example_ : [Contextual sentence showing primary usage] 
 
 =====
 
 HERE IS AN EXAMPLE RESULT THAT YOU NEED TO REPRODUCE:
-### White as a Sheet
 
+### Run of the Mill  
 @@  
-A phrase used to describe someone who looks extremely pale, often due to fear, shock, illness, or exhaustion. 
-
-- **Synonyms**: Pale as a ghost, ashen, ghostly pale
-
-_Examples_
-1. She looked **white as a sheet** after hearing the bad news.
-2. He was **white as a sheet** when he saw the giant spider in the room.  
+A phrase used to describe something that is ordinary, average, or not special in any way.  
+- ***Synonyms***: Commonplace, standard, unexceptional  
+_Example_: The restaurant serves **run-of-the-mill** food, nothing particularly memorable.  
 
 =====
+
+NOTE : NEVER FORGET "=====" AT END .
 ```

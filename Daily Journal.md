@@ -1,3 +1,0 @@
-- [ ] Math percentage 
-- [ ] Reasoning 1 chapter 
-- [ ] English 1 chapter 
