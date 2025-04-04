@@ -5,5253 +5,3213 @@ app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
     const matches = content.match(/(^|\s)=====(\s|$)/g); // Match all occurrences of "====="
     const count = matches ? matches.length : 0; // Count matches or default to 0
     dv.paragraph(`Total "=====" count in the current file: ${count}`);
-
     const matches1 = content.match(/(^|\s)###(\s|$)/g); // Match all occurrences of "###"
     const count1 = matches1 ? matches1.length : 0; // Count matches or default to 0
     dv.paragraph(`Total "###" count in the current file: ${count1}`);
-    
 });
-
 ```
 
-# SA
-
-
 ### SACK
-
-@@  
-**Noun** | हिंदी: बोरियाँ, थैला : A large bag or container, typically made of strong material, used for storing or carrying items.  
-**Verb** | हिंदी: निकालना, निकाल बाहर करना : To dismiss someone from their job, or to put things into a sack.
-
-- ***Synonyms (Noun)***: bag, pouch, bundle, sackful, container
-- ***Synonyms (Verb)***: dismiss, fire, terminate, eject, discharge
-- ***Antonyms (Noun)***: box, case, crate
-- ***Antonyms (Verb)***: hire, employ, retain, keep
-
-_Examples_
-
-1. He filled the **sack** with potatoes for the market. _(Noun: bag or container)_
-2. The workers carried their tools in a large **sack**. _(Noun: strong container)_
-3. The company decided to **sack** him for repeated tardiness. _(Verb: dismiss from a job)_
-4. After the project was completed, the manager had to **sack** several underperforming employees. _(Verb: fire or terminate)_
-
-_Word Form Examples_
-
-1. **Sacked** (Verb - Past Tense):
-    
-    - She was **sacked** after the company found out about her misconduct.
-    - ***Synonyms***: dismissed, fired, terminated
-2. **Sacking** (Verb - Present Participle):
-    
-    - The manager is **sacking** workers who have not met their targets.
-    - ***Synonyms***: firing, dismissing, terminating
-3. **Sackful** (Noun):
-    
-    - The worker carried a **sackful** of grain to the barn.
-    - ***Synonyms***: bagful, bundle
-
-=====
-
-### SADDLE
-
-@@  
-**Noun, Verb** | हिंदी: जीन, सवार होना : 
-
-1. **(Noun)** A seat fastened on the back of a horse or other animal for riding.  
-2. **(Noun)** A low part of a ridge between two higher points or peaks.  
-3. **(Verb)** To burden someone with a responsibility or task.  
-4. **(Verb)** To put a saddle on an animal.  
-
-- ***Synonyms***: (Noun) seat, harness; (Verb) burden, load, encumber  
-- ***Antonyms***: (Verb) relieve, unburden, lighten, free  
+@@
+**Noun, Verb** | हिंदी: बोरी, लूट, निकालना :  
+1. A large bag made of strong material, used for storing or carrying goods. *(Noun)*  
+2. The act of dismissing someone from their job. *(Noun)*  
+3. To plunder or destroy a place, often during war. *(Verb)*  
+- ***Synonyms***: bag, pouch, container *(Noun: storage)*; dismissal, firing, termination *(Noun: job loss)*; loot, pillage, ransack *(Verb: plunder)*
+- ***Antonyms***: retention, employment *(Noun: job loss)*; protect, safeguard, preserve *(Verb: plunder)*
 
 _Examples_  
-
-1. The cowboy adjusted the **saddle** before mounting his horse. *(Noun: a seat for riding)*  
-2. The hikers rested at the **saddle** between the two mountains. *(Noun: a low ridge between peaks)*  
-3. She didn’t want to **saddle** her team with extra work before the holidays. *(Verb: to burden someone)*  
-4. He **saddled** the horse and prepared for the ride. *(Verb: to put a saddle on an animal)*  
+1. The farmer filled the **sack** with grains. *(Noun: storage)*  
+2. The manager gave him the **sack** after repeated misconduct. *(Noun: dismissal)*  
+3. The invading army **sacked** the ancient city, leaving nothing but ruins. *(Verb: plunder)*  
 
 _Word Form Examples_  
-
-1. **Saddled**:  
-   - The manager was **saddled** with the responsibility of fixing the project. *(Verb: past tense, burdened)*  
-   - ***Synonyms***: burdened, loaded, encumbered, charged  
-
-2. **Saddling**:  
-   - **Saddling** the horse took longer than expected. *(Verb: present participle, putting a saddle on)*  
-   - ***Synonyms***: harnessing, preparing, equipping  
-
-3. **Unsaddle**:  
-   - After the ride, he **unsaddled** the horse and let it rest. *(Verb: to remove a saddle)*  
-   - ***Synonyms***: unharness, unburden, free  
-
-=====
-
-### SAGACIOUS
-
-@@  
-**Adjective** | हिंदी: बुद्धिमान, विवेकी : Having or showing keen mental discernment and good judgment; wise.
-
-- ***Synonyms***: wise, insightful, perceptive, shrewd, intelligent
-- ***Antonyms***: foolish, imprudent, naive, dull-witted, uninformed
-
-_Examples_
-
-1. The **sagacious** leader guided the country through difficult times with wisdom and foresight. _(Adjective: showing keen judgment and wisdom)_
-2. Her **sagacious** advice helped us make the right decision during a critical business meeting. _(Adjective: displaying wisdom and insight)_
-
-_Word Form Examples_
-
-1. His **sagacity** was admired by all who worked with him. _(Noun: the quality of being sagacious)_
-2. She acted **sagaciously** when she chose to invest in sustainable businesses. _(Adverb: in a wise or judicious manner)_
-
-=====
-
-### SALIENCE  
-@@  
-**Noun** | हिंदी: प्रमुखता, उभार :  
-1. The quality of being particularly noticeable, important, or prominent.  
-2. The state of standing out or being easily perceived or understood.  
-
-- ***Synonyms***: prominence, significance, importance, visibility, distinctiveness, notability  
-- ***Antonyms***: obscurity, insignificance, irrelevance, unimportance  
-
-_Examples_  
-1. The **salience** of the issue became apparent when it dominated the headlines for weeks. *(Noun: prominence)*  
-2. In design, the **salience** of certain elements can guide the viewer’s attention effectively. *(Noun: noticeability)*  
-
-_Word Form Examples_  
-1. **Salient**:  
-   - The report highlighted the **salient** features of the new policy in clear terms. *(Adjective: prominent/important)*  
-   - ***Synonyms***: prominent, significant, notable, striking, conspicuous  
-2. **Saliently**:  
-   - The speaker **saliently** pointed out the flaws in the argument during the debate. *(Adverb: prominently/notably)*  
-   - ***Synonyms***: prominently, notably, conspicuously, distinctly  
+1. **SACKED**: 🌟  
+   - He was **sacked** for consistently missing deadlines. *(Verb: dismissed from a job)*  
+   - ***Synonyms***: fired, dismissed, expelled, terminated  
+2. **SACKING**:  
+   - The **sacking** of the historic library was a tragic loss. *(Noun: act of plundering)*  
+   - ***Synonyms***: looting, ransacking, destruction, devastation  
+3. **SACKFUL**:  
+   - She carried a **sackful** of potatoes to the kitchen. *(Noun: a full sack of something)*  
+   - ***Synonyms***: bagful, load, heap  
 
 =====  
 
----
-
-### SALUTARY
+### SADDLE  
 @@  
-**Adjective** | हिंदी: लाभदायक, हितकर : 
-1. Producing good effects; beneficial, especially in terms of health or moral improvement.
-2. Promoting a positive or corrective influence.
-
-- ***Synonyms***: beneficial, advantageous, helpful, wholesome, constructive
-- ***Antonyms***: harmful, detrimental, damaging, injurious, deleterious
-
-_Examples_
-1. The **salutary** effects of regular exercise on mental health are well-documented. _(Adjective: beneficial)_
-2. The defeat served as a **salutary** reminder that overconfidence can lead to failure. _(Adjective: promoting improvement)_
-3. The new policy had a **salutary** impact on the company's overall productivity. _(Adjective: producing good effects)_
-
-_Word Form Examples_
-1. **Salutarily**:
-	- The changes were **salutarily** implemented, resulting in significant improvements. _(Adverb: in a beneficial manner)_
-	- ***Synonyms***: beneficially, advantageously, helpfully, constructively, positively
-2. **Salutariness**:
-	- The **salutariness** of the new diet was evident in the improved health of the participants. _(Noun: the quality of being beneficial)_
-	- ***Synonyms***: benefit, advantage, helpfulness, wholesomeness, constructiveness
-
-=====
-### SALVAGE  
-@@  
-**Verb, Noun** | हिंदी: बचाना, उद्धार करना :  
-1. To rescue or retrieve something from damage, loss, or destruction; to save usable parts or materials. *(Verb)*  
-2. The act of saving or rescuing something; the items saved from destruction or loss. *(Noun)*  
-
-- ***Synonyms***: rescue, recover, reclaim, retrieve, save *(Verb/Noun)*  
-- ***Antonyms***: lose, destroy, abandon, discard, neglect *(Verb/Noun)*  
+**Noun, Verb** | हिंदी: काठी, बोझ डालना :  
+1. A seat fastened on the back of a horse or other animal for riding. *(Noun)*  
+2. A similar seat for a bicycle or motorcycle. *(Noun)*  
+3. To burden someone with responsibility or difficulty. *(Verb)*  
+- ***Synonyms***: seat, harness, mount *(Noun: riding equipment)*; burden, encumber, load *(Verb: impose responsibility)*  
+- ***Antonyms***: relieve, unburden, free *(Verb: remove burden)*  
 
 _Examples_  
-1. After the fire, workers tried to **salvage** whatever furniture they could from the damaged building. *(Verb: rescue from damage)*  
-2. The crew managed to **salvage** the ship's cargo before it sank completely. *(Verb: retrieve from loss)*  
-3. The **salvage** operation was successful in recovering valuable artifacts from the sunken vessel. *(Noun: act of rescuing)*  
+1. The cowboy adjusted the **saddle** before riding his horse. *(Noun: riding equipment)*  
+2. He placed the new **saddle** on his bicycle for better comfort. *(Noun: seat for a bicycle/motorcycle)*  
+3. She was **saddled** with extra work after her colleague resigned. *(Verb: burden with responsibility)*  
+4. The rider **saddled** his horse and prepared for the journey. *(Verb: place a saddle on a horse)*  
 
 _Word Form Examples_  
-1. **Salvaged**:  
-   - The old car was completely stripped down, but its engine was **salvaged** and restored. *(Adjective: past participle, rescued)*  
-   - ***Synonyms***: recovered, reclaimed, retrieved, saved  
-2. **Salvager**:  
-   - A professional **salvager** was hired to extract precious metals from the wreckage. *(Noun: person who salvages)*  
-   - ***Synonyms***: rescuer, retriever, recovery expert  
-3. **Salvageable**:  
-   - Despite the heavy damage, some parts of the structure were still **salvageable**. *(Adjective: capable of being salvaged)*  
-   - ***Synonyms***: recoverable, restorable, repairable, reclaimable  
+1. **SADDLED**: 🌟  
+   - He felt **saddled** with debt after losing his job. *(Adjective: burdened with responsibility)*  
+   - ***Synonyms***: burdened, weighed down, loaded  
+2. **SADDLING**:  
+   - The stable boy was **saddling** the horses for the race. *(Verb: putting a saddle on a horse)*  
+   - ***Synonyms***: equipping, mounting, preparing  
+3. **UNSADDLE**:  
+   - The rider quickly **unsaddled** the horse after the long journey. *(Verb: remove the saddle)*  
+   - ***Synonyms***: unburden, detach, free  
+
+=====  
+
+### SAGACIOUS  
+@@  
+**Adjective** | हिंदी: बुद्धिमान, दूरदर्शी : Having keen mental discernment and good judgment; wise and perceptive.  
+- ***Synonyms***: wise, intelligent, insightful, discerning, prudent, shrewd  
+- ***Antonyms***: foolish, ignorant, naive, unwise, shortsighted  
+
+_Examples_  
+1. The **sagacious** leader made decisions that benefited the country for generations. *(Adjective: wise and perceptive)*  
+2. Her **sagacious** advice helped me avoid a costly mistake. *(Adjective: showing good judgment)*  
+
+_Word Form Examples_  
+1. **SAGACITY**: 🌟  
+   - His **sagacity** in business matters led him to great success. *(Noun: wisdom and keen judgment)*  
+   - ***Synonyms***: wisdom, intelligence, insight, prudence  
+2. **SAGACIOUSLY**:  
+   - He handled the crisis **sagaciously**, preventing further damage. *(Adverb: with wisdom and insight)*  
+   - ***Synonyms***: wisely, intelligently, prudently, shrewdly  
+
+=====  
+
+### SALIENT
+@@
+**Adjective** | हिंदी: प्रमुख, उभरा हुआ : Most noticeable or important; standing out from the rest; projecting or jutting beyond a line or surface.
+- ***Synonyms***: prominent, conspicuous, striking, notable, remarkable, significant
+- ***Antonyms***: inconspicuous, insignificant, unimportant, minor, subtle
+
+_Examples_
+1. The professor highlighted the **salient** points of the lecture for the students to review. *(Adjective: most important)*
+2. The mountain's **salient** peak was visible from miles away. *(Adjective: projecting outward)*
+3. Her most **salient** characteristic was her ability to remain calm under pressure. *(Adjective: noticeable)*
+
+_Word Form Examples_
+1. **SALIENCE**: 🌟
+   - The **salience** of climate change as a political issue has increased dramatically. *(Noun: quality of being noticeable or important)*
+   - ***Synonyms***: prominence, notability, significance, importance, conspicuousness
+2. **SALIENTLY**:
+   - The author **saliently** described the cultural differences between the two communities. *(Adverb: in a prominent manner)*
+   - ***Synonyms***: noticeably, prominently, markedly, strikingly
+
+=====  
+
+### SALUTE  
+@@  
+**Noun, Verb** | हिंदी: सलाम, अभिवादन करना :  
+1. A gesture of respect, honor, or greeting, often involving raising the hand to the forehead. *(Noun)*  
+2. To show respect or honor by making a formal gesture, such as raising a hand or bowing. *(Verb)*  
+- ***Synonyms***: greeting, homage, tribute, honor *(Noun: respectful gesture)*; acknowledge, honor, recognize, hail *(Verb: to show respect)*  
+- ***Antonyms***: disrespect, insult, ignore, disregard  
+
+_Examples_  
+1. The soldier gave a sharp **salute** to his commanding officer. *(Noun: formal gesture of respect)*  
+2. The award was a **salute** to his years of dedicated service. *(Noun: expression of honor)*  
+3. The cadets **saluted** their general as he entered the hall. *(Verb: making a formal gesture of respect)*  
+4. The audience **saluted** the scientist with a standing ovation. *(Verb: showing admiration and acknowledgment)*  
+
+_Word Form Examples_  
+1. **SALUTED**: 🌟  
+   - The veterans were **saluted** for their bravery. *(Verb: honored with a gesture or tribute)*  
+   - ***Synonyms***: honored, recognized, acknowledged  
+2. **SALUTING**:  
+   - The officer was **saluting** the flag during the ceremony. *(Verb: making a formal gesture of respect)*  
+   - ***Synonyms***: greeting, honoring, hailing  
+3. **SALUTATION**:  
+   - He began his speech with a warm **salutation** to the audience. *(Noun: formal greeting or address)*  
+   - ***Synonyms***: greeting, welcome, address  
+
+=====  
+
+### SALVAGE
+@@
+**Verb, Noun** | हिंदी: बचाना, उद्धार करना : To save or rescue property or materials from potential loss or destruction; property or goods saved from damage or destruction.
+- ***Synonyms***: rescue, recover, reclaim, retrieve, save, redeem
+- ***Antonyms***: abandon, discard, waste, destroy, forfeit
+
+_Examples_
+1. The crew worked tirelessly to **salvage** equipment from the sinking ship. *(Verb: rescue from loss)*
+2. The insurance company assessed the **salvage** value of the damaged car. *(Noun: rescued property)*
+3. They managed to **salvage** their reputation after the scandal. *(Verb: save from ruin)*
+
+_Word Form Examples_
+1. **SALVAGED**: 🌟
+   - The team **salvaged** valuable data from the corrupted hard drive. *(Past tense: rescued from loss)*
+   - ***Synonyms***: recovered, reclaimed, rescued, retrieved
+2. **SALVAGING**:
+   - **Salvaging** materials from demolition sites can be both economical and environmentally friendly. *(Gerund: act of recovering)*
+   - ***Synonyms***: recovering, reclaiming, rescuing, saving
+3. **SALVAGEABLE**:
+   - The mechanic determined that parts of the engine were still **salvageable** after the accident. *(Adjective: capable of being saved)*
+   - ***Synonyms***: recoverable, reclaimable, reusable, retrievable
 
 =====
+
+### SANE
+@@
+**Adjective** | हिंदी: स्वस्थ मानसिक, मानसिक रूप से स्वस्थ : Of sound mind; mentally healthy; having or showing reason, sound judgment, or good sense.
+- ***Synonyms***: rational, reasonable, sensible, lucid, sound, balanced
+- ***Antonyms***: insane, irrational, deranged, demented, unbalanced, disturbed
+
+_Examples_
+1. No **sane** person would jump off a cliff without safety equipment. *(Adjective: mentally sound)*
+2. The jury had to determine whether the defendant was **sane** at the time of the crime. *(Adjective: mentally competent)*
+3. It's hard to stay **sane** in such a chaotic environment. *(Adjective: mentally balanced)*
+
+_Word Form Examples_
+1. **SANELY**: 🌟
+   - He responded **sanely** to the crisis despite the pressure. *(Adverb: in a rational manner)*
+   - ***Synonyms***: rationally, reasonably, sensibly, judiciously
+2. **SANENESS**:
+   - The doctor evaluated the patient's **saneness** before releasing him. *(Noun: state of being sane)*
+   - ***Synonyms***: sanity, rationality, soundness of mind, mental health
+3. **SANITY**: 🌟
+   - After weeks of isolation, she began to question her **sanity**. *(Noun: the state of having a sound mind)*
+   - ***Synonyms***: mental health, soundness of mind, reason, lucidity
+4. **INSANE**:
+   - His behavior was so reckless that people thought he was **insane**. *(Adjective: not sane)*
+   - ***Synonyms***: deranged, demented, mentally ill, unbalanced, crazy
+5. **INSANITY**:
+   - Temporary **insanity** was claimed as the legal defense. *(Noun: severe mental illness)*
+   - ***Synonyms***: madness, mental illness, derangement, lunacy, psychosis
+
+=====
+
 ### SANGUINE
-
-@@  
-**Adjective** | हिंदी: आशावादी, आत्मविश्वासी : Optimistic or confident, especially in a difficult or challenging situation.
-
-1. Having a cheerful and hopeful disposition.
-2. Confidently optimistic about the future.
-3. (Archaic) Relating to the color red or ruddy in complexion.
-
-- ***Synonyms***: optimistic, confident, hopeful, buoyant, positive, cheerful
-- ***Antonyms***: pessimistic, doubtful, gloomy, despondent, hopeless
+@@
+**Adjective** | हिंदी: आशावादी, प्रफुल्लित : Optimistic or positive, especially in a difficult situation; cheerfully confident; hopeful.
+- ***Synonyms***: optimistic, positive, hopeful, confident, cheerful, buoyant
+- ***Antonyms***: pessimistic, gloomy, despondent, melancholy, dejected, morose
 
 _Examples_
-
-1. Despite the setbacks, she remained **sanguine** about the success of her project. _(Adjective: optimistic and confident)_
-2. His **sanguine** nature helped the team stay motivated during tough times. _(Adjective: hopeful and cheerful)_
-3. The artist used a **sanguine** palette to depict the vibrant sunset. _(Adjective: relating to a reddish hue)_
+1. Despite the company's financial troubles, the CEO remained **sanguine** about its future. *(Adjective: optimistic)*
+2. Her **sanguine** disposition helped everyone stay positive during the crisis. *(Adjective: cheerfully confident)*
+3. The blood-red **sanguine** chalk was traditionally used in Renaissance drawings. *(Adjective/Noun: reddish-brown color)* *(Rare)*
 
 _Word Form Examples_
-
-1. **Sanguinely**:
-    
-    - He spoke **sanguinely** about the company’s future, despite the challenges. _(Adverb: in an optimistic or confident manner)_
-    - ***Synonyms***: optimistically, confidently, cheerfully
-2. **Sanguineness / Sanguinity**:
-    
-    - Her **sanguineness** in the face of adversity inspired everyone around her. _(Noun: the quality of being optimistic or confident)_
-    - ***Synonyms***: optimism, confidence, cheerfulness
+1. **SANGUINELY**: 🌟
+   - She **sanguinely** predicted that the project would be completed ahead of schedule. *(Adverb: optimistically)*
+   - ***Synonyms***: optimistically, hopefully, confidently, cheerfully
+2. **SANGUINENESS**:
+   - His **sanguineness** in the face of adversity inspired the whole team. *(Noun: quality of being optimistic)*
+   - ***Synonyms***: optimism, hopefulness, confidence, positivity
+3. **SANGUINITY**: 🌟
+   - The **sanguinity** with which she approached problems was remarkable. *(Noun: state of being sanguine)*
+   - ***Synonyms***: optimism, hopefulness, confidence, buoyancy
 
 =====
-### SAP  
-@@  
-**Noun, Verb** | हिंदी: रस :  
-1. The fluid in plants and trees that carries nutrients and water to the various parts of the plant. *(Noun)*  
-2. To weaken or drain someone or something of energy, strength, or resources. *(Verb)*  
-3. A foolish or gullible person (informal usage). *(Noun)*  
 
-- ***Synonyms***: (for plant fluid) juice, fluid; (for weakening) drain, deplete, exhaust, undermine; (for foolish person) simpleton, fool, dupe  
-- ***Antonyms***: (for weakening) strengthen, invigorate, energize, replenish  
+### SAP
+@@
+**Noun, Verb** | हिंदी: रस, जूस : 
+1. The fluid that circulates in the vascular system of a plant, carrying nutrients. *(Noun)*
+2. To drain or extract energy, vitality, or resources gradually. *(Verb)*
+- ***Synonyms***: juice, essence, liquid *(Noun: plant fluid)*; drain, exhaust, deplete *(Verb)* 
+- ***Antonyms***: dryness, barrenness *(Noun: plant fluid)*; replenish, restore, invigorate *(Verb)*
 
-_Examples_  
-1. The tree's **sap** flows through its bark, delivering vital nutrients to the leaves. *(Noun: plant fluid)*  
-2. His constant complaining began to **sap** her patience over time. *(Verb: weaken)*  
-3. He’s such a **sap** for romantic movies; he cries every time he watches one. *(Noun: fool)*  
+_Examples_
+1. The tree’s **sap** flowed freely after the bark was cut. *(Noun: plant fluid)*
+2. Long hours at work began to **sap** her strength. *(Verb: drain energy)*
 
-_Word Form Examples_  
-1. **Sapped**:  
-   - After months of overwork, she felt completely **sapped** of energy. *(Verb: weakened)*  
-   - ***Synonyms***: drained, exhausted, depleted, enervated  
-2. **Sapping**:  
-   - The long illness was **sapping** his will to live. *(Verb: draining)*  
-   - ***Synonyms***: undermining, weakening, eroding, diminishing  
+_Word Form Examples_
+1. **SAPPED** : 🌟
+   - After the marathon, he felt completely **sapped** of energy. *(Adjective: drained)*
+   - ***Synonyms***: exhausted, depleted, worn out, drained, fatigued
+2. **SAPPING** :
+   - The constant stress was **sapping** his enthusiasm for the project. *(Gerund: act of draining)*
+   - ***Synonyms***: draining, weakening, exhausting, undermining
+3. **SAPLESS** : 
+   - The dry, **sapless** branches cracked underfoot. *(Adjective: lacking sap or vitality)*
+   - ***Synonyms***: dry, lifeless, withered, barren
+
 =====
 
 ### SAPIENT
-
-@@  
-**Adjective** | हिंदी: बुद्धिमान, विवेकपूर्ण :
-
-1. Having great wisdom or discernment; showing deep understanding or insight.
-2. (Archaic or literary) Wise or knowledgeable.
-
-- ***Synonyms***: wise, sagacious, insightful, prudent, judicious
-- ***Antonyms***: foolish, ignorant, naive, unwise, senseless
+@@
+**Adjective** | हिंदी: बुद्धिमान, ज्ञानी : Possessing wisdom and good judgment; wise, insightful, or thoughtful; having or showing intelligence.
+- ***Synonyms***: wise, sage, intelligent, discerning, judicious, astute
+- ***Antonyms***: foolish, ignorant, unwise, injudicious, unintelligent, obtuse
 
 _Examples_
-
-1. The elder’s **sapient** advice helped the villagers navigate through difficult times. _(Adjective: wise and insightful)_
-2. Her **sapient** observations about human nature are reflected in her writing. _(Adjective: showing great wisdom or discernment)_
+1. The elder's **sapient** advice guided the community through difficult times. *(Adjective: wise)*
+2. Her **sapient** analysis of the complex situation impressed everyone in the room. *(Adjective: insightful)*
+3. In science fiction, the term "**sapient**" often describes species capable of reasoning and self-awareness. *(Adjective: intelligent)*
 
 _Word Form Examples_
-
-1. **Sapience**:
-    
-    - The **sapience** of the philosopher was evident in his profound writings. _(Noun: the quality of being wise or insightful)_
-    - ***Synonyms***: wisdom, sagacity, discernment
-2. **Sapiently**:
-    
-    - He sapiently avoided the argument, knowing it would lead nowhere. _(Adverb: in a wise or discerning manner)_
-    - ***Synonyms***: wisely, prudently, judiciously
+1. **SAPIENTLY**: 
+   - She **sapiently** observed that rushing the decision would lead to mistakes. *(Adverb: in a wise manner)*
+   - ***Synonyms***: wisely, intelligently, judiciously, astutely
+2. **SAPIENCE**: 🌟
+   - His natural **sapience** was evident even as a child. *(Noun: wisdom, intelligence)*
+   - ***Synonyms***: wisdom, intelligence, sagacity, acumen, perspicacity
 
 =====
 
+### SARCASTIC
+@@
+**Adjective** | हिंदी: व्यंग्यात्मक : Expressing or marked by sarcasm; using irony to mock or convey contempt, often in a humorous or biting way.
+- ***Synonyms***: ironic, sardonic, mocking, cynical, satirical
+- ***Antonyms***: sincere, genuine, earnest, straightforward, respectful
 
-### SARCASTIC  
+_Examples_
+1. His **sarcastic** remark about her cooking left everyone laughing uncomfortably. *(Adjective: mocking)*
+2. She gave a **sarcastic** thumbs-up when he bragged about finishing last. *(Adjective: ironic)*
+
+_Word Form Examples_
+1. **SARCASTICALLY**:
+   - He **sarcastically** applauded her effort, making it clear he wasn’t impressed. *(Adverb: in a mocking manner)*
+   - ***Synonyms***: mockingly, ironically, sardonically, cynically
+2. **SARCASM** 🌟:
+   - Her speech was dripping with **sarcasm**, leaving no doubt about her true feelings. *(Noun: the use of irony to mock)*
+   - ***Synonyms***: irony, mockery, ridicule, scorn, derision
+
+=====
+
+### SARDONIC
+@@
+**Adjective** | हिंदी: ताने मारने वाला : Grimly mocking or cynical, often with a bitter or scornful tone, implying disdain or derision.
+- ***Synonyms***: sarcastic, mocking, cynical, derisive, wry
+- ***Antonyms***: cheerful, kind, sympathetic, warm, sincere
+
+_Examples_
+1. His **sardonic** grin suggested he found the situation more amusing than tragic. *(Adjective: grimly mocking)*
+2. She responded with a **sardonic** comment that cut deeper than intended. *(Adjective: scornful)*
+
+_Word Form Examples_
+1. **SARDONICALLY** 🌟:
+   - He **sardonically** remarked that the plan was “destined for success,” implying the opposite. *(Adverb: in a scornful, mocking way)*
+   - ***Synonyms***: mockingly, cynically, derisively, wryly, sarcastically
+2. **SARDONICISM** *(Rare)*:
+   - His constant **sardonicism** made it hard to tell when he was being serious. *(Noun: the quality of being sardonic)*
+   - ***Synonyms***: cynicism, mockery, scorn, derision
+
+=====
+
+### SATIRE
+@@
+**Noun** | हिंदी: व्यंग्य : The use of humor, irony, or exaggeration to criticize or mock people, institutions, or societal flaws, often with a purpose of reform or amusement.
+- ***Synonyms***: parody, mockery, ridicule, sarcasm, wit
+- ***Antonyms***: seriousness, praise, flattery, solemnity
+
+_Examples_
+1. The play was a brilliant **satire** of corrupt politicians, leaving the audience in stitches. *(Noun: humorous criticism)*
+2. Her novel uses **satire** to expose the absurdities of modern life. *(Noun: ironic commentary)*
+
+_Word Form Examples_
+1. **SATIRICAL** 🌟:
+   - His **satirical** cartoon poked fun at the government’s latest blunder. *(Adjective: using satire)*
+   - ***Synonyms***: mocking, ironic, sarcastic, humorous, critical
+2. **SATIRICALLY**:
+   - She **satirically** described the meeting as “a triumph of efficiency,” highlighting its chaos. *(Adverb: in a satirical manner)*
+   - ***Synonyms***: mockingly, ironically, sarcastically, wittily
+3. **SATIRIST**:
+   - The **satirist** wrote columns that spared no one in power. *(Noun: a person who creates satire)*
+   - ***Synonyms***: humorist, parodist, critic, mocker
+4. **SATIRIZE**:
+   - The comedian loved to **satirize** celebrities in his stand-up routine. *(Verb: to mock using satire)*
+   - ***Synonyms***: ridicule, parody, lampoon, mock, caricature
+
+=====
+
+### SATURATE
+@@
+**Verb, Adjective** | हिंदी: संतृप्त करना, पूरी तरह भिगोना : To fill completely with something; to soak thoroughly; to cause a substance to combine with the maximum amount possible of another substance.
+- ***Synonyms***: soak, drench, flood, inundate, permeate, imbue *(Verb)*; soaked, drenched, sodden *(Adjective)*
+- ***Antonyms***: dry, dehydrate, deplete, drain *(Verb)*; unsaturated, dry, parched *(Adjective)*
+
+_Examples_
+1. Heavy rain will **saturate** the soil, making it difficult to work with. *(Verb: to soak thoroughly)*
+2. Companies **saturate** the market with advertisements during the holiday season. *(Verb: to fill completely)*
+3. In chemistry, a **saturate** solution cannot dissolve any more of the solute. *(Adjective/Noun: fully saturated)*
+
+_Word Form Examples_
+1. **SATURATED**: 🌟
+   - Her clothes were completely **saturated** after falling into the pool. *(Adjective: soaked through)*
+   - The market became **saturated** with similar products, driving prices down. *(Adjective: filled to capacity)*
+   - ***Synonyms***: soaked, drenched, sodden, permeated, inundated
+2. **SATURATING**:
+   - The rain was **saturating** the ground, creating puddles everywhere. *(Verb: present participle)*
+   - ***Synonyms***: soaking, drenching, flooding, permeating
+3. **SATURATION**: 🌟
+   - Color **saturation** refers to the intensity and purity of a color in photography. *(Noun: the state of being saturated)*
+   - The **saturation** point in the negotiations was reached when neither side would compromise further. *(Noun: point of maximum capacity)*
+   - ***Synonyms***: permeation, impregnation, infusion, intensity
+4. **UNSATURATED**:
+   - **Unsaturated** fats are generally considered healthier than saturated fats. *(Adjective: not fully saturated)*
+   - ***Synonyms***: partially filled, incomplete, unfilled
+5. **SUPERSATURATED**:
+   - A **supersaturated** solution contains more dissolved material than could normally be dissolved by the solvent. *(Adjective: saturated beyond normal capacity)*
+   - ***Synonyms***: oversaturated, hyper-concentrated
+
+=====
+
+### SAVAGE  
 @@  
-**Adjective** | हिंदी: व्यंग्यपूर्ण, ताने भरा : Characterized by or expressing sarcasm; using mocking, ironic, or cutting remarks to convey contempt or ridicule.  
-- ***Synonyms***: ironic, mocking, sardonic, caustic, satirical, derisive  
-- ***Antonyms***: sincere, earnest, straightforward, complimentary, respectful  
+**Noun, Verb, Adjective** | हिंदी: जंगली, बर्बर, क्रूर :  
+1. A fierce, violent, or uncivilized person. *(Noun)*  
+2. To attack or treat with brutal force. *(Verb)*  
+3. Wild, untamed, or extremely cruel. *(Adjective)*  
+- ***Synonyms***: brute, barbarian, beast *(Noun: violent person)*; maul, assault, ravage *(Verb: attack violently)*; ferocious, ruthless, brutal *(Adjective: cruel or untamed)*  
+- ***Antonyms***: gentleman, civilized person, noble *(Noun: refined person)*; protect, defend, rescue *(Verb: prevent harm)*; gentle, kind, civilized *(Adjective: refined or tame)*  
 
 _Examples_  
-1. His **sarcastic** comment about the weather was met with awkward silence. *(Adjective: mocking)*  
-2. The comedian’s **sarcastic** tone made it hard to tell if he was joking or being serious. *(Adjective: ironic and cutting)*  
+1. The warriors were feared for their **savage** fighting skills. *(Adjective: fierce and brutal)*  
+2. The journalist wrote a **savage** critique of the corrupt government. *(Adjective: harsh and severe)*  
+3. A pack of wolves **savaged** the helpless deer in the forest. *(Verb: attack viciously)*  
+4. The ancient tribe was unfairly labeled as **savages** by the invading settlers. *(Noun: uncivilized or wild people)*  
 
 _Word Form Examples_  
-1. **Sarcasm**:  
-   - Her reply was laced with **sarcasm**, making it clear she didn’t agree with the idea. *(Noun: quality of being sarcastic)*  
-   - ***Synonyms***: mockery, irony, satire, ridicule, cynicism  
-2. **Sarcastically**:  
-   - He **sarcastically** remarked, “Oh, great job!” when his teammate made a costly mistake. *(Adverb: in a sarcastic manner)*  
-   - ***Synonyms***: mockingly, ironically, derisively, cynically  
+1. **SAVAGELY**: 🌟  
+   - He was **savagely** beaten by the gang. *(Adverb: in a brutal manner)*  
+   - ***Synonyms***: brutally, viciously, ruthlessly, ferociously  
+2. **SAVAGENESS**:
+   - The **savageness** of the storm left the town in ruins. *(Noun: extreme violence or cruelty)*  
+   - ***Synonyms***: brutality, ferocity, ruthlessness  
+3. **SAVAGING**:  
+   - The wild animal was **savaging** its prey with sharp claws. *(Verb: attacking viciously)*  
+   - ***Synonyms***: mauling, attacking, ravaging  
+4. **SAVAGED**:  
+   - His reputation was **savaged** by false accusations. *(Verb: severely damaged or attacked)*  
+   - ***Synonyms***: destroyed, ruined, attacked, mauled  
+
+=====  
+
+### SCANDAL
+@@
+**Noun** | हिंदी: घोटाला, कलंक : An action or event regarded as morally or legally wrong and causing general public outrage; damage to reputation caused by such actions.
+- ***Synonyms***: disgrace, outrage, controversy, impropriety, misconduct, sensation
+- ***Antonyms***: propriety, honor, decorum, respectability, integrity, virtue
+
+_Examples_
+1. The financial **scandal** led to the resignation of several high-ranking officials. *(Noun: disgraceful incident)*
+2. Tabloid newspapers thrive on reporting celebrity **scandals**. *(Noun: shocking events)*
+3. Her affair with a married politician created a major political **scandal**. *(Noun: public outrage)*
+
+_Word Form Examples_
+1. **SCANDALIZE**: 🌟
+   - Her revealing outfit was designed to **scandalize** the conservative audience. *(Verb: to shock or outrage)*
+   - ***Synonyms***: shock, outrage, offend, appall, horrify
+2. **SCANDALIZED**:
+   - The community was **scandalized** by the teacher's inappropriate behavior. *(Adjective: shocked or outraged)*
+   - ***Synonyms***: shocked, outraged, appalled, horrified, offended
+3. **SCANDALIZING**:
+   - The **scandalizing** revelations about the charity's misuse of funds dominated the news. *(Adjective: causing scandal)*
+   - ***Synonyms***: shocking, outrageous, offensive, appalling
+4. **SCANDALOUS**: 🌟
+   - His **scandalous** behavior at the company party ruined his professional reputation. *(Adjective: causing public outrage)*
+   - ***Synonyms***: outrageous, shocking, disgraceful, improper, shameful
+5. **SCANDALMONGER**:
+   - The tabloid journalist was known as a notorious **scandalmonger**. *(Noun: someone who spreads scandals)*
+   - ***Synonyms***: gossip, rumormonger, tattler, gossipmonger
+6. **SCANDALOUSLY**:
+   - The funds were **scandalously** mismanaged by the previous administration. *(Adverb: in a shocking manner)*
+   - ***Synonyms***: outrageously, shockingly, disgracefully, shamefully
 
 =====
-### SAVORY  
-@@  
-**Adjective, Noun** | हिंदी: स्वादिष्ट (Adjective), नमकीन व्यंजन (Noun) :  
-1. Pleasing to the taste or smell; flavorful and appetizing, especially in a salty or non-sweet way. *(Adjective)*  
-2. A dish that is not sweet, often served as an appetizer or main course. *(Noun)*  
 
-- ***Synonyms***: delicious, tasty, appetizing, flavorful *(Adjective)*; hors d'oeuvre, snack, appetizer *(Noun)*  
-- ***Antonyms***: bland, tasteless, unappetizing *(Adjective)*; dessert, sweet *(Noun)*  
+### SABOTAGE
+@@  
+**Noun, Verb** | हिंदी: तोड़फोड़, विध्वंस, नुकसान पहुंचाना :
+1. The deliberate act of destroying or damaging something to cause failure. _(Noun)_
+2. To deliberately damage, obstruct, or undermine a process, system, or effort. _(Verb)_
+- _**Synonyms**_: destruction, vandalism, disruption _(Noun)_; undermine, damage, obstruct, subvert _(Verb)_
+- _**Antonyms**_: support, aid, assist, protect, enhance
+
+_Examples_
+1. The enemy planned an act of **sabotage** to weaken the defenses. _(Noun: deliberate destruction)_
+2. He tried to **sabotage** his rival’s chances of winning. _(Verb: intentionally undermine or obstruct)_
+
+_Word Form Examples_
+1. **SABOTEUR**: 🌟
+    - The authorities arrested a **saboteur** who was caught destroying railway tracks. _(Noun: a person who commits sabotage)_
+    - _**Synonyms**_: traitor, infiltrator, vandal, conspirator
+2. **SABOTAGED**:
+    - His efforts to reform the system were **sabotaged** by corrupt officials. _(Verb: past tense of sabotage; deliberately harmed or obstructed)_
+    - _**Synonyms**_: undermined, disrupted, ruined, obstructed
+3. **SABOTAGING**:
+    - She was accused of **sabotaging** the project by spreading false information. _(Verb: present participle of sabotage; actively harming or obstructing)_
+    - _**Synonyms**_: disrupting, damaging, obstructing, subverting
+
+=====
+
+### SPOOK  
+@@  
+**Noun, Verb** | हिंदी: भूत, डराना : A ghost or apparition; something that causes fear or unease. *(Noun)*; To frighten or scare someone, often suddenly. *(Verb)*  
+- ***Synonyms***: ghost, specter, phantom, apparition *(Noun)*; frighten, scare, startle, terrify *(Verb)*  
+- ***Antonyms***: comfort, reassure, calm *(Verb)*; reality, substance, tangibility *(Noun: opposite of an ethereal being)*  
 
 _Examples_  
-1. The chef prepared a **savory** soup infused with herbs and spices. *(Adjective)*  
-2. Guests enjoyed a variety of **savories** during the cocktail hour. *(Noun)*  
+1. The old house was rumored to be haunted by a **spook**. *(Noun)*  
+2. The sudden noise was enough to **spook** the horse, causing it to bolt. *(Verb)*  
 
+_Word Form Examples_  
+1. **SPOOKED**: 🌟  
+   - The child was **spooked** by the shadows moving in the dark room. *(Adjective: frightened or alarmed)*  
+   - ***Synonyms***: scared, terrified, startled, unnerved, panicked  
+2. **SPOOKY**:  
+   - The abandoned mansion looked **spooky** under the full moon. *(Adjective: eerie or unsettling)*  
+   - ***Synonyms***: eerie, creepy, haunting, chilling, uncanny  
+3. **SPOOKING**:  
+   - The sudden flash of lightning caused the cattle to start **spooking** and running wildly. *(Verb: present participle form, meaning frightening)*  
+   - ***Synonyms***: startling, alarming, scaring, terrifying  
 
 =====
 
-### SAVVY
-
+### SUBSTITUTE
 @@  
-**Adjective** | हिंदी: समझदार, चतुर : Having practical knowledge or understanding; shrewd or perceptive.
-
-1. Being able to make good judgments and decisions based on practical knowledge or experience.
-2. Skilled or knowledgeable in a particular area, especially in a practical or informal context.
-
-- ***Synonyms***: knowledgeable, astute, perceptive, clever, sharp, wise
-- ***Antonyms***: ignorant, unskilled, naïve, inexperienced, unaware
+**Noun, Verb, Adjective** | हिंदी: प्रतिस्थापन, विकल्प, बदलना :
+1. A person or thing that takes the place of another. _(Noun)_
+2. To replace one thing or person with another. _(Verb)_
+3. Acting as a replacement or alternative. _(Adjective)_
+- _**Synonyms**_: replacement, alternative, proxy, surrogate _(Noun: a thing or person replacing another)_; replace, exchange, swap _(Verb: to replace something)_; alternative, stand-in _(Adjective: acting as a replacement)_
+- _**Antonyms**_: original, permanent, irreplaceable _(Noun: something that cannot be replaced)_; retain, keep _(Verb: to keep something unchanged)_
 
 _Examples_
-
-1. She is **savvy** in managing her finances and always knows where to invest. _(Adjective: knowledgeable and skilled)_
-2. He made a **savvy** decision to invest in the tech startup at the right time. _(Adjective: shrewd and wise)_
-3. The team needs someone **savvy** in marketing to help grow the business. _(Adjective: skilled and perceptive)_
+1. Almond milk is a great **substitute** for dairy milk. _(Noun: alternative)_
+2. She had to **substitute** sugar with honey in the recipe. _(Verb: replace something)_
+3. A **substitute** teacher handled the class in the professor’s absence. _(Adjective: acting as a replacement)_
 
 _Word Form Examples_
-
-1. **Savvily**:
-    
-    - The entrepreneur navigated the market **savvily**, making strategic moves that ensured success. _(Adverb: in a knowledgeable and shrewd manner)_
-    - _***Synonyms***:_ wisely, astutely, cleverly
-2. **Savviness**:
-    
-    - His **savviness** in the digital world gave him a competitive edge in the industry. _(Noun: quality of being knowledgeable and skilled)_
-    - _***Synonyms***:_ expertise, cleverness, astuteness, shrewdness
+1. **SUBSTITUTED**
+    - He **substituted** butter with oil in the cake recipe. _(Verb: past tense of substitute, meaning replaced something)_
+    - _**Synonyms**_: replaced, exchanged, swapped, switched
+2. **SUBSTITUTING**
+    - She is **substituting** artificial sweeteners for sugar. _(Verb: present participle of substitute, meaning currently replacing something)_
+    - _**Synonyms**_: replacing, exchanging, swapping, altering
+3. **SUBSTITUTION** 🌟
+    - The coach made a **substitution** in the last minute of the game. _(Noun: the act of replacing someone or something)_
+    - _**Synonyms**_: replacement, exchange, switch, swap
 
 =====
 
-
-
-
-### SCAFFOLD
-
-@@  
-**Noun, Verb** | हिंदी: मचान, फांसी का तख्ता, आधार :
-
-1. **(Noun)** A temporary structure used by workers to support themselves and materials during construction or repair.
-2. **(Noun)** A platform used for executions, particularly hangings.
-3. **(Noun, Figurative)** A supporting framework or structure that aids in development or progression.
-4. **(Verb)** To provide or support with a scaffold, often metaphorically referring to structured learning or development.
-
-- ***Synonyms***: framework, platform, staging, support, structure, aid
-- ***Antonyms***: dismantle, destroy, weaken, hinder
-
-_Examples_
-
-1. The workers erected a **scaffold** around the building to complete the repairs. _(Noun: temporary structure)_
-2. In medieval times, criminals were often executed on a **scaffold** in public squares. _(Noun: execution platform)_
-3. The professor provided a **scaffold** for students to structure their research effectively. _(Noun: figurative framework)_
-4. Teachers **scaffold** learning by gradually introducing complex concepts. _(Verb: support in learning)_
-
-_Word Form Examples_
-
-1. **Scaffolding** _(Noun, Verb)_:
-    
-    - The **scaffolding** around the monument allowed workers to carry out necessary restorations. _(Noun: structure)_
-    - The teacher is **scaffolding** the lesson to help students grasp the advanced topic. _(Verb: providing structured learning)_
-    - ***Synonyms***: framework, staging, supporting, aiding
-2. **Scaffolded** _(Verb, Adjective)_:
-    
-    - The new employees received **scaffolded** training to ease them into their roles. _(Adjective: structured, supported)_
-    - ***Synonyms***: structured, supported, guided
-
-=====
 
 ### SCANT
+@@
+**Adjective** | हिंदी: अल्प / थोड़ा; अपर्याप्त : Barely sufficient or adequate; Meager, not enough.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Barely sufficient/Meager:* meager, limited, scarce, insufficient, minimal, paltry, inadequate, sparse
+- ***Antonyms***:
+    - **Adjective:**
+        - *Barely sufficient/Meager:* abundant, plentiful, ample, sufficient, copious, generous, considerable
+_Example_:
+1.  We have **scant** evidence to prove his guilt. *(Adjective: meager, not enough)*
+2.  She paid **scant** attention to the safety instructions. *(Adjective: barely sufficient)*
+
+_Word Form Examples_
+1.  **SCANTILY**: 🌟
+    - The stage was **scantily** decorated for the performance. *(Adverb: sparsely, meagerly)*
+    - ***Synonyms***: sparsely, meagerly, barely, poorly, insufficiently
+2.  **SCANTINESS**: 🌟
+    - The **scantiness** of their supplies became a major concern during the expedition. *(Noun: insufficiency, meagerness)*
+    - ***Synonyms***: insufficiency, meagerness, scarcity, paucity, inadequacy, dearth
+3.  **SCANTED**:
+    - The funding for the arts program was **scanted** in the new budget. *(Verb - Past Tense: provided insufficiently)*
+    - ***Synonyms***: skimped, stinted, neglected, limited
+4.  **SCANTING**:
+    - Accusations of **scanting** their responsibilities were leveled against the committee. *(Gerund: neglecting or providing insufficiently)*
+    - ***Synonyms***: neglecting, stinting, skimping, slighting
+
+=====
+
+### SCOFF  
 @@  
-**Adjective** | हिंदी: कम, अल्प :  
-1. Barely sufficient or adequate; very limited in quantity or extent.  
-2. Lacking fullness or completeness; meager or sparse.  
-
-**Verb** | हिंदी: कम करना, घटाना :  
-1. To treat as inadequate or insufficient; to reduce or limit something deliberately.  
-
-- ***Synonyms***: meager, sparse, inadequate, insufficient, minimal, skimpy (adjective); reduce, diminish, curtail, limit, restrict (verb)  
-- ***Antonyms***: abundant, plentiful, ample, sufficient, generous, comprehensive (adjective); increase, expand, augment, enhance (verb)  
+**Verb, Noun** | हिंदी: उपहास करना, ठट्ठा उड़ाना :  
+1. To mock or speak about someone or something in a scornful or derisive way. *(Verb)*  
+2. An expression of ridicule or scorn. *(Noun)*  
+- ***Synonyms***: mock, ridicule, sneer, jeer, scorn *(Verb: to make fun of)*; taunt, derision, sneer *(Noun: an act of mocking)*  
+- ***Antonyms***: praise, compliment, respect, admire *(Verb: to show appreciation)*; applause, admiration, flattery *(Noun: expression of approval)*  
 
 _Examples_  
-1. The **scant** resources available made it difficult to complete the project on time. *(Adjective: insufficient)*  
-2. She **scanted** her duties, leaving much of the work unfinished. *(Verb: neglected or reduced effort)*  
-3. The report was criticized for being too **scant** in its details. *(Adjective: lacking completeness)*  
+1. The critics **scoffed** at the idea of a young entrepreneur running a billion-dollar company. *(Verb: mocked or dismissed scornfully)*  
+2. Despite the **scoffs** of his colleagues, he pursued his dream relentlessly. *(Noun: an act of ridicule)*  
 
 _Word Form Examples_  
-1. **Scanty**:  
-   - The **scanty** evidence provided was not enough to convict the suspect. *(Adjective: meager)*  
-   - ***Synonyms***: sparse, inadequate, skimpy, minimal, insufficient  
-2. **Scantly**:  
-   - The instructions were written so **scantly** that no one understood what to do. *(Adverb: barely sufficiently)*  
-   - ***Synonyms***: minimally, scarcely, sparsely, barely, insufficiently  
+1. **SCOFFED**:  
+   - She **scoffed** at his excuse, refusing to believe a word of it. *(Verb: expressed disbelief or ridicule)*  
+   - ***Synonyms***: mocked, ridiculed, sneered  
+2. **SCOFFING**:  
+   - They were **scoffing** at the old traditions, calling them outdated. *(Verb: making fun of continuously)*  
+   - ***Synonyms***: jeering, taunting, ridiculing  
+3. **SCOFFER**: 🌟  
+   - He was known as a **scoffer** who never took anything seriously. *(Noun: a person who mocks or ridicules others)*  
+   - ***Synonyms***: cynic, mocker, ridiculer  
 
-=====
+=====  
 
-### SCAPEGOAT
-@@  
-**Noun, Verb** | हिंदी: बलि का बकरा, दोषारोपण का शिकार : 
-1. (Noun) A person or group unfairly blamed for the mistakes or faults of others.
-2. (Noun) Historically, a goat symbolically burdened with the sins of others and sent into the wilderness in a religious ritual.
-3. (Verb) To unfairly blame someone for the mistakes or faults of others.
-
-- ***Synonyms***: fall guy, whipping boy, patsy, victim, target
-- ***Antonyms***: hero, savior, innocent, blameless, faultless
-
-_Examples_
-1. The manager became the **scapegoat** for the company's financial failure, even though he wasn't responsible. _(Noun: unfairly blamed person)_
-2. In ancient rituals, a **scapegoat** was used to carry away the sins of the community. _(Noun: symbolic bearer of sins)_
-3. They tried to **scapegoat** the new employee for the team's mistakes. _(Verb: to unfairly blame)_
-
-_Word Form Examples_
-1. **Scapegoating**:
-	- The practice of **scapegoating** individuals for systemic issues is both unfair and counterproductive. _(Noun: the act of unfairly blaming someone)_
-	- ***Synonyms***: blaming, victimizing, targeting, accusing, fault-finding
-2. **Scapegoated**:
-	- She felt **scapegoated** by her colleagues when the project failed. _(Verb: unfairly blamed)_
-	- ***Synonyms***: blamed, victimized, targeted, accused, faulted
-
-=====
 ### SCOLD
-@@  
-**Verb, Noun** | हिंदी: डाँटना, फटकारना :  
-1. **(Verb)** To reprimand or criticize someone angrily.
-2. **(Noun)** A person who frequently criticizes or nags others.
-
-- ***Synonyms***: **(Verb)** rebuke, berate, reprimand, chastise, upbraid  
-  **(Noun)** nag, fault-finder, critic, shrew
-- ***Antonyms***: **(Verb)** praise, commend, applaud, compliment, encourage  
-  **(Noun)** supporter, encourager, ally
+@@
+**Verb, Noun** | हिंदी: डाँटना : 
+1. To reprimand or criticize someone angrily for a fault or wrongdoing. *(Verb)*
+2. A person who frequently scolds or nags, often in a harsh manner. *(Noun)*
+- ***Synonyms***: rebuke, reprimand, chide, berate *(Verb)*; nagger, critic, faultfinder *(Noun)*
+- ***Antonyms***: praise, commend, applaud *(Verb)*; supporter, encourager *(Noun)*
 
 _Examples_
-1. The teacher **scolded** the student for not completing the homework. _(Verb: to reprimand angrily)_
-2. She **scolded** her dog for chewing on the furniture. _(Verb: to criticize harshly)_
-3. He was known as the neighborhood **scold**, always complaining about noise. _(Noun: a person who frequently criticizes)_
+1. She had to **scold** the children for making a mess in the kitchen. *(Verb: reprimand)*
+2. He’s such a **scold**, always pointing out what we do wrong. *(Noun: person who scolds)*
 
 _Word Form Examples_
-1. **Scolding**:
-	- Her constant **scolding** made the children resentful. _(Noun: the act of reprimanding or criticizing)_
-	- ***Synonyms***: rebuke, reprimand, chastisement, berating
-2. **Scolder**:
-	- The **scolder** in the office was avoided by everyone due to her harsh tone. _(Noun: a person who scolds)_
-	- ***Synonyms***: nag, fault-finder, critic, rebuker
+1. **SCOLDED**:
+   - After being **scolded** by the boss, he worked harder to avoid mistakes. *(Adjective: having been reprimanded)*
+   - ***Synonyms***: rebuked, chastised, criticized, reproached
+2. **SCOLDING** 🌟:
+   - The teacher’s harsh **scolding** left the student in tears. *(Noun: the act of reprimanding)*
+   - ***Synonyms***: reprimand, rebuke, lecture, tongue-lashing
 
 =====
-
 
 ### SCORN
-
-@@  
-**Noun/Verb** | हिंदी: तिरस्कार, अवमानना : A feeling or expression of contempt and disdain toward someone or something considered unworthy.
-
-- ***Synonyms***: contempt, disdain, derision, mockery
-- ***Antonyms***: respect, admiration, regard, honor
+@@
+**Noun, Verb** | हिंदी: तिरस्कार : 
+1. A feeling or expression of contempt or disdain for someone or something considered unworthy. *(Noun)*
+2. To reject or dismiss with contempt; to treat with derision or disdain. *(Verb)*
+- ***Synonyms***: contempt, disdain, derision, ridicule *(Noun)*; despise, mock, spurn, disdain *(Verb)*
+- ***Antonyms***: admiration, respect, esteem *(Noun)*; accept, admire, honor, welcome *(Verb)*
 
 _Examples_
-
-1. She looked at his excuse with **scorn**, refusing to believe him. _(Noun: expression of contempt)_
-2. He was **scorned** by his peers for his dishonesty. _(Verb: to treat with contempt)_
+1. Her voice dripped with **scorn** as she spoke about his lazy habits. *(Noun: contempt)*
+2. He chose to **scorn** the offer, believing it beneath him. *(Verb: reject with disdain)*
 
 _Word Form Examples_
-
-1. Her **scornful** tone made it clear she was unimpressed. _(Adjective: full of disdain)_
-2. He replied **scornfully**, dismissing the suggestion outright. _(Adverb: with contempt)_
+1. **SCORNFUL** 🌟:
+   - She cast a **scornful** glance at the poorly made gift. *(Adjective: showing contempt)*
+   - ***Synonyms***: contemptuous, disdainful, derisive, mocking
+2. **SCORNFULLY**:
+   - He **scornfully** laughed at the suggestion, dismissing it outright. *(Adverb: in a contemptuous manner)*
+   - ***Synonyms***: disdainfully, contemptuously, mockingly, derisively
+3. **SCORNED**:
+   - The **scorned** proposal was quickly forgotten by the team. *(Adjective: having been rejected with contempt)*
+   - ***Synonyms***: rejected, spurned, despised, dismissed
+4. **SCORNING**:
+   - His constant **scorning** of others made him few friends. *(Gerund: the act of showing contempt)*
+   - ***Synonyms***: mocking, deriding, despising, ridiculing
 
 =====
 
 ### SCOURGE
-@@  
-**Noun** | हिंदी: अत्याचार, पीड़ा : 
-1. A person or thing that causes great suffering or harm; a source of widespread affliction.
-2. A whip used as an instrument of punishment, historically associated with severe discipline or torture.
-**Verb** | हिंदी: दंडित करना, साफ़ करना : 
-1. To punish severely or mercilessly.
-2. To clean or remove dirt or debris from a surface by hard scrubbing.
-
-- ***Synonyms***: (Noun) plague, torment, affliction, curse, calamity, bane  
-- ***Antonyms***: (Noun) blessing, relief, solace, comfort, boon
+@@
+**Noun, Verb** | हिंदी: विपत्ति, कोड़ा मारना : 
+1. A cause of widespread suffering, destruction, or punishment; something that afflicts or devastates. *(Noun)*
+2. To whip or lash someone as punishment; historically tied to flogging. *(Verb)*
+- ***Synonyms***: plague, affliction, torment, bane *(Noun)*; whip, flog, lash, beat *(Verb)*
+- ***Antonyms***: blessing, boon, relief, comfort *(Noun)*; soothe, comfort, heal *(Verb)*
 
 _Examples_
-1. The **scourge** of the bubonic plague devastated Europe in the 14th century. *(Noun: widespread affliction)*
-2. The dictator was considered a **scourge** to his people, ruling with an iron fist. *(Noun: source of suffering)*
-3. She vowed to **scourge** the kitchen floor until every trace of dirt was gone. *(Verb: clean thoroughly)*
-4. The tyrant would **scourge** anyone who dared to oppose him. *(Verb: punish severely)*
+1. Drought has been a **scourge** on the farming community for years. *(Noun: affliction)*
+2. The captors threatened to **scourge** the prisoner if he didn’t confess. *(Verb: whip)*
 
 _Word Form Examples_
-1. **Scourging**:
-   - The villagers were subjected to relentless **scourging** by the invading army. *(Verb: punishing harshly)*
-   - ***Synonyms***: whipping, lashing, chastising, castigating, cleansing
-2. **Scourged**:
-   - The land was **scourged** by drought for years, leaving crops barren and people starving. *(Adjective: afflicted)*
-   - ***Synonyms***: devastated, tormented, ravaged, punished, cleansed
+1. **SCOURGED**: 🌟
+   - The village was **scourged** by a relentless epidemic. *(Verb, past tense: afflicted)*
+   - ***Synonyms***: ravaged, devastated, tormented, lashed
+2. **SCOURGING**:
+   - The **scourging** of the rebel was meant to serve as a warning to others. *(Gerund: act of whipping or afflicting)*
+   - ***Synonyms***: whipping, flogging, tormenting, punishing
 
 =====
-### SCRAP  
-@@  
-**Noun, Verb, Adjective** | हिंदी: टुकड़ा, कतरन :  
-1. A small piece or fragment of something, often leftover or discarded material. *(Noun)*  
-2. To discard or get rid of something as no longer useful or desirable. *(Verb)*  
-3. Barely sufficient; minimal. *(Adjective)*  
-4. A minor fight or quarrel. *(Noun, Informal)*  
 
-- ***Synonyms***: fragment, remnant, scrap, discard, dispose *(Noun/Verb)*; meager, scanty, bare *(Adjective)*; squabble, tiff *(Noun, Informal)*  
-- ***Antonyms***: whole, complete, retain, preserve, abundant *(Noun/Verb)*; harmony, peace *(Noun, Informal)*  
+### SCRAP
+@@
+**Noun, Verb** | हिंदी: टुकड़ा, रद्द करना : 
+1. A small piece or fragment of something, often leftover or discarded. *(Noun)*
+2. To discard or abandon something as useless or no longer needed. *(Verb)*
+- ***Synonyms***: fragment, piece, bit, remnant *(Noun)*; discard, abandon, dump, junk *(Verb)*
+- ***Antonyms***: whole, entirety, bulk *(Noun)*; keep, retain, preserve, save *(Verb)*
+
+_Examples_
+1. She collected every **scrap** of paper to piece together the torn letter. *(Noun: fragment)*
+2. They decided to **scrap** the old project and start anew. *(Verb: discard)*
+
+_Word Form Examples_
+1. **SCRAPPED**: 🌟
+   - The rusted car was **scrapped** after years of neglect. *(Verb, past tense: discarded)*
+   - ***Synonyms***: abandoned, discarded, dumped, jettisoned
+2. **SCRAPPING**:
+   - **Scrapping** the outdated policy took months of debate. *(Gerund: act of discarding)*
+   - ***Synonyms***: abandoning, discarding, eliminating, dropping
+
+=====
+
+### SCRAPE
+@@
+**Verb, Noun** | हिंदी: खुरचना, खरोंच : 
+1. To rub or drag a hard or sharp object across a surface, often removing material or causing a mark. *(Verb)*
+2. A mark or injury caused by scraping; also, a difficult situation or narrow escape. *(Noun)*
+- ***Synonyms***: scratch, abrade, graze, scour *(Verb)*; scratch, abrasion, scuff, predicament *(Noun)*
+- ***Antonyms***: smooth, polish, buff *(Verb)*; perfection, ease, safety *(Noun)*
+
+_Examples_
+1. She had to **scrape** the ice off the windshield before driving. *(Verb: remove by rubbing)*
+2. He got a nasty **scrape** on his knee after falling off his bike. *(Noun: injury)*
+3. They managed to **scrape** through the exam with minimal preparation. *(Verb: narrowly succeed)*
+
+_Word Form Examples_
+1. **SCRAPED**: 🌟
+   - The painter **scraped** the old paint off the walls before repainting. *(Verb, past tense: rubbed off)*
+   - ***Synonyms***: scratched, abraded, scoured, stripped
+2. **SCRAPING**:
+   - The sound of **scraping** metal echoed through the garage. *(Gerund: act of rubbing or dragging)*
+   - ***Synonyms***: scratching, grinding, rasping, scouring
+3. **SCRAPER**:
+   - He used a **scraper** to clean the grime off the window. *(Noun: tool or person who scrapes)*
+   - ***Synonyms***: blade, tool, scrubber, abrader
+
+=====
+
+### SCRIMP
+@@
+**Verb** | हिंदी: कंजूसी करना, बचत करना : To use resources sparingly or economize, often to the point of discomfort or deprivation; to be frugal or stingy.
+- ***Synonyms***: skimp, save, economize, stint, pinch
+- ***Antonyms***: spend, splurge, lavish, waste, indulge
+
+_Examples_
+1. They had to **scrimp** on groceries to afford the rent this month. *(Verb: economize)*
+2. She refused to **scrimp** on quality when buying tools for her workshop. *(Verb: avoid stinginess)*
+
+_Word Form Examples_
+1. **SCRIMPED**: 🌟
+   - He **scrimped** for years to save enough for a new car. *(Verb, past tense: economized)*
+   - ***Synonyms***: saved, skimped, stinted, conserved
+2. **SCRIMPING**:
+   - **Scrimping** on heating during winter left them shivering. *(Gerund: act of economizing)*
+   - ***Synonyms***: skimping, saving, cutting back, pinching
+
+=====
+
+### SCRUTINY  
+@@  
+**Noun** | हिंदी: गहराई से जांच, सावधानीपूर्वक निरीक्षण : A close, detailed, and critical examination or inspection of something.  
+- ***Synonyms***: inspection, examination, analysis, review, investigation, audit  
+- ***Antonyms***: neglect, ignorance, disregard, inattention  
 
 _Examples_  
-1. She sewed a quilt using colorful **scraps** of fabric she had saved over the years. *(Noun: fragment)*  
-2. The company decided to **scrap** the old equipment and invest in new technology. *(Verb: discard)*  
-3. He managed to survive on a **scrap** of bread and a sip of water during the journey. *(Adjective: minimal)*  
-4. The two friends got into a silly **scrap** over who would pay the bill. *(Noun: minor fight)*  
+1. The financial records of the company are under strict **scrutiny** by auditors. *(Noun: detailed examination)*  
+2. His actions came under public **scrutiny** after the controversial decision. *(Noun: critical inspection)*  
 
 _Word Form Examples_  
-1. **Scraps**:  
-   - After dinner, the dog eagerly ate the leftover **scraps** from the table. *(Noun: plural form of scrap)*  
-   - ***Synonyms***: fragments, remnants, leftovers, bits  
-2. **Scrapped**:  
-   - The project was **scrapped** after it failed to meet the necessary requirements. *(Verb: past tense of scrap)*  
-   - ***Synonyms***: discarded, abandoned, disposed of, rejected  
-3. **Scrapping**:  
-   - They are **scrapping** the old car for parts to use in other vehicles. *(Verb: present participle of scrap)*  
-   - ***Synonyms***: dismantling, discarding, disposing, junking  
-4. **Scrapper**:  
-   - Known as a fierce **scrapper**, he never backed down from a challenge. *(Noun: person who fights or argues)*  
-   - ***Synonyms***: fighter, quarreler, brawler, contender  
+1. **SCRUTINIZE**:  
+   - The detective had to **scrutinize** every piece of evidence carefully. *(Verb: examine closely)*  
+   - ***Synonyms***: examine, inspect, analyze, evaluate  
+2. **SCRUTINIZED**:  
+   - The contract was thoroughly **scrutinized** before being signed. *(Verb: past tense of scrutinize, meaning carefully examined)*  
+   - ***Synonyms***: examined, reviewed, investigated  
+3. **SCRUTINIZING**:  
+   - The committee is **scrutinizing** the new policy for potential flaws. *(Verb: present participle of scrutinize, meaning currently examining)*  
+   - ***Synonyms***: evaluating, assessing, analyzing  
 
-=====
-### SCRAPE  
-@@  
-**Verb, Noun** | हिंदी: खुरचना (Verb), खरोंच (Noun) :  
-1. To rub or cause abrasion by moving a hard surface against another. *(Verb)*  
-2. To remove something by rubbing or causing abrasion. *(Verb)*  
-3. A minor injury caused by abrasion, often on the skin. *(Noun)*  
-4. An awkward or difficult situation, often one that is narrowly avoided. *(Noun)*  
-
-- ***Synonyms***: rub, abrade, scratch, chafe *(Verb)*; abrasion, scratch, wound *(Noun)*  
-- ***Antonyms***: polish, smooth, heal *(Verb)*; safety, ease *(Noun)*  
-
-_Examples_  
-1. She had to **scrape** the mud off her boots before entering the house. *(Verb)*  
-2. The child fell and got a nasty **scrape** on his knee. *(Noun)*  
-3. They managed to get out of the financial **scrape** by borrowing money from friends. *(Noun)*  
-
-_Word Form Examples_  
-1. **Scraped**:  
-   - He accidentally **scraped** his arm against the rough wall. *(Verb: past tense form)*  
-   - ***Synonyms***: abraded, scratched, grazed, chafed  
-2. **Scraping**:  
-   - The sound of **scraping** metal echoed through the workshop. *(Verb: present participle form)*  
-   - ***Synonyms***: rubbing, abrading, scratching, grating  
-3. **Scraper**:  
-   - A **scraper** is a useful tool for removing old paint from surfaces. *(Noun)*  
-   - ***Synonyms***: tool, blade, spatula, instrument  
-4. **Scrapes**:  
-   - His legs were covered in small **scrapes** after the hike. *(Noun: plural form)*  
-   - ***Synonyms***: abrasions, scratches, wounds, grazes  
-
-_Note_  
-"Scrape" can refer to both physical actions (rubbing or abrading) and figurative situations (difficulties or close calls). Its derived forms like "scraper" emphasize tools used for scraping, while "scraped" and "scraping" describe the action itself.  
-
-=====
-
-### SCRUPULOUS 
-
-@@  
-**Adjective** | हिंदी: नैतिक रूप से सजग, ईमानदार : Thorough and careful, especially regarding details; having high moral standards and being diligent in adhering to ethical principles.
-
-- ***Synonyms***: meticulous, thorough, conscientious, ethical, precise
-- ***Antonyms***: careless, negligent, sloppy, unethical, lax
-
-_Examples_
-
-1. The accountant was **scrupulous** in ensuring that every financial statement was accurate. _(Adjective: careful and precise)_
-2. She was **scrupulous** in following the rules, never cutting corners. _(Adjective: moral and ethical)_
-
-_Word Form Examples_
-
-1. His **scrupulousness** in the investigation ensured that nothing was overlooked. _(Noun: quality of being thorough and ethical)_
-2. The team worked **scrupulously** to ensure that all safety protocols were followed. _(Adverb: in a careful and ethical manner)_
-
-=====
-
-### SCRUTINY
-
-@@  
-**Noun** | हिंदी: गहन निरीक्षण, जांच : Close and thorough examination or inspection, typically with great attention to detail.
-
-- ***Synonyms***: examination, inspection, analysis, investigation, review, assessment
-- ***Antonyms***: neglect, disregard, overlook, ignorance
-
-_Examples_
-
-1. The proposal underwent **scrutiny** before being approved by the board of directors. _(Noun: close inspection)_
-2. The scientist's research was subject to intense **scrutiny** by her peers. _(Noun: careful examination)_
-3. After the incident, every aspect of the company's operations was placed under **scrutiny**. _(Noun: critical review)_
-
-_Word Form Examples_
-
-1. **Scrutinize**:
-    
-    - The manager will **scrutinize** the report before making any final decisions. _(Verb: to examine carefully)_
-    - ***Synonyms***: examine, inspect, analyze, investigate
-2. **Scrutinized**:
-    
-    - The contract was **scrutinized** by the legal team for any potential issues. _(Verb: past tense, examined carefully)_
-    - ***Synonyms***: inspected, analyzed, reviewed
-3. **Scrutinizing**:
-    
-    - The auditors are currently **scrutinizing** the financial statements to ensure compliance. _(Verb: continuous tense, examining closely)_
-    - ***Synonyms***: reviewing, investigating, analyzing
-
-=====
+=====  
 
 ### SCUFFLE
-@@  
-**Noun, Verb** | हिंदी: हाथापाई, धक्का-मुक्की : 
-1. (Noun) A short, confused fight or struggle at close quarters.
-2. (Noun) A disorderly struggle or commotion.
-3. (Verb) To engage in a short, confused fight or struggle.
-4. (Verb) To move hurriedly or with a shuffling motion.
-
-- ***Synonyms***: fight, tussle, brawl, skirmish, clash
-- ***Antonyms***: peace, calm, harmony, agreement, truce
+@@
+**Noun, Verb** | हिंदी: झड़प, हाथापाई करना : 
+1. A short, disorderly fight or struggle, often involving physical contact. *(Noun)*
+2. To engage in a rough, confused fight or to move with dragging steps. *(Verb)*
+- ***Synonyms***: skirmish, brawl, tussle, scrap *(Noun)*; fight, wrestle, brawl, shuffle *(Verb)*
+- ***Antonyms***: peace, calm, order *(Noun)*; rest, settle, calm *(Verb)*
 
 _Examples_
-1. A **scuffle** broke out between the two players during the match. _(Noun: short fight)_
-2. The police were called to break up the **scuffle** outside the bar. _(Noun: disorderly struggle)_
-3. The two boys **scuffled** over the last piece of cake. _(Verb: engaged in a fight)_
-4. She **scuffled** through her bag to find her keys. _(Verb: moved hurriedly)_
+1. A **scuffle** broke out between the two players after the whistle. *(Noun: brief fight)*
+2. He tried to **scuffle** with the intruder but was quickly overpowered. *(Verb: fight roughly)*
+3. She heard him **scuffle** across the room in his heavy boots. *(Verb: move with dragging steps)*
 
 _Word Form Examples_
-1. **Scuffling**:
-	- The sound of **scuffling** feet could be heard from the hallway. _(Verb: moving hurriedly or shuffling)_
-	- ***Synonyms***: shuffling, hurrying, rushing, scrambling, bustling
-2. **Scuffled**:
-	- The players **scuffled** briefly before the referee intervened. _(Verb: engaged in a short fight)_
-	- ***Synonyms***: fought, tussled, brawled, clashed, struggled
+1. **SCUFFLED**: 🌟
+   - The kids **scuffled** over the last piece of cake at the party. *(Verb, past tense: fought roughly)*
+   - ***Synonyms***: brawled, tussled, wrestled, shuffled
+2. **SCUFFLING**:
+   - The sound of **scuffling** in the alley alerted the night watchman. *(Gerund: act of fighting or dragging steps)*
+   - ***Synonyms***: brawling, tussling, skirmishing, shuffling
 
 =====
-### SCUPPER
-@@  
-**Noun, Verb** | हिंदी: जहाज़ का पानी निकालने का रास्ता, विफल करना : 
-1. (Noun) An opening in a ship's side to allow water to drain off the deck.
-2. (Verb) To sink or deliberately cause a ship to sink.
-3. (Verb) To thwart or ruin plans, hopes, or efforts.
 
-- ***Synonyms***: (Noun) drain, outlet; (Verb) sink, wreck, ruin, thwart, sabotage
-- ***Antonyms***: (Verb) save, rescue, support, aid, assist
+### SEDITION
+@@
+**Noun** | हिंदी: राजद्रोह, विद्रोह : Conduct or speech inciting rebellion or resistance against a government or authority, often with intent to overthrow it.
+- ***Synonyms***: rebellion, treason, insurgency, subversion, mutiny
+- ***Antonyms***: loyalty, obedience, allegiance, compliance
 
 _Examples_
-1. The sailor ensured the **scupper** was clear so water could drain off the deck during the storm. _(Noun: drainage opening)_
-2. The enemy attempted to **scupper** the ship by planting explosives below the waterline. _(Verb: to sink)_
-3. The sudden budget cuts **scuppered** our plans for the new project. _(Verb: to ruin or thwart)_
+1. The pamphlet was accused of promoting **sedition** against the crown. *(Noun: incitement to rebellion)*
+2. He was arrested for **sedition** after his fiery speech rallied the crowd. *(Noun: rebellious act)*
 
 _Word Form Examples_
-1. **Scuppered**:
-	- The team's chances of winning were **scuppered** by the unexpected rule change. _(Verb: past tense of scupper)_
-	- ***Synonyms***: ruined, thwarted, sabotaged, wrecked, foiled
-2. **Scuppering**:
-	- The constant delays were **scuppering** our efforts to meet the deadline. _(Verb: present participle of scupper)_
-	- ***Synonyms***: thwarting, sabotaging, ruining, undermining, hindering
-
-=====
-### SCURRILOUS  
-@@  
-**Adjective** | हिंदी: अश्लील, गंदा :  
-1. Characterized by vulgar, offensive, or slanderous language; using or containing abusive or obscene remarks. *(Adjective)*  
-2. Morally depraved or grossly indecent; showing disrespect or irreverence. *(Adjective)*  
-
-- ***Synonyms***: obscene, vulgar, defamatory, libelous, indecent *(Adjective)*  
-- ***Antonyms***: respectful, decent, honorable, clean, dignified *(Adjective)*  
-
-_Examples_  
-1. The journalist was criticized for publishing a **scurrilous** article about the politician. *(Adjective)*  
-2. His **scurrilous** jokes offended many guests at the party. *(Adjective)*  
-
-_Word Form Examples_  
-1. **Scurrilously**:  
-   - The tabloid **scurrilously** attacked the celebrity's reputation with baseless accusations. *(Adverb)*  
-   - ***Synonyms***: obscenely, vulgarly, slanderously, indecently  
-2. **Scurrilousness**:  
-   - The **scurrilousness** of the remarks shocked even the most hardened critics. *(Noun)*  
-   - ***Synonyms***: vulgarity, obscenity, indecency, defamation  
-
-=====
-
-### SCUTTLE
-
-@@  
-**Verb / Noun** | हिंदी: भाग जाना, जलमग्न करना :
-
-1. **Verb**: To run or move with short, quick steps, often in a hurried or scurrying manner.
-2. **Verb**: To deliberately sink a ship by opening its seacocks or damaging its hull.
-3. **Noun**: A small, quick movement or scurry, typically done in haste.
-4. **Noun**: A container, often a small bucket or pail, used for carrying coal or similar materials.
-
-- ***Synonyms***: scurry, rush, scamper, hasten, dash, sink
-- ***Antonyms***: stroll, saunter, linger, delay
-
-_Examples_
-
-1. The children **scuttled** across the yard, eager to catch the ice cream truck. _(Verb: moved quickly and hurriedly)_
-2. The crew decided to **scuttle** the ship to prevent it from being captured. _(Verb: to sink or deliberately damage a ship)_
-3. The mouse **scuttled** under the table at the sound of footsteps. _(Verb: moved quickly in a scurrying manner)_
-4. He grabbed a **scuttle** of coal to keep the fire burning. _(Noun: a small container for carrying coal)_
-
-_Word Form Examples_
-
-1. **Scuttled**:
-    
-    - The workers **scuttled** to finish the project before the deadline. _(Verb: past tense, moved hurriedly)_
-    - ***Synonyms***: hurried, rushed, dashed, scampered
-2. **Scuttling**:
-    
-    - The rats were **scuttling** around the alley, searching for food. _(Verb: present participle, moving in a quick, hurried manner)_
-    - ***Synonyms***: scampering, rushing, darting
-
-=====
-
-
-### SEAFARER  
-@@  
-**Noun** | हिंदी: समुद्री यात्री, नाविक :  
-1. A person who travels by sea, especially as a sailor or passenger on a ship.  
-2. Often refers to someone who works aboard ships or engages in maritime activities.  
-
-- ***Synonyms***: sailor, mariner, navigator, voyager, seaman, deckhand  
-- ***Antonyms***: landlubber, inland traveler, pedestrian  
-
-_Examples_  
-1. The **seafarer** spent months at sea, navigating treacherous waters to deliver goods to distant ports. *(Noun: sailor)*  
-2. Ancient myths often tell of brave **seafarers** who explored uncharted territories. *(Noun: voyager)*  
-
-_Word Form Examples_  
-1. **Seafaring**:  
-   - The **seafaring** life was not for everyone; it required resilience and adaptability. *(Adjective: related to traveling by sea)*  
-   - ***Synonyms***: maritime, nautical, oceanic, marine  
-2. **Seafarers’**:  
-   - The **seafarers’** union advocated for better working conditions and safety measures aboard ships. *(Possessive form: belonging to seafarers)*  
-   - ***Synonyms***: sailors’, mariners’, navigators’  
-
-=====
-### SEDITION 🪐
-
-@@  
-**Noun** | हिंदी: देशद्रोह, विद्रोह : Conduct or speech that incites rebellion or resistance against the authority of a state or government; an act or speech that undermines the authority or stability of a government or system.
-
-- ***Synonyms***: rebellion, insurrection, subversion, treason, mutiny, defiance, revolt
-- ***Antonyms***: loyalty, allegiance, obedience, patriotism
-
-_Examples_
-
-1. The activists were charged with **sedition** for attempting to overthrow the government. _(Noun: rebellion against authority)_
-2. The pamphlets distributed by the group were considered acts of **sedition** by the authorities. _(Noun: inciting rebellion)_
-
-_Word Form Examples_
-
-1. **Seditious**:
-    
-    - The leader was accused of making **seditious** remarks that incited violence. _(Adjective: related to or involving sedition)_
-    - ***Synonyms***: rebellious, subversive, treasonous, inflammatory, insurrectionary
-2. **Seditionist**:
-    
-    - The **seditionist** was arrested for plotting against the government. _(Noun: a person who engages in sedition)_
-    - ***Synonyms***: rebel, traitor, insurgent, revolutionary
+1. **SEDITIOUS**: 🌟
+   - The **seditious** writings were banned by the government. *(Adjective: inciting rebellion)*
+   - ***Synonyms***: rebellious, treasonous, subversive, mutinous, insurgent
+2. **SEDITIOUSLY**:
+   - She spoke **seditiously**, urging the people to rise against the regime. *(Adverb: in a rebellious manner)*
+   - ***Synonyms***: rebelliously, subversively, treasonously, defiantly
+3. **SEDITIONIST**: *(Rare)*
+   - The **seditionist** was imprisoned for plotting against the state. *(Noun: person who commits sedition)*
+   - ***Synonyms***: rebel, traitor, insurgent, subversive
 
 =====
 
 ### SEEK
-
-@@  
-**Verb** | हिंदी: ढूँढना, मांगना :
-
-1. To try to find or obtain something.
-2. To ask for or attempt to acquire something, often through effort or desire.
-3. To search for something or someone.
-4. To strive for or pursue a goal or objective.
-
-- ***Synonyms***: search for, look for, pursue, desire, ask for, strive for
-- ***Antonyms***: ignore, avoid, reject, neglect, abandon
+@@
+**Verb** | हिंदी: ढूंढना, खोजना : To attempt to find, obtain, or achieve something; to search or pursue actively.
+- ***Synonyms***: search, look for, pursue, hunt, quest
+- ***Antonyms***: avoid, ignore, shun, abandon, lose
 
 _Examples_
-
-1. She decided to **seek** help from a professional to resolve her issues. _(Verb: try to obtain)_
-2. The company is actively **seeking** new talent for its expanding workforce. _(Verb: looking for)_
-3. He **seeks** knowledge wherever he can, reading books and attending seminars. _(Verb: pursues)_
-4. They **seek** peace and harmony in their community. _(Verb: strive for)_
+1. She decided to **seek** a new job after years in the same role. *(Verb: search for)*
+2. The explorers **seek** the source of the river deep in the jungle. *(Verb: pursue)*
 
 _Word Form Examples_
-
-1. **Sought**:
-    
-    - The police **sought** the criminal for weeks before capturing him. _(Verb: past tense of seek)_
-    - ***Synonyms***: searched for, looked for, pursued, tried to find
-2. **Seeking**:
-    
-    - She is **seeking** answers to her difficult questions. _(Verb: present participle/continuous)_
-    - ***Synonyms***: looking for, pursuing, searching, desiring
-3. **Seeker**:
-    
-    - The organization supports **seekers** of knowledge and truth. _(Noun: one who seeks)_
-    - ***Synonyms***: searcher, inquirer, pursuer
-4. **Sought-after**:
-    
-    - The **sought-after** position was filled quickly by an experienced candidate. _(Adjective: in high demand)_
-    - ***Synonyms***: desired, in demand, popular, coveted
+1. **SOUGHT**: 🌟
+   - He **sought** advice from his mentor before making a decision. *(Verb, past tense: searched for)*
+   - ***Synonyms***: searched, pursued, hunted, requested
+2. **SEEKING**:
+   - **Seeking** shelter, they hurried toward the nearest building. *(Gerund: act of searching)*
+   - ***Synonyms***: searching, pursuing, hunting, questing
+3. **SEEKER**:
+   - The treasure **seeker** spent years chasing legends of gold. *(Noun: person who seeks)*
+   - ***Synonyms***: searcher, hunter, pursuer, quester
 
 =====
 
-### SEEM
-
+### SEEM  
 @@  
-**Verb** | हिंदी: लगना, प्रतीत होना : To give the impression of being or doing something; to appear in a certain way.
-
-- ***Synonyms***: appear, look, sound, come across, resemble
-- ***Antonyms***: be, prove, confirm, ensure
-
-_Examples_
-
-1. She **seems** very confident in her presentation. _(Verb: appears to be)_
-2. It **seems** like it might rain today. _(Verb: gives the impression of)_
-3. He doesn’t **seem** interested in joining the discussion. _(Verb: appears not to be)_
-
-_Word Form Examples (if applicable)_
-
-1. **Seeming** (Adjective/Noun):
-    
-    - The **seeming** simplicity of the problem was deceptive. _(Adjective: apparent or outward)_
-    - His explanation was based on mere **seeming**, not reality. _(Noun: appearance or impression)_
-    - ***Synonyms***: apparent, outward, superficial
-    - ***Antonyms***: genuine, real, actual
-2. **Seemingly** (Adverb):
-    
-    - She was **seemingly** calm despite the chaos around her. _(Adverb: apparently or outwardly)_
-    - ***Synonyms***: apparently, outwardly, ostensibly, superficially
-    - ***Antonyms***: actually, genuinely, truly
-3. **Seemed** (Past Tense):
-    
-    - He **seemed** happy when he received the news. _(Verb: past tense of appear)_
-    - ***Synonyms***: appeared, looked, sounded
-4. **Seems** (Present Tense/Third Person Singular):
-    
-    - It **seems** like a reasonable solution. _(Verb: present tense form of appear)_
-
-=====
-
-### SEIZE  
-@@  
-**Verb** | हिंदी: कब्जा करना, पकड़ना :  
-1. To take hold of something suddenly and forcibly; to grasp or capture with authority or force. *(Verb)*  
-2. To take advantage of an opportunity quickly and decisively. *(Verb)*  
-3. To confiscate or take possession of something by legal or official means. *(Verb)*  
-
-- ***Synonyms***: grab, snatch, capture, confiscate, appropriate, wrest, clutch *(Verb)*  
-- ***Antonyms***: release, relinquish, surrender, abandon, forfeit *(Verb)*  
+**Verb** | हिंदी: प्रतीत होना, लगना : To give the impression of being something or having a particular quality, often without certainty.  
+- ***Synonyms***: appear, look, sound, resemble, suggest, come across as  
+- ***Antonyms***: be, prove, confirm, demonstrate  
 
 _Examples_  
-1. The police moved in to **seize** the illegal weapons hidden in the suspect’s house. *(Verb: confiscate)*  
-2. She managed to **seize** the opportunity to present her ideas during the meeting. *(Verb: take advantage)*  
+1. She **seems** happy, but I can tell something is bothering her. *(Verb: appear to be)*  
+2. It **seems** like a good idea, but we should consider the risks. *(Verb: give an impression of being true)*  
 
 _Word Form Examples_  
-1. **Seized**:  
-   - The authorities **seized** the smuggled goods at the border checkpoint. *(Verb: past tense, confiscate)*  
-   - ***Synonyms***: confiscated, captured, appropriated, snatched  
-2. **Seizing**:  
-   - He was **seizing** every chance he got to improve his skills and advance his career. *(Verb: present participle, taking advantage)*  
-   - ***Synonyms***: grabbing, capturing, appropriating, clutching  
-3. **Seizure**:  
-   - The sudden **seizure** of power by the military led to widespread unrest in the country. *(Noun: act of seizing)*  
-   - ***Synonyms***: confiscation, appropriation, takeover, capture  
+1. **SEEMED**:  
+   - He **seemed** nervous before his speech. *(Verb: past tense, appeared to be)*  
+   - ***Synonyms***: appeared, looked, came across as  
+2. **SEEMING**:  
+   - His **seeming** confidence hid his true anxiety. *(Adjective: apparent but not necessarily real)*  
+   - ***Synonyms***: apparent, outward, superficial  
+3. **SEEMINGLY**:  
+   - She was **seemingly** calm, but inside she was panicking. *(Adverb: appearing to be in a certain way)*  
+   - ***Synonyms***: apparently, outwardly, on the surface  
 
-=====
+=====  
 
-### SELDOM  
-@@  
-**Adverb** | हिंदी: शायद ही कभी : Not often; rarely; on very few occasions.  
-- ***Synonyms***: rarely, infrequently, hardly ever, scarcely, occasionally (in a negative sense)  
-- ***Antonyms***: often, frequently, regularly, commonly, usually  
-
-_Examples_  
-1. She **seldom** goes out on weekends, preferring to stay home and read. *(Adverb: rarely)*  
-2. The museum is so remote that visitors are **seldom** seen there. *(Adverb: infrequently)*  
-
-_Word Form Examples_  
-1. **Seldomness**:  
-   - The **seldomness** of his visits made each one feel special and memorable. *(Noun: rarity/infrequency)*  
-   - ***Synonyms***: rarity, infrequency, uncommonness, scarcity  
-
-=====
-
-### SELF-ASSURED
-@@  
-**Adjective** | हिंदी: आत्मविश्वासी, स्वयंभर : 
-1. Confident in one's abilities or character; self-confident.
-2. Showing poise and composure in one's actions or behavior.
-
-- ***Synonyms***: confident, assured, poised, self-confident, composed, self-possessed
-- ***Antonyms***: insecure, uncertain, hesitant, doubtful, timid
+### SEIZE
+@@
+**Verb** | हिंदी: पकड़ना, जब्त करना : To take hold of suddenly and forcibly; to confiscate or take possession of by legal authority.
+- ***Synonyms***: grab, grasp, capture, confiscate, snatch, appropriate
+- ***Antonyms***: release, relinquish, surrender, abandon, free
 
 _Examples_
-1. She appeared **self-assured** during the presentation, answering every question with ease. _(Adjective: confident)_
-2. His **self-assured** attitude made him a natural leader. _(Adjective: poised)_
-3. Despite the pressure, he remained **self-assured** and calm. _(Adjective: composed)_
+1. The police will **seize** any illegal substances found during the search. *(Verb: confiscate)*
+2. He tried to **seize** the opportunity to speak with the CEO at the conference. *(Verb: take advantage of)*
+3. The illness caused him to **seize** unexpectedly during dinner. *(Verb: have a seizure)* 
 
 _Word Form Examples_
-1. **Self-assuredly**:
-	- He spoke **self-assuredly**, leaving no doubt about his expertise. _(Adverb: in a confident manner)_
-	- ***Synonyms***: confidently, assuredly, boldly, composedly, poisefully
-2. **Self-assurance**:
-	- Her **self-assurance** helped her navigate challenging situations with ease. _(Noun: the quality of being self-assured)_
-	- ***Synonyms***: confidence, poise, composure, self-confidence, self-possession
-
-=====
-### SELF-SATISFIED
-@@  
-**Adjective** | हिंदी: आत्मसंतुष्ट : 
-1. Excessively pleased with oneself or one's achievements, often to the point of being smug or complacent.
-2. Feeling content with one's abilities or situation without seeking improvement.
-
-- ***Synonyms***: smug, complacent, self-contented, conceited, self-assured, self-approving
-- ***Antonyms***: humble, dissatisfied, modest, self-critical, discontented
-
-_Examples_
-1. After winning the award, he walked around with a **self-satisfied** smile, annoying his colleagues. _(Adjective: smug/complacent)_
-2. She was **self-satisfied** with her performance, even though there was room for improvement. _(Adjective: overly content)_
-_Word Form Examples_
-1. **Self-satisfaction**:
-	- His **self-satisfaction** prevented him from striving for greater success. _(Noun: excessive contentment with oneself)_
-	- ***Synonyms***: smugness, complacency, self-contentment, conceit, self-approval
-
-=====
-### SEMBLANCE
-@@  
-**Noun** | हिंदी: दिखावा, समानता : 
-1. The outward appearance or apparent form of something, especially when the reality is different.
-2. A resemblance or similarity to something.
-
-- ***Synonyms***: appearance, likeness, facade, guise, resemblance
-- ***Antonyms***: reality, dissimilarity, difference, contrast, disparity
-
-_Examples_
-1. Despite the chaos, the manager maintained a **semblance** of order in the office. _(Noun: outward appearance)_
-2. There was a **semblance** of truth in his story, but many details were fabricated. _(Noun: resemblance)_
-3. The peace talks provided a **semblance** of hope, though the situation remained tense. _(Noun: apparent form)_
-
-_Word Form Examples_
-1. **Semblances**:
-	- The **semblances** of normalcy in the war-torn region were few and far between. _(Noun: plural form of semblance)_
-	- ***Synonyms***: appearances, likenesses, facades, guises, resemblances
-
-=====
-### SENESCENT
-
-@@  
-**Adjective** | हिंदी: वृद्ध, उम्रदराज : Describing the process of aging, or being in the stage of growing old; showing signs of aging.
-
-- ***Synonyms***: aging, elderly, decrepit, worn, mature
-- ***Antonyms***: youthful, young, vigorous, fresh
-
-_Examples_
-
-1. The **senescent** tree was no longer able to bear fruit. _(Adjective: in the process of aging or growing old)_
-2. His **senescent** appearance made him look much older than his actual age. _(Adjective: showing signs of aging)_
-
-_Word Form Examples_
-
-1. The **senescence** of the plant led to its leaves turning yellow and wilting. _(Noun: the process of aging or deterioration)_
+1. **SEIZED**: 🌟
+   - The government has **seized** all assets connected to the criminal organization. *(Past tense: took possession forcibly)*
+   - ***Synonyms***: captured, confiscated, commandeered, appropriated
+2. **SEIZING**:
+   - **Seizing** control of the narrative is crucial in crisis management. *(Gerund: act of taking forcibly)*
+   - ***Synonyms***: grabbing, capturing, taking, appropriating
+3. **SEIZURE**: 🌟
+   - The customs officials made a **seizure** of counterfeit goods at the border. *(Noun: act of confiscating)*
+   - The patient experienced a **seizure** due to epilepsy. *(Noun: sudden attack of illness)*
+   - ***Synonyms***: confiscation, appropriation, convulsion, fit
 
 =====
 
 ### SENILE
-
-@@  
-**Adjective** | हिंदी: वृद्धावस्था में, बुढ़ापे से संबंधित : Relating to the mental and physical decline associated with old age, often in reference to memory loss or confusion.
-
-- ***Synonyms***: aged, decrepit, feeble, senescent, deteriorated
-- ***Antonyms***: youthful, vigorous, strong, healthy
+@@
+**Adjective** | हिंदी: वृद्धावस्था से संबंधित, बुढ़ापे का : Showing a decline in mental faculties, especially memory, associated with old age; exhibiting the physical or mental weakness of old age.
+- ***Synonyms***: decrepit, doddering, enfeebled, deteriorated, dotard, declining
+- ***Antonyms***: lucid, sharp, cognizant, alert, coherent
 
 _Examples_
-
-1. The **senile** woman struggled to remember the names of her grandchildren. _(Adjective: showing signs of old age-related decline)_
-2. **Senile** dementia can cause memory loss and confusion in elderly individuals. _(Adjective: referring to age-related mental decline)_
+1. His **senile** grandmother often forgot the names of family members. *(Adjective: showing mental decline)*
+2. The doctor explained that forgetfulness doesn't necessarily indicate **senile** dementia. *(Adjective: relating to old-age mental deterioration)*
 
 _Word Form Examples_
-
-1. His **senility** became apparent as he forgot important details. _(Noun: the condition of being senile)_
-2. The doctor diagnosed her with **senility**, causing her to lose cognitive function. _(Noun: the mental decline of old age)_
+1. **SENILITY**: 🌟
+   - The progression of **senility** varied greatly among the residents of the nursing home. *(Noun: state of being senile)*
+   - ***Synonyms***: dementia, cognitive decline, mental deterioration, dotage
 
 =====
 
-### SENIOR
-
+### SERENE  
 @@  
-**Adjective** | हिंदी: वरिष्ठ, बड़ों का : Referring to a person of higher rank, older age, or more experience; older in age or status.
-
-- ***Synonyms***: older, elder, experienced, seasoned, advanced
-- ***Antonyms***: junior, younger, inexperienced, novice
-
-_Examples_
-
-1. The **senior** manager was responsible for overseeing the entire team. _(Adjective: of higher rank or status)_
-2. She is a **senior** citizen and enjoys a comfortable retirement. _(Adjective: older in age)_
-
-_Word Form Examples_
-
-1. The **seniority** of the employees determined their benefits in the company. _(Noun: the state of being older or more experienced)_
-2. His **senior** position allowed him to make important decisions for the company. _(Adjective: higher in rank)_
-
-=====
-
-### SENTINEL
-@@  
-**Noun, Verb** | हिंदी: प्रहरी, चौकीदार : 
-1. (Noun) A person or thing that stands guard or watches over something.
-2. (Noun) A soldier stationed to keep watch or control access.
-3. (Verb) To station as a guard or watch over something.
-
-- ***Synonyms***: guard, watchman, sentry, lookout, protector
-- ***Antonyms***: intruder, trespasser, invader, attacker, foe
-
-_Examples_
-1. The **sentinel** stood at the gate, ensuring no unauthorized person entered. _(Noun: a guard)_
-2. The lighthouse acted as a **sentinel**, warning ships of the dangerous rocks. _(Noun: a watcher)_
-3. Soldiers were **sentinelled** around the perimeter to protect the camp. _(Verb: to station as a guard)_
-
-_Word Form Examples_
-1. **Sentinels**:
-	- The **sentinels** patrolled the castle walls throughout the night. _(Noun: plural form of sentinel)_
-	- ***Synonyms***: guards, watchmen, sentries, lookouts, protectors
-2. **Sentinel Duty**:
-	- He was assigned **sentinel duty** for the night shift. _(Noun: the role of a guard)_
-	- ***Synonyms***: guard duty, watch, lookout duty, patrol
-
-=====
-### SEQUESTER  
-@@  
-**Verb** | हिंदी: पृथक करना, अलग करना :  
-1. To isolate or hide away (someone or something) from others. *(Verb)*  
-2. To take legal possession of (property or assets) until a dispute is resolved. *(Verb)*  
-3. To set apart or segregate for a specific purpose. *(Verb)*  
-
-- ***Synonyms***: isolate, quarantine, seclude, segregate, separate *(isolation)*; confiscate, impound, seize *(legal possession)*  
-- ***Antonyms***: integrate, unite, combine, release, return *(opposite of isolation/seizure)*  
+**Adjective, Noun** | हिंदी: शांत, निर्मल :  
+1. Calm, peaceful, and untroubled. *(Adjective)*  
+2. A state of tranquility or calmness. *(Noun – poetic or rare use)*  
+- ***Synonyms***: calm, peaceful, tranquil, composed, unruffled *(Adjective: peaceful state)*  
+- ***Antonyms***: agitated, disturbed, chaotic, restless, turbulent *(Adjective: lack of peace)*  
 
 _Examples_  
-1. The jury was **sequestered** to ensure they were not influenced by media coverage of the trial. *(Verb: isolate)*  
-2. The court ordered the funds to be **sequestered** until the investigation was complete. *(Verb: take legal possession)*  
-3. The scientist **sequestered** a sample of the compound for further testing. *(Verb: set apart)*  
+1. She sat by the lake, enjoying the **serene** beauty of nature. *(Adjective: calm and peaceful)*  
+2. His face remained **serene**, even in the face of adversity. *(Adjective: composed and untroubled)*  
 
 _Word Form Examples_  
-1. **Sequestration**:  
-   - The **sequestration** of carbon dioxide is crucial for reducing greenhouse gas emissions. *(Noun: act of setting apart or isolating)*  
-   - ***Synonyms***: isolation, segregation, separation, confiscation, impoundment  
-2. **Sequestrable**:  
-   - Certain assets were deemed **sequestrable** during the bankruptcy proceedings. *(Adjective: able to be seized or isolated)*  
-   - ***Synonyms***: confiscatable, impoundable, separable  
+1. **SERENELY**: 🌟  
+   - He accepted the bad news **serenely**, without any panic. *(Adverb: in a calm manner)*  
+   - ***Synonyms***: peacefully, calmly, composedly  
+2. **SERENENESS**: *(Rare)*  
+   - The **sereneness** of the monastery helped visitors find inner peace. *(Noun: the quality of being calm and peaceful)*  
+   - ***Synonyms***: tranquility, stillness, quietness  
+3. **SERENITY**: 🌟  
+   - Meditation brings a sense of **serenity** to the mind. *(Noun: a state of deep calm and peace)*  
+   - ***Synonyms***: peace, tranquility, harmony  
 
-=====
-### SERENE
+=====  
 
-@@  
-**Adjective** | हिंदी: शांति, शांतिपूर्ण : Calm, peaceful, and untroubled; free from disturbance or agitation.
-
-- ***Synonyms***: calm, tranquil, peaceful, composed, unruffled
-- ***Antonyms***: agitated, anxious, disturbed, turbulent, chaotic
+### SERMON
+@@
+**Noun** | हिंदी: प्रवचन, उपदेश : A discourse or speech delivered by a religious leader, typically based on a religious text, to provide moral guidance or religious instruction.
+- ***Synonyms***: homily, address, lecture, preaching, discourse, oration
+- ***Antonyms***: conversation, dialogue, silence, listening
 
 _Examples_
-
-1. The lake was **serene**, with not a ripple on the water’s surface. _(Adjective: peaceful and calm)_
-2. Her **serene** expression reflected her inner peace. _(Adjective: calm and composed)_
+1. The pastor delivered an inspiring **sermon** on forgiveness during Sunday service. *(Noun: religious speech)*
+2. Her graduation speech felt more like a **sermon** than a celebration. *(Noun: moralizing talk)*
 
 _Word Form Examples_
-
-1. The **serenity** of the mountains provided a much-needed retreat from city life. _(Noun: the state of being serene or peaceful)_
-2. He walked **serenely**, enjoying the quiet morning air. _(Adverb: in a calm and peaceful manner)_
-
-=====
-
-### SERMON  
-@@  
-**Noun** | हिंदी: उपदेश, भाषण :  
-1. A religious discourse or address delivered as part of a church service, typically based on a biblical text and intended to provide moral or spiritual guidance.  
-2. A lengthy speech or lecture, often characterized by moralizing or instructive content.  
-
-- ***Synonyms***: homily, discourse, lecture, admonition, exhortation, preaching  
-- ***Antonyms***: silence, quiet, irreverence, indifference  
-
-_Examples_  
-1. The pastor delivered a powerful **sermon** about the importance of forgiveness. *(Noun: religious discourse)*  
-2. His father’s **sermon** on responsibility felt more like a scolding than advice. *(Noun: lengthy moralizing speech)*  
-
-_Word Form Examples_  
-1. **Sermonic**:  
-   - The professor's **sermonic** tone made the lecture feel more like a moral lesson than an academic discussion. *(Adjective: resembling or characteristic of a sermon)*  
-   - ***Synonyms***: preachy, didactic, moralizing, instructive  
-2. **Sermonize**:  
-   - She began to **sermonize** about the importance of punctuality, much to everyone's annoyance. *(Verb: to deliver a sermon or moralizing speech)*  
-   - ***Synonyms***: preach, moralize, lecture, admonish  
-3. **Sermonizer**:  
-   - The old man was known as a **sermonizer**, always ready with unsolicited advice. *(Noun: someone who frequently delivers sermons or moral lectures)*  
-   - ***Synonyms***: preacher, moralist, lecturer, advisor  
+1. **SERMONIZE**: 🌟
+   - The teacher tends to **sermonize** rather than have open discussions with students. *(Verb: to deliver a sermon or speak in a moralizing way)*
+   - ***Synonyms***: preach, lecture, moralize, pontificate, admonish
+2. **SERMONIZING**:
+   - His constant **sermonizing** about healthy eating habits annoyed his friends. *(Noun/Gerund: the act of speaking in a moralizing way)*
+   - ***Synonyms***: preaching, lecturing, moralizing, admonishing
+3. **SERMONIZER**:
+   - He's known as a **sermonizer** who can hold an audience's attention for hours. *(Noun: one who delivers sermons or moralizes)*
+   - ***Synonyms***: preacher, orator, lecturer, moralizer
 
 =====
-### SERPENTINE
 
-@@  
-**Adjective** | हिंदी: साँप जैसा, घुमावदार : Having a winding or twisting shape, resembling the movement of a snake.
-
-1. Characterized by winding or curving in a snake-like manner.
-2. Describing something that is deviously cunning or deceitful.
-
-- ***Synonyms***: winding, twisting, coiled, meandering, curving
-- ***Antonyms***: straight, direct, linear, uncomplicated
+### SETTLE
+@@
+**Verb, Noun** | हिंदी: बसना, सुलह करना : 
+1. To resolve or reach an agreement, especially in a dispute. *(Verb)*
+2. To establish oneself in a particular place or position. *(Verb)*
+3. A final resolution or conclusion of a matter. *(Noun)*
+- ***Synonyms***: resolve, reconcile, agree, conclude, arrange *(Verb: resolve)*; inhabit, reside, dwell, occupy *(Verb: establish oneself)*; resolution, agreement, settlement *(Noun)*
+- ***Antonyms***: dispute, argue, unsettle, disrupt, abandon *(Verb: resolve)*; leave, vacate, depart *(Verb: establish oneself)*
 
 _Examples_
-
-1. The road took a **serpentine** path through the mountains. _(Adjective: winding or twisting)_
-2. His **serpentine** logic made it hard to follow his argument. _(Adjective: deviously complex)_
-
-=====
-### SERVILE
-
-@@  
-**Adjective** | हिंदी: दीन, गुलाम : Showing an excessive willingness to serve or please others, often to the point of self-degradation or lack of independence.
-
-- ***Synonyms***: submissive, obedient, compliant, subservient, deferential
-- ***Antonyms***: assertive, independent, defiant, dominant, proud
-
-_Examples_
-
-1. His **servile** behavior toward the senior manager was obvious to everyone in the office. _(Adjective: overly submissive or eager to please)_
-2. The **servile** servant did everything his master demanded without question. _(Adjective: excessively obedient or subservient)_
-3. She rejected the idea of a **servile** existence and chose to lead her own life. _(Adjective: lacking independence or freedom)_
+1. After weeks of negotiation, they finally managed to **settle** the dispute amicably. *(Verb: resolve)*
+2. Many families decided to **settle** in the fertile valley after the floodwaters receded. *(Verb: establish oneself)*
+3. The court’s decision brought a **settle** to the long-standing legal battle. *(Noun: resolution)*
 
 _Word Form Examples_
-
-1. The **servility** of the workers was exploited by the factory owner. _(Noun: the state of being excessively submissive or obedient)_
-2. He acted **servilely** in front of the powerful guests to gain favor. _(Adverb: in an overly obedient or submissive manner)_
+1. **SETTLED**: 🌟
+   - The nomadic tribe eventually **settled** near the riverbank. *(Adjective: established permanently)*
+   - ***Synonyms***: resided, inhabited, stationed, fixed, stabilized
+2. **SETTLING**:  
+   - The process of **settling** the estate took longer than expected. *(Gerund: resolving or arranging)*
+   - ***Synonyms***: resolving, concluding, arranging, reconciling
+3. **SETTLEMENT**: 🌟
+   - The two countries reached a peaceful **settlement** after months of tension. *(Noun: resolution or agreement)*
+   - ***Synonyms***: agreement, compromise, accord, pact, treaty
+4. **SETTLER**:  
+   - The early **settlers** faced many hardships while building their community. *(Noun: person who establishes residence)*
+   - ***Synonyms***: colonist, pioneer, immigrant, resident
 
 =====
 
+### SEVERE
+@@
+**Adjective** | हिंदी: गंभीर, कठोर : 
+1. Very great or intense, especially in terms of difficulty or harshness. *(Adjective)*
+2. Strict or harsh in behavior or attitude. *(Adjective)*
+3. Plain and simple in appearance, without decoration. *(Adjective)*
+- ***Synonyms***: extreme, critical, grave, intense, harsh *(Adjective: difficulty/harshness)*; stern, strict, austere, unyielding *(Adjective: behavior/attitude)*; plain, unadorned, stark, modest *(Adjective: appearance)*
+- ***Antonyms***: mild, moderate, lenient, gentle, light *(Adjective: difficulty/harshness)*; forgiving, relaxed, indulgent *(Adjective: behavior/attitude)*; ornate, elaborate, decorated *(Adjective: appearance)*
+
+_Examples_
+1. The region experienced a **severe** drought that lasted for months. *(Adjective: intense difficulty)*
+2. The teacher was known for her **severe** discipline, which some students found intimidating. *(Adjective: strict behavior)*
+3. The room was decorated in a **severe** style, with no unnecessary embellishments. *(Adjective: plain appearance)*
+
+_Word Form Examples_
+1. **SEVERITY**: 🌟
+   - The **severity** of the storm caught everyone off guard. *(Noun: intensity or seriousness)*
+   - ***Synonyms***: harshness, extremity, gravity, seriousness, rigor
+2. **SEVERELY**:  
+   - The patient was **severely** injured in the accident. *(Adverb: to a great extent or degree)*
+   - ***Synonyms***: critically, gravely, intensely, extremely, harshly
+
+=====
 
 ### SEXIST
-@@  
-**Adjective** | हिंदी: लैंगिक पक्षपाती :  
-1. Showing prejudice, stereotyping, or discrimination based on a person's sex or gender, typically against women.  
-2. Reflecting or promoting the belief that one gender is superior to another.  
+@@
+**Adjective, Noun** | हिंदी: लैंगिक भेदभावपूर्ण : 
+1. Prejudiced or discriminatory behavior, attitudes, or actions based on a person's gender, typically against women. *(Adjective)*
+2. A person who holds or promotes sexist beliefs or practices. *(Noun)*
+- ***Synonyms***: misogynistic, chauvinistic, patriarchal, discriminatory *(Adjective)*; misogynist, chauvinist, bigot *(Noun)*
+- ***Antonyms***: egalitarian, feminist, non-discriminatory, inclusive *(Adjective)*; egalitarianist, advocate for equality *(Noun)*
 
-- ***Synonyms***: discriminatory, biased, chauvinistic, prejudiced, misogynistic  
-- ***Antonyms***: egalitarian, fair, unbiased, gender-neutral, impartial  
+_Examples_
+1. The advertisement was criticized for its **sexist** portrayal of women as homemakers. *(Adjective: discriminatory)*
+2. Some people still dismiss the term "feminism" as being anti-male, but it aims to challenge **sexist** attitudes. *(Adjective: prejudiced)*
+3. His comments revealed him to be a **sexist**, perpetuating harmful gender stereotypes. *(Noun: person holding sexist views)*
 
-_Examples_  
-1. The **sexist** comments made by the manager created a hostile work environment for female employees. *(Adjective: discriminatory based on gender)*  
-2. Many people criticized the advertisement for its **sexist** portrayal of women. *(Adjective: promoting gender stereotypes)*  
-3. His **sexist** attitude prevented him from recognizing the capabilities of his female colleagues. *(Adjective: biased against a gender)*  
-
-_Word Form Examples_  
-1. **Sexism** (noun):  
-   - The company was accused of **sexism** after multiple female employees reported unequal treatment. *(Noun: prejudice based on gender)*  
-   - ***Synonyms***: discrimination, bias, chauvinism, misogyny, prejudice  
-2. **Sexistly** (adverb):  
-   - The policy was **sexistly** designed to favor male employees over their female counterparts. *(Adverb: in a discriminatory manner based on gender)*  
-   - ***Synonyms***: discriminatorily, unfairly, prejudicially, chauvinistically  
+_Word Form Examples_
+1. **SEXISM**: 🌟
+   - Workplace **sexism** continues to be a significant barrier for many women in leadership roles. *(Noun: practice or ideology of discrimination)*
+   - ***Synonyms***: misogyny, chauvinism, gender bias, prejudice
 
 =====
-### SHACKLE  
-@@  
-**Noun** | हिंदी: बेड़ी, कैड़ी : A device, typically made of metal, used to restrain movement, often placed around the wrists or ankles; anything that restricts freedom or progress.  
-**Verb** | हिंदी: बाँधना, प्रतिबंधित करना : To restrain or restrict someone’s freedom of movement or action; to confine or hold back.  
-
-- ***Synonyms (Noun)*:** fetter, chain, handcuff, restraint, bond, manacle  
-- ***Synonyms (Verb)*:** restrain, bind, confine, limit, restrict, hobble  
-- ***Antonyms (Noun)*:** freedom, liberty, release, emancipation, liberation  
-- ***Antonyms (Verb)*:** free, liberate, unshackle, release, loosen  
-
-_Examples_  
-1. The prisoner’s hands were bound with heavy **shackles** to prevent escape. *(Noun: restraints)*  
-2. Society must work to **shackle** harmful ideologies that promote discrimination. *(Verb: restrict or confine)*  
-
-_Word Form Examples_  
-1. **Shackled**:  
-   - The bird was **shackled** by a broken wing, unable to fly away. *(Adjective: restrained or confined)*  
-   - ***Synonyms***: chained, bound, restricted, confined, fettered  
-2. **Shackling**:  
-   - The new regulations were criticized for **shackling** innovation in the industry. *(Verb: restricting, present participle)*  
-   - ***Synonyms***: restraining, binding, limiting, hindering, hampering  
-3. **Unshackle**:  
-   - The activist fought to **unshackle** marginalized communities from systemic oppression. *(Verb: to free or release from restraints)*  
-   - ***Synonyms***: liberate, free, release, unchain, unfetter  
-
-===== 
-
 
 ### SHAKY  
 @@  
-**Adjective** | हिंदी: अस्थिर, कमजोर :  
-1. Unsteady or unstable; likely to shake or fall.  
-2. Lacking confidence, certainty, or reliability; uncertain or insecure.  
-3. Characterized by trembling or quivering, often due to fear, weakness, or nervousness.  
-
-- ***Synonyms***: unsteady, wobbly, unstable, insecure, trembling, feeble, doubtful, unreliable  
-- ***Antonyms***: steady, stable, firm, confident, reliable, strong, secure  
+**Adjective** | हिंदी: काँपता हुआ, अस्थिर, अविश्वसनीय :  
+1. Not firm, steady, or secure; likely to shake or tremble.  
+2. Lacking confidence, reliability, or strength.  
+- ***Synonyms***: unsteady, wobbly, tremulous, unstable, insecure, doubtful  
+- ***Antonyms***: stable, firm, steady, strong, reliable  
 
 _Examples_  
-1. After the earthquake, the **shaky** building was declared unsafe for occupancy. *(Adjective: unstable)*  
-2. His voice sounded **shaky** as he tried to explain the mistake to his boss. *(Adjective: trembling)*  
-3. The peace agreement remained **shaky**, with both sides suspicious of each other’s intentions. *(Adjective: uncertain)*  
+1. His hands were **shaky** after lifting the heavy weights. *(Adjective: trembling)*  
+2. The bridge looked **shaky**, making people hesitant to cross. *(Adjective: unstable)*  
+3. Her voice was **shaky** as she spoke in front of the large audience. *(Adjective: trembling due to nervousness)*  
+4. The company’s financial situation is quite **shaky** at the moment. *(Adjective: insecure or unreliable)*  
 
 _Word Form Examples_  
-1. **Shakily**:  
-   - She signed the document **shakily**, her hands trembling from anxiety. *(Adverb: in an unsteady manner)*  
-   - ***Synonyms***: unsteadily, tremulously, waveringly, insecurely, nervously  
-2. **Shakiness**:  
-   - The **shakiness** of the ladder made it dangerous to climb. *(Noun: state of being unsteady)*  
-   - ***Synonyms***: instability, unsteadiness, wobbliness, insecurity, uncertainty  
-3. **Shaken**:  
-   - The experience left him deeply **shaken**, and he struggled to regain his composure. *(Adjective: disturbed or unsettled)*  
-   - ***Synonyms***: unsettled, disturbed, rattled, unsteady, destabilized  
+1. **SHAKILY**:  
+   - He walked **shakily** towards the stage, nervous about his speech. *(Adverb: in an unsteady manner)*  
+   - ***Synonyms***: unsteadily, tremulously, uncertainly  
+2. **SHAKINESS**:  
+   - The patient’s **shakiness** was a sign of weakness. *(Noun: state of being shaky)*  
+   - ***Synonyms***: instability, tremor, unsteadiness  
 
 =====
 
-### SHARP
-@@  
-**Adjective, Adverb, Noun, Verb** | हिंदी: तीक्ष्ण, तेज़, नुकीला :  
-1. **(Adjective)** Having a fine edge or point; capable of cutting or piercing.
-2. **(Adjective)** Sudden or intense, as in a sharp pain or turn.
-3. **(Adjective)** Mentally acute; quick to understand or notice.
-4. **(Adjective)** Clear and distinct, as in a sharp image or sound.
-5. **(Adverb)** Precisely or exactly (e.g., at 3 o'clock sharp).
-6. **(Noun)** A musical note raised by a semitone (♯).
-7. **(Verb)** To raise a musical note by a semitone.
-
-- ***Synonyms***: **(Adjective)** keen, acute, pointed, intense, clever  
-  **(Adverb)** exactly, precisely, promptly, on the dot  
-  **(Noun)** semitone, sharp note  
-  **(Verb)** raise, increase, elevate
-- ***Antonyms***: **(Adjective)** dull, blunt, mild, slow, unclear  
-  **(Adverb)** approximately, roughly, loosely  
-  **(Noun)** flat, natural  
-  **(Verb)** lower, decrease, flatten
+### SHRIVEL
+@@
+**Verb** | हिंदी: सिकुड़ना, मुरझाना : To wrinkle, contract, or shrink, especially from heat, cold, dryness, or age; to wither or lose vitality.
+- ***Synonyms***: shrink, wilt, wither, crumple, dry up
+- ***Antonyms***: expand, swell, grow, flourish, bloom
 
 _Examples_
-1. The chef used a **sharp** knife to slice the vegetables. _(Adjective: having a fine edge)_
-2. She felt a **sharp** pain in her side after the fall. _(Adjective: sudden or intense)_
-3. His **sharp** mind allowed him to solve the puzzle quickly. _(Adjective: mentally acute)_
-4. The photograph was incredibly **sharp**, capturing every detail. _(Adjective: clear and distinct)_
-5. The meeting will start at 9 a.m. **sharp**. _(Adverb: precisely)_
-6. The musician played a C **sharp** in the melody. _(Noun: musical note)_
-7. The conductor asked the violinist to **sharp** the note for the next passage. _(Verb: to raise a musical note)_
+1. The grapes began to **shrivel** in the intense summer heat. *(Verb: shrink from dryness)*
+2. Her confidence seemed to **shrivel** under the harsh criticism. *(Verb: lose vitality)*
 
 _Word Form Examples_
-1. **Sharpen**:
-	- He used a whetstone to **sharpen** the blade of his knife. _(Verb: to make sharp or sharper)_
-	- ***Synonyms***: hone, grind, edge, refine
-2. **Sharpness**:
-	- The **sharpness** of the image was impressive, with every detail visible. _(Noun: the quality of being sharp)_
-	- ***Synonyms***: keenness, clarity, acuteness, precision
-3. **Sharply**:
-	- The temperature dropped **sharply** overnight, catching everyone off guard. _(Adverb: suddenly or intensely)_
-	- ***Synonyms***: suddenly, abruptly, steeply, drastically
-4. **Sharp-eyed**:
-	- The **sharp-eyed** detective noticed the tiny clue that others had missed. _(Adjective: having keen vision or perception)_
-	- ***Synonyms***: observant, perceptive, eagle-eyed, alert
-5. **Sharp-tongued**:
-	- Her **sharp-tongued** remarks often left people speechless. _(Adjective: using harsh or critical language)_
-	- ***Synonyms***: cutting, sarcastic, biting, caustic
-
-=====
-### SHED
-@@  
-**Noun, Verb** | हिंदी: छप्पर, बहाना : 
-1. (Noun) A simple roofed structure, typically used for storage or shelter.
-2. (Verb) To allow something to fall off or flow away, such as tears, hair, or leaves.
-3. (Verb) To discard or get rid of something, such as a habit or responsibility.
-
-- ***Synonyms***: (Noun) hut, shack, outhouse, shelter; (Verb) drop, cast, discard, molt, remove
-- ***Antonyms***: (Verb) retain, keep, hold, collect, gather
-
-_Examples_
-1. The gardener stored all his tools in the small **shed** at the back of the garden. _(Noun: structure)_
-2. The tree **shed** its leaves in the autumn, covering the ground in a golden carpet. _(Verb: to drop)_
-3. She decided to **shed** her old habits and embrace a healthier lifestyle. _(Verb: to discard)_
-
-_Word Form Examples_
-1. **Shedding**:
-	- The dog was **shedding** its fur all over the furniture. _(Verb: present participle, dropping)_
-	- ***Synonyms***: molting, casting, losing, discarding
-2. **Sheds**:
-	- The factory **sheds** excess waste into the river, causing environmental concerns. _(Verb: third-person singular, discards)_
-	- ***Synonyms***: releases, discharges, emits, expels
+1. **SHRIVELED**: 🌟
+   - The **shriveled** leaves fell from the drought-stricken tree. *(Adjective: having shrunk or withered)*
+   - ***Synonyms***: withered, shrunken, wilted, dried, crumpled
+2. **SHRIVELING**:
+   - The **shriveling** fruit indicated it was past its prime. *(Gerund/Adjective: the act or state of shrinking)*
+   - ***Synonyms***: wilting, shrinking, withering, drying up
 
 =====
 
-### SHEEN  
-@@  
-**Noun** | हिंदी: चमक, दमक :  
-1. A soft, gentle luster or glow, often describing the surface of an object. (Noun)  
-2. The quality of shining or reflecting light, typically associated with smooth or polished surfaces. (Noun)  
-
-- ***Synonyms***: luster, gloss, shine, gleam, radiance, brilliance  
-- ***Antonyms***: dullness, matte, dimness, opacity  
-
-_Examples_  
-1. The **sheen** of the polished wood gave the furniture an elegant appearance. *(Noun: luster or glow)*  
-2. Her hair had a natural **sheen**, making it look healthy and vibrant. *(Noun: reflective quality)*  
-3. The moonlight created a silvery **sheen** on the surface of the lake. *(Noun: gentle glow)*  
-
-_Word Form Examples_  
-1. **Sheeny**:  
-   - The fabric had a **sheeny** texture, catching the light with every movement. *(Adjective: having a shiny or glossy quality)*  
-   - ***Synonyms***: glossy, shiny, lustrous, radiant  
-2. **Sheened**:  
-   - The car’s freshly waxed surface looked **sheened** under the bright showroom lights. *(Adjective: possessing a sheen or glow)*  
-   - ***Synonyms***: gleaming, shimmering, glistening, sparkling  
-
-=====
-### SHEER
-@@  
-**Adjective** | हिंदी: शुद्ध, पूर्ण :  
-1. Nothing other than; unmitigated or absolute (often used for emphasis).
-2. Very steep or vertical, often describing a surface or drop.
-3. (Of fabric) thin and translucent; allowing light to pass through.
-**Verb** | हिंदी: मोड़ना, बाँका करना :  
-1. To deviate from a course or direction, especially by turning a vehicle or vessel.
-
-- ***Synonyms***: (Adjective) pure, utter, complete, transparent, steep  
-- ***Antonyms***: (Adjective) partial, opaque, gradual, shallow
-
-_Examples_
-1. The climber faced a **sheer** cliff face that seemed impossible to scale. *(Adjective: steep)*
-2. Her **sheer** determination helped her overcome every obstacle in her path. *(Adjective: absolute)*
-3. The bride wore a **sheer** veil that shimmered softly in the sunlight. *(Adjective: translucent)*
-4. The ship had to **sheer** away from the rocks to avoid collision. *(Verb: turn sharply)*
-
-_Word Form Examples_
-1. **Sheerly**:
-   - His success was **sheerly** due to his relentless hard work and dedication. *(Adverb: purely)*
-   - ***Synonyms***: utterly, completely, entirely, absolutely, wholly
-2. **Sheerness**:
-   - The **sheerness** of the fabric made it unsuitable for formal occasions. *(Noun: transparency)*
-   - ***Synonyms***: fineness, delicacy, translucence, purity
-
-=====
-### SHENANIGAN
-
-@@  
-**Noun** | हिंदी: शरारत, चालबाजी, धोखाधड़ी :
-
-1. **(Plural: Shenanigans)** Mischievous or playful activities, often intended to amuse.
-2. Deceptive or dishonest behavior, typically involving trickery or manipulation.
-
-- ***Synonyms***: mischief, pranks, antics, trickery, deceit, fraud
-- ***Antonyms***: honesty, seriousness, integrity, sincerity, truthfulness
-
-_Examples_
-
-1. The kids were up to their usual **shenanigans**, hiding behind the couch and giggling. _(Noun: playful mischief)_
-2. The company’s financial **shenanigans** led to a major scandal. _(Noun: deceitful or fraudulent behavior)_
-
-_Word Form Examples_
-
-Shenanigan is almost always used in its plural form (**shenanigans**), as singular usage is rare.
-
-=====
-
-
-### SHORTFALL  
-@@  
-**Noun** | हिंदी: कमी, घाटा :  
-1. A deficit or insufficiency in the amount required or expected.  
-2. The failure to meet a target, goal, or obligation, often financial or quantitative.  
-
-- ***Synonyms***: deficit, shortage, inadequacy, scarcity, insufficiency, lack, gap  
-- ***Antonyms***: surplus, excess, abundance, sufficiency, adequacy  
-
-_Examples_  
-1. The company faced a **shortfall** in revenue due to unexpected market fluctuations. *(Noun: financial deficit)*  
-2. There was a **shortfall** of volunteers for the community event. *(Noun: insufficient numbers)*  
-3. The project couldn't be completed on time because of a **shortfall** in resources. *(Noun: lack of materials)*  
-
-_Word Form Examples_  
-1. **Shortfalls**:  
-   - Despite careful planning, the organization encountered several **shortfalls** during the fiscal year. *(Noun: plural form, multiple deficits)*  
-   - ***Synonyms***: deficits, shortages, scarcities, gaps  
-
-=====
-### SHREWD
-
-@@  
-**Adjective** | हिंदी: चतुर, होशियार : Having or showing sharp judgment and common sense; being clever and astute, especially in practical matters.
-
-- ***Synonyms***: astute, clever, sharp, perceptive, insightful, canny
-- ***Antonyms***: naive, foolish, gullible, unperceptive, slow-witted
-
-_Examples_
-
-1. The **shrewd** investor made a fortune by predicting the market trends accurately. _(Adjective: sharp or perceptive in judgment)_
-2. Her **shrewd** decision to save money during the recession helped her avoid financial difficulties. _(Adjective: showing good judgment and practical wisdom)_
-
-_Word Form Examples_
-
-1. **Shrewdly** (Adverb):
-    
-    - He **shrewdly** negotiated the deal, ensuring the best terms for his company. _(Adverb: in a clever or perceptive manner)_
-    - ***Synonyms***: cleverly, astutely, wisely, perceptively
-
-=====
-
-### SHRILL
-
-@@  
-**Adjective/Noun** | हिंदी: तीव्र, तेज़, कर्कश : A high-pitched and piercing sound, often unpleasantly intense.
-
-1. Adjective: Describing a sound that is high-pitched, sharp, and unpleasant.
-2. Noun: A sharp, high-pitched sound or voice.
-
-- ***Synonyms***: piercing, shrieking, high-pitched, screeching, ear-piercing
-- ***Antonyms***: soft, low, mellow, muted, deep
-
-_Examples_
-
-1. The **shrill** sound of the alarm woke everyone in the building. _(Adjective: high-pitched and unpleasant)_
-2. Her **shrill** voice could be heard from across the room. _(Adjective: sharp and piercing)_
-
-_Word Form Examples_
-
-1. The **shrillness** of the whistle could be heard throughout the stadium. _(Noun: the quality of being high-pitched and sharp)_
-2. He let out a **shrill** cry when he saw the spider. _(Adjective: sharp, intense sound)_
-
-=====
-
-
-### SHUDDER  
-@@  
-**Verb, Noun** | हिंदी: कांपना, थरथराना :  
-1. (Verb) To shake involuntarily, often as a result of fear, cold, or revulsion.  
-2. (Noun) A sudden, involuntary shaking movement, typically caused by fear, horror, or disgust.  
-- ***Synonyms***: tremble, shiver, quake, quiver, recoil, flinch  
-- ***Antonyms***: steady, calm, still, stabilize, compose  
-_Examples_  
-1. She felt a **shudder** run down her spine as the eerie music played in the background. *(Noun: involuntary shaking)*  
-2. He **shuddered** at the thought of encountering the ghostly figure in the dark hallway. *(Verb: to shake involuntarily)*  
-
-_Word Form Examples_  
-1. **Shuddering**:  
-   - The **shuddering** child wrapped herself in a blanket to ward off the chill. *(Adjective: trembling)*  
-   - ***Synonyms***: trembling, shivering, quaking, quivering, shaking  
-2. **Shuddered**:  
-   - The entire building **shuddered** during the earthquake, causing panic among the residents. *(Verb: past tense, shook violently)*  
-   - ***Synonyms***: trembled, quaked, vibrated, jolted, convulsed  
-
-=====
 ### SHUN
-@@  
-**Verb** | हिंदी: टालना, अलग करना :  
-1. To deliberately avoid or keep away from someone or something, often due to disapproval or fear.
-2. To reject or refuse to accept something or someone.
-
-- ***Synonyms***: avoid, evade, dodge, reject, spurn, ostracize, eschew
-- ***Antonyms***: embrace, accept, welcome, include, confront
+@@
+**Verb** | हिंदी: टालना, बचना, दूर रहना : To persistently avoid, ignore, or reject (someone or something) through antipathy or caution.
+- ***Synonyms***: avoid, evade, eschew, reject, ignore, ostracize
+- ***Antonyms***: welcome, embrace, accept, seek, pursue, court
 
 _Examples_
-1. The villagers decided to **shun** the outsider who had brought trouble to their community. *(Verb: avoid socially)*
-2. Many people try to **shun** unhealthy habits like smoking and excessive drinking. *(Verb: avoid behavior)*
-3. She was **shunned** by her peers after speaking out against the group's unethical practices. *(Verb: rejected)*
+1. After the scandal, his former colleagues began to **shun** him. *(Verb: avoid someone)*
+2. He **shuns** violence and always seeks peaceful solutions. *(Verb: avoid something)*
+3. She decided to **shun** the temptations of city life and move to the countryside. *(Verb: reject deliberately)*
 
 _Word Form Examples_
-1. **Shunning**:
-   - The celebrity faced **shunning** from the industry after a public scandal. *(Noun/Verb: act of avoiding)*
-   - ***Synonyms***: avoidance, rejection, exclusion, ostracism, evasion
-2. **Shunned**:
-   - The controversial book was **shunned** by critics and readers alike. *(Adjective: avoided)*
-   - ***Synonyms***: rejected, avoided, excluded, boycotted, spurned
-
-=====
-
-### SICKLE  
-@@  
-**Noun** | हिंदी: दराँती, सिकल :  
-1. A farming tool with a curved blade used for cutting grass, crops, or other vegetation.  
-2. A symbol or representation of agricultural labor, often associated with rural life or historical contexts.  
-
-- ***Synonyms***: scythe, reaping hook, pruning hook *(for farming tool)*; emblem, symbol *(for symbolic meaning)*  
-- ***Antonyms***: modern machinery, harvester *(for farming tool)*  
-
-_Examples_  
-1. The farmer used a **sickle** to harvest the wheat in his small field. *(Noun: farming tool)*  
-2. The **sickle** and hammer emblem is often associated with agricultural and industrial unity. *(Noun: symbol)*  
-
-_Word Form Examples_  
-1. **Sickled**:  
-   - The artist carved a **sickled** shape into the wooden sculpture to represent harvest time. *(Adjective: shaped like a sickle)*  
-   - ***Synonyms***: curved, crescent-shaped, hooked, bent  
-2. **Sickle-shaped**:  
-   - The red blood cells in sickle cell anemia are **sickle-shaped**, causing blockages in blood vessels. *(Adjective: resembling a sickle)*  
-   - ***Synonyms***: crescent-like, curved, hooked, arc-shaped  
-
-=====
-
-### SIDESTEP
-
-@@  
-**Verb** | हिंदी: टालना, चकमा देना :
-
-1. To avoid or evade a question, issue, or responsibility by avoiding direct engagement.
-2. To physically step to one side to avoid an obstacle or to redirect one’s movement.
-
-**Noun** | हिंदी: टालना, किनारे का कदम :
-
-1. A maneuver or action to avoid something, often used figuratively to describe avoiding a challenge, responsibility, or difficult situation.
-2. A physical movement where someone steps aside to avoid something or someone.
-
-- ***Synonyms***: avoid, evade, bypass, deflect, dodge, elude
-- ***Antonyms***: confront, face, address, engage
-
-_Examples_
-
-1. The politician **sidestepped** the tough question by changing the subject. _(Verb: to avoid or evade)_
-2. She **sidestepped** the puddle to keep her shoes dry. _(Verb: to physically move aside)_
-3. His attempt to **sidestep** his duties caused frustration among the team members. _(Verb: to avoid responsibility)_
-4. The boxer **sidestepped** the punch with swift footwork. _(Verb: to avoid an attack physically)_
-
-_Word Form Examples_
-
-1. **Sidestepped**:
-    
-    - The manager **sidestepped** the issue during the meeting. _(Adjective: having avoided a topic or situation)_
-    - _***Synonyms***:_ avoided, evaded, bypassed
-2. **Sidestepping**:
-    
-    - He kept **sidestepping** the issue of the budget deficit in his speech. _(Verb: actively avoiding or evading)_
-    - _***Synonyms***:_ avoiding, evading, dodging
-3. **Sidestep** (Noun):
-    
-    - The sudden **sidestep** allowed him to escape the oncoming car. _(Noun: a physical movement to avoid something)_
-    - _***Synonyms***:_ dodge, evasion, avoidance
+1. **SHUNNED**: 🌟
+   - The outcast was **shunned** by the entire village. *(Verb: past tense/past participle)*
+   - ***Synonyms***: avoided, ignored, rejected, ostracized, excluded, spurned
+2. **SHUNNING**: 🌟
+   - **Shunning** his responsibilities led to his downfall. *(Gerund: the act of avoiding)*
+   - They are **shunning** any contact with the media. *(Verb: present participle)*
+   - ***Synonyms***: avoiding, ignoring, rejecting, evading, eschewing, ostracizing
 
 =====
 
 ### SIEGE
-@@  
-**Noun, Verb** | हिंदी: घेराबंदी : 
-1. (Noun) A military operation in which enemy forces surround a town or building, cutting off essential supplies, to force surrender.
-2. (Noun) A prolonged period of difficulty or misfortune.
-3. (Verb) To lay siege to a place or subject someone to a siege.
-
-- ***Synonyms***: blockade, encirclement, besiegement, assault, onslaught
-- ***Antonyms***: liberation, retreat, freedom, release, relief
-
-_Examples_
-1. The castle endured a long **siege** before finally surrendering to the enemy. _(Noun: military operation)_
-2. The city faced a **siege** of economic problems after the factory closures. _(Noun: prolonged difficulty)_
-3. The army decided to **siege** the fortress to weaken the enemy's defenses. _(Verb: to lay siege)_
-
-_Word Form Examples_
-1. **Besiege**:
-	- The protesters **besieged** the government building, demanding immediate action. _(Verb: to surround or harass)_
-	- ***Synonyms***: surround, blockade, harass, assail, overwhelm
-2. **Siegecraft**:
-	- The general's expertise in **siegecraft** ensured the successful capture of the fortified city. _(Noun: the art of conducting sieges)_
-	- ***Synonyms***: military strategy, tactics, warfare, encirclement techniques
-
-=====
-### SIGNATORY  
-@@  
-**Noun** | हिंदी: हस्ताक्षरकर्ता, संधि पर हस्ताक्षर करने वाला :  
-1. A party (such as a person, organization, or country) that has signed an agreement, contract, or treaty and is bound by its terms.  
-2. Refers to the act of being a signatory or the state of having signed a formal document.  
-**Adjective** | हिंदी: हस्ताक्षर-संबंधी :  
-1. Relating to or characteristic of a signatory; describing someone or something that has signed a formal agreement.  
-- ***Synonyms* (Noun):** signer, party, participant, contractor, undersigner  
-- ***Synonyms* (Adjective):** contractual, binding, official, formal  
-- ***Antonyms***: non-signer, dissenter, opponent, rejecter  
+@@
+**Noun, Verb** | हिंदी: घेराबंदी :  
+1. A military operation in which enemy forces surround a place to cut off essential supplies and force surrender. *(Noun)*  
+2. To surround or overwhelm someone or something with persistent pressure or demands. *(Verb)*  
+- ***Synonyms***: blockade, encirclement, assault *(Noun: military context)*; overwhelm, besiege, harass *(Verb)*  
+- ***Antonyms***: retreat, withdrawal, surrender *(Noun: military context)*; release, relieve, abandon *(Verb)*  
 
 _Examples_  
-1. All **signatories** to the Paris Agreement are required to submit plans for reducing carbon emissions. *(Noun: party to an agreement)*  
-2. The document was ratified only after all **signatory** nations had approved its terms. *(Adjective: related to signing)*  
+1. The city endured a long **siege** during the war, leaving its residents without food or water. *(Noun: military operation)*  
+2. The politician was under **siege** from reporters demanding answers about the scandal. *(Verb: overwhelming pressure)*  
 
 _Word Form Examples_  
-1. **Signator**:  
-   - Each **signator** of the treaty committed to upholding its principles. *(Noun: less common synonym for signatory)*  
-   - ***Synonyms***: signer, contractor, participant  
-2. **Sign**:  
-   - The president will **sign** the bill into law during a formal ceremony tomorrow. *(Verb: to affix one’s signature)*  
-   - ***Synonyms***: endorse, authorize, approve, ratify  
+1. **SIEGED**: 🌟  
+   - The castle remained **sieged** for months until reinforcements arrived. *(Adjective: under siege)*  
+   - ***Synonyms***: surrounded, encircled, beleaguered, blockaded  
+2. **SIEGING**:  
+   - The troops were still **sieging** the fortress, hoping for a quick victory. *(Gerund: act of surrounding)*  
+   - ***Synonyms***: assaulting, attacking, bombarding, encircling  
+3. **BESIEGE**:  
+   - Protesters threatened to **besiege** the government building until their demands were met. *(Verb: surround with pressure)*  
+   - ***Synonyms***: overwhelm, harass, inundate, assail  
 
 =====
-### SILOS
-@@  
-**Noun, Verb** | हिंदी: अनाज भंडार, अलग-थलग करना : 
-1. (Noun) Tall towers or pits used for storing grain, fodder, or other materials.
-2. (Noun) Isolated departments or groups within an organization that do not share information or collaborate.
-3. (Verb) To isolate or separate into distinct groups or departments.
 
-- ***Synonyms***: (Noun) storage towers, compartments, divisions, (Verb) isolate, separate, compartmentalize
-- ***Antonyms***: (Noun) integration, collaboration, unity, (Verb) integrate, unite, combine
+### SIMMER
+@@
+**Verb, Noun** | हिंदी: उबालना (हल्का), धीमी आँच पर पकाना : 
+1. To cook gently just below boiling point; to heat slowly with small bubbles. *(Verb)*
+2. To be in a state of suppressed emotion or tension, often anger or excitement. *(Verb)*
+3. The act or process of simmering; a gentle, low-heat cooking method. *(Noun)*
+- ***Synonyms***: stew, poach, bubble *(Verb: cook)*; smolder, seethe, brew *(Verb: emotion)*; slow boil, gentle cook *(Noun)*
+- ***Antonyms***: boil, rage, erupt *(Verb: cook/emotion)*; cool, freeze *(Verb: cook)*; calm, peace *(Verb: emotion)*
 
 _Examples_
-1. The farm had several **silos** filled with corn and wheat. _(Noun: storage towers)_
-2. The company's departments were working in **silos**, leading to inefficiency. _(Noun: isolated groups)_
-3. The manager decided to **silo** the teams to focus on specific tasks. _(Verb: to isolate or separate)_
+1. She let the soup **simmer** on the stove for an hour to blend the flavors. *(Verb: cook gently)*
+2. His resentment continued to **simmer** beneath his calm exterior. *(Verb: suppressed emotion)*
+3. The recipe called for a long **simmer** to tenderize the meat. *(Noun: cooking process)*
+
 _Word Form Examples_
-1. **Siloed**:
-	- The data was **siloed** in different systems, making it hard to access. _(Verb: past tense of isolating or separating)_
-	- ***Synonyms***: isolated, separated, compartmentalized, divided, segregated
-2. **Siloing**:
-	- The practice of **siloing** information can hinder organizational progress. _(Verb: present participle of isolating or separating)_
-	- ***Synonyms***: isolating, separating, compartmentalizing, dividing, segregating
-
-=====
-### SINE QUA NON  
-@@  
-**Noun** | हिंदी: अनिवार्य तत्व :  
-1. An essential condition or requirement; something absolutely indispensable or necessary.  
-2. A Latin phrase meaning "without which not," often used in formal or academic contexts to emphasize the critical nature of a particular element.  
-
-- ***Synonyms***: necessity, essential, prerequisite, requirement, cornerstone, foundation, key element  
-- ***Antonyms***: optional, unnecessary, dispensable, superfluous, redundant  
-
-_Examples_  
-1. Trust is the **sine qua non** of any successful relationship. *(Noun: essential condition)*  
-2. For a democracy to function properly, free speech is a **sine qua non**. *(Noun: indispensable requirement)*  
-
-_Word Form Examples_  
-1. **Sine qua nons**:  
-   - The committee identified several **sine qua nons** for the project's success. *(Noun: plural form of sine qua non)*  
-   - ***Synonyms***: necessities, essentials, prerequisites, requirements  
+1. **SIMMERED**: 🌟
+   - The vegetables had **simmered** until they were perfectly soft. *(Adjective/Verb past tense: cooked gently)*
+   - ***Synonyms***: stewed, poached, bubbled, brewed
+2. **SIMMERING**: 🌟
+   - A **simmering** pot of broth filled the kitchen with a rich aroma. *(Gerund/Adjective: state of gentle cooking)*
+   - ***Synonyms***: bubbling, stewing, smoldering, seething
 
 =====
 
-### SINISTER  
-@@  
-**Adjective** | हिंदी: अभिशप्त, दुष्ट :  
-1. Giving the impression that something harmful or evil is happening or will happen; ominous or threatening.  
-2. Characterized by or indicating evil intent or wickedness; malevolent or malicious.  
-3. Historically, on the left side (from Latin "sinister," meaning "left").  
-
-- ***Synonyms***: ominous, foreboding, menacing, evil, malevolent, wicked, nefarious  
-- ***Antonyms***: benevolent, kind, harmless, reassuring, auspicious, favorable  
-
-_Examples_  
-1. The sinister clouds on the horizon suggested an approaching storm. *(Adjective: ominous)*  
-2. His sinister smile made her feel uneasy and distrustful. *(Adjective: malevolent)*  
-3. In medieval times, the left hand was often considered sinister and associated with bad luck. *(Adjective: historically referring to the left side)*  
-
-_Word Form Examples (if applicable)_  
-1. **Sinisterly**:  
-   - He stared at her sinisterly, as if plotting something evil. *(Adverb: in a manner that suggests evil intent)*  
-   - ***Synonyms***: ominously, menacingly, wickedly, malevolently  
-2. **Sinisterness**:  
-   - The sinisterness of his intentions became clear when he betrayed their trust. *(Noun: quality of being sinister)*  
-   - ***Synonyms***: malevolence, wickedness, evilness, foreboding  
-
-=====
-
-### SINUOUS
-
-@@  
-**Adjective** | हिंदी: घुमावदार, वक्र : Having many curves or turns; winding; intricate and complex.
-
-- ***Synonyms***: winding, twisting, serpentine, curved, meandering
-- ***Antonyms***: straight, direct, linear, unbending, rigid
+### SIN
+@@
+**Noun, Verb** | हिंदी: पाप :
+1. An immoral act considered to be a transgression against divine law or moral principles.*(Noun)*
+2. To commit an immoral act or transgress against divine law.*(Verb)*
+- ***Synonyms***: transgression, wrongdoing, offense, iniquity, vice *(Noun)*; transgress, err, trespass, offend, do wrong *(Verb)*
+- ***Antonyms***: virtue, righteousness, goodness, piety *(Noun)*; obey, behave virtuously, repent, atone *(Verb)*
 
 _Examples_
-
-1. The **sinuous** path through the forest made the hike more challenging. _(Adjective: winding)_
-2. The **sinuous** movements of the dancer captivated the audience. _(Adjective: intricate and graceful)_
+1. In many religions, envy is considered a cardinal **sin**. *(Noun: transgression against divine/moral law)*
+2. The priest urged the congregation not to **sin**. *(Verb: commit an immoral act)*
+3. It's considered a **sin** to waste resources needlessly. *(Noun: serious offense or fault)*
 
 _Word Form Examples_
-
-1. The river's **sinuosity** made navigation difficult for the boats. _(Noun: the quality of being winding)_
-2. The **sinuously** curved branches of the tree reached out in all directions. _(Adverb: in a winding manner)_
+1. **SINNED**: 🌟
+   - He confessed that he had **sinned** by stealing. *(Verb: past tense/past participle)*
+   - ***Synonyms***: transgressed, erred, trespassed, offended, wronged
+2. **SINNING**:
+   - He caught his son **sinning** against the house rules. *(Verb: present participle)*
+   - **Sinning** often leads to feelings of guilt. *(Gerund: the act of committing sin)*
+   - ***Synonyms***: transgressing, erring, offending, trespassing, wrongdoing
+3. **SINNER**: 🌟
+   - The church teaches forgiveness for the repentant **sinner**. *(Noun: a person who commits sin)*
+   - ***Synonyms***: wrongdoer, transgressor, offender, culprit, miscreant
+4. **SINFUL**: 🌟
+   - He regretted his **sinful** ways and sought redemption. *(Adjective: wicked or immoral; characterized by sin)*
+   - ***Synonyms***: wicked, immoral, ungodly, iniquitous, depraved, evil
+5. **SINFULLY**:
+   - He acted **sinfully** when he betrayed his friend's trust. *(Adverb: in a sinful manner)*
+   - ***Synonyms***: wickedly, immorally, wrongly, ungodly, improperly
+6. **SINLESS**:
+   - According to the scripture, the child was born **sinless**. *(Adjective: free from sin)*
+   - ***Synonyms***: pure, innocent, virtuous, righteous, immaculate, guiltless
 
 =====
 
-### SIPHON  
-@@  
-**Noun, Verb** | हिंदी: साइफन, नली से खींचना :  
-1. **(Noun)** A tube used to convey liquid upwards from a reservoir and then down to a lower level, using atmospheric pressure.  
-2. **(Verb)** To draw off or convey (liquid) using a siphon.  
-3. **(Verb, figurative)** To gradually remove or transfer something, especially resources or money, often in a way that is unfair or unauthorized.  
-
-- ***Synonyms***: (Noun) tube, pipe, hose; (Verb) drain, draw off, extract, channel, funnel  
-- ***Antonyms***: (Verb) fill, pour, add, replenish  
+### SINCERE
+@@
+**Adjective** | हिंदी: ईमानदार, अनुरक्त :  
+1. Free from pretense, deceit, or hypocrisy; genuine in feelings or intentions. *(Adjective)*  
+2. Showing earnestness and honesty in expressing one's emotions or opinions. *(Adjective)*  
+- ***Synonyms***: genuine, heartfelt, authentic, honest, truthful, earnest  
+- ***Antonyms***: insincere, deceitful, hypocritical, dishonest, fake, superficial  
 
 _Examples_  
-1. He used a **siphon** to transfer gasoline from the car’s tank to a container. *(Noun: a tube for transferring liquid)*  
-2. The farmer **siphoned** water from the pond to irrigate his fields. *(Verb: to draw off liquid)*  
-3. Corrupt officials were accused of **siphoning** funds from the public treasury. *(Verb: to transfer unfairly or illegally)*  
+1. She wrote a **sincere** letter of apology to her friend after their argument. *(Adjective: genuine)*  
+2. His **sincere** gratitude moved everyone at the award ceremony. *(Adjective: heartfelt)*  
 
 _Word Form Examples_  
-1. **Siphoning**:  
-   - The process of **siphoning** oil from the tanker required precision. *(Verb: present participle form of siphon)*  
-   - ***Synonyms***: draining, extracting, channeling, funneling  
-2. **Siphoned**:  
-   - The liquid was **siphoned** into a separate container for testing. *(Verb: past tense of siphon)*  
-   - ***Synonyms***: drained, drawn off, extracted, transferred  
+1. **SINCERELY**: 🌟  
+   - I **sincerely** hope you find happiness in your new journey. *(Adverb: genuinely)*  
+   - ***Synonyms***: honestly, earnestly, truthfully, genuinely, wholeheartedly  
+2. **SINCERITY**:  
+   - The manager appreciated the employee's **sincerity** during the feedback session. *(Noun: quality of being sincere)*  
+   - ***Synonyms***: genuineness, honesty, authenticity, candor, earnestness  
 
 =====
+
 ### SKEW
-@@  
-**Verb, Adjective, Noun** | हिंदी: तिरछा, विषम : 
-1. (Verb) To change or cause to change direction abruptly; to distort or bias.
-2. (Adjective) Neither parallel nor at a right angle; slanting.
-3. (Noun) A bias or distortion in perception or interpretation.
-
-- ***Synonyms***: (Verb) distort, slant, twist, bias; (Adjective) slanted, oblique, tilted; (Noun) bias, distortion, slant
-- ***Antonyms***: (Verb) straighten, align; (Adjective) straight, parallel; (Noun) fairness, impartiality
+@@
+**Verb, Adjective, Noun** | हिंदी: तिरछा करना, विकृत करना : 
+1. To twist, distort, or turn aside from a straight or true course; to bias or slant. *(Verb)*
+2. Not straight or aligned; slanted or off-center. *(Adjective)*
+3. A slant, bias, or deviation from symmetry or accuracy. *(Noun)*
+- ***Synonyms***: distort, twist, slant *(Verb)*; crooked, tilted, uneven *(Adjective)*; bias, tilt, angle *(Noun)*
+- ***Antonyms***: straighten, align, balance *(Verb)*; straight, even, level *(Adjective)*; symmetry, fairness, accuracy *(Noun)*
 
 _Examples_
-1. The data was **skewed** due to the inclusion of outliers, leading to incorrect conclusions. _(Verb: to distort or bias)_
-2. The picture on the wall was **skew**, so she adjusted it to make it straight. _(Adjective: slanting)_
-3. There was a noticeable **skew** in the survey results, indicating a possible bias in the sampling method. _(Noun: a bias or distortion)_
+1. The artist chose to **skew** the perspective to create a dramatic effect. *(Verb: distort)*
+2. The picture hung on a **skew** angle, making it look odd. *(Adjective: slanted)*
+3. The data showed a **skew** toward younger participants in the survey. *(Noun: bias)*
 
 _Word Form Examples_
-1. **Skewed**:
-	- The journalist argued that the report was **skewed** to favor a particular political agenda. _(Verb: past tense of skew, meaning to distort or bias)_
-	- ***Synonyms***: distorted, biased, slanted, twisted
-2. **Skewing**:
-	- The media's focus on sensational stories is **skewing** public perception of important issues. _(Verb: present participle of skew, meaning to distort or bias)_
-	- ***Synonyms***: distorting, biasing, slanting, twisting
-3. **Skewness**:
-	- The **skewness** of the data distribution indicated that most values were concentrated on one side. _(Noun: the quality of being skewed or distorted)_
-	- ***Synonyms***: asymmetry, distortion, bias, lopsidedness
+1. **SKEWED**: 🌟
+   - The results were **skewed** by an unrepresentative sample. *(Adjective/Verb past tense: distorted)*
+   - ***Synonyms***: slanted, twisted, biased, warped
+2. **SKEWING**:
+   - The media was accused of **skewing** the facts to fit their narrative. *(Gerund: act of distorting)*
+   - ***Synonyms***: distorting, slanting, twisting, tilting
+3. **SKEWNESS**:
+   - The **skewness** of the distribution indicated an asymmetry in the data. *(Noun: quality of being skewed)*
+   - ***Synonyms***: asymmetry, bias, slant, imbalance
 
 =====
+
 ### SKIRMISH
-@@  
-**Noun, Verb** | हिंदी: झड़प, मुठभेड़ :  
-1. **(Noun)** A minor or brief battle or fight, often between small groups.
-2. **(Noun)** A short argument or disagreement.
-3. **(Verb)** To engage in a minor or brief fight or argument.
-
-- ***Synonyms***: **(Noun)** clash, scuffle, encounter, tussle, fracas  
-  **(Verb)** clash, scuffle, tussle, spar, bicker
-- ***Antonyms***: **(Noun)** peace, truce, agreement, harmony, accord  
-  **(Verb)** agree, harmonize, reconcile, concur
+@@
+**Noun, Verb** | हिंदी: झड़प, मुठभेड़, कहासुनी :
+1. An episode of irregular or unpremeditated fighting, typically between small or outlying parts of armies or fleets.*(Noun)*
+2. A minor argument or dispute.*(Noun)*
+3. To engage in a minor fight or dispute.*(Verb)*
+- ***Synonyms***: clash, fight, encounter, conflict, tussle, scrap *(Noun: fight)*; dispute, argument, spat, tiff *(Noun: argument)*; clash, fight, battle, tussle, spar *(Verb)*
+- ***Antonyms***: truce, peace, accord, ceasefire *(Noun: fight)*; agreement, harmony, accord *(Noun: argument)*; agree, concur, make peace, retreat *(Verb)*
 
 _Examples_
-1. The soldiers had a brief **skirmish** at the border before retreating. _(Noun: minor battle)_
-2. A **skirmish** broke out between the rival fans after the match. _(Noun: brief fight)_
-3. The politicians **skirmished** over the details of the policy during the debate. _(Verb: to engage in a minor argument)_
-4. The two teams **skirmished** for control of the ball, but neither gained an advantage. _(Verb: to engage in a brief struggle)_
+1. A brief **skirmish** broke out between the rival patrols near the border. *(Noun: small fight)*
+2. They got into a **skirmish** over who should pay the bill. *(Noun: minor dispute)*
+3. The troops began to **skirmish** with the enemy scouts shortly after dawn. *(Verb: engage in a fight)*
+4. The politicians continued to **skirmish** over the details of the new bill. *(Verb: engage in a dispute)*
 
 _Word Form Examples_
-1. **Skirmisher**:
-	- The **skirmishers** were sent ahead to scout the enemy’s position. _(Noun: a soldier or fighter engaged in minor battles)_
-	- ***Synonyms***: scout, raider, fighter, combatant
-2. **Skirmishing**:
-	- The **skirmishing** between the two factions continued for weeks without a clear winner. _(Noun: the act of engaging in minor battles or arguments)_
-	- ***Synonyms***: clashing, scuffling, tussling, sparring
-
-=====
-### SKULLDUGGERY  
-@@  
-**Noun** | हिंदी: षड़यंत्र, चालाकी :  
-1. Underhanded, dishonest, or unscrupulous behavior, often involving deceit or trickery.  
-2. A crafty or cunning act intended to deceive or manipulate others for personal gain.  
-
-- ***Synonyms***: trickery, deceit, duplicity, chicanery, subterfuge, machination, fraud  
-- ***Antonyms***: honesty, integrity, transparency, fairness, straightforwardness  
-
-_Examples_  
-1. The politician was accused of engaging in **skulduggery** to win the election. *(Noun: underhanded behavior)*  
-2. The company's financial records revealed years of **skulduggery** and corruption. *(Noun: deceitful practices)*  
-
-_Word Form Examples_  
-1. **Skullduggeries**:  
-   - The investigation uncovered multiple **skullduggeries** within the organization. *(Noun: plural form, referring to multiple deceitful acts)*  
-   - ***Synonyms***: tricks, schemes, deceptions, machinations  
-2. **Skullduggerous**: *(Rare/Constructed)*  
-   - His **skullduggerous** tactics made it difficult to trust his intentions. *(Adjective: characterized by deceit or trickery)*  
-   - ***Synonyms***: deceitful, duplicitous, cunning, fraudulent  
+1. **SKIRMISHED**: 🌟
+   - The advance guard **skirmished** briefly with enemy forces before falling back. *(Verb: past tense)*
+   - ***Synonyms***: clashed, fought, battled, contended, tussled
+2. **SKIRMISHING**: 🌟
+   - Constant **skirmishing** along the front lines kept the soldiers on edge. *(Noun/Gerund: the act of fighting small battles)*
+   - The two debaters were **skirmishing** verbally throughout the event. *(Verb: present participle)*
+   - ***Synonyms***: fighting, clashing, battling, contending, sparring, wrangling
+3. **SKIRMISHER**:
+   - The **skirmishers** were sent ahead to probe the enemy's defenses. *(Noun: a soldier deployed for skirmishing)*
+   - ***Synonyms***: scout, outrider, advance guard, fighter
 
 =====
 
-### SKYROCKET
+### SLACK
 @@
-**Verb, Noun** | हिंदी: आसमान छूना, तेजी से बढ़ना : To rise or increase very steeply and rapidly; a type of firework that rises high in the sky before exploding
+**Noun, Adjective, Verb** | हिंदी: ढीला, बेकार : 
+1. The state of being relaxed or not strict; lack of tension or effort. *(Noun)*
+2. Not taut, firm, or rigid; loose or relaxed. *(Adjective)*
+3. To reduce intensity or effort; to become less active or diligent. *(Verb)*
+- ***Synonyms***: looseness, laxity, negligence *(Noun)*; loose, slackened, relaxed *(Adjective)*; relax, ease, slow down *(Verb)*
+- ***Antonyms***: tightness, strictness, diligence *(Noun)*; taut, firm, rigid *(Adjective)*; intensify, hasten, tighten *(Verb)*
 
-- ***Synonyms***: soar, surge, shoot up, rocket, multiply
-- ***Antonyms***: plummet, plunge, nosedive, crash, decline
+_Examples_
+1. The rope had too much **slack**, causing the load to shift dangerously. *(Noun: looseness)*
+2. She kept a **slack** schedule during her vacation to fully unwind. *(Adjective: relaxed)*
+3. Workers tend to **slack** off when their supervisor isn’t around. *(Verb: reduce effort)*
 
-*Examples*
-1. Housing prices began to **skyrocket** in the coastal cities last year. *(Verb: increase rapidly)*
-2. The company's stock value continued to **skyrocket** after the successful product launch. *(Verb: rise sharply)*
-3. Children watched in awe as the **skyrocket** burst into colorful sparks overhead. *(Noun: firework)*
-
-*Word Forms*
-1. **Skyrocketed**:
-   - Oil prices have **skyrocketed** since the international crisis began. *(Past tense verb)*
-   - ***Synonyms***: soared, surged, jumped, escalated
-
-2. **Skyrocketing**:
-   - The **skyrocketing** inflation rate has become a major economic concern. *(Present participle/Adjective)*
-   - Consumers are worried about **skyrocketing** food prices. *(Adjective)*
-   - ***Synonyms***: rising rapidly, soaring, climbing steeply
-
-=====
-
-### SLACK  
-@@  
-**Adjective, Noun, Verb** | हिंदी: ढीला, शिथिल :  
-1. Not taut, firm, or tight; loose or relaxed. *(Adjective)*  
-2. A state of inactivity or laziness; lack of effort or diligence. *(Noun)*  
-3. To reduce intensity or effort; to become less active or diligent. *(Verb)*  
-4. Extra material or space, especially in a rope or fabric, that is not stretched tight. *(Noun)*  
-
-- ***Synonyms***: loose, lax, lazy, idle, negligent *(Adjective/Noun)*; relax, ease, slacken *(Verb)*  
-- ***Antonyms***: taut, tight, diligent, active, industrious *(Adjective/Verb)*  
-
-_Examples_  
-1. The **slack** rope made it difficult to secure the boat properly. *(Adjective: not taut)*  
-2. He was reprimanded for his **slack** attitude toward completing the project on time. *(Noun: laziness/inactivity)*  
-3. After hours of intense work, she decided to **slack** off and take a short break. *(Verb: reduce effort)*  
-
-_Word Form Examples_  
-1. **Slackened**:  
-   - The tension in the room **slackened** after the announcement of good news. *(Verb: past tense, relax/ease)*  
-   - ***Synonyms***: loosened, relaxed, eased, abated  
-2. **Slacker**:  
-   - His reputation as a **slacker** made it hard for him to find consistent employment. *(Noun: lazy person)*  
-   - ***Synonyms***: idler, loafer, procrastinator, shirker  
-3. **Slackly**:  
-   - The knot was tied too **slackly**, causing the load to shift during transport. *(Adverb: loosely)*  
-   - ***Synonyms***: loosely, carelessly, negligently, indolently  
+_Word Form Examples_
+1. **SLACKENED**: 🌟
+   - The storm's winds had **slackened** by morning, allowing cleanup to begin. *(Adjective: reduced in intensity)*
+   - ***Synonyms***: weakened, eased, diminished, abated
+2. **SLACKENING**:
+   - The **slackening** of demand led to a drop in prices. *(Gerund: the act of reducing intensity)*
+   - ***Synonyms***: easing, weakening, diminishing, subsiding
+3. **SLACKER**: 
+   - The team leader identified the **slacker** who wasn’t pulling their weight. *(Noun: a lazy or negligent person)*
+   - ***Synonyms***: loafer, idler, shirker, procrastinator
+4. **SLACKNESS**:  
+   - The project failed due to the **slackness** of the team members. *(Noun: lack of diligence or firmness)*
+   - ***Synonyms***: laziness, negligence, laxity, looseness
 
 =====
+
 ### SLANDER
-
 @@
-**Noun/Verb** | हिंदी: बदनामी, मानहानि (N) / बदनाम करना (V) : 
-
-As Noun: A false spoken statement that damages a person's reputation
-As Verb: To make false and damaging statements about someone
-
-- ***Synonyms***: (N) defamation, calumny, libel | (V) defame, malign, disparage, vilify
-- ***Antonyms***: (N) praise, commendation | (V) praise, compliment, acclaim
+**Noun, Verb** | हिंदी: निंदा, बदनामी करना : 
+1. A false spoken statement that damages a person's reputation. *(Noun)*
+2. To make a false spoken statement that harms someone's reputation. *(Verb)*
+- ***Synonyms***: defamation, libel, smear *(Noun)*; defame, malign, vilify *(Verb)*
+- ***Antonyms***: praise, commendation, compliment *(Noun)*; praise, honor, laud *(Verb)*
 
 _Examples_
-
-1. He filed a lawsuit for **slander** after false accusations were spread about him. _(Noun)_
-2. The politician tried to **slander** his opponent during the campaign. _(Verb)_
-3. Spreading **slander** about colleagues can result in disciplinary action. _(Noun)_
-4. She refused to **slander** her former employer despite their disagreements. _(Verb)_
+1. The politician filed a lawsuit over the **slander** that ruined his public image. *(Noun: defamation)*
+2. She was accused of trying to **slander** her rival with baseless rumors. *(Verb: defame)*
 
 _Word Form Examples_
-
-1. **Slandered** (past tense/adjective):
-        - The **slandered** businessman worked hard to restore his reputation. _(Adjective)_
-        - ***Synonyms***: defamed, maligned, disparaged
-
-2. **Slanderous** (adjective):
-        - The newspaper published **slanderous** remarks about the celebrity. _(Adjective)_
-        - ***Synonyms***: defamatory, libelous, malicious
-
-3. **Slanderously** (adverb):
-        - He spoke **slanderously** about his rivals during the meeting. _(Adverb)_
-        - ***Synonyms***: defamatorily, maliciously
-
-4. **Slanderer** (noun):
-        - The **slanderer** was forced to make a public apology. _(Noun)_
-        - ***Synonyms***: defamer, maligner, traducer
+1. **SLANDERED**: 🌟
+   - He felt humiliated after being **slandered** in front of his colleagues. *(Adjective: having been defamed)*
+   - ***Synonyms***: defamed, maligned, vilified, smeared
+2. **SLANDERING**:
+   - The act of **slandering** someone can lead to serious legal consequences. *(Gerund: the act of defaming)*
+   - ***Synonyms***: defaming, maligning, smearing, vilifying
+3. **SLANDERER**:
+   - The **slanderer** was ordered to pay damages for spreading lies. *(Noun: a person who defames)*
+   - ***Synonyms***: defamer, maligner, vilifier, accuser
+4. **SLANDEROUS**:
+   - Her **slanderous** remarks about the company sparked outrage. *(Adjective: defamatory)*
+   - ***Synonyms***: defamatory, libelous, malicious, derogatory
 
 =====
 
-### SLATE  
-@@  
-**Noun, Verb, Adjective** | हिंदी: स्लेट :  
-1. A fine-grained gray, green, or bluish metamorphic rock that splits easily into smooth, flat layers. (Noun)  
-2. A writing surface made of slate or a similar material, often used in schools. (Noun)  
-3. A list of candidates nominated by a political party for an election. (Noun)  
-4. To schedule or plan something for a particular time. (Verb)  
-5. Covered or coated with slate. (Adjective)  
-
-- ***Synonyms***: shale, board, agenda, plan, program, nominate  
-- ***Antonyms***: erase, cancel, unplanned, spontaneous  
-
-_Examples_  
-1. The teacher wrote the day’s lesson on the **slate** and asked the students to copy it. *(Noun: writing surface)*  
-2. The politician was included on the party’s **slate** for the upcoming election. *(Noun: list of candidates)*  
-3. The meeting has been **slated** for next Monday at 10 a.m. *(Verb: scheduled)*  
-4. The roof was made of dark gray **slate**, giving the house a traditional look. *(Noun: metamorphic rock)*  
-
-_Word Form Examples_  
-1. **Slated**:  
-   - The movie is **slated** for release in December. *(Adjective: planned or scheduled)*  
-   - ***Synonyms***: planned, scheduled, intended, designated  
-2. **Slating**:  
-   - The committee is **slating** several new policies for approval. *(Verb: planning or nominating)*  
-   - ***Synonyms***: scheduling, planning, proposing, nominating  
-3. **Slater**:  
-   - A **slater** was hired to repair the damaged roof tiles. *(Noun: a person who works with slate)*  
-   - ***Synonyms***: roofer, tiler, craftsman  
-4. **Slates**:  
-   - The classroom still uses old-fashioned **slates** instead of whiteboards. *(Noun: plural form of writing surfaces)*  
-   - ***Synonyms***: boards, tablets, panels  
-
-=====
-### SLAUGHTER  
-@@  
-**Noun, Verb** | हिंदी: वध करना, हत्या :  
-1. The killing of animals for food or the brutal killing of people. *(Noun)*  
-2. To kill animals for meat, typically in an organized or industrial manner. *(Verb)*  
-3. To kill violently or indiscriminately; often used metaphorically to describe overwhelming defeat. *(Verb)*  
-
-- ***Synonyms***: butchery, massacre, carnage, killing, extermination *(Noun/Verb)*  
-- ***Antonyms***: preservation, protection, life, survival, mercy *(Noun/Verb)*  
-
-_Examples_  
-1. The **slaughter** of cattle is conducted under strict hygiene regulations in modern abattoirs. *(Noun: killing of animals for food)*  
-2. The battlefield was a scene of horrific **slaughter**, with countless lives lost. *(Noun: violent killing of people)*  
-3. The opposing team completely **slaughtered** their rivals in the championship game. *(Verb: metaphorical use, meaning to dominate)*  
-
-_Word Form Examples_  
-1. **Slaughtered**:  
-   - Thousands of chickens were **slaughtered** to prevent the spread of the avian flu. *(Verb: past tense, killing animals)*  
-   - ***Synonyms***: butchered, killed, massacred, exterminated  
-2. **Slaughterer**:  
-   - The **slaughterer** followed ethical guidelines to ensure humane treatment of the animals. *(Noun: person who slaughters)*  
-   - ***Synonyms***: butcher, killer, executioner  
-3. **Slaughterhouse**:  
-   - The new **slaughterhouse** was equipped with advanced technology to improve efficiency and animal welfare. *(Noun: facility for slaughtering animals)*  
-   - ***Synonyms***: abattoir, meatpacking plant, butchery  
-
-=====
-### SLAVISH
-
-@@  
-**Adjective** | हिंदी: दास, गुलाम : Being overly submissive, servile, or lacking independence, often in a manner that is excessively obedient or unthinking.
-
-- ***Synonyms***: subservient, obedient, servile, docile, sycophantic
-- ***Antonyms***: independent, rebellious, free-spirited, autonomous, dominant
+### SLAUGHTER
+@@
+**Noun, Verb** | हिंदी: हत्या, बलि : 
+1. The act of killing, especially in a violent or brutal manner; the killing of animals for food. *(Noun)*
+2. To kill violently or brutally; to butcher animals for consumption. *(Verb)*
+- ***Synonyms***: massacre, carnage, butchery *(Noun)*; kill, butcher, slay *(Verb)*
+- ***Antonyms***: preservation, protection, rescue *(Noun)*; save, spare, protect *(Verb)*
 
 _Examples_
-
-1. His **slavish** devotion to his boss made him a target for exploitation. _(Adjective: overly submissive or dependent)_
-2. The **slavish** attention to detail in his work impressed the managers. _(Adjective: excessively attentive or meticulous)_
-3. She refused to live in a **slavish** routine and sought more freedom. _(Adjective: lacking freedom or independence)_
+1. The **slaughter** of innocent civilians during the war horrified the world. *(Noun: massacre)*
+2. The farmer decided to **slaughter** the cattle before winter set in. *(Verb: butcher)*
 
 _Word Form Examples_
-
-1. His **slavishness** toward his duties often resulted in overwork and burnout. _(Noun: excessive submission or devotion)_
-2. The **slavishly** obedient employee never questioned orders. _(Adverb: in an excessively submissive or obedient manner)_
-
-=====
-
-### SLENDER  
-@@  
-**Adjective** | हिंदी: पतला, सुडौल :  
-1. Gracefully thin or slim; having a delicate and attractive appearance.  
-2. Small in size, amount, or extent; meager or slight.  
-
-- ***Synonyms***: slim, thin, lean, delicate, graceful, petite *(physical appearance)*; meager, scanty, limited, modest *(size/amount)*  
-- ***Antonyms***: thick, bulky, stout, heavy, abundant, ample  
-
-_Examples_  
-1. She had a **slender** figure that made her look elegant in every outfit she wore. *(Adjective: gracefully thin)*  
-2. The chances of success were **slender**, but they decided to try anyway. *(Adjective: small in likelihood)*  
-3. The tree's **slender** branches swayed gently in the breeze. *(Adjective: thin and delicate)*  
-
-_Word Form Examples_  
-1. **Slenderly**:  
-   - The dancer moved **slenderly** across the stage, captivating the audience with her grace. *(Adverb: in a slim or graceful manner)*  
-   - ***Synonyms***: gracefully, delicately, elegantly, lightly  
-2. **Slenderness**:  
-   - The **slenderness** of the tower made it appear as though it might sway in strong winds. *(Noun: quality of being thin or delicate)*  
-   - ***Synonyms***: thinness, slimness, delicacy, elegance  
+1. **SLAUGHTERED**: 🌟
+   - Thousands of soldiers were **slaughtered** in the battle. *(Adjective: killed violently)*
+   - ***Synonyms***: massacred, butchered, slain, annihilated
+2. **SLAUGHTERING**:  
+   - The workers were trained in humane methods of **slaughtering** livestock. *(Gerund: the act of killing animals)*
+   - ***Synonyms***: butchering, killing, executing, sacrificing
+3. **SLAUGHTERHOUSE**:  
+   - The activists protested outside the **slaughterhouse**, demanding better conditions for animals. *(Noun: a place where animals are killed for food)*
+   - ***Synonyms***: abattoir, meatpacking plant, butcher shop
 
 =====
+
 ### SLEW
 @@
-**Noun, Verb** | हिंदी: बड़ी संख्या, मारना : 
-1. A large number or amount
-2. Past tense of slay; to kill violently
-3. To turn or rotate something
-
-- ***Synonyms***: multitude, heap, kill, rotate, turn
-- ***Antonyms***: few, spare, preserve, stabilize
-
-*Examples*
-1. A **slew** of complaints arrived at the customer service department. *(Noun: large number)*
-2. The warrior **slew** the dragon in ancient legend. *(Verb: killed)*
-3. The mechanic began to **slew** the crane around. *(Verb: rotate)*
-
-*Word Form Examples*
-1. **Slaying**:
-   - The hero was **slaying** monsters to protect the village. *(Verb: killing)*
-   - ***Synonyms***: killing, defeating, vanquishing
-
-=====
-
-### SLIPPAGE  
-@@  
-**Noun** | हिंदी: फिसलन, विचलन :  
-1. The act or process of slipping or sliding, often unintentionally. *(Noun)*  
-2. A decline or deviation from an expected or desired outcome. *(Noun)*  
-3. In finance, the difference between the expected price of a trade and the actual price at which it is executed. *(Noun)*  
-
-- ***Synonyms***: slide, skid, slip, lapse *(for meaning 1)*; deviation, shortfall, setback, discrepancy *(for meaning 2)*; variance, disparity *(for meaning 3)*  
-- ***Antonyms***: stability, firmness, precision, exactness *(for meanings 1 and 2)*  
-
-_Examples_  
-1. The hiker experienced a dangerous **slippage** on the icy trail. *(Noun: act of slipping)*  
-2. There was significant **slippage** in the project timeline due to unforeseen delays. *(Noun: deviation from plan)*  
-3. Traders often face **slippage** when executing large orders in volatile markets. *(Noun: financial context)*  
-
-_Word Form Examples (if applicable)_  
-1. **Slip**:  
-   - Be careful not to **slip** on the wet floor. *(Verb: to lose balance or footing)*  
-   - ***Synonyms***: slide, skid, stumble, falter  
-2. **Slippery**:  
-   - The road became **slippery** after the rainstorm. *(Adjective: causing slipping)*  
-   - ***Synonyms***: slick, smooth, treacherous, unstable  
-3. **Slipped**:  
-   - The deadline **slipped** because of unexpected technical issues. *(Verb: past tense, to deviate or be delayed)*  
-   - ***Synonyms***: missed, delayed, lapsed, erred  
-
-=====
-
-
-### SLUGGISH
-
-@@  
-**Adjective** | हिंदी: सुस्त, धीमा : Lacking energy, speed, or activity; moving or reacting slowly.
-
-1. Moving or performing at a slow pace.
-2. Lacking energy, vitality, or enthusiasm.
-3. Showing reduced activity, especially in economic or environmental contexts.
-
-- ***Synonyms***: slow, lethargic, inactive, listless, torpid, unenergetic
-- ***Antonyms***: energetic, active, lively, dynamic, brisk, vigorous
+**Verb, Noun** | हिंदी: घुमाना, बड़ी संख्या : 
+1. To turn or slide violently or uncontrollably, often referring to a vehicle or object. *(Verb)*
+2. A large number or quantity of something. *(Noun)*
+- ***Synonyms***: twist, skid, veer *(Verb)*; multitude, abundance, heap *(Noun)*
+- ***Antonyms***: straighten, align, steady *(Verb)*; few, scarcity, lack *(Noun)*
 
 _Examples_
-
-1. The hot weather made everyone feel **sluggish** and unwilling to work. _(Adjective: lacking energy or vitality)_
-2. After the heavy meal, his movements became **sluggish**, and he just wanted to rest. _(Adjective: slow-moving)_
-3. The economy has been **sluggish** this quarter, with minimal growth reported. _(Adjective: showing reduced activity)_
+1. The car **slew** across the icy road, narrowly avoiding a crash. *(Verb: skid violently)*
+2. A **slew** of complaints flooded the customer service desk after the outage. *(Noun: large number)*
 
 _Word Form Examples_
-
-1. **Sluggishly**:
-    
-    - The car moved **sluggishly** through the traffic due to engine trouble. _(Adverb: in a slow or lethargic manner)_
-    - ***Synonyms***: slowly, lethargically, listlessly
-2. **Sluggishness**:
-    
-    - The **sluggishness** of the response during the crisis raised concerns. _(Noun: the state of being slow or inactive)_
-    - ***Synonyms***: lethargy, inactivity, torpidity, laziness
+1. **SLEWED**: 🌟
+   - The truck **slewed** dangerously close to the edge of the cliff. *(Adjective: having skidded)*
+   - ***Synonyms***: skidded, veered, twisted, swerved
+2. **SLEWING**:
+   - The **slewing** motion of the crane made it hard to control. *(Gerund: the act of turning violently)*
+   - ***Synonyms***: twisting, veering, swerving, sliding
 
 =====
+
+### SLOTH
+@@
+**Noun** | हिंदी: आलस्य (laziness), एक प्रकार का जानवर (animal) :
+1. Reluctance to work or make an effort; laziness, indolence.
+2. A slow-moving tropical American mammal that hangs upside down from the branches of trees using its long limbs and hooked claws.
+- ***Synonyms***:
+    - *(Laziness)*: laziness, indolence, idleness, sluggishness, lethargy, inertia
+    - *(Animal)*: N/A (specific animal type)
+- ***Antonyms***:
+    - *(Laziness)*: diligence, industry, energy, activity, vigor, industriousness
+
+_Examples_
+1. Overcoming his natural **sloth**, he finally started working on the project. *(Noun: laziness)*
+2. The **sloth** is known for its extremely slow movement and spending most of its life in trees. *(Noun: animal)*
+
+_Word Form Examples_
+1.  **SLOTHFUL**: 🌟
+    - Despite his intelligence, his **slothful** habits prevented him from succeeding. *(Adjective: lazy)*
+    - ***Synonyms***: lazy, indolent, idle, inactive, sluggish, lethargic
+2.  **SLOTHFULLY**:
+    - He moved **slothfully** across the room, clearly unwilling to hurry. *(Adverb: in a lazy manner)*
+    - ***Synonyms***: lazily, indolently, sluggishly, lethargically, idly
+3.  **SLOTHFULNESS**:
+    - **Slothfulness** was considered one of the seven deadly sins. *(Noun: the quality of being lazy)*
+    - ***Synonyms***: laziness, indolence, idleness, inertia, sluggishness
+
+=====
+
+### SLOUCH
+@@
+**Verb, Noun** | हिंदी: झुकना, ढीला-ढाला बैठना : 
+1. To sit or stand in a lazy, drooping posture; to bend the body forward in a relaxed or careless manner. *(Verb)*
+2. A person who slouches or has a drooping posture; a lazy, awkward stance. *(Noun)*
+- ***Synonyms***: slump, sag, stoop, lounge *(Verb)*; hunch, droop, slacker *(Noun)*
+- ***Antonyms***: straighten, upright, erect, poised *(Verb)*; diligent, energetic *(Noun)*
+
+_Examples_
+1. He tends to **slouch** in his chair during long meetings. *(Verb: lazy posture)*
+2. His **slouch** made him appear uninterested in the conversation. *(Noun: lazy stance)*
+
+_Word Form Examples_
+1. **SLOUCHED**: 🌟
+   - After hours of studying, she was completely **slouched** over her desk. *(Adjective: bent lazily)*
+   - ***Synonyms***: stooped, sagged, lounged, collapsed
+2. **SLOUCHING**:  
+   - The teenager's constant **slouching** worried his parents about potential posture issues. *(Gerund: act of bending lazily)*
+   - ***Synonyms***: slumping, lounging, drooping, stooping
+
+=====
+
 ### SLUMP
-@@  
-**Noun, Verb** | हिंदी: मंदी, गिरावट : 
-1. (Noun) A sudden or prolonged fall in prices, values, or performance.
-2. (Noun) A period of poor performance or inactivity.
-3. (Verb) To fall or sink suddenly; to decline sharply.
-4. (Verb) To sit, stand, or move in a drooping or slouching manner.
-
-- ***Synonyms***: (Noun) decline, downturn, recession, drop; (Verb) collapse, droop, slouch, decline
-- ***Antonyms***: (Noun) rise, boom, growth; (Verb) rise, improve, straighten
+@@
+**Verb, Noun** | हिंदी: गिरावट, मंदी : 
+1. To fall or sink suddenly, often due to weakness, exhaustion, or lack of support. *(Verb)*
+2. A sudden or significant decline, especially in economic activity, performance, or value. *(Noun)*
+- ***Synonyms***: drop, collapse, sag *(Verb: fall)*; downturn, recession, decline *(Noun: decrease)*
+- ***Antonyms***: rise, recover, stand *(Verb: fall)*; boom, increase, surge *(Noun: decrease)*
 
 _Examples_
-1. The economy experienced a **slump** after the financial crisis, leading to widespread unemployment. _(Noun: a sudden or prolonged fall)_
-2. The team's performance has been in a **slump** for the past few games, with no wins recorded. _(Noun: a period of poor performance)_
-3. Sales **slumped** during the holiday season, much to the dismay of retailers. _(Verb: to decline sharply)_
-4. He **slumped** in his chair, exhausted after a long day at work. _(Verb: to sit or stand in a drooping manner)_
+1. After hours of standing, he began to **slump** against the wall from fatigue. *(Verb: sink physically)*
+2. The stock market experienced a **slump** after the unexpected news. *(Noun: economic decline)*
 
 _Word Form Examples_
-1. **Slumped**:
-	- She **slumped** onto the couch, too tired to move. _(Verb: past tense of slump, meaning to sit or stand in a drooping manner)_
-	- ***Synonyms***: collapsed, drooped, slouched
-2. **Slumping**:
-	- The market has been **slumping** for months, with no signs of recovery. _(Verb: present participle of slump, meaning to decline sharply)_
-	- ***Synonyms***: declining, dropping, falling
-3. **Slumpflation**:
-	- The country is facing **slumpflation**, with both economic stagnation and rising inflation. _(Noun: a situation where economic slump and inflation occur simultaneously)_
-	- ***Synonyms***: stagflation, economic downturn
+1. **SLUMPED**: 🌟
+   - She **slumped** into the chair, exhausted after the long day. *(Verb: past tense, sank suddenly)*
+   - ***Synonyms***: collapsed, drooped, sagged, fell
+2. **SLUMPING**:
+   - The **slumping** sales figures worried the company executives. *(Gerund/Adjective: ongoing decline)*
+   - ***Synonyms***: declining, dropping, sagging, falling
 
 =====
+
 ### SLUR
-
-@@  
-**Noun/Verb** | हिंदी: अपमान, बदनाम करना : An insulting or disparaging remark or action; to speak unclearly or insult someone.
-
-- ***Synonyms***: insult, smear, libel, disparagement
-- ***Antonyms***: praise, honor, respect, commendation
+@@
+**Verb, Noun** | हिंदी: बदनाम करना, धब्बा : 
+1. To speak unclearly or indistinctly; to pronounce words in a way that blurs their meaning. *(Verb)*
+2. A false or damaging statement made to harm someone's reputation; an insinuation or insult. *(Noun)*
+3. To stain or tarnish someone’s reputation through accusations or innuendo. *(Verb)*
+- ***Synonyms***: mumble, slur (speech), smear, libel *(Verb)*; insult, aspersion, defamation *(Noun)*
+- ***Antonyms***: articulate, enunciate, clarify *(Verb)*; praise, commendation, honor *(Noun)*
 
 _Examples_
-
-1. His careless **slur** offended many in the audience. _(Noun: insulting remark)_
-2. She **slurred** her speech due to exhaustion. _(Verb: to speak unclearly)_
+1. After a few drinks, he began to **slur** his words, making it hard to understand him. *(Verb: unclear speech)*
+2. The article cast a **slur** on her professional integrity without any evidence. *(Noun: damaging remark)*
+3. She felt the accusations were an attempt to **slur** her character unfairly. *(Verb: tarnish reputation)*
 
 _Word Form Examples_
-
-1. The article was filled with **slurring** accusations against the politician. _(Adjective: insulting or defamatory)_
-
-=====
-
-### SLY  
-@@  
-**Adjective** | हिंदी: चालाक, धूर्त :  
-1. Having or showing a cunning and deceitful nature; clever in achieving one's aims through trickery or deceit. *(Adjective)*  
-2. Done subtly or secretly, often to avoid detection or suspicion. *(Adjective)*  
-
-- ***Synonyms***: cunning, crafty, tricky, deceitful, sneaky *(Adjective)*  
-- ***Antonyms***: honest, straightforward, open, guileless, trustworthy *(Adjective)*  
-
-_Examples_  
-1. The **sly** fox managed to steal the eggs without alerting the farmer. *(Adjective)*  
-2. She gave a **sly** smile as she revealed her surprise plan. *(Adjective)*  
-
-_Word Form Examples_  
-1. **Slyly**:  
-   - He **slyly** slipped the note into her bag without anyone noticing. *(Adverb)*  
-   - ***Synonyms***: cunningly, craftily, sneakily, subtly  
-2. **Slyness**:  
-   - His **slyness** allowed him to outwit his opponents in every negotiation. *(Noun)*  
-   - ***Synonyms***: cunningness, craftiness, trickiness, deceitfulness  
-
-_Note_  
-"Sly" is used to describe someone or something that is cleverly deceptive or secretive, often with an undertone of mischief. Its adverb form "slyly" emphasizes how an action is performed with cunning or subtlety, while "slyness" refers to the quality of being cunning or deceitful.  
+1. **SLURRED**: 🌟
+   - His **slurred** speech indicated he was extremely tired or possibly intoxicated. *(Adjective: unclear)*
+   - ***Synonyms***: garbled, mumbled, indistinct, blurred
+2. **SLURRING**:  
+   - The politician accused the journalist of **slurring** his name with baseless allegations. *(Gerund: tarnishing reputation)*
+   - ***Synonyms***: smearing, defaming, maligning, discrediting
 
 =====
-
 
 ### SMOTHER  
 @@  
-**Verb** | हिंदी: दम घोंटना, ढक देना :  
-1. To suffocate or stifle someone or something by covering their nose and mouth.  
-2. To suppress or extinguish something, such as emotions, fire, or an idea.  
-3. To cover something thickly or excessively.  
-
-- ***Synonyms***: suffocate, stifle, choke, suppress, extinguish, overwhelm, envelop  
-- ***Antonyms***: free, release, ventilate, encourage, ignite  
+**Verb, Noun** | हिंदी: दबाना, जकड़ना : To stifle or suppress by covering tightly; to kill by depriving of oxygen; to overwhelm with excessive attention or emotion.  
+- ***Synonyms***: suffocate, stifle, suppress, overwhelm *(Verb)*; stifling, suppression *(Noun)*  
+- ***Antonyms***: liberate, release, ventilate, express *(Verb)*; freedom, openness *(Noun)*  
 
 _Examples_  
-1. The firefighter used a blanket to **smother** the flames before they could spread. *(Verb: to extinguish)*  
-2. She tried to **smother** her laughter during the serious meeting. *(Verb: to suppress)*  
-3. The mother **smothered** her child with kisses after returning from a long trip. *(Verb: to cover excessively)*  
+1. The firefighter managed to **smother** the flames with a blanket. *(Verb: extinguish by covering)*  
+2. She felt **smothered** by her parents' constant hovering and control. *(Verb: overwhelm with attention)*  
 
 _Word Form Examples_  
-1. **Smothered**:  
-   - The pancakes were **smothered** in syrup and butter. *(Verb: past tense of smother)*  
-   - ***Synonyms***: covered, drenched, overwhelmed  
-2. **Smothering**:  
-   - The **smothering** heat of the desert made it difficult to breathe. *(Adjective: suffocating)*  
-   - ***Synonyms***: suffocating, stifling, oppressive  
+1. **SMOTHERED**:  
+   - The child was **smothered** with affection by his grandparents. *(Adjective: overwhelmed with attention)*  
+   - ***Synonyms***: stifled, suppressed, inundated, swamped  
+2. **SMOTHERING**: 🌟  
+   - The **smothering** heat made it hard to breathe outside. *(Adjective: oppressive or stifling)*  
+   - ***Synonyms***: suffocating, overwhelming, oppressive, stifling  
 
 =====
-### SMUG
 
+### SPOIL
 @@
-**Adjective** | हिंदी: आत्मसंतुष्ट, अभिमानी :
-1. Having or showing an excessive pride in oneself or one's achievements; self-satisfied to an annoying degree.
-2. Exhibiting or feeling great or offensive satisfaction with oneself or with one's situation; self-righteously complacent.
-
-- ***Synonyms***: self-satisfied, complacent, superior, self-righteous, conceited, proud
-- ***Antonyms***: humble, modest, self-deprecating, unassuming, diffident
+**Verb** | हिंदी: बिगाड़ना, खराब करना : To damage or ruin something by diminishing its quality, value, or appeal; to overindulge someone, often resulting in negative behavior.
+- ***Synonyms***: ruin, destroy, damage, mar, corrupt *(Verb: diminish quality)*; pamper, indulge, spoil rotten *(Verb: overindulge)*
+- ***Antonyms***: preserve, protect, maintain, repair *(Verb: maintain quality)*; discipline, restrain, deprive *(Verb: avoid indulgence)*
 
 _Examples_
-1. He had a **smug** look on his face after winning the game. _(Adjective: self-satisfied/complacent)_
-2. She couldn't stand his **smug** attitude about his wealth. _(Adjective: superior/self-righteous)_
-3. After acing the exam, he couldn't resist a **smug** smile. _(Adjective: self-satisfied, conceited)_
+1. Leaving the cake outside too long will **spoil** it. *(Verb: ruin by decay)*
+2. The parents' constant leniency seemed to **spoil** their child, making them ungrateful. *(Verb: overindulge)*
 
 _Word Form Examples_
-
-1. **Smugly**:
-	*   He smiled **smugly** as he accepted the award. *(Adverb: in a way that shows excessive self-satisfaction)*
-	*   ***Synonyms***: complacently, self-righteously, conceitedly
-
-2. **Smugness**:
-	*   Her **smugness** was evident in the way she constantly bragged about her accomplishments. *(Noun: the quality of being smug; excessive self-satisfaction)*
-	*   ***Synonyms***: self-satisfaction, complacency, self-righteousness, conceit
+1. **SPOILED**: 🌟  
+   - The milk had turned **spoiled** after being left out overnight. *(Adjective: decayed or gone bad)*  
+   - ***Synonyms***: rotten, sour, decayed, putrid  
+2. **SPOILING**:  
+   - Her **spoiling** behavior made her expect gifts every time she visited. *(Gerund: act of overindulging)*  
+   - ***Synonyms***: pampering, coddling, spoiling rotten  
 
 =====
 
-### SNEER
-
-@@  
-**Noun/Verb** | हिंदी: व्यंग्य, तिरस्कारपूर्ण मुस्कान : A contemptuous or mocking smile, remark, or tone.
-
-- ***Synonyms***: smirk, scoff, jeer, ridicule
-- ***Antonyms***: compliment, praise, smile
-
-_Examples_
-
-1. His **sneer** conveyed his disdain for the opposing team. _(Noun: mocking expression)_
-2. She **sneered** at his naïve question, making him feel embarrassed. _(Verb: to mock with a contemptuous expression)_
-
-_Word Form Examples_
-
-1. He gave a **sneering** comment about their lack of skills. _(Adjective: mocking or ridiculing)_
-2. She spoke **sneeringly**, making her intentions clear. _(Adverb: with mockery)_
-
-=====
-
-### SNOBBISH
-@@  
-**Adjective** | हिंदी: दंभी, अहंकारी : 
-1. Behaving as if one is superior to others, particularly in matters of taste, intellect, or social status.
-2. Displaying an attitude of exclusivity or condescension toward those perceived as inferior.
-
-- ***Synonyms***: elitist, pretentious, haughty, arrogant, condescending, stuck-up
-- ***Antonyms***: humble, down-to-earth, unpretentious, modest, approachable
-
-_Examples_
-1. The **snobbish** critic dismissed the film as unworthy of his attention. _(Adjective: condescending)_
-2. Her **snobbish** attitude made it difficult for others to feel comfortable around her. _(Adjective: elitist/pretentious)_
-_Word Form Examples_
-1. **Snob**:
-	- He was such a **snob** that he only associated with people from wealthy backgrounds. _(Noun: a person with an exaggerated sense of superiority)_
-	- ***Synonyms***: elitist, pretentious person, braggart, show-off
-2. **Snobbishly**:
-	- She **snobbishly** dismissed the idea of shopping at a discount store. _(Adverb: in a condescending manner)_
-	- ***Synonyms***: haughtily, arrogantly, pretentiously, condescendingly
-
-=====
-
-### SNOBBY
-@@  
-**Adjective** | हिंदी: दंभी, अभिमानी : 
-1. Behaving as if one is superior to others, especially in matters of taste, intellect, or social status.
-2. Characterized by an attitude of exclusivity or condescension toward those perceived as inferior.
-
-- ***Synonyms***: elitist, pretentious, haughty, arrogant, condescending, stuck-up
-- ***Antonyms***: humble, down-to-earth, unpretentious, modest, approachable
-
-_Examples_
-1. The **snobby** waiter looked down on customers who didn’t order expensive wine. _(Adjective: condescending)_
-2. She refused to attend the event, calling it too **snobby** for her taste. _(Adjective: elitist/pretentious)_
-_Word Form Examples_
-1. **Snob**:
-	- He was such a **snob** that he only associated with people from wealthy backgrounds. _(Noun: a person with an exaggerated sense of superiority)_
-	- ***Synonyms***: elitist, pretentious person, braggart, show-off
-2. **Snobbishly**:
-	- She **snobbishly** dismissed the idea of shopping at a discount store. _(Adverb: in a condescending manner)_
-	- ***Synonyms***: haughtily, arrogantly, pretentiously, condescendingly
-
-=====
-### SNOWBALL
-@@  
-**Noun, Verb** | हिंदी: हिमपिंड, बर्फ का गोला : 
-1. (Noun) A ball of snow pressed together, often used for throwing in games or fights.
-2. (Verb) To grow or increase rapidly in size, intensity, or importance.
-3. (Verb) To throw snowballs at someone or something.
-
-- ***Synonyms***: (Noun) snowball, snow clump; (Verb) escalate, multiply, grow, expand, intensify
-- ***Antonyms***: (Verb) shrink, decrease, diminish, dwindle, subside
-
-_Examples_
-1. The children had fun making and throwing **snowballs** during the winter break. _(Noun: a ball of snow)_
-2. The protest **snowballed** into a nationwide movement within weeks. _(Verb: to grow rapidly)_
-3. They decided to **snowball** their neighbor’s house as a playful prank. _(Verb: to throw snowballs)_
-
-_Word Form Examples_
-1. **Snowballing**:
-	- The project’s costs started **snowballing** due to unexpected delays. _(Verb, present participle: increasing rapidly)_
-	- ***Synonyms***: escalating, multiplying, growing, expanding, intensifying
-2. **Snowballed**:
-	- The small issue **snowballed** into a major crisis. _(Verb, past tense: grew rapidly)_
-	- ***Synonyms***: escalated, multiplied, grew, expanded, intensified
-
-=====
-### SNUB  
-@@  
-**Verb, Noun** | हिंदी: अपमान करना, टालना :  
-1. To deliberately ignore or disregard someone in an insulting or dismissive manner. *(Verb)*  
-2. An act of intentionally ignoring or showing disrespect to someone. *(Noun)*  
-3. A rebuff or slight intended to wound someone's pride. *(Noun)*  
-
-- ***Synonyms***: insult, slight, rebuff, disdain, ignore *(Verb)*; insult, affront, put-down *(Noun)*  
-- ***Antonyms***: praise, compliment, acknowledge, honor *(Verb)*  
-
-_Examples_  
-1. She felt deeply hurt when her colleague **snubbed** her during the meeting. *(Verb: deliberately ignore)*  
-2. His refusal to shake hands was seen as a deliberate **snub** to the host. *(Noun: act of disrespect)*  
-3. The celebrity walked past the fans without stopping, clearly giving them the **snub**. *(Noun: slight)*  
-
-_Word Form Examples_  
-1. **Snubbed**:  
-   - He was visibly upset after being **snubbed** by his peers at the party. *(Adjective: ignored)*  
-   - ***Synonyms***: dismissed, disregarded, spurned, rejected  
-2. **Snubbing**:  
-   - The politician faced criticism for **snubbing** the press conference. *(Verb: present participle, ignoring)*  
-   - ***Synonyms***: ignoring, dismissing, rejecting, brushing off  
-3. **Snubbery**:  
-   - Her behavior reeked of **snubbery**, alienating everyone around her. *(Noun: quality of being snobbish or disdainful)*  
-   - ***Synonyms***: disdain, arrogance, condescension, haughtiness  
-
-=====
-### SOAR
-
-@@  
-**Verb** | हिंदी: ऊँचा उड़ना, बढ़ना :
-
-1. To fly or rise high in the air with little effort.
-2. To increase or rise dramatically in level, size, or intensity.
-3. To achieve or reach a higher level in success, performance, or status.
-
-- ***Synonyms***: fly, ascend, rise, surge, climb
-- ***Antonyms***: descend, fall, drop, sink, decline
-
-_Examples_
-
-1. The eagle **soared** effortlessly above the mountains. _(Verb: to fly high)_
-2. The stock prices **soared** after the announcement of the merger. _(Verb: to increase dramatically)_
-3. His career **soared** after he took on the new role at the company. _(Verb: to rise in success or stature)_
-
-_Word Form Examples_
-
-1. **Soaring**:
-    
-    - The **soaring** temperatures made it uncomfortable to be outside. _(Adjective: rising or increasing rapidly)_
-    - ***Synonyms***: rising, climbing, escalating, surging
-2. **Soared**:
-    
-    - The aircraft **soared** into the sky, leaving the ground far behind. _(Adjective: having risen or flown high)_
-    - ***Synonyms***: ascended, climbed, flew, heightened
-
-=====
-
-### SOBER  
-@@  
-**Adjective** | हिंदी: संयमी, शांत :  
-1. Not under the influence of alcohol or intoxicants; abstaining from alcohol.  
-2. Serious, solemn, or restrained in behavior or appearance.  
-3. Marked by clarity of thought and rationality, often after a period of excess or emotional turmoil.  
-
-**Verb** | हिंदी: सोचना, गंभीर होना :  
-1. To become serious or calm, especially after excitement or indulgence.  
-
-- ***Synonyms***: (Adjective) serious, grave, composed, temperate, abstinent  
-- ***Antonyms***: (Adjective) intoxicated, frivolous, reckless, wild, lighthearted  
-
-_Examples_  
-1. After the accident, he decided to remain **sober** and never drink alcohol again. *(Adjective: abstaining from alcohol)*  
-2. The judge listened to the case with a **sober** expression, carefully weighing the evidence. *(Adjective: serious and composed)*  
-3. It took her a few days to **sober** after the chaotic festival weekend. *(Verb: become serious or clear-headed)*  
-
-_Word Form Examples_  
-1. **Soberly**:  
-   - She spoke **soberly** about the challenges her family had faced during the crisis. *(Adverb: in a serious or restrained manner)*  
-   - ***Synonyms***: gravely, seriously, solemnly, thoughtfully, calmly  
-
-2. **Sobriety**:  
-   - His **sobriety** has been a source of inspiration for others struggling with addiction. *(Noun: state of being sober or abstinent)*  
-   - ***Synonyms***: temperance, moderation, seriousness, self-control, clear-headedness  
-
-=====
-
-### SODDEN
-
-@@  
-**Adjective** | हिंदी: भीगा हुआ, चिपचिपा :  
-
-1. Soaked or saturated with liquid, especially water.
-2. Drenched or heavy with moisture, often to the point of being soggy or waterlogged.
-3. Lacking energy or vitality, often used metaphorically to describe tiredness or sluggishness.
-
-- ***Synonyms***: soaked, drenched, waterlogged, sopping, saturated
-- ***Antonyms***: dry, arid, parched, dehydrated, desiccated
-
-_Examples_
-
-1. The ground was **sodden** after the heavy rain. _(Adjective: soaked/soaked with liquid)_
-2. His clothes were **sodden**, clinging to his body after falling into the pool. _(Adjective: drenched)_
-3. She felt **sodden** with exhaustion after the long day of work. _(Adjective: metaphorical, tired/sluggish)_
-
-_Word Form Examples_
-
-1. **Soddenly**:
-    
-    - After the storm, the streets were **soddenly** covered in puddles. _(Adverb: in a soaked or drenched manner)_
-    - ***Synonyms***: soakedly, drenchedly, waterloggedly
-
-=====
-
-### SOLACE
-
-@@  
-**Noun** | हिंदी: सांत्वना, दिलासा : Comfort or consolation in a time of distress or sadness.  
-**Verb** | हिंदी: सांत्वना देना, दिलासा देना : To comfort or console someone in their time of need.
-
-- ***Synonyms***: comfort, consolation, relief, support, reassurance
-- ***Antonyms***: distress, anguish, discomfort, torment
-
-_Examples_
-
-1. She found **solace** in the company of her close friends after the loss of her pet. _(Noun: comfort in distress)_
-2. Music often serves as a source of **solace** for those dealing with grief. _(Noun: emotional consolation)_
-3. He tried to **solace** her by reminding her of the good times they shared. _(Verb: provide comfort)_
-
-_Word Form Examples_
-
-1. **Solaced**:
-    
-    - The kind stranger **solaced** the grieving man with words of encouragement. _(Verb: past tense, comforted)_
-    - ***Synonyms***: consoled, reassured, soothed
-2. **Solacing**:
-    
-    - She spent the evening **solacing** herself with warm tea and a favorite book. _(Verb: continuous tense, providing comfort)_
-    - ***Synonyms***: comforting, consoling, relieving
-
-=====
-
-### SOLAR
-
-@@  
-**Adjective** | हिंदी: सौर, सूरज से संबंधित : Relating to the sun or using solar energy.
-
-- ***Synonyms***: sun, sunlight, heliocentric, solar-powered, sun-related
-- ***Antonyms***: lunar, nocturnal, dark, shadowed, artificial
-
-_Examples_
-
-1. The **solar** panels on the roof generate enough energy to power the entire house. _(Adjective: relating to the sun)_
-2. She enjoys **solar** energy gadgets that help conserve electricity. _(Adjective: powered by the sun)_
-
-_Word Form Examples_
-
-1. The **solarization** of the garden helps conserve water and energy. _(Noun: process of using solar energy)_
-
-=====
-
-### SOLICIT
-
-@@  
-**Verb** | हिंदी: अनुरोध करना, मांगना : To ask for or seek something, typically in a formal or insistent manner; to request or urge for something.
-
-- ***Synonyms***: request, seek, ask, urge, petition, invite
-- ***Antonyms***: offer, give, provide, grant, ignore
-
-_Examples_
-
-1. The charity organization will **solicit** donations to help those in need. _(Verb: request or seek)_
-2. The lawyer **solicited** advice from her colleagues before the court hearing. _(Verb: formally ask for)_
-3. The company began to **solicit** applications for the new job position. _(Verb: invite applications)_
-
-_Word Form Examples_
-
-1. **Solicited**:
-    
-    - The shopkeeper **solicited** feedback from customers to improve services. _(Verb: past tense, asked for)_
-    - ***Synonyms***: requested, asked for, sought
-2. **Soliciting**:
-    
-    - The team is currently **soliciting** proposals for the upcoming project. _(Verb: continuous tense, actively asking for)_
-    - ***Synonyms***: requesting, seeking, inviting
-3. **Solicitation**:
-    
-    - The **solicitation** of donations for the event was met with a positive response. _(Noun: the act of seeking or requesting)_
-    - ***Synonyms***: request, appeal, petition, plea
-
-=====
-
-### SOLICITUDE
-
-@@  
-**Noun** | हिंदी: चिंता, देखभाल : Care or concern for someone’s well-being, often showing empathy.
-
-- ***Synonyms***: care, concern, attentiveness, thoughtfulness, consideration
-- ***Antonyms***: indifference, neglect, apathy, disregard, insensitivity
-
-_Examples_
-
-1. Her **solicitude** for her elderly neighbor was evident in the way she helped with daily tasks. _(Noun: caring concern)_
-2. His **solicitude** for the team's success drove him to work extra hours. _(Noun: thoughtful care)_
-
-_Word Form Examples_
-
-1. The nurse showed great **solicitousness** in making sure all the patients were comfortable. _(Noun: the quality of showing concern)_
-2. Her **solicitous** attitude made everyone feel cared for and appreciated. _(Adjective: showing concern)_
-
-=====
-
-### SOLITUDE
-
-@@  
-**Noun** | हिंदी: एकाकीपन, एकांत : The state of being alone, often by choice, or the absence of others.
-
-- ***Synonyms***: isolation, seclusion, privacy, loneliness, aloneness
-- ***Antonyms***: company, togetherness, socializing, companionship, interaction
-
-_Examples_
-
-1. He enjoyed the peaceful **solitude** of the mountains, away from the hustle and bustle of the city. _(Noun: state of being alone)_
-2. After a busy week, she found solace in the **solitude** of her quiet home. _(Noun: choice of being alone)_
-
-_Word Form Examples_
-
-1. The monk lived in **solitude**, meditating and reflecting on his life. _(Noun: state of being alone)_
-2. His **solitary** walks along the beach gave him time to think deeply. _(Adjective: alone)_
-
-=====
-
-### SOLO
-
-@@  
-**Adjective** | हिंदी: अकेला, एकल : Performed alone; without others.  
-**Noun** | हिंदी: एकल प्रदर्शन : A performance or activity done by one person.
-
-- ***Synonyms***: single, individual, alone, solitary, lone
-- ***Antonyms***: group, duet, ensemble, collective, shared
-
-_Examples_
-
-1. She performed a **solo** at the concert, captivating the audience with her voice. _(Adjective: performed alone)_
-2. The artist was known for his **solo** exhibitions, each showcasing his unique work. _(Noun: single performance or exhibition)_
-
-_Word Form Examples_
-
-1. The artist's **solitude** during his creative process helped him focus deeply on his work. _(Noun: state of being alone)_
-2. He completed the challenge **solo**, proving his independence and skill. _(Adverb: alone)_
-
-=====
-
-### SOOTHE
-
-@@  
-**Verb** | हिंदी: शांति देना, शांत करना : To calm, comfort, or relieve pain, distress, or anxiety; to make something less intense or harsh.
-
-- ***Synonyms***: calm, comfort, ease, alleviate, assuage, pacify, relieve, mollify
-- ***Antonyms***: agitate, distress, upset, irritate, provoke, exacerbate
-
-_Examples_
-
-1. The nurse tried to **soothe** the baby's cries by gently rocking her. _(Verb: calm or comfort)_
-2. A warm bath can help **soothe** sore muscles after a long day. _(Verb: relieve discomfort)_
-
-_Word Form Examples_
-
-1. **Soothing**:
-    
-    - The **soothing** sound of the waves relaxed everyone on the beach. _(Adjective: having a calming or relaxing effect)_
-    - ***Synonyms***: calming, relaxing, comforting, peaceful, gentle
-2. **Soother**:
-    
-    - She used a **soother** to calm the infant, who was teething. _(Noun: a person or thing that calms or comforts)_
-    - ***Synonyms***: pacifier, comforter, balm, relaxant
-
-=====
-
-
-
-
-### SORDID 🪐
-@@  
-**Adjective** | हिंदी: घिनौना, अश्लील :  
-1. Involving immoral or dishonorable actions and motives; arousing moral distaste and contempt.  
-2. Extremely dirty, unpleasant, or squalid in appearance or condition.  
-3. Characterized by grinding poverty or degradation.  
-
-- ***Synonyms***: filthy, squalid, vile, shameful, corrupt, degraded, immoral  
-- ***Antonyms***: clean, honorable, pure, respectable, dignified, virtuous  
-
-_Examples_  
-1. The politician was involved in a **sordid** scandal that ruined his career. *(Adjective: immoral)*  
-2. The apartment was in a **sordid** state, with garbage piled up in every corner. *(Adjective: dirty)*  
-3. They lived in **sordid** conditions, struggling to make ends meet. *(Adjective: impoverished)*  
-
-_Word Form Examples_  
-1. **Sordidly**:  
-   - The crime was committed in a **sordidly** brutal manner, shocking the entire community. *(Adverb: immorally or disgustingly)*  
-   - ***Synonyms***: vilely, shamefully, corruptly, disgustingly, reprehensibly  
-2. **Sordidness**:  
-   - The **sordidness** of the environment made it unbearable to stay for long. *(Noun: state of being sordid)*  
-   - ***Synonyms***: filthiness, degradation, corruption, immorality, squalor  
-=====
-
-
-### SOVEREIGN
-@@  
-**Noun, Adjective** | हिंदी: सम्राट, प्रभुत्व संपन्न : 
-1. (Noun) A supreme ruler, especially a monarch or king.
-2. (Adjective) Possessing supreme or ultimate power; independent and self-governing.
-3. (Adjective) Excellent or outstanding in quality.
-
-- ***Synonyms***: monarch, ruler, king, supreme, independent
-- ***Antonyms***: subject, subordinate, dependent, inferior, subservient
-
-_Examples_
-1. The **sovereign** of the nation addressed the public during the national holiday. _(Noun: supreme ruler)_
-2. The country became **sovereign** after gaining independence from colonial rule. _(Adjective: self-governing)_
-3. Her **sovereign** command of the subject impressed everyone in the room. _(Adjective: excellent in quality)_
-
-_Word Form Examples_
-1. **Sovereignty**:
-	- The **sovereignty** of the state was recognized by the international community. _(Noun: supreme power or authority)_
-	- ***Synonyms***: autonomy, independence, supremacy, dominion, self-rule
-2. **Sovereignly**:
-	- The country acted **sovereignly** in making decisions without external influence. _(Adverb: in a self-governing manner)_
-	- ***Synonyms***: independently, autonomously, supremely, self-sufficiently
-3. **Sovereign State**:
-	- The treaty recognized the region as a **sovereign state** with full rights to self-governance. _(Noun: an independent state)_
-	- ***Synonyms***: independent nation, autonomous state, self-governing country
-
-=====
-### SPAN
-@@  
-**Noun, Verb** | हिंदी: अवधि, फैलाव : 
-1. (Noun) The full extent or duration of something, often referring to time or space.
-2. (Noun) The distance between two points, such as the wings of a bird or the ends of a bridge.
-3. (Verb) To extend across or cover a period of time or space.
-
-- ***Synonyms***: (Noun) duration, length, extent, stretch, range; (Verb) cover, extend, stretch, bridge
-- ***Antonyms***: (Noun) limit, restriction; (Verb) shorten, reduce, compress
-
-_Examples_
-1. The **span** of the bridge is one of the longest in the world. _(Noun: distance/extent)_
-2. Her career **spanned** over three decades, showcasing her versatility. _(Verb: extended/covered)_
-3. The eagle's wings have a **span** of nearly seven feet. _(Noun: distance between two points)_
-_Word Form Examples_
-1. **Spanned**:
-	- The documentary **spanned** the entire history of the civilization. _(Verb: covered/extended)_
-	- ***Synonyms***: covered, extended, stretched, bridged
-2. **Spanning**:
-	- The project is **spanning** multiple years, requiring long-term planning. _(Verb: extending/covering)_
-	- ***Synonyms***: extending, covering, stretching, bridging
-
-=====
-### SPARSE
-
-@@  
-**Adjective** | हिंदी: विरल, कम घना : Present or occurring in small amounts or scattered over a large area; thinly distributed.
-
-- ***Synonyms***: scant, scattered, thin, meager, sparse
-- ***Antonyms***: dense, abundant, thick, plentiful, concentrated
-
-_Examples_
-
-1. The population in the remote village was **sparse**, with only a few families living there. _(Adjective: thinly distributed)_
-2. The trees in the forest were **sparse**, allowing for a clear view of the sky. _(Adjective: scattered and not dense)_
-
-_Word Form Examples_
-
-1. The **sparsity** of resources in the area made survival challenging. _(Noun: the state of being sparse)_
-2. The plants were **sparsely** arranged across the landscape. _(Adverb: in a scattered or thin manner)_
-
-=====
-
-### SPATE
-@@  
-**Noun** | हिंदी: बाढ़, झड़ी :  
-1. A sudden, overwhelming outpouring or large number of things occurring in quick succession.  
-2. A sudden flood or rush of water, especially in a river.  
-
-- ***Synonyms***: flood, deluge, surge, outburst, torrent  
-- ***Antonyms***: trickle, drought, scarcity, lack, shortage  
-
-_Examples_  
-1. The region experienced a **spate** of burglaries last month. _(Noun: a large number of events)_  
-2. Heavy rains caused a **spate** in the river, flooding nearby villages. _(Noun: a sudden flood)_  
-3. The company faced a **spate** of complaints after the product launch. _(Noun: an outpouring of issues)_  
-
-_Word Form Examples_  
-1. **Spateful**:  
-	- The **spateful** rains disrupted the entire city's transportation system. _(Adjective: characterized by a spate)_  
-	- ***Synonyms***: flood-like, torrential, overwhelming  
-
-=====
-
-### SPEARHEAD
-@@  
-**Noun, Verb** | हिंदी: अगुआ, नेतृत्व करना : 
-1. **(Noun)** The person or group that leads an activity, movement, or attack.
-2. **(Noun)** The pointed head of a spear.
-3. **(Verb)** To lead or initiate an activity, movement, or attack.
-
-- ***Synonyms***: (Noun) leader, pioneer, vanguard, frontrunner; (Verb) lead, initiate, head, launch, direct
-- ***Antonyms***: (Noun) follower, supporter; (Verb) follow, hinder, obstruct
-
-_Examples_
-1. She was the **spearhead** of the campaign to protect the environment. _(Noun: leader)_
-2. The **spearhead** of the ancient weapon was made of iron. _(Noun: pointed head of a spear)_
-3. The organization plans to **spearhead** a new initiative to promote education. _(Verb: lead)_
-
-_Word Form Examples_
-1. **Spearheaded**:
-	- He **spearheaded** the project, ensuring its success from start to finish. _(Verb: past tense)_
-	- ***Synonyms***: led, initiated, headed, launched, directed
-2. **Spearheading**:
-	- The team is **spearheading** efforts to improve community health. _(Verb: present continuous form)_
-	- ***Synonyms***: leading, initiating, heading, launching, directing
-
-=====
-### SPECTACULAR
-@@  
-**Adjective**, **Noun** | हिंदी: शानदार, तमाशा :  
-1. **(Adjective)** Strikingly impressive or dramatic in appearance or effect.  
-2. **(Adjective)** Remarkable or extraordinary.  
-3. **(Noun)** A visually striking performance or display.  
-
-- ***Synonyms***: breathtaking, stunning, magnificent, dazzling, extraordinary  
-- ***Antonyms***: ordinary, unimpressive, dull, mediocre, plain  
-
-_Examples_  
-1. **(Adjective)** The fireworks display on New Year’s Eve was absolutely **spectacular**. *(Adjective: breathtaking/stunning)*  
-2. **(Adjective)** The team made a **spectacular** comeback in the final minutes of the game. *(Adjective: extraordinary)*  
-3. **(Noun)** The circus performance was a **spectacular** that left the audience in awe. *(Noun: visually striking display)*  
-
-_Word Form Examples_  
-1. **Spectacularly**:  
-   - The project failed **spectacularly**, resulting in significant losses. *(Adverb: extremely/dramatically)*  
-   - ***Synonyms***: dramatically, strikingly, impressively  
-2. **Spectacle**:  
-   - The carnival was a **spectacle** of lights, music, and color. *(Noun: impressive display)*  
-   - ***Synonyms***: display, show, exhibition, extravaganza  
-
-=====
-### SPECULATE
-@@  
-**Verb** | हिंदी: अटकल लगाना, अनुमान लगाना : 
-1. To form a theory or conjecture about a subject without firm evidence.
-2. To invest in stocks, property, or other ventures in the hope of gaining profit but with the risk of loss.
-3. To ponder or reflect on something deeply.
-
-- ***Synonyms***: conjecture, hypothesize, theorize, guess, ponder
-- ***Antonyms***: know, prove, confirm, verify, ascertain
-
-_Examples_
-1. Scientists often **speculate** about the origins of the universe based on limited evidence. _(Verb: form a theory)_
-2. He decided to **speculate** in the stock market, hoping to make a quick profit. _(Verb: invest with risk)_
-3. She liked to **speculate** on the meaning of life during her long walks. _(Verb: ponder deeply)_
-
-_Word Form Examples_
-1. **Speculation**:
-	- There was widespread **speculation** about the company's future after the CEO resigned. _(Noun: the act of speculating)_
-	- ***Synonyms***: conjecture, hypothesis, theory, guess, supposition
-2. **Speculative**:
-	- The article was based on **speculative** evidence rather than concrete facts. _(Adjective: based on conjecture)_
-	- ***Synonyms***: theoretical, conjectural, hypothetical, uncertain, risky
-3. **Speculator**:
-	- The **speculator** made a fortune by investing in high-risk ventures. _(Noun: one who speculates)_
-	- ***Synonyms***: investor, gambler, risk-taker, entrepreneur, trader
-
-=====
-
-
-### SPELLBIND
-
-@@  
-**Verb** | हिंदी: सम्मोहित करना, जादू करना : To hold someone's attention completely, usually by being extremely interesting or charming.
-
-- ***Synonyms***: captivate, mesmerize, enchant, charm, fascinate
-- ***Antonyms***: bore, distract, unengage, repel
-
-_Examples_
-
-1. The storyteller’s voice **spellbound** the children, who listened without interrupting. _(Verb: captivate)_
-2. His performance **spellbound** the audience, leaving them speechless. _(Verb: fascinate)_
-3. The magician **spellbound** the crowd with his incredible tricks. _(Verb: enchant)_
-
-_Word Form Examples_
-
-1. **Spellbinding** (Adjective):
-    
-    - The **spellbinding** performance left the audience in awe and admiration.
-    - ***Synonyms***: captivating, mesmerizing, enchanting, enthralling
-2. **Spellbound** (Adjective):
-    
-    - She was completely **spellbound** by the beauty of the ancient castle.
-    - ***Synonyms***: mesmerized, captivated, enchanted
-3. **Spellbindingly** (Adverb):
-    
-    - The speaker talked **spellbindingly**, holding everyone’s attention throughout.
-    - ***Synonyms***: captivatingly, mesmerizingly, enchantingly
-
-=====
-
-
-### SPIKE
-
-@@  
-**Noun, Verb** | हिंदी: कील, तेज़ वृद्धि, अचानक बढ़ना : A pointed object or projection; a sudden sharp increase in magnitude, quantity, or intensity; to fasten or pierce with a spike or to cause a sudden sharp rise.
-
-- ***Synonyms***: point, increase, rise, boost, surge, escalation
-- ***Antonyms***: decline, drop, fall, decrease, reduction
-
-_Examples_
-
-1. The wooden fence was topped with sharp **spikes** for security. _(Noun: pointed projections)_
-2. The temperature **spiked** dramatically due to the heatwave. _(Verb: rose suddenly)_
-3. He **spiked** the volleyball over the net to score a point. _(Verb: hit or drive forcefully)_
-
-_Word Form Examples_
-
-1. **Spiking** (Noun/Verb):
-    
-    - The **spiking** demand for electric vehicles is driving innovation in the industry. _(Noun: sudden rise)_
-    - She is **spiking** the drinks with a hint of lemon for added flavor. _(Verb: adding or enhancing)_
-    - ***Synonyms***: escalating, increasing, boosting, enriching
-    - ***Antonyms***: subsiding, declining, dropping
-2. **Spiked** (Verb - Past Tense/Adjective):
-    
-    - The drinks were **spiked** with an extra shot of syrup for sweetness. _(Verb: enhanced by adding something)_
-    - The **spiked** shoes provided better traction on the icy ground. _(Adjective: equipped with spikes)_
-
-=====
-
-### SPILLOVER  
-@@  
-**Noun** | हिंदी: अतिरिक्त प्रभाव, फैलाव :  
-1. The overflow or spread of something, such as effects, consequences, or resources, from one area, group, or situation to another. *(Noun)*  
-2. Often used in contexts like economics, politics, or science to describe indirect or secondary impacts. *(Noun)*  
-
-- ***Synonyms***: overflow, ripple effect, aftermath, side effect, extension, diffusion  
-- ***Antonyms***: containment, restriction, limitation, isolation  
-
-_Examples_  
-1. The **spillover** effects of the economic crisis were felt in neighboring countries. *(Noun: indirect impact)*  
-2. The festival’s success led to a **spillover** of tourists into nearby towns. *(Noun: overflow)*  
-
-_Word Form Examples_  
-1. **Spillover Effect**:  
-   - The **spillover effect** of technological advancements has improved productivity across multiple industries. *(Noun: secondary or indirect impact)*  
-   - ***Synonyms***: ripple effect, domino effect, chain reaction, knock-on effect  
-2. **Spill Over**:  
-   - The protest began peacefully but soon **spilled over** into violence. *(Verb: to spread or extend beyond limits)*  
-   - ***Synonyms***: overflow, extend, spread, proliferate  
-
-=====
-
-### SPINELESS
-
-@@  
-**Adjective** | हिंदी: रीढ़विहीन, निर्बल : Lacking courage, resolve, or moral strength; weak or submissive.
-
-- ***Synonyms***: weak, cowardly, feeble, spineless, submissive
-- ***Antonyms***: strong, courageous, resolute, brave, assertive
-
-_Examples_
-
-1. His **spineless** actions during the crisis made everyone lose faith in him. _(Adjective: lacking courage or moral integrity)_
-2. She called him **spineless** for not standing up for his beliefs. _(Adjective: lacking backbone or bravery)_
-3. The **spineless** leader failed to take action when it was most needed. _(Adjective: weak and lacking resolve)_
-
-_Word Form Examples_
-
-1. The **spinelessness** of the employee was evident when he refused to voice his opinion. _(Noun: the quality of being weak or lacking courage)_
-2. He was criticized for acting **spinelessly** and not taking responsibility for the issue. _(Adverb: in a manner that shows weakness or lack of courage)_
-
-=====
-
-### SPIRAL
-
-@@  
-**Noun, Verb, Adjective** | हिंदी: सर्पिल, कुंडली, चक्राकार बढ़ना : A curve that continuously winds around a central point; a process of progressive increase or decrease that becomes faster over time; to move, wind, or develop in a spiral manner.
-
-- ***Synonyms***: coil, helix, twist, swirl, loop, escalate
-- ***Antonyms***: straight line, stabilize, flatten, steady
-
-_Examples_
-
-1. The snail’s shell has a beautiful **spiral** pattern. _(Noun: curved shape)_
-2. The prices of housing have **spiraled** out of control in urban areas. _(Verb: increased rapidly)_
-3. The staircase has a **spiral** design to save space. _(Adjective: shaped like a spiral)_
-
-_Word Form Examples_
-
-1. **Spiraling** (Adjective/Verb):
-    
-    - The **spiraling** costs of healthcare are a major concern. _(Adjective: increasing rapidly in a circular or escalating way)_
-    - The leaves were **spiraling** down from the tree in the autumn wind. _(Verb: moving in a spiral motion)_
-    - ***Synonyms***: escalating, swirling, looping, coiling
-    - ***Antonyms***: steadying, stabilizing, straightening
-2. **Spiraled** (Verb - Past Tense):
-    
-    - His emotions **spiraled** out of control after hearing the news. _(Verb: escalated or intensified suddenly)_
-3. **Spiralization** (Noun):
-    
-    - The **spiralization** of the cables ensures they occupy less space. _(Noun: the process of forming or moving in a spiral shape)_
-
-=====
-
-### SPITE
-
-@@  
-**Noun** | हिंदी: द्वेष, दुर्भावना : A desire to irritate, annoy, or harm someone, often out of resentment or malice.
-
-**Verb** | हिंदी: द्वेष करना : To act in a way that intentionally causes harm or displeasure to someone, usually out of ill will.
-
-- ***Synonyms***: malice, resentment, hatred, animosity, grudge
-- ***Antonyms***: goodwill, kindness, compassion, benevolence, friendliness
-
-_Examples_
-
-1. She did it out of **spite**, hoping to hurt his feelings. _(Noun: a desire to harm or annoy)_
-2. His actions were driven by **spite**, rather than any real need for revenge. _(Noun: ill will or malice)_
-3. He insulted her **in spite** of all the help she had given him. _(Preposition: despite the assistance)
-
-_Word Form Examples_
-
-1. Her **spiteful** comments made everyone uncomfortable at the meeting. _(Adjective: showing malice or ill will)_
-2. He acted **spitefully**, trying to get back at his rival. _(Adverb: in a way that expresses malice or resentment)_
-
-=====
-
-### SPITEFUL
-
-@@  
-**Adjective** | हिंदी: द्वेषपूर्ण, ईर्ष्यालु : Showing or caused by malice; intending to harm, annoy, or hurt someone out of ill will.
-
-- ***Synonyms***: malicious, vindictive, vengeful, mean, hateful
-- ***Antonyms***: kind, benevolent, forgiving, compassionate, amicable
-
-_Examples_
-
-1. She made a **spiteful** remark about his failure to embarrass him in front of others. _(Adjective: full of ill will)_
-2. His **spiteful** actions were driven by jealousy and a desire to hurt his colleague. _(Adjective: malicious intent)_
-
-_Word Form Examples_
-
-1. He acted **spitefully**, determined to ruin her chances of success. _(Adverb: in a malicious manner)_
-2. The **spitefulness** in her tone was evident as she criticized the proposal. _(Noun: the quality of being malicious or mean-spirited)_
-
-=====
-
-### SPLURGE
+### SHUDDER
 @@
-**Verb, Noun** | हिंदी: फिजूलखर्ची करना, खर्च करना :
-1. (Verb) To spend money extravagantly or impulsively, often on something luxurious or unnecessary.
-2. (Noun) An act of spending money lavishly or extravagantly.
-
-- ***Synonyms***: indulge, lavish, overspend, waste, go all out
-- ***Antonyms***: save, economize, scrimp, skimp, budget
+**Verb, Noun** | हिंदी: कांपना, थरथराना : To shake or tremble involuntarily, typically as a result of fear, cold, or revulsion; a sudden involuntary shaking movement.
+- ***Synonyms***: tremble, shiver, quake, quiver *(Verb: shake)*; tremor, vibration *(Noun: shaking)*
+- ***Antonyms***: steady, calm, still *(Verb: remain stable)*
 
 _Examples_
-1. She decided to **splurge** on a designer handbag, even though it was way over her budget. _(Verb: spend extravagantly)_
-2. Their weekend getaway turned into a **splurge** with fancy dinners and expensive activities. _(Noun: act of spending lavishly)_
-3. He rarely spends money on himself, but this time he chose to **splurge** on a luxury watch. _(Verb: indulge in spending)_
+1. She **shuddered** at the thought of walking alone through the dark forest. *(Verb: tremble from fear)*
+2. A cold wind made him **shudder** as he stepped outside. *(Verb: tremble from cold)*
+3. The ground gave a violent **shudder** during the earthquake. *(Noun: physical shaking)*
 
 _Word Form Examples_
-1. **Splurging**:
-   - **Splurging** on vacations is her way of rewarding herself after a stressful year. _(Verb: present participle)_
-   - ***Synonyms***: indulging, lavishing, overspending
-2. **Splurged**:
-   - They **splurged** on a five-star hotel for their anniversary. _(Verb: past tense)_
-   - ***Synonyms***: indulged, lavished, overspent
-<!--SR:!2025-02-21,3,250-->
+1. **SHUDDERING**: 🌟  
+   - The dog let out a **shuddering** cry as the storm approached. *(Adjective: trembling with intensity)*  
+   - ***Synonyms***: trembling, quaking, shivering  
 
 =====
 
-### SPOOK
-@@
-**Noun, Verb** | हिंदी: भूत, डराना :
-1. **(Noun):** A ghost or specter; something that causes fear or unease.
-2. **(Noun - Informal):** A spy or undercover agent.
-3. **(Verb):** To frighten or scare someone suddenly.
-
-- ***Synonyms***: ghost, specter, phantom, spy, frighten
-- ***Antonyms***: comfort, reassure, calm, soothe, delight
-
-_Examples_
-1. The old house was rumored to be haunted by a **spook**. _(Noun: ghost)_
-2. The sudden noise **spooked** the horse, causing it to bolt. _(Verb: to frighten)_
-3. During the Cold War, many **spooks** operated in secret to gather intelligence. _(Noun: spy)_
-
-_Word Form Examples_
-1. **Spooked**:
-	- She felt **spooked** after walking through the dark, eerie forest. _(Adjective: frightened)_
-	- ***Synonyms***: scared, alarmed, startled, unnerved
-2. **Spooky**:
-	- The **spooky** atmosphere of the abandoned mansion gave everyone chills. _(Adjective: eerie or frightening)_
-	- ***Synonyms***: eerie, creepy, ghostly, unnerving
-<!--SR:!2025-02-21,3,250-->
-
-=====
-### SPORADIC 🪐
-
-@@  
-**Adjective** | हिंदी: छिटपुट, अनियमित : Occurring at irregular intervals or only in a few places; scattered or isolated.
-
-- ***Synonyms***: occasional, infrequent, intermittent, irregular, scattered
-- ***Antonyms***: constant, regular, frequent, continuous, steady
-
-_Examples_
-
-1. The region experienced **sporadic** outbreaks of the disease throughout the year. _(Adjective: occurring irregularly)_
-2. Her attendance at the meetings was **sporadic**, making it difficult to assign her tasks. _(Adjective: infrequent or inconsistent)_
-
-_Word Form Examples_
-
-1. **Sporadically**:
-    
-    - The power supply was cut **sporadically** during the storm. _(Adverb: occurring irregularly or infrequently)_
-    - ***Synonyms***: occasionally, intermittently, irregularly
-2. **Sporadicity**:
-    
-    - The **sporadicity** of rainfall in the desert makes it challenging for plants to thrive. _(Noun: the quality of being sporadic or irregular)_
-    - ***Synonyms***: irregularity, infrequency, intermittence
-
-=====
-### SPUR
-@@  
-**Noun, Verb** | हिंदी: प्रेरणा, उकसाना : 
-1. (Noun) A device with a small spike or spiked wheel worn on a rider's heel to urge a horse forward.
-2. (Noun) Something that prompts or encourages action; a stimulus.
-3. (Verb) To urge or encourage someone or something to act or move faster.
-
-- ***Synonyms***: stimulus, incentive, motivation, goad, prompt
-- ***Antonyms***: deterrent, discouragement, hindrance, obstacle, restraint
-
-_Examples_
-1. The cowboy's **spur** jingled as he walked toward the horse. _(Noun: device for urging a horse)_
-2. The promise of a bonus acted as a **spur** for the employees to work harder. _(Noun: incentive)_
-3. The coach's speech **spurred** the team to give their best performance. _(Verb: to encourage)_
-
-_Word Form Examples_
-1. **Spurred**:
-	- The success of the first project **spurred** them to take on more challenges. _(Verb: past tense, encouraged)_
-	- ***Synonyms***: motivated, prompted, stimulated, urged, inspired
-2. **Spurring**:
-	- The new policy is **spurring** economic growth in the region. _(Verb: present participle, encouraging)_
-	- ***Synonyms***: driving, stimulating, inciting, propelling
-
-=====
-### SPURIOUS
-
-@@  
-**Adjective** | हिंदी: झूठा, नकली :  
-
-1. Not genuine, authentic, or true; false or counterfeit.
-2. Based on false reasoning or unreliable sources; deceitful or misleading.
-3. Lacking validity or truthfulness.
-
-- ***Synonyms***: false, fake, fraudulent, counterfeit, deceptive
-- ***Antonyms***: genuine, authentic, true, real, legitimate
-
-_Examples_
-
-1. The document turned out to be **spurious**, containing numerous fabricated facts. _(Adjective: false or counterfeit)_
-2. She was accused of spreading **spurious** rumors that damaged his reputation. _(Adjective: based on false or misleading information)_
-3. His **spurious** claims about his qualifications were soon exposed. _(Adjective: not genuine or valid)_
-
-_Word Form Examples_
-
-1. **Spuriously**:
-    
-    - He **spuriously** claimed to have seen the entire event, though he was not present. _(Adverb: in a false or deceptive manner)_
-    - ***Synonyms***: falsely, dishonestly, deceptively, fraudulently
-
-=====
-
-### SPUTTER
-
-@@  
-**Verb** | हिंदी: फुफकारना, बुदबुदाना : To make a series of soft explosive or spitting sounds; to speak quickly or in a confused, excited manner.  
-**Noun** | हिंदी: फुफकार, बुदबुदाहट : A series of small explosive sounds or bursts; confused or excited speech.
-
-- ***Synonyms (Verb)***: stammer, stutter, splutter, falter, fumble
-- ***Antonyms (Verb)***: speak fluently, articulate, pronounce clearly
-- ***Synonyms (Noun)***: hiss, splutter, crackle, mutter, babble
-- ***Antonyms (Noun)***: silence, calm, clarity
-
-_Examples_
-
-1. The engine began to **sputter** before it finally broke down. _(Verb: to make intermittent explosive sounds)_
-2. Flustered, he started to **sputter** an apology when confronted by the manager. _(Verb: to speak quickly and confusedly)_
-3. The **sputter** of the candle’s flame indicated that it was about to go out. _(Noun: a soft, explosive sound)_
-
-_Word Form Examples_
-
-1. **Sputtered**:
-    
-    - The old car **sputtered** to life after several attempts to start it. _(Verb: past tense of sputter)_
-    - ***Synonyms***: stammered, crackled, spluttered
-2. **Sputtering**:
-    
-    - The chef was **sputtering** with frustration after the stove stopped working. _(Verb: speaking or acting in a flustered manner)_
-    - ***Synonyms***: stammering, crackling, faltering
-3. **Sputtery**:
-    
-    - The **sputtery** flame of the lamp struggled to stay lit in the wind. _(Adjective: characterized by intermittent or irregular sounds)_
-    - ***Synonyms***: crackling, inconsistent, stammering
-
-=====
-
-### SQUALID  
-@@  
-**Adjective** | हिंदी: गंदा, अस्वच्छ :  
-1. Extremely dirty, filthy, or squalor-ridden, often describing living conditions or environments. (Adjective)  
-2. Morally repulsive or sordid, characterized by degradation or baseness. (Adjective)  
-
-- ***Synonyms***: filthy, unsanitary, sordid, vile, repulsive, degraded  
-- ***Antonyms***: clean, hygienic, pristine, honorable, noble  
-
-_Examples_  
-1. The **squalid** alley was littered with garbage and reeked of decay. *(Adjective: extremely dirty)*  
-2. The politician’s **squalid** behavior shocked the public and led to widespread condemnation. *(Adjective: morally repulsive)*  
-3. Refugees were forced to live in **squalid** camps with no access to clean water or proper shelter. *(Adjective: unhygienic and degrading)*  
-
-_Word Form Examples_  
-1. **Squalor**:  
-   - The once-beautiful mansion had fallen into **squalor**, with broken windows and overgrown weeds. *(Noun: state of being squalid)*  
-   - ***Synonyms***: filth, dirtiness, grime, degradation  
-
-2. **Squalidly**:  
-   - The prisoners were forced to live **squalidly**, enduring inhumane conditions for years. *(Adverb: in a filthy or degraded manner)*  
-   - ***Synonyms***: dirtily, repulsively, vilely, shamefully  
-
-=====
-
-### SQUANDER  
-@@  
-**Verb** | हिंदी: बरबाद करना, गँवाना :  
-1. To waste or use something carelessly, recklessly, or extravagantly. *(Verb)*  
-2. To lose or fail to take advantage of an opportunity or resource. *(Verb)*  
-
-- ***Synonyms***: waste, squander, dissipate, fritter away, lavish, misuse  
-- ***Antonyms***: conserve, save, preserve, utilize, treasure, economize  
-
-_Examples_  
-1. He **squandered** his inheritance on frivolous luxuries within a year. *(Verb: waste recklessly)*  
-2. The team had a chance to win the game but ended up **squandering** their lead in the final minutes. *(Verb: fail to capitalize on an opportunity)*  
-
-_Word Form Examples_  
-1. **Squanderer**:  
-   - A notorious **squanderer**, he lost all his savings on risky investments. *(Noun: someone who wastes resources)*  
-   - ***Synonyms***: spendthrift, wastrel, prodigal, profligate  
-2. **Squandering**:  
-   - The government was criticized for its **squandering** of taxpayer money on unnecessary projects. *(Gerund/Noun: act of wasting)*  
-   - ***Synonyms***: wasting, dissipating, misusing, throwing away  
-3. **Squandered**:  
-   - The once-thriving business was left in ruins after years of **squandered** opportunities. *(Adjective/Verb: past tense of waste)*  
-   - ***Synonyms***: wasted, lost, dissipated, frittered away
-<!--SR:!2025-02-21,3,250-->
-
-=====
-### SQUIGGLE  
-
-@@  
-**Noun/Verb** | हिंदी: लकीर, घुमाव : A short, irregular curve or twist; to write or draw something in a wavy or twisted manner.  
-
-- ***Synonyms***: twist, curve, swirl, zigzag, scribble  
-- ***Antonyms***: straight line, order, neatness  
-
-_Examples_  
-1. The child drew a **squiggle** on the page with crayons. *(Noun: a wavy or twisted line)*  
-2. She **squiggled** her pen across the paper, leaving a trail of scribbles. *(Verb: to write or draw in a twisting manner)*  
-
-_Word Form Examples_  
-1. The **squiggle** on the paper was unintelligible. *(Noun: plural form, a twisted mark)*  
-2. He **squiggled** out a quick note on the envelope. *(Verb: past tense, written in a twisted or irregular way)*  
-
-=====  
-
-
-
-### STAGGER
-
-@@  
-**Verb / Noun** | हिंदी: लड़खड़ाना, हिलाना, झटका : To move unsteadily, as if about to fall; to astonish or shock greatly.
-
- 1. **Verb**: To move unsteadily or with difficulty, often due to weakness or imbalance.
-
-as in _totter_ (to sway or move back and forth unsteadily):
-
-- ***Synonyms***: totter, sway, stumble, reel, lurch
-- ***Antonyms***: steady, stabilize, balance
-
-as in _astonish_ (to cause someone to be extremely surprised):
-
-- ***Synonyms***: astonish, shock, amaze, astound, dumbfound, flabbergast
-- ***Antonyms***: reassure, clarify, explain
-
-_Examples:_
-
-1. He **staggered** across the room after waking up. _(Verb: totter)_
-2. The breathtaking view **staggered** her imagination. _(Verb: astonish)_
-
-
- 2. **Noun**: An unsteady movement or walk.
-
-as in _lurch_ (a sudden, unsteady motion):
-
-- ***Synonyms***: lurch, stumble, reel, totter
-- ***Antonyms***: stability, steadiness, balance
-
-_Examples:_
-
-1. The old man walked with a noticeable **stagger** after his injury. _(Noun: lurch)_
-2. His step turned into a **stagger** after the exhausting hike. _(Noun: stumble)_
-
-
-_Word Form Examples:_
-
-1. **Staggering**:
-    
-    - The **staggering** beauty of the mountain left us speechless. _(Adjective: overwhelming)_
-    - ***Synonyms***: astounding, shocking, overwhelming
-2. **Staggered**:
-    
-    - She was **staggered** by the sudden news. _(Verb: past tense, shocked)_
-    - ***Synonyms***: shocked, astonished, amazed
-3. **Staggeringly**:
-    
-    - The view was **staggeringly** beautiful. _(Adverb: extremely)_
-    - ***Synonyms***: incredibly, astonishingly, remarkably
-
-=====
-### STAGGERING
-
-@@  
-**Adjective** | हिंदी: चौंकाने वाला, चकराने वाला : So large, intense, or unexpected that it causes surprise or shock.
-
-1. Extremely large, intense, or difficult to believe, often overwhelming in scale.
-2. Moving or standing unsteadily, as if about to fall.
-
-- ***Synonyms***: astounding, shocking, astonishing, overwhelming, amazing, breathtaking
-- ***Antonyms***: insignificant, minor, small, trivial, ordinary
-
-_Examples_
-
-1. The **staggering** cost of the project left everyone in disbelief. _(Adjective: large or surprising in scale)_
-2. She received a **staggering** amount of support during the campaign. _(Adjective: overwhelming or surprising)_
-3. After the long day, he felt **staggering** fatigue and needed to sit down. _(Adjective: unsteady, physically)_
-
-=====
-
-### STAGNANT
-@@  
-**Adjective** | हिंदी: स्थिर, ठहरा हुआ : 
-1. (Of water or air) Not flowing or moving, often resulting in a lack of freshness or vitality.
-2. (Of a situation, economy, or process) Showing no activity, growth, or development; inactive or sluggish.
-
-- ***Synonyms***: still, motionless, inactive, sluggish, dormant
-- ***Antonyms***: flowing, active, dynamic, lively, progressing
-
-_Examples_
-1. The **stagnant** water in the pond became a breeding ground for mosquitoes. _(Adjective: not flowing)_
-2. The economy remained **stagnant** for years, with no signs of improvement. _(Adjective: showing no growth)_
-3. His career had become **stagnant**, and he felt the need for a change. _(Adjective: inactive)_
-_Word Form Examples_
-1. **Stagnate**:
-	- Without innovation, the industry will **stagnate** and lose its competitive edge. _(Verb: become stagnant)_
-	- ***Synonyms***: idle, languish, deteriorate, stand still
-2. **Stagnation**:
-	- The **stagnation** of the job market has left many people unemployed. _(Noun: the state of being stagnant)_
-	- ***Synonyms***: inactivity, sluggishness, dormancy, standstill
-
-=====
-
-### STAID
-
-@@  
-**Adjective** | हिंदी: गंभीर, गंभीर स्वभाव वाला : Sedate, serious, and unadventurous; marked by a lack of excitement or change.
-
-- ***Synonyms***: serious, sober, restrained, earnest, traditional
-- ***Antonyms***: lively, carefree, spontaneous, adventurous, playful
-
-_Examples_
-
-1. His **staid** personality made him well-suited for the serious role of a judge. _(Adjective: serious and unchanging)_
-2. The **staid** atmosphere of the office was a stark contrast to the lively social event. _(Adjective: dull, lacking excitement)_
-
-_Word Form Examples_
-
-1. The **staidness** of the ceremony was appreciated by the guests. _(Noun: the quality of being serious and unadventurous)_
-2. She spoke **staidly** during the meeting, maintaining professionalism. _(Adverb: in a serious or restrained manner)_
-
-=====
-
-### STAMMER
-
-@@  
-**Verb** | हिंदी: हकलाना : To speak with sudden involuntary pauses or repetitions, often due to nervousness or speech difficulty.  
-**Noun** | हिंदी: हकलाहट : A speech disorder characterized by involuntary pauses and repetitions.
-
-- ***Synonyms (Verb)***: stutter, falter, hesitate, sputter
-- ***Antonyms (Verb)***: speak fluently, articulate, enunciate
-- ***Synonyms (Noun)***: stutter, hesitation, falter
-- ***Antonyms (Noun)***: fluency, smoothness, clarity
-
-_Examples_
-
-1. He began to **stammer** when asked a difficult question during the interview. _(Verb: to speak with hesitations or repetitions)_
-2. Her nervousness was evident in the slight **stammer** in her speech. _(Noun: a speech disorder or hesitation)_
-
-_Word Form Examples_
-
-1. **Stammered**:
-    
-    - She **stammered** an apology when caught off guard. _(Verb: past tense of stammer)_
-    - ***Synonyms***: stuttered, faltered, hesitated
-2. **Stammering**:
-    
-    - He was **stammering** so much that it was hard to understand him. _(Verb: speaking with hesitations)_
-    - ***Synonyms***: stuttering, faltering, hesitating
-3. **Stammerer**:
-    
-    - The therapist worked with the **stammerer** to improve their speech confidence. _(Noun: a person who stammers)_
-    - ***Synonyms***: stutterer, falterer
-
-=====
-
-### STANCE  🪐
-@@  
-**Noun** | हिंदी: दृष्टिकोण, रवैया : A way of standing, or a position taken on an issue or situation; a mental or emotional attitude toward something.
-
-1. A physical position or posture.
-2. A mental or emotional attitude or viewpoint toward something.
-
-- ***Synonyms***: position, viewpoint, attitude, posture, approach, opinion
-- ***Antonyms***: indifference, neutrality, apathy, disinterest
-
-_Examples_
-
-1. His **stance** during the debate was firm, showing confidence in his argument. _(Noun: physical posture)_
-2. The politician took a strong **stance** on climate change, advocating for immediate action. _(Noun: viewpoint or position on an issue)_
-
-=====
-### STARK
-@@  
-**Adjective, Adverb** | हिंदी: एकदम, पूर्णतः : 
-1. (Adjective) Severe or bare in appearance or outline.
-2. (Adjective) Complete or absolute; unmistakable.
-3. (Adverb) Completely or utterly.
-
-- ***Synonyms***: (Adjective) harsh, bare, plain, absolute, sheer; (Adverb) completely, utterly, absolutely
-- ***Antonyms***: (Adjective) soft, mild, ornate; (Adverb) partially, slightly
-
-_Examples_
-1. The **stark** landscape of the desert was both beautiful and intimidating. _(Adjective: severe or bare in appearance)_
-2. There was a **stark** contrast between the rich and the poor in the city. _(Adjective: complete or absolute)_
-3. The room was **stark** and devoid of any decorations, giving it a cold and unwelcoming feel. _(Adjective: bare or plain)_
-4. He was **stark** naked when he realized he had forgotten his towel. _(Adverb: completely or utterly)_
-
-_Word Form Examples_
-1. **Starkly**:
-	- The differences between the two proposals were **starkly** apparent. _(Adverb: in a manner that is complete or absolute)_
-	- ***Synonyms***: completely, utterly, absolutely
-2. **Starkness**:
-	- The **starkness** of the winter landscape was both beautiful and haunting. _(Noun: the quality of being stark)_
-	- ***Synonyms***: severity, bareness, plainness
-
-=====
-### STARTLE
-
-@@  
-**Verb** | हिंदी: चौंकाना, चकराना : To cause someone to feel sudden shock or surprise, often accompanied by a physical reaction.
-
-- ***Synonyms***: shock, surprise, frighten, alarm, astonish
-- ***Antonyms***: calm, soothe, reassure, comfort, relax
-
-_Examples_
-
-1. The loud noise from the door slamming **startled** everyone in the room. _(Verb: surprise)_
-2. He was **startled** by the sudden appearance of the shadow in the corner. _(Verb: frighten)_
-3. The unexpected question **startled** her, and she hesitated before answering. _(Verb: shock)_
-
-_Word Form Examples_
-
-1. **Startled** (Adjective):
-    
-    - She gave a **startled** look when the cat jumped onto her lap.
-    - ***Synonyms***: shocked, surprised, astonished, frightened
-2. **Startling** (Adjective):
-    
-    - The **startling** news of his promotion came as a complete surprise.
-    - ***Synonyms***: surprising, shocking, astonishing, unexpected
-
-=====
-
-### STARTLING
-
-@@  
-**Adjective** | हिंदी: चौंकाने वाला, हैरान करने वाला :  
-
-1. Causing surprise or shock; unexpected and often alarming.
-2. Striking in a way that causes immediate attention or reaction, often due to its unusual or sudden nature.
-
-- ***Synonyms***: surprising, shocking, astonishing, alarming, unexpected
-- ***Antonyms***: unsurprising, predictable, ordinary, expected, calm
-
-_Examples_
-
-1. The **startling** news about the company's closure left everyone in disbelief. _(Adjective: causing surprise or shock)_
-2. There was a **startling** noise coming from the back of the house that made us jump. _(Adjective: alarming/unexpected)_
-3. His **startling** performance on stage captivated the audience, leaving them in awe. _(Adjective: striking or attention-grabbing)_
-
-_Word Form Examples_
-
-1. **Startlingly**:
-    
-    - The car swerved **startlingly**, causing nearby drivers to quickly move aside. _(Adverb: in a surprising or shocking manner)_
-    - ***Synonyms***: surprisingly, shockingly, astonishingly
-2. **Startlement**:
-    
-    - Her **startlement** was evident when she saw the surprise party set up for her. _(Noun: the state of being surprised or shocked)_
-    - ***Synonyms***: astonishment, shock, surprise, amazement
-
-=====
-### STARVED
-@@  
-**Adjective**, **Verb** | हिंदी: भूखा, भूख से मरना :  
-1. **(Adjective)** Suffering severely from hunger.  
-2. **(Adjective)** Extremely deprived or in need of something.  
-3. **(Verb)** Past tense of "starve," meaning to suffer or die from lack of food.  
-
-- ***Synonyms***: famished, hungry, malnourished, deprived, ravenous  
-- ***Antonyms***: full, satiated, nourished, satisfied, fed  
-
-_Examples_  
-1. **(Adjective)** After hiking for hours, they were **starved** and eagerly devoured their meal. *(Adjective: famished/hungry)*  
-2. **(Adjective)** The artist was **starved** for inspiration and struggled to create new work. *(Adjective: deprived)*  
-3. **(Verb)** During the famine, many people **starved** due to the lack of food supplies. *(Verb: suffered from hunger)*  
-
-_Word Form Examples_  
-1. **Starving**:  
-   - The **starving** children in the refugee camp desperately needed food and water. *(Adjective: extremely hungry)*  
-   - ***Synonyms***: famished, ravenous, malnourished  
-2. **Starvation**:  
-   - The charity aimed to reduce **starvation** in poverty-stricken regions. *(Noun: extreme hunger)*  
-   - ***Synonyms***: famine, malnutrition, hunger  
-
-=====
-### STASH  
-@@  
-**Noun, Verb** | हिंदी: छुपाने का स्थान, भंडार :  
-1. A secret store or supply of something, often kept hidden for future use. *(Noun)*  
-2. To store or hide something in a secret place. *(Verb)*  
-
-- ***Synonyms***: hoard, cache, stockpile, reserve *(Noun)*; conceal, hide, store, secrete *(Verb)*  
-- ***Antonyms***: reveal, expose, disclose, deplete *(Verb)*  
-
-_Examples_  
-1. He kept a **stash** of snacks under his bed for late-night cravings. *(Noun: secret store)*  
-2. She decided to **stash** the money in an old shoebox at the back of her closet. *(Verb: to hide)*  
-
-_Word Form Examples_  
-1. **Stashed**:  
-   - The documents had been **stashed** away in a locked drawer. *(Adjective: stored secretly)*  
-   - ***Synonyms***: hidden, concealed, stored, secreted  
-2. **Stashing**:  
-   - He was caught **stashing** stolen goods in the basement. *(Verb: present participle form of stash)*  
-   - ***Synonyms***: hiding, concealing, storing, secreting  
-3. **Stashable**:  
-   - The small size of the device made it highly **stashable** in a backpack. *(Adjective: capable of being stashed)*  
-   - ***Synonyms***: concealable, portable, compact  
-
-=====
-### STATUS QUO
-@@  
-**Noun** | हिंदी: यथास्थिति, मौजूदा हालात : 
-1. The existing state of affairs, especially regarding social or political issues.
-2. The current situation or condition.
-
-- ***Synonyms***: current situation, existing condition, present state, the norm, the usual
-- ***Antonyms***: change, revolution, transformation, upheaval, alteration
-
-_Examples_
-1. The conservative party aims to maintain the **status quo** and resist any major changes. _(Noun: existing state of affairs)_
-2. The protesters demanded a change in the **status quo** to address social inequalities. _(Noun: current situation)_
-3. The new policy was designed to disrupt the **status quo** and introduce innovative practices. _(Noun: present state)_
-
-_Word Form Examples_
-1. **Status Quo Ante**:
-	- The agreement aimed to restore the **status quo ante** before the conflict began. _(Noun: the previous state of affairs)_
-	- ***Synonyms***: previous condition, former state, prior situation
-
-=====
-### STAUNCH
-
-@@  
-**Adjective** | हिंदी: अटल, निष्ठावान : Firm, loyal, and committed in attitude, or strongly built and sturdy.  
-**Verb** | हिंदी: रोकना (खून या बहाव) : To stop or restrict the flow of something, especially blood or liquid.
-
-- ***Synonyms***: steadfast, loyal, firm, resolute, reliable, unwavering (Adjective); stop, halt, stem, check (Verb)
-- ***Antonyms***: disloyal, unreliable, unfaithful, weak, unsteady (Adjective); release, allow (Verb)
-
-_Examples_
-
-1. She is a **staunch** supporter of environmental conservation. _(Adjective: loyal and committed)_
-2. The old bridge was built with **staunch** materials that have withstood decades of wear and tear. _(Adjective: sturdy)_
-3. The medic managed to **staunch** the bleeding from the soldier’s wound. _(Verb: stop the flow of blood)_
-
-_Word Form Examples_
-
-1. **Staunchly**:
-    
-    - He **staunchly** defended his beliefs, even when faced with criticism. _(Adverb: in a firm or resolute manner)_
-    - ***Synonyms***: firmly, loyally, steadfastly
-2. **Staunchness**:
-    
-    - Her **staunchness** in fighting for justice inspired others to join the cause. _(Noun: quality of being loyal or firm)_
-    - ***Synonyms***: loyalty, steadfastness, reliability
-
-=====
-
-### STEAL
-@@  
-**Verb, Noun** | हिंदी: चोरी करना, चुराना : 
-1. (Verb) To take something without permission or legal right, intending to keep it permanently.
-2. (Verb) To move quietly or secretly to avoid being noticed.
-3. (Noun) A bargain or something acquired at a surprisingly low cost.
-
-- ***Synonyms***: rob, thieve, pilfer, sneak, swipe
-- ***Antonyms***: return, give, donate, restore, provide
-
-_Examples_
-1. He was caught trying to **steal** a wallet from the unsuspecting tourist. _(Verb: to take without permission)_
-2. The cat **stole** across the room, trying not to wake the sleeping dog. _(Verb: to move quietly)_
-3. That designer dress was a **steal** at half its original price. _(Noun: a bargain)_
-
-_Word Form Examples_
-1. **Stole**:
-	- She **stole** a glance at her watch during the meeting. _(Verb: past tense of steal)_
-	- ***Synonyms***: took, pilfered, swiped, snatched, filched
-2. **Stolen**:
-	- The **stolen** goods were recovered by the police during the raid. _(Adjective: taken illegally)_
-	- ***Synonyms***: pilfered, robbed, thieved, snatched, filched
-3. **Stealing**:
-	- **Stealing** is a crime that can lead to severe penalties. _(Noun: the act of taking something illegally)_
-	- ***Synonyms***: theft, robbery, pilfering, thievery, larceny
-4. **Stealth**:
-	- The ninja moved with **stealth**, avoiding detection by the guards. _(Noun: quiet and secret movement)_
-	- ***Synonyms***: secrecy, sneakiness, furtiveness, covertness, slyness
-
-=====
-
-### STEALTH
-
-@@  
-**Noun** | हिंदी: गुप्त, छिपकर करना :  
-
-1. The act of moving, proceeding, or acting in a secretive or hidden manner.
-2. A quality or characteristic of being secretive or elusive.
-3. In military or tactical context, the ability to avoid detection, often used to describe specific technologies or methods (e.g., stealth aircraft).
-
-- ***Synonyms***: secrecy, sneakiness, cunning, slyness, camouflage
-- ***Antonyms***: openness, visibility, transparency, honesty, forthrightness
-
-_Examples_
-
-1. The ninja moved with **stealth**, avoiding detection by any guards. _(Noun: secretive movement)_
-2. The **stealth** of the plan ensured that no one knew about it until the last moment. _(Noun: secrecy)_
-3. The **stealth** bomber was designed to remain undetected by radar. _(Noun: military technology)_
-
-_Word Form Examples_
-
-1. **Stealthy**:
-    
-    - The **stealthy** movements of the cat allowed it to sneak up on its prey. _(Adjective: secretive, elusive)_
-    - ***Synonyms***: sneaky, sly, covert, furtive, deceptive
-2. **Stealthily**:
-    
-    - He **stealthily** approached the target, making sure no one saw him. _(Adverb: in a secretive manner)_
-    - ***Synonyms***: secretly, quietly, covertly, discreetly
-
-=====
-### STEEPED
-
-@@  
-**Verb** (past tense of "steep") | हिंदी: डूबा हुआ, भिगोया हुआ : Thoroughly immersed or saturated in a particular quality, substance, or influence.  
-**Adjective** | हिंदी: पूर्ण रूप से प्रभावित : Deeply influenced or involved in something.
-
-- ***Synonyms***: imbued, saturated, immersed, soaked, infused
-- ***Antonyms***: drained, dry, unaffected, uninvolved
-
-_Examples_
-
-1. The fabric was steeped in dye overnight to achieve the rich color.
-2. She grew up steeped in traditions, making her deeply connected to her culture.
-
-_Root Word_
-
-- **Root:** Old English "stēopan" (to soak in liquid)
-- **Derived Words:**
-    1. Steep: being or characterized by a rapid and intensive decline or increase
-    2. Steepness: The quality of being steep, often used for inclines or difficulty.
-    3. Steeply: In a sharp or abrupt manner.
-
-=====
-
-### STEER
-@@  
-**Verb, Noun** | हिंदी: मार्गदर्शन करना, चलाना / बैल : 
-1. **(Verb)** To guide or control the movement of a vehicle, vessel, or animal.
-2. **(Verb)** To direct or influence the course of an event, situation, or conversation.
-3. **(Noun)** A male bovine animal, especially one raised for beef.
-
-- ***Synonyms***: (Verb) guide, direct, navigate, pilot, control; (Noun) bullock, ox
-- ***Antonyms***: (Verb) follow, mislead, abandon; (Noun) cow (female bovine)
-
-_Examples_
-1. She learned to **steer** the boat confidently after a few lessons. _(Verb: guide movement)_
-2. The CEO tried to **steer** the company towards more sustainable practices. _(Verb: direct course)_
-3. The farmer raised several **steers** for beef production. _(Noun: male bovine)_
-
-_Word Form Examples_
-1. **Steered**:
-	- He **steered** the car carefully through the narrow streets. _(Verb: past tense)_
-	- ***Synonyms***: guided, directed, navigated, piloted, controlled
-2. **Steering**:
-	- The **steering** of the project was handed over to a more experienced manager. _(Verb: present continuous form)_
-	- ***Synonyms***: guiding, directing, navigating, piloting, controlling
-3. **Steersman**:
-	- The **steersman** skillfully navigated the ship through the storm. _(Noun: one who steers)_
-	- ***Synonyms***: helmsman, pilot, navigator, driver, guide
-
-=====
-### STELLAR  
-@@  
-**Adjective** | हिंदी: तारापुंज संबंधी, उत्कृष्ट :  
-1. Relating to or resembling stars; pertaining to celestial bodies in the universe.  
-2. Exceptionally outstanding or excellent in quality or performance.  
-
-- ***Synonyms***: astronomical, celestial, starry, brilliant, outstanding, superb, remarkable  
-- ***Antonyms***: terrestrial, earthly, mediocre, ordinary, lackluster, unremarkable  
-
-_Examples_  
-1. The astronomer studied the **stellar** formations in the night sky using a high-powered telescope. *(Adjective: relating to stars)*  
-2. Her **stellar** performance in the play earned her a standing ovation from the audience. *(Adjective: outstanding)*  
-
-_Word Form Examples_  
-1. **Stellarly**:  
-   - The team performed **stellarly** during the championship, leaving their competitors far behind. *(Adverb: in an outstanding manner)*  
-   - ***Synonyms***: brilliantly, exceptionally, remarkably, superbly, excellently  
-2. **Stellarness**:  
-   - The **stellarness** of her achievements was celebrated across the nation. *(Noun: quality of being outstanding)*  
-   - ***Synonyms***: brilliance, excellence, superiority, distinction  
-
-=====
-### STEMS
-
-@@  
-**Noun (plural of stem)** | हिंदी: तने, डंठल : The main structural parts of plants that support leaves, flowers, or fruits, and transport nutrients and water.  
-**Verb (stem)** | हिंदी: रोकना, उत्पन्न होना : To stop or restrict the flow of something; to originate or arise from a source or cause.
-
-- **_Synonyms_ (Noun):** stalks, trunks, branches, shoots
-- **_Synonyms_ (Verb):** originate, derive, halt, restrain, curb, stop, restrict
-- **_Antonyms_ (Verb):** end, finish, cease, allow, release
-
-_Examples_
-
-1. The rose bush has long **stems** covered in thorns. _(Noun: plant structure)_
-2. The problem **stems** from a lack of communication between the teams. _(Verb: originates from)_
-3. The doctor worked quickly to **stem** the bleeding from the wound. _(Verb: stop or restrict)_
-
-_Word Form Examples_
-
-1. **Stemmed**:
-    
-    - The conflict **stemmed** from a misunderstanding between the two parties. _(Verb: past tense, originated)_
-    - ***Synonyms***: originated, arose, derived
-    - The nurse **stemmed** the flow of blood using a tight bandage. _(Verb: past tense, stopped)_
-    - ***Synonyms***: halted, stopped, restrained
-2. **Stemming**:
-    
-    - The team is focused on **stemming** the spread of misinformation online. _(Verb: continuous tense, stopping or restricting)_
-    - ***Synonyms***: halting, curbing, controlling
-3. **Stem**
-	-  Efforts were made to **stem** the spread of the disease in the affected area. _(Verb: stop/restrict)_
-	- ***Synonyms***: halt, restrain, curtail 
-
-=====
-### STEPPING STONE
-
-@@  
-**Noun** | हिंदी: कदम रखने का पत्थर, सफलता का प्रारंभ : A situation or experience that helps one to progress or achieve something, often used metaphorically for an initial step toward a larger goal.
-
-- ***Synonyms***: catalyst, launchpad, springboard, milestone, foundation
-- ***Antonyms***: obstacle, setback, hindrance, barrier, stumbling block
-
-_Examples_
-
-1. His first job was a **stepping stone** that led to a successful career in finance. _(Noun: initial step toward success)_
-2. The internship served as a **stepping stone** for her transition into full-time work. _(Noun: opportunity for advancement)_
-3. He viewed the failure of his business as a **stepping stone** to future success. _(Noun: learning experience)_
-
-_Word Forms_
-
-1. **Stepping-Stone** (Compound Noun)
-    
-    - The scholarship was a **stepping-stone** to her acceptance into graduate school.
-    - ***Synonyms***: opportunity, gateway, launchpad
-2. **Stepping-Stone to Success** (Phrase)
-    
-    - He considered each challenge as a **stepping-stone to success** in his entrepreneurial journey.
-    - ***Synonyms***: path to success, route to achievement
-
-=====
-
-### STERN
-@@  
-**Adjective, Noun** | हिंदी: कठोर, जहाज़ का पिछला भाग : 
-1. (Adjective) Strict, harsh, or severe in manner or attitude.
-2. (Noun) The rear part of a ship or boat.
-
-- ***Synonyms***: (Adjective) strict, harsh, severe, rigid, austere, (Noun) rear, aft, back
-- ***Antonyms***: (Adjective) lenient, gentle, kind, soft, flexible, (Noun) bow, front, fore
-
-_Examples_
-1. The teacher's **stern** expression silenced the noisy classroom. _(Adjective: strict or harsh)_
-2. The captain stood at the **stern** of the ship, watching the horizon. _(Noun: rear part of a ship)_
-3. His **stern** warning made everyone take the situation seriously. _(Adjective: severe in manner)_
-_Word Form Examples_
-1. **Sternly**:
-	- She **sternly** reminded the children to follow the rules. _(Adverb: in a strict or harsh manner)_
-	- ***Synonyms***: strictly, harshly, severely, rigidly, austerely
-2. **Sternness**:
-	- The **sternness** of his tone left no room for argument. _(Noun: quality of being strict or severe)_
-	- ***Synonyms***: strictness, harshness, severity, rigidity, austerity
-
-=====
-### STEWARD  
-@@  
-**Noun, Verb** | हिंदी: प्रबंधक, सेवक :  
-1. A person who manages or oversees the affairs of a household, estate, or organization. *(Noun)*  
-2. A person responsible for the care and management of something, such as natural resources or public funds. *(Noun)*  
-3. To manage or take care of something responsibly. *(Verb)*  
-
-- ***Synonyms***: caretaker, manager, custodian, guardian, overseer *(Noun)*; manage, oversee, administer, supervise *(Verb)*  
-- ***Antonyms***: neglecter, squanderer, mismanager *(Noun)*; ignore, abandon, mishandle *(Verb)*  
-
-_Examples_  
-1. The **steward** ensured that all guests were comfortable during the event. *(Noun: caretaker)*  
-2. As a **steward** of the environment, she worked tirelessly to promote sustainable practices. *(Noun: guardian)*  
-3. He was chosen to **steward** the project through its final stages. *(Verb: manage responsibly)*  
-
-_Word Form Examples_  
-1. **Stewardship**:  
-   - Her **stewardship** of the company led to unprecedented growth and innovation. *(Noun: responsible management)*  
-   - ***Synonyms***: management, guardianship, oversight, administration, supervision  
-2. **Stewardess**:  
-   - The **stewardess** greeted passengers warmly as they boarded the plane. *(Noun: female flight attendant)*  
-   - ***Synonyms***: flight attendant, air hostess  
-
-=====
-### STIFLE
-
-@@  
-**Verb** | हिंदी: दमन करना, दबाना, रोकना : To suppress, restrain, or prevent something from developing or being expressed.
-
-1. To prevent or restrict the expression of something, such as a feeling, action, or idea.
-2. To make it difficult to breathe or cause suffocation.
-
-- ***Synonyms***: suppress, restrain, smother, stymie, inhibit, repress
-- ***Antonyms***: encourage, allow, promote, liberate, release
-
-_Examples_
-
-1. The harsh rules of the school **stifled** the students' creativity. _(Verb: to suppress expression)_
-2. The thick smoke **stifled** his ability to breathe, causing him to panic. _(Verb: to cause suffocation)_
-
-_Word Form Examples_
-
-1. **Stifled**:
-    
-    - He felt **stifled** by the constant pressure from his parents to succeed. _(Adjective: suppressed, restrained)_
-    - _***Synonyms***:_ suppressed, smothered, repressed
-2. **Stifling**:
-    
-    - The **stifling** heat made it nearly impossible to work in the factory. _(Adjective: causing difficulty in breathing)_
-    - _***Synonyms***:_ oppressive, suffocating, uncomfortable
-3. **Stiflingly**:
-    
-    - The room was **stiflingly** hot, making it hard to concentrate. _(Adverb: in a manner that suppresses comfort or expression)_
-    - _***Synonyms***:_ suffocatingly, oppressively
-
-=====
-
-### STIGMA
-
-@@
-**Noun** | हिंदी: कलंक, बदनामी : A mark of disgrace or shame associated with a particular circumstance, quality, or person; social disapproval of personal characteristics or beliefs.
-
-- ***Synonyms***: dishonor, stain, taint, disgrace, blemish, blot
-- ***Antonyms***: honor, distinction, pride, glory, merit
-
-_Examples_
-
-1. There's still a **stigma** attached to mental illness in many societies. _(Noun)_
-2. The criminal conviction left a permanent **stigma** on his career. _(Noun)_
-3. She worked to overcome the **stigma** of being a school dropout. _(Noun)_
-4. The **stigma** of divorce has decreased in modern society. _(Noun)_
-
-_Word Form Examples_
-
-1. **Stigmatize** (verb):
-        - Society tends to **stigmatize** people who don't conform to its norms. _(Verb)_
-        - ***Synonyms***: brand, mark, condemn, ostracize
-
-2. **Stigmatic** (adjective):
-        - The **stigmatic** effects of poverty can last for generations. _(Adjective)_
-        - ***Synonyms***: disgraceful, shameful, discrediting
-
-3. **Stigmatized** (adjective):
-        - **Stigmatized** groups often face discrimination in employment. _(Adjective)_
-        - ***Synonyms***: marked, branded, dishonored
-
-4. **Stigmatization** (noun):
-        - The **stigmatization** of certain diseases prevents people from seeking treatment. _(Noun)_
-        - ***Synonyms***: discrimination, degradation, dishonoring
-
-
-=====
-### STINT  
-@@  
-**Noun, Verb** | हिंदी: अवधि, कार्यकाल :  
-1. A period of time spent doing something, often implying a temporary or limited duration. *(Noun)*  
-2. To restrict or limit the amount of something, often referring to resources or efforts. *(Verb)*  
-3. A person’s assigned task or role during a specific period. *(Noun)*  
-
-- ***Synonyms***: period, phase, spell, tenure *(Noun: time-related)*; limit, curtail, restrict, ration *(Verb)*  
-- ***Antonyms***: permanence, unlimited, abundance *(Noun/Verb)*  
-
-_Examples_  
-1. She completed a two-year **stint** as a volunteer teacher in rural India. *(Noun: period of time)*  
-2. The government decided to **stint** on non-essential spending to manage the budget deficit. *(Verb: limit)*  
-3. During his **stint** at the company, he successfully led several key projects. *(Noun: assigned role/task)*  
-
-_Word Form Examples_  
-1. **Stints**:  
-   - His various **stints** in different industries gave him a broad perspective on business. *(Noun: plural form)*  
-   - ***Synonyms***: periods, phases, assignments, tenures  
-2. **Stinting**:  
-   - The organization was accused of **stinting** on employee benefits to cut costs. *(Verb: present participle)*  
-   - ***Synonyms***: limiting, curtailing, restricting, rationing  
-3. **Stinted**:  
-   - They were forced to **stinted** resources during the crisis, focusing only on essentials. *(Verb: past tense)*  
-   - ***Synonyms***: restricted, limited, curtailed  
-
-=====
-
-
-
-### STIPULATE  
-@@  
-**Verb** | हिंदी: शर्त रखना, नियम बनाना :  
-1. To demand or specify a requirement as part of an agreement.  
-2. To formally assert or require something as a condition.  
-3. To arrange or agree upon terms explicitly.  
-
-- ***Synonyms***: specify, require, demand, state, insist, condition  
-- ***Antonyms***: waive, disregard, omit, ignore, relax  
-
-_Examples_  
-1. The contract **stipulates** that all work must be completed by December. *(Verb: specify as a condition)*  
-2. The teacher **stipulated** that late submissions would lose marks. *(Verb: demand formally)*  
-3. In the treaty, both nations **stipulated** mutual disarmament. *(Verb: arrange formally)*  
-
-_Word Form Examples_  
-1. **Stipulation**:  
-	- A key **stipulation** of the deal was monthly progress reports. *(Noun: specified condition)*  
-	- ***Synonyms***: condition, requirement, provision, clause, term  
-2. **Stipulatory** (rarely used):  
-	- The **stipulatory** clauses in the agreement ensured transparency. *(Adjective: relating to stipulations)*  
-	- ***Synonyms***: conditional, contractual, mandatory  
-
-=====
-### STIR
-
-@@  
-**Verb** | हिंदी: हिलाना, उत्तेजित करना : To mix or move something, especially a liquid or substance; to provoke or arouse a feeling or action.
-
-- ***Synonyms***: mix, move, agitate, excite, provoke
-- ***Antonyms***: calm, still, settle, soothe, pacify
-
-_Examples_
-
-1. She used a spoon to **stir** the soup until it was evenly heated. _(Verb: to mix or blend ingredients)_
-2. The speech **stirred** the crowd into a frenzy of applause. _(Verb: to provoke or arouse emotions)_
-
-_Word Form Examples_
-
-1. The **stirring** of the crowd was the result of a powerful performance. _(Noun: the act of exciting or arousing)_
-2. His words **stirred** feelings of hope and determination in the audience. _(Verb: past tense)_
-
-=====
-### STOIC
-
-@@  
-**Adjective, Noun** | हिंदी: अविचल, स्थिर :
-
-1. (Adjective) Showing indifference to pleasure or pain; not affected by or expressing emotions.
-2. (Noun) A person who practices stoicism, a philosophy that encourages self-control and the endurance of hardship without complaint.
-
-- ***Synonyms***: (Adjective) unemotional, impassive, indifferent, detached, resilient  
-    (Noun) philosopher, ascetic, sage, disciplined person
-- ***Antonyms***: (Adjective) emotional, sensitive, expressive, passionate  
-    (Noun) hedonist, sentimentalist, complainer
-
-_Examples_
-
-1. Despite the harsh conditions, he remained **stoic**, enduring the pain without a word. _(Adjective: emotionally indifferent)_
-2. The **stoic** approach to life helped her navigate through adversity with calm and composure. _(Adjective: resilient and unaffected by hardship)_
-3. As a **stoic**, he believed in accepting life's challenges with grace and without complaint. _(Noun: a person who practices stoicism)_
-4. The **stoic** expression on his face made it hard to tell whether he was happy or upset. _(Adjective: impassive)_
-
-_Word Form Examples_
-
-1. **Stoicism**:
-    
-    - His **stoicism** in the face of hardship earned him the respect of his peers. _(Noun: the philosophy of enduring hardship without emotional reaction)_
-    - ***Synonyms***: resilience, endurance, self-control, fortitude
-2. **Stoically**:
-    
-    - She handled the criticism **stoically**, not allowing it to affect her confidence. _(Adverb: in a calm, emotionless manner)_
-    - ***Synonyms***: unemotionally, impassively, calmly
-
-=====
-### STOKE
-@@
-**Verb, Noun** | हिंदी: भड़काना, आग को हवा देना : To add fuel to or tend to a fire; to encourage or increase activity or enthusiasm
-- ***Synonyms***: fuel, kindle, ignite, incite, energize
-- ***Antonyms***: extinguish, dampen, suppress, quench
-
-*Examples*
-1. He bent down to **stoke** the campfire, adding more logs to keep it burning. *(Verb)*
-2. The coach's speech helped to **stoke** the team's competitive spirit before the game. *(Verb)*
-3. The old steam engine required regular **stokes** to maintain its power. *(Noun)*
-
-*Word Forms*
-1. **Stoked**:
-    - The surfer was completely **stoked** about the perfect waves. *(Adjective: excited/enthusiastic)*
-    - She **stoked** the flames until they roared. *(Verb: past tense)*
-    - ***Synonyms***: thrilled, excited, enthusiastic, elated
-
-2. **Stoking**:
-    - **Stoking** the debate with controversial comments only made matters worse. *(Verb: present participle)*
-    - ***Synonyms***: fueling, feeding, intensifying, encouraging
-
-3. **Stoker**:
-    - The **stoker** worked tirelessly in the ship's engine room. *(Noun: person who tends a fire)*
-    - ***Synonyms***: fireman, furnace tender, fire tender
-
-=====
-
-### STOLID
-
-@@  
-**Adjective** | हिंदी: निस्संवेदन, कठोर :  
-
-1. Showing little or no emotion; not easily excited or upset.
-2. Unemotional, impassive, or indifferent in demeanor, often implying a lack of sensitivity or responsiveness.
-
-- ***Synonyms***: impassive, unemotional, indifferent, dull, unfeeling
-- ***Antonyms***: emotional, expressive, sensitive, passionate, responsive
-
-_Examples_
-
-1. His **stolid** expression never changed, even when he received the shocking news. _(Adjective: unemotional/impassive)_
-2. The **stolid** man sat quietly through the entire meeting, showing no reaction to the heated discussion. _(Adjective: indifferent/unresponsive)_
-3. Despite the tension in the room, she remained **stolid**, not revealing any feelings. _(Adjective: unfeeling)_
-
-_Word Form Examples_
-
-1. **Stolidly**:
-    
-    - She listened **stolidly** to the complaints, not reacting to any of them. _(Adverb: in an unemotional manner)_
-    - ***Synonyms***: unemotionally, indifferently, impassively
-2. **Stolidity**:
-    
-    - The **stolidity** of his character made it difficult for others to understand his true feelings. _(Noun: the quality of being unemotional or impassive)_
-    - ***Synonyms***: impassivity, unemotionality, indifference, dullness
-
-=====
-
-### STOPGAP  
-@@  
-**Noun, Adjective** | हिंदी: अस्थायी समाधान, तात्कालिक उपाय :  
-1. (Noun) A temporary measure or solution used to address a problem until a more permanent or effective one can be implemented.  
-2. (Adjective) Serving as a temporary substitute or fix.  
-
-- ***Synonyms***: (Noun) makeshift, interim, provisional, temporary, quick fix, band-aid solution  
-- ***Antonyms***: (Noun) permanent, long-term, definitive, lasting, comprehensive  
-
-- ***Synonyms***: (Adjective) temporary, provisional, interim, short-term  
-- ***Antonyms***: (Adjective) permanent, enduring, stable, long-lasting  
-
-_Examples_  
-1. The government announced a **stopgap** measure to address the rising unemployment rate. *(Noun)*  
-2. Using duct tape to fix the leak was a **stopgap** solution until the plumber arrived. *(Adjective)*  
-3. The committee proposed a **stopgap** plan to manage the budget shortfall for the next quarter. *(Noun)*  
-
-_Word Form Examples_  
-1. **Stopgaps**:  
-   - The organization relied on several **stopgaps** to keep operations running during the crisis. *(Noun: plural form)*  
-   - ***Synonyms***: makeshifts, quick fixes, temporary measures  
-2. **Stopgap-like**:  
-   - The policy felt **stopgap-like**, failing to address the root cause of the issue. *(Adjective: resembling a stopgap)*  
-   - ***Synonyms***: makeshift-like, temporary-like, provisional-like  
-
-=====
-
-### STRAITJACKET
-
-@@  
-**Noun** | हिंदी: जंजीरों में जकड़ी हुई पोशाक, मानसिक सीमाएँ :
-
-1. A garment designed to restrict the movement of a person's arms, often used for restraining individuals in mental institutions.
-2. A metaphorical term for a restrictive or confining situation that limits freedom or creativity.
-
-- ***Synonyms***: restraint, shackle, manacle, confinement, restriction, bondage
-- ***Antonyms***: freedom, liberty, release, independence
-
-_Examples_
-
-1. The patient was placed in a **straitjacket** to prevent him from harming himself or others. _(Noun: physical restraint)_
-2. The strict rules at the office felt like a **straitjacket**, stifling creativity and innovation. _(Noun: metaphorical restriction)_
-
-_Word Form Examples_
-
-1. **Straitjacketed** (Adjective):
-    
-    - His **straitjacketed** lifestyle left little room for personal expression or growth. _(Adjective: restricted or confined)_
-    - _***Synonyms***:_ confined, restricted, limited, constrained
-2. **Straitjacketing** (Verb - Present participle):
-    
-    - The company's rigid policies are **straitjacketing** their employees, making it difficult to adapt to changes. _(Verb: restricting freedom)_
-    - _***Synonyms***:_ restricting, confining, limiting
-
-=====
-
-### STRATUM
-@@  
-**Noun** | हिंदी: परत, स्तर, वर्ग : 
-1. A layer or level of material, often one of several parallel layers.
-2. A level or class in a hierarchical system, especially in society.
-
-- ***Synonyms***: layer, level, tier, class, division
-- ***Antonyms***: whole, entirety, aggregate, amalgamation
-
-_Examples_
-1. The geologist examined the different **strata** of rock to determine the age of the formation. _(Noun: layer of material)_
-2. The upper **stratum** of society often has access to more resources and opportunities. _(Noun: social class)_
-3. Each **stratum** of the cake was filled with a different flavor of cream. _(Noun: layer)_
-
-_Word Form Examples_
-1. **Strata**:
-	- The **strata** of the soil revealed a history of environmental changes. _(Noun: plural form)_
-	- ***Synonyms***: layers, levels, tiers, classes, divisions
-2. **Stratified**:
-	- The society was **stratified** into distinct classes based on wealth and occupation. _(Adjective: arranged in layers or levels)_
-	- ***Synonyms***: layered, leveled, tiered, classified, divided
-
-=====
-
-### STREAMLINE
-@@  
-**Verb**, **Adjective**, **Noun** | हिंदी: सरल बनाना, धारा-रेखा :  
-1. **(Verb)** To design or organize something to make it more efficient and effective.  
-2. **(Adjective)** Having a smooth, aerodynamic shape designed to minimize resistance.  
-3. **(Noun)** A line that shows the path of a fluid or object moving through air or water.  
-
-- ***Synonyms***: simplify, optimize, modernize, refine, smooth  
-- ***Antonyms***: complicate, hinder, obstruct, delay, tangle  
-
-_Examples_  
-1. **(Verb)** The company decided to **streamline** its operations to reduce costs and improve productivity. *(Verb: simplify/optimize)*  
-2. **(Adjective)** The **streamline** design of the car allowed it to achieve higher speeds with less fuel consumption. *(Adjective: aerodynamic)*  
-3. **(Noun)** Engineers studied the **streamline** of the aircraft to improve its performance. *(Noun: path of flow)*  
-
-_Word Form Examples_  
-1. **Streamlined**:  
-   - The **streamlined** process made it easier for customers to complete their orders. *(Adjective: simplified/efficient)*  
-   - ***Synonyms***: efficient, optimized, modernized, refined  
-2. **Streamlining**:  
-   - The **streamlining** of the application process reduced waiting times significantly. *(Noun: optimization)*  
-   - ***Synonyms***: simplification, optimization, refinement  
-
-=====
-### STRENUOUS
-@@  
-**Adjective** | हिंदी: कठिन, परिश्रमपूर्ण : 
-  1. Requiring or using great effort or exertion; physically or mentally demanding. _(Adjective)_
-  2. Vigorous or forceful in action or expression. _(Adjective)_
-  * **_Synonyms_ : ** demanding, arduous, strenuous, laborious, exhausting, vigorous, forceful 
-  * **_Antonyms_ : ** easy, effortless, relaxed, leisurely, mild
-
-_Examples_
-  1. The climbers faced a **strenuous** ascent up the steep and rocky mountain trail. _(Adjective: physically demanding)_
-  2. She put forth a **strenuous** argument to defend her position during the debate. _(Adjective: forceful in expression)_
-
-_Word Form Examples_
-  1. **Strenuously** : 
-     * He **strenuously** opposed the new policy, arguing that it would harm the community. _(Adverb: in a forceful or vigorous manner)_
-     * _**Synonyms** _: vigorously, forcefully, energetically, adamantly
-  2. **Strenuousness** : 
-     * The **strenuousness** of the training regimen tested the limits of even the most experienced athletes. _(Noun: the quality of being demanding or vigorous)_
-     * _**Synonyms** _: difficulty, rigor, intensity, exertion
-
-=====
-
-### STRIDENT  
-@@  
-**Adjective** | हिंदी: कठोर, तीव्र :  
-1. Loud and harsh; grating to the ear, often used to describe sounds.
-2. Forcefully assertive or aggressive, especially in speech or manner.
-
-- ***Synonyms***: harsh, shrill, grating, jarring, clamorous, vehement
-- ***Antonyms***: soft, gentle, soothing, mild, calm
-
-_Examples_  
-1. The **strident** noise of the car alarm woke up the entire neighborhood. *(Adjective: loud and harsh)*  
-2. His **strident** tone during the argument made it difficult to have a productive conversation. *(Adjective: forceful and aggressive)*  
-
-_Word Form Examples_  
-1. **Stridency**:  
-   - The **stridency** of her voice was enough to silence the room. *(Noun: harshness or shrillness)*  
-   - ***Synonyms***: harshness, shrillness, grating quality, abrasiveness  
-
-2. **Stridently**:  
-   - She spoke **stridently**, demanding immediate action from the authorities. *(Adverb: in a harsh or forceful manner)*  
-   - ***Synonyms***: harshly, shrilly, abrasively, vehemently, clamorously  
-
-=====
-
-### STRIDES 🪐
-
-@@  
-**Noun / Verb** | हिंदी: प्रगति, कदम, आगे बढ़ना : Significant progress or steps forward, or the act of moving with long, decisive steps.
-
- 1. **Noun**: A long step in walking or running; significant progress or advancement.
-
-as in _step_ (a large step forward physically or metaphorically):
-
-- ***Synonyms***: step, pace, advance, progress, leap, improvement
-- ***Antonyms***: halt, retreat, regression, stagnation
-
-as in _progress_ (an advance towards a goal):
-
-- ***Synonyms***: progress, development, breakthrough, improvement
-- ***Antonyms***: setback, delay, failure
-
-_Examples_:
-
-1. He took long **strides** across the field. _(Noun: physical step)_
-2. The company has made great **strides** in technology this year. _(Noun: progress)_
-
- 2. **Verb**: To walk with long, decisive steps.
-
-as in _march_ (walk purposefully with long steps):
-
-- ***Synonyms***: march, pace, stomp, hike, advance
-- ***Antonyms***: shuffle, stumble, crawl
-
-_Examples_:
-
-1. She **strode** confidently into the meeting. _(Verb: walked with long steps)_
-2. He **strides** towards success with determination. _(Verb: progresses forward)_
-
-=====
-
-
-### STRIKE
-@@  
-**Verb, Noun** | हिंदी: हड़ताल, प्रहार : 
-  1. To hit forcibly and deliberately. _(Verb)_
-  2. To cancel or remove something by drawing a line through it. _(Verb)_
-  3. A refusal to work as a form of organized protest. _(Noun)_
-  4. An act of hitting or attacking. _(Noun)_
-  5. A discovery of something valuable, such as oil or gold. _(Noun)_
-  * **_Synonyms_ : ** hit, beat, knock, punch _(Verb)_ ; boycott, walkout, protest _(Noun)_ ; discovery, find _(Noun)_
-  * **_Antonyms_ : ** miss, avoid, dodge _(Verb)_ ; cooperation, agreement _(Noun)_
-
-_Examples_
-  1. The boxer managed to **strike** his opponent with a powerful right hook. _(Verb: to hit forcibly)_
-  2. She used a pen to **strike** out the incorrect sentence in the document. _(Verb: to remove by drawing a line)_
-  3. The workers went on **strike** demanding better wages and working conditions. _(Noun: refusal to work)_
-  4. The archaeologist's **strike** of the shovel revealed an ancient artifact buried beneath the soil. _(Noun: discovery)_
-
-_Word Form Examples_
-  1. **Struck** : 
-     * Lightning **struck** the tree during the storm, splitting it in half. _(Verb: past tense, meaning hit)_
-     * _**Synonyms** _: hit, smote, impacted, collided
-  2. **Striking** : 
-     * The artist was **striking** the canvas with bold, vibrant colors to create a dramatic effect. _(Verb: present participle, meaning hitting)_
-     * Her **striking** beauty captivated everyone at the party. _(Adjective: remarkable or eye-catching)_
-     * _**Synonyms** _: hitting, beating, pounding _(Verb)_ ; remarkable, stunning, impressive _(Adjective)_
-  3. **Strikes** : 
-     * The union announced that the workers would hold **strikes** until their demands were met. _(Noun: plural form, meaning protests)_
-     * Thunder **strikes** fear into the hearts of many during storms. _(Verb: present tense, meaning hits or causes fear)_
-     * _**Synonyms** _: protests, walkouts, demonstrations _(Noun)_ ; hits, beats, shocks _(Verb)_
-  4. **Striker** : 
-     * The **striker** led the march, holding up a sign that read "Fair Wages Now." _(Noun: person participating in a strike)_
-     * In soccer, the **striker** is responsible for scoring goals. _(Noun: offensive player)_
-     * _**Synonyms** _: protester, demonstrator _(Noun: person in a strike)_ ; forward, attacker _(Noun: sports position)_
-
-=====
-
-### STRINGENT
-
-@@  
-**Adjective** | हिंदी: कड़ा, सख्त :
-
-1. Imposing strict standards or rules; severe or harsh in enforcing regulations or requirements.
-2. Characterized by precision and rigor in requirements or expectations.
-
-- ***Synonyms***: strict, severe, harsh, rigorous, demanding, tough
-- ***Antonyms***: lenient, flexible, easygoing, relaxed, tolerant
-
-_Examples_
-
-1. The company implemented **stringent** policies to ensure safety in the workplace. _(Adjective: strict and rigorous)_
-2. The new environmental regulations are **stringent**, requiring businesses to reduce their carbon emissions significantly. _(Adjective: severe and demanding)_
-
-_Word Form Examples_
-
-1. **Stringently** (Adverb):
-    
-    - The rules were enforced **stringently**, leaving no room for error. _(Adverb: in a strict or harsh manner)_
-    - _***Synonyms***:_ rigorously, severely, strictly
-2. **Stringency** (Noun):
-    
-    - The **stringency** of the new law made compliance difficult for some small businesses. _(Noun: state of being strict or severe)_
-    - _***Synonyms***:_ severity, strictness, rigor
-
-  =====
-
-### STRIVE
-@@  
-**Verb** | हिंदी: प्रयास करना, संघर्ष करना : 
-1. To make great efforts to achieve or obtain something.
-2. To struggle or fight vigorously for a goal or against challenges.
-
-- ***Synonyms***: endeavor, struggle, labor, aim, attempt
-- ***Antonyms***: neglect, idle, surrender, abandon, give up
-
-_Examples_
-1. She continues to **strive** for excellence in her academic pursuits. _(Verb: to make great efforts)_
-2. The team **strives** to complete the project before the deadline. _(Verb: to work hard toward a goal)_
-3. Despite the obstacles, he **strives** to improve his skills every day. _(Verb: to struggle persistently)_
-
-_Word Form Examples_
-1. **Striving**:
-	- His constant **striving** for perfection sometimes leads to unnecessary stress. _(Noun: continuous effort)_
-	- ***Synonyms***: effort, struggle, endeavor, pursuit, exertion
-2. **Striver**:
-	- She is a dedicated **striver** who never gives up on her dreams. _(Noun: one who strives)_
-	- ***Synonyms***: achiever, go-getter, aspirant, hard worker, fighter
-
-=====
-
-### STRONG
-
-@@  
-**Adjective / Adverb** | हिंदी: मज़बूत, ताकतवर : Having great physical power, influence, intensity, or effectiveness.
-
- 1. **Adjective**: Having great physical power or strength.
-
-as in _powerful_ (capable of exerting great force):
-
-- ***Synonyms***: powerful, mighty, muscular, robust, sturdy, tough
-- ***Antonyms***: weak, feeble, frail, delicate, fragile
-
-as in _durable_ (able to withstand stress or wear):
-
-- ***Synonyms***: durable, resilient, solid, tough, firm
-- ***Antonyms***: fragile, brittle, breakable, weak
-
-as in _dominant_ (having great authority or influence):
-
-- ***Synonyms***: dominant, influential, commanding, authoritative
-- ***Antonyms***: submissive, compliant, passive, subordinate
-
-as in _potent_ (having a powerful effect or result):
-
-- ***Synonyms***: potent, intense, forceful, impactful, effective
-- ***Antonyms***: mild, gentle, subtle, ineffective
-
-as in _steadfast_ (firmly fixed and unyielding):
-
-- ***Synonyms***: steadfast, resolute, unwavering, determined
-- ***Antonyms***: hesitant, wavering, unsure, indecisive
-
-_Examples:_
-
-1. He has a **strong** grip, making him a skilled climber. _(Adjective: powerful)_
-2. The bridge is built with **strong** materials to withstand storms. _(Adjective: durable)_
-3. She is a **strong** leader who influences her entire team. _(Adjective: dominant)_
-4. The medicine had a **strong** effect on his recovery. _(Adjective: potent)_
-5. His **strong** belief in justice kept him determined. _(Adjective: steadfast)_
-
-
- 2. **Adverb**: In a forceful or powerful manner.
-
-_Examples:_
-
-1. He pushed the door **strong** enough to break it open. _(Adverb: forcefully)_
-2. The wind blew **strong** against the windows last night. _(Adverb: intensely)_
-
-
- _Word Form Examples_
-
-1. **Stronger**:
-    
-    - She has become **stronger** after regular training. _(Comparative Adjective)_
-    - ***Synonyms***: mightier, tougher, more powerful
-2. **Strongest**:
-    
-    - He is the **strongest** player on the team. _(Superlative Adjective)_
-    - ***Synonyms***: most powerful, most robust
-3. **Strength**:
-    
-    - Her inner **strength** helped her overcome difficulties. _(Noun)_
-    - ***Synonyms***: power, stamina, fortitude
-4. **Strengthen**:
-    
-    - The exercises will help **strengthen** your muscles. _(Verb)_
-    - ***Synonyms***: fortify, reinforce, boost
-
-
-=====
-
-### STUBBLE  
-@@  
-**Noun** | हिंदी: टहनियाँ, दाढ़ी के बाल :  
-1. The short, stiff hairs that remain after shaving or cutting hair, especially on the face. *(Noun)*  
-2. The cut-off stems of crops like wheat or barley left in the ground after harvesting. *(Noun)*  
-3. A rough surface resembling short, stiff hairs. *(Noun)*  
-
-- ***Synonyms***: bristles, stubs, remnants, crop residue *(Noun)*  
-- ***Antonyms***: smoothness, bareness, clean-shaven *(Noun)*  
-
-_Examples_  
-1. After shaving, he noticed the **stubble** still visible on his chin. *(Noun: short facial hair)*  
-2. The farmer burned the **stubble** left in the field to prepare for the next planting season. *(Noun: crop residue)*  
-3. The carpet had a **stubble**-like texture due to its coarse fibers. *(Noun: rough surface)*  
-
-_Word Form Examples_  
-1. **Stubbly**:  
-   - His face felt **stubbly** after skipping a day of shaving. *(Adjective: covered with stubble)*  
-   - ***Synonyms***: bristly, rough, prickly, unshaven  
-2. **Stubbles**:  
-   - The **stubbles** of wheat were scattered across the harvested field. *(Noun: plural form of stubble)*  
-   - ***Synonyms***: remnants, stubs, residues  
-
-=====
-
-### STUBBORN
-
-@@  
-**Adjective** | हिंदी: जिद्दी, हठी : Refusing to change one's opinion or behavior despite persuasion or reasoning; difficult to manage or control.
-
-1. Unyielding or inflexible in attitude or stance.
-2. Resistant to change, movement, or resolution.
-
-- ***Synonyms***: obstinate, unyielding, inflexible, adamant, headstrong, tenacious
-- ***Antonyms***: flexible, compliant, yielding, easygoing, cooperative
-
-_Examples_
-
-1. Despite repeated warnings, he remained **stubborn** and refused to admit his mistake. _(Adjective: inflexible in attitude)_
-2. The **stubborn** stain on the shirt wouldn’t come out even after several washes. _(Adjective: resistant to removal)_
-3. Her **stubborn** determination to succeed helped her overcome many obstacles. _(Adjective: resolute or tenacious)_
-
-_Word Form Examples_
-
-1. **Stubbornly**:
-    
-    - He **stubbornly** refused to listen to any advice, determined to do things his way. _(Adverb: in an unyielding manner)_
-    - _***Synonyms***:_ obstinately, adamantly, rigidly
-
-=====
-
-### STUN
-
-@@  
-**Verb** | हिंदी: चौंकाना, स्तब्ध करना : To surprise or shock someone greatly, often leaving them temporarily unable to react, or to render someone unconscious by a blow or shock.
-
-- ***Synonyms***: shock, amaze, bewilder, astonish, daze, stupefy
-- ***Antonyms***: calm, reassure, soothe, expect, awaken
-
-_Examples_
-
-1. The sudden turn of events **stunned** everyone in the room. _(Verb: surprise or shock)_
-2. His powerful performance **stunned** the judges into silence. _(Verb: amaze)_
-3. The boxer was **stunned** by the opponent’s quick punch and fell to the ground. _(Verb: render unconscious)_
-
-_Word Form Examples_
-
-1. **Stunned** (Adjective):
-    
-    - She was **stunned** by the unexpected news of her promotion.
-    - ***Synonyms***: shocked, amazed, surprised, dazed
-2. **Stunning** (Adjective):
-    
-    - The view from the mountain top was absolutely **stunning** at sunrise.
-    - ***Synonyms***: breathtaking, remarkable, impressive
-3. **Stunningly** (Adverb):
-    
-    - The actress looked **stunningly** beautiful in her red gown.
-    - ***Synonyms***: breathtakingly, impressively, remarkably
-4. **Stunner** (Noun):
-    
-    - The plot twist in the movie was a real **stunner**.
-    - ***Synonyms***: shocker, surprise, amazement
-
-=====
-
-### STUNT
-@@  
-**Verb, Noun** | हिंदी: रोकना, करतब : 
-1. (Verb) To hinder or impede the growth, development, or progress of something.
-2. (Noun) A daring or spectacular feat, often performed to attract attention.
-3. (Noun) A feat of skill or strength, typically in entertainment or sports.
-
-- ***Synonyms***: (Verb) hinder, impede, restrict, hamper, curb; (Noun) feat, trick, performance, exploit, dare
-- ***Antonyms***: (Verb) promote, encourage, foster, advance, aid; (Noun) failure, flop, mistake
-
-_Examples_
-1. Poor nutrition can **stunt** a child’s physical and mental development. _(Verb: to hinder growth)_
-2. The daredevil performed a dangerous **stunt** on his motorcycle during the show. _(Noun: a daring feat)_
-3. The movie featured incredible **stunts** that left the audience in awe. _(Noun: a feat of skill)_
-
-_Word Form Examples_
-1. **Stunted**:
-	- The plant’s growth was **stunted** due to lack of sunlight. _(Adjective: hindered or impeded)_
-	- ***Synonyms***: hindered, restricted, hampered, curbed, underdeveloped
-2. **Stunting**:
-	- The **stunting** of economic growth in the region was caused by poor policies. _(Noun: the act of hindering)_
-	- ***Synonyms***: hindering, impeding, restricting, hampering, curbing
-3. **Stuntman/Stuntwoman**:
-	- The **stuntman** performed a breathtaking jump from the building. _(Noun: a person who performs stunts)_
-	- ***Synonyms***: daredevil, performer, trickster, acrobat
-
-=====
-
-### STURDY
-
-@@  
-**Adjective, Noun** | हिंदी: मजबूत, दृढ़ : Strongly built, resilient, or determined.
-
-- ***Synonyms***: strong, robust, solid, tough, resilient, well-built
-- ***Antonyms***: weak, flimsy, fragile, delicate, feeble
-
-_Examples_
-
-1. The table was made of **sturdy** oak, built to last for generations. _(Adjective: strong and solid)_
-2. She maintained a **sturdy** determination despite the challenges. _(Adjective: resilient)_
-
-_Word Form Examples_
-
-1. **Sturdily**:
-    
-    - The house was **sturdily** constructed to withstand heavy storms. _(Adverb: strongly built)_
-    - ***Synonyms***: solidly, robustly, firmly
-2. **Sturdiness**:
-    
-    - The **sturdiness** of the backpack made it perfect for hiking. _(Noun: quality of being strong)_
-    - ***Synonyms***: strength, robustness, solidity
-
-=====
-
-
-
-### STYMIE
-
-@@
-**Verb** | हिंदी: बाधा डालना, रुकावट करना : To prevent or hinder the progress of; to thwart or obstruct completely
-
-- ***Synonyms***: obstruct, hinder, block, thwart, impede
-- ***Antonyms***: facilitate, assist, help, enable, aid
-
-_Examples_
-1. The lack of funding could **stymie** the research project. *(Verb)*
-2. Bad weather continued to **stymie** rescue efforts. *(Verb)*
-3. Political disagreements **stymied** attempts at reform. *(Verb)*
-
-_Word Form Examples_
-
-1. **Stymied**:
-   - The team was **stymied** by the opponent's defensive strategy. *(Past Participle)*
-   - ***Synonyms***: blocked, frustrated, hindered, stopped
-
-2. **Stymying**:
-   - The drought is **stymying** crop growth across the region. *(Present Participle)*
-   - ***Synonyms***: blocking, preventing, impeding
-
-
-=====
-
-### SUBDUE  
-@@  
-**Verb** | हिंदी: वश में करना, शांत करना : To bring under control or subjugate, especially by force; to quiet or calm someone or something; to tone down or make less intense.  
-- ***Synonyms***: suppress, conquer, pacify, restrain, quell, mitigate  
-- ***Antonyms***: incite, provoke, agitate, intensify, liberate  
-
-_Examples_  
-1. The firefighters worked tirelessly to **subdue** the raging wildfire. *(Verb: bring under control)*  
-2. She tried to **subdue** her emotions during the emotional farewell ceremony. *(Verb: calm or quiet)*  
-
-_Word Form Examples_  
-1. **Subdued**:  
-   - The crowd remained **subdued** after the disappointing announcement. *(Adjective: quiet or restrained)*  
-   - ***Synonyms***: calm, muted, subdued, controlled, placid  
-2. **Subduing**:  
-   - The security team was engaged in **subduing** the unruly protester. *(Verb: in the process of bringing under control)*  
-   - ***Synonyms***: suppressing, conquering, restraining, pacifying  
-3. **Subdual**:  
-   - The **subdual** of the rebellion took several weeks and required significant resources. *(Noun: act of subduing)*  
-   - ***Synonyms***: suppression, conquest, pacification, restraint  
-
-=====
-### SUBJUGATOR  
-@@  
-**Noun** | हिंदी: दास बनाने वाला, वशीकर्ता :  
-1. A person or entity that subjugates; someone who conquers, dominates, or brings others under control, often by force or oppression. *(Noun)*  
-
-- ***Synonyms***: oppressor, tyrant, conqueror, dominator, enslaver, overlord  
-- ***Antonyms***: liberator, emancipator, ally, supporter, protector  
-
-_Examples_  
-1. The **subjugator** imposed harsh laws to maintain control over the conquered territories. *(Noun: oppressor)*  
-2. History remembers him as a ruthless **subjugator** who exploited the weak for personal gain. *(Noun: tyrant)*  
-
-_Word Form Examples_  
-1. **Subjugate**:  
-   - The invading army sought to **subjugate** the local population through fear and violence. *(Verb: to dominate or oppress)*  
-   - ***Synonyms***: oppress, dominate, suppress, enslave, conquer  
-2. **Subjugation**:  
-   - The **subjugation** of the indigenous people led to centuries of struggle for freedom. *(Noun: act of subjugating)*  
-   - ***Synonyms***: oppression, domination, suppression, enslavement  
-
-=====
-### SUBPOENA
-
-@@  
-**Noun, Verb** | हिंदी: समन, अदालत का आदेश :
-
-1. (Noun) A legal document requiring a person to appear in court or produce evidence.
-2. (Verb) To summon someone to court by issuing a subpoena.
-
-- ***Synonyms***: summons, writ, mandate, court order
-- ***Antonyms***: discharge, dismissal, release
-
-_Examples_
-
-1. The court issued a **subpoena** for the witness to testify. _(Noun: legal document)_
-2. Failure to comply with a **subpoena** can result in legal consequences. _(Noun: court order)_
-3. The attorney **subpoenaed** the documents as evidence for the trial. _(Verb: summoned via a subpoena)_
-4. He was **subpoenaed** to appear before the grand jury next week. _(Verb: legally summoned)_
-
-_Word Form Examples_
-
-1. **Subpoenaed**:
-    
-    - The key witness was **subpoenaed** to testify in the fraud case. _(Verb: past tense of issuing a subpoena)_
-    - ***Synonyms***: summoned, mandated, ordered
-2. **Subpoenaing**:
-    
-    - The lawyer is **subpoenaing** additional records to strengthen the case. _(Verb: present participle of issuing a subpoena)_
-    - ***Synonyms***: summoning, mandating, ordering
-
-=====
-### SUBSERVIENT
-
-@@  
-**Adjective** | हिंदी: आज्ञाकारी, अधीन : Prepared to obey others unquestioningly; excessively submissive or serving a subordinate role.
-
-as in _obedient_ (submissive to authority or control):
-
-- ***Synonyms***: obedient, compliant, submissive, deferential, docile
-- ***Antonyms***: defiant, resistant, assertive, rebellious, independent
-
-as in _servile_ (having or showing an excessive willingness to please or serve):
-
-- ***Synonyms***: servile, fawning, groveling, sycophantic, slavish
-- ***Antonyms***: domineering, assertive, insolent, authoritative
-
-as in _secondary_ (acting in a subordinate or auxiliary role):
-
-- ***Synonyms***: subordinate, secondary, auxiliary, inferior
-- ***Antonyms***: primary, superior, leading, dominant
-
-_Examples_
-
-1. He was so **subservient** to his boss that he never questioned her decisions. _(Adjective: obedient)_
-2. The servant's **subservient** attitude bordered on servility. _(Adjective: servile)_
-3. The assistant was hired to play a **subservient** role, handling minor tasks. _(Adjective: secondary)_
-
-_Word Form Examples_
-
-1. **Subservience**:
-    
-    - Her **subservience** to authority made her an easy target for exploitation. _(Noun: the quality of being excessively obedient or submissive)_
-    - ***Synonyms***: servility, submissiveness, docility
-    - ***Antonyms***: assertiveness, independence
-2. **Subserviently**:
-    
-    - He nodded **subserviently** to every instruction given. _(Adverb: in a manner showing excessive obedience or submission)_
-    - ***Synonyms***: obediently, deferentially, submissively
-
-
-=====
-
-### SUBSIDIZE
-
-@@  
-**Verb** | हिंदी: अनुदान देना, सहायता देना : To provide financial assistance, usually from the government or an organization, to help reduce costs or support an activity.
-
-- ***Synonyms***: fund, support, finance, sponsor, underwrite, aid
-- ***Antonyms***: deprive, defund, withhold, oppose, discourage
-
-_Examples_
-
-1. The government decided to **subsidize** renewable energy projects to promote sustainability. _(Verb: provide financial assistance)_
-2. Many universities **subsidize** student meals to make dining more affordable. _(Verb: reduce costs through financial aid)_
-
-_Word Form Examples_
-
-1. **Subsidized** (Past tense/Past participle)
-    
-    - The company provided **subsidized** housing for its employees near the factory. _(Adjective: financially assisted)_
-    - ***Synonyms***: funded, assisted, supported, sponsored
-2. **Subsidizing** (Present participle/Gerund)
-    
-    - The government is **subsidizing** public transportation to encourage its use. _(Verb: currently providing financial support)_
-    - ***Synonyms***: financing, supporting, sponsoring, funding
-3. **Subsidization** (Noun)
-    
-    - The **subsidization** of essential goods helps keep prices affordable for low-income families. _(Noun: the act of providing subsidies)_
-    - ***Synonyms***: funding, financial aid, sponsorship, assistance
-
-=====
-
-### SUBSTANTIVE  
-@@  
-**Adjective, Noun** | हिंदी: वास्तविक, मूलभूत :  
-1. **(Adjective)**: Having a firm basis in reality; significant, important, or substantial.  
-2. **(Adjective)**: Relating to the essence or core of something; fundamental.  
-3. **(Noun)**: A word that denotes a thing, person, place, or concept (e.g., nouns and pronouns).  
-
-- ***Synonyms***:  
-   - *(Adjective)*: significant, essential, substantial, meaningful, real, fundamental, crucial  
-   - *(Noun)*: noun, pronoun, entity, subject, object  
-- ***Antonyms***:  
-   - *(Adjective)*: trivial, superficial, insignificant, minor, unimportant  
-   - *(Noun)*: modifier, adjective, adverb  
-
-_Examples_  
-1. The committee made a **substantive** change to the policy, addressing its core issues. *(Adjective: significant)*  
-2. Her argument lacked **substantive** evidence and was quickly dismissed by the panel. *(Adjective: fundamental)*  
-3. In grammar, "dog" and "he" are examples of **substantives** because they represent entities. *(Noun: grammatical term)*  
-
-_Word Form Examples_  
-1. **Substantially**:  
-   - The project was **substantially** completed ahead of schedule, thanks to the team’s hard work. *(Adverb: significantly)*  
-   - ***Synonyms***: considerably, significantly, greatly, profoundly, materially  
-2. **Substantive**:  
-   - The report focused on **substantive** issues rather than minor details. *(Adjective: essential)*  
-   - ***Synonyms***: significant, crucial, pivotal, fundamental, vital  
-3. **Substantiation**:  
-   - The scientist provided clear **substantiation** for her theory through experimental data. *(Noun: evidence or proof)*  
-   - ***Synonyms***: validation, verification, confirmation, proof, corroboration  
-
-=====
-### SUBTERRANEAN
-@@
-**Adjective** | हिंदी: भूमिगत, पाताली : 
-1. Existing, situated, or operating below the earth's surface
-2. Hidden; secret; working in secret
-- ***Synonyms***: underground, buried, concealed, hidden
-- ***Antonyms***: aboveground, surface, aerial, overhead
-
-*Examples*
-1. The ancient city had an extensive **subterranean** tunnel system. *(Adjective: underground)*
-2. Scientists discovered a **subterranean** lake beneath the glacier. *(Adjective: below ground)*
-3. There was a **subterranean** network of resistance fighters during the war. *(Adjective: secret)*
-4. The building's **subterranean** parking garage extended three levels down. *(Adjective: underground)*
-
-=====
-### SUBURBAN
-
-@@  
-**Adjective** | हिंदी: उपनगरीय : Relating to or characteristic of an area outside a city, typically residential in nature.
-
-1. Pertaining to areas near or surrounding a city.
-2. Often associated with a quieter, family-oriented lifestyle compared to urban areas.
-
-- ***Synonyms***: residential, outskirts, peri-urban, outer-city
-- ***Antonyms***: urban, metropolitan, inner-city, rural
-
-_Examples_
-
-1. They moved to a **suburban** neighborhood to escape the hustle and bustle of the city. _(Adjective: pertaining to residential areas outside cities)_
-2. The **suburban** lifestyle appealed to them because of its peaceful environment. _(Adjective: associated with quieter living)_
-
-_Word Form Examples_
-
-1. The **suburbs** are often seen as ideal places for raising families. _(Noun: areas outside the city)_
-2. The **suburbs** have grown rapidly as more families seek to escape urban congestion. _(Noun: outer-city regions)_
-3. Their **suburbanite** neighbors invited them to a community barbecue. _(Noun: a person living in a suburban area)_
-
-=====
-
-### SUCCOR  
-@@  
-**Noun, Verb** | हिंदी: सहायता, मदद :  
-1. **(Noun)** Assistance or relief given to someone in need; aid or support.  
-2. **(Verb)** To provide assistance, support, or relief to someone in distress.  
-
-- ***Synonyms***: (Noun) aid, assistance, help, relief, support, comfort  
-- ***Antonyms***: (Noun) harm, hindrance, neglect, abandonment  
-
-_Examples_  
-1. The charity provided **succor** to families affected by the natural disaster. *(Noun: assistance)*  
-2. Volunteers worked tirelessly to **succor** the injured after the accident. *(Verb: to provide aid)*  
-
-_Word Form Examples_  
-1. **Succoring**:  
-   - The organization is **succoring** homeless individuals by providing food and shelter. *(Verb: present participle, providing aid)*  
-   - ***Synonyms***: assisting, helping, aiding, supporting, comforting  
-2. **Succored**:  
-   - The stranded hikers were **succored** by a rescue team after hours of waiting. *(Verb: past tense, provided aid)*  
-   - ***Synonyms***: helped, assisted, supported, relieved, comforted  
-3. **Succorable**:  
-   - The situation was **succorable**, as many people were willing to offer their help. *(Adjective: capable of being aided)*  
-   - ***Synonyms***: aidable, assistable, supportable, relievable  
-
-=====
-### SUCCUMB  
-@@  
-**Verb** | हिंदी: हार मानना, दबाव में आना :  
-1. To give in to pressure, temptation, or a negative force.  
-2. To die, especially from a disease, injury, or overwhelming condition.  
-
-- ***Synonyms***: yield, surrender, give in, submit, capitulate, perish  
-- ***Antonyms***: resist, withstand, overcome, conquer, endure  
-
-_Examples_  
-1. After hours of negotiation, he finally **succumbed** to their demands. _(Verb: to give in to pressure)_  
-2. The patient **succumbed** to the illness after a long and difficult battle. _(Verb: to die from a disease or condition)_  
-3. She tried to resist the temptation but eventually **succumbed** and ate the chocolate cake. _(Verb: to give in to temptation)_  
-
-_Word Form Examples_  
-1. **Succumbing**:  
-   - Despite his best efforts, he found himself **succumbing** to exhaustion after the marathon. _(Verb: present participle form)_  
-   - ***Synonyms***: yielding, surrendering, giving in, submitting, capitulating  
-2. **Succumbed**:  
-   - The ancient civilization **succumbed** to the invading forces. _(Verb: past tense)_  
-   - ***Synonyms***: yielded, surrendered, gave in, perished, capitulated  
-
-=====
-### SUFFICE
-
-@@
-**Verb** | हिंदी: पर्याप्त होना, काफ़ी होना : To be enough or adequate; meet the needs of.
-
-- ***Synonyms***: satisfy, serve, do, avail, content
-- ***Antonyms***: dissatisfy, lack, need, want, miss
-
-_Examples_
-
-1. A brief explanation will **suffice** for now. *(Verb)*
-2. Will $10 **suffice** for lunch? *(Verb)*
-3. For many people, a simple "thank you" does not **suffice** to express their gratitude. *(Verb)*
-
-_Word Form Examples_
-
-1. **Sufficiency**:
-   - The **sufficiency** of the evidence was questioned by the defense. *(Noun)*
-   - *Synonyms*: adequacy, enough, competence, abundance
-
-2. **Sufficient**:
-   - We have **sufficient** resources to complete the project. *(Adjective)*
-   - *Synonyms*: adequate, enough, ample, satisfactory
-
-3. **Sufficiently**:
-   - The instructions were not **sufficiently** clear. *(Adverb)*
-   - *Synonyms*: adequately, enough, amply, satisfactorily
-4. **Self-sufficient**:
-    - They aim to be completely **self-sufficient** and grow all their own food. *(Adjective)*
-    - *Synonyms*: independent, autonomous, self-reliant, self-supporting
-
-=====
-
-### SUO MOTU  
-@@  
-**Adverb (Legal Term)** | हिंदी: स्वतः प्रेरणा से, अपनी मर्जी से :  
-1. A Latin term meaning "on its own motion," used to describe actions taken by a court or authority without external prompting.  
-2. Refers to decisions or proceedings initiated independently by an official body.  
-
-- ***Synonyms***: voluntarily, self-initiated, independently, spontaneously  
-- ***Antonyms***: prompted, compelled, instructed, directed  
-
-_Examples_  
-1. The Supreme Court took **suo motu** cognizance of the human rights violations. *(Adverb: self-initiated legal action)*  
-2. The tribunal acted **suo motu** to investigate the corruption allegations. *(Adverb: without external request)*  
-
-_Word Form Examples_  
-1. **Suo-motu (Adjective)**:  
-	- The **suo-motu** investigation by the judge highlighted judicial activism. *(Adjective: self-initiated)*  
-	- ***Synonyms***: autonomous, self-triggered, discretionary  
-2. **Suo Motu Action/Case**:  
-	- The **suo motu case** filed by the court addressed environmental negligence. *(Noun Phrase: self-initiated legal proceeding)*  
-	- ***Synonyms***: self-initiated proceeding, independent inquiry  
-
-=====
-
-### SURGE
-
-@@  
-**Noun, Verb** | हिंदी: उछाल, लहर, बढ़ोतरी : A sudden, powerful forward or upward movement, especially by a crowd, wave, or electric current; to rise, increase, or move forward suddenly and powerfully.
-
-- ***Synonyms***: rise, increase, swell, rush, spike, boost
-- ***Antonyms***: decline, decrease, drop, fall, recession
-
-_Examples_
-
-1. A **surge** of adrenaline helped him complete the race. _(Noun: sudden increase)_
-2. The crowd **surged** forward as the gates to the concert were opened. _(Verb: moved suddenly and powerfully)_
-3. Electricity **surged** through the wires after the power was restored. _(Verb: sudden increase in flow)_
-
-_Word Form Examples_
-
-1. **Surging** (Adjective/Verb):
-    
-    - The **surging** tide threatened to overflow the riverbanks. _(Adjective: rising or increasing rapidly)_
-    - ***Synonyms***: swelling, rising, escalating, climbing
-    - ***Antonyms***: subsiding, declining, falling
-    - The prices are **surging** due to high demand. _(Verb: increasing rapidly)_
-2. **Surged** (Verb - Past Tense):
-    
-    - The water level **surged** after the heavy rainfall. _(Verb: rose suddenly)_
-3. **Surgeon** (Noun): _(Related by etymology)_
-    
-    - A **surgeon** performed the emergency procedure to save the patient’s life.  
-        _(Noun: a medical professional specializing in surgery)_
-4. **Surgeon-like** (Adjective):
-    
-    - He worked with **surgeon-like** precision while assembling the delicate machine.  
-        _(Adjective: showing great accuracy or care)_
-
-=====
-
-
-### SURMISE  
-@@  
-**Verb, Noun** | हिंदी: अनुमान, समझना :  
-1. To infer or conclude from limited evidence; to guess or conjecture. *(Verb)*  
-2. A supposition or belief based on incomplete information; a guess. *(Noun)*  
-
-- ***Synonyms***:  
-   - **Verb**: guess, conjecture, speculate, presume, deduce, infer  
-   - **Noun**: assumption, hypothesis, presumption, conjecture, speculation  
-- ***Antonyms***:  
-   - **Verb**: know, confirm, verify, ascertain, prove  
-   - **Noun**: certainty, fact, truth, reality  
-
-_Examples_  
-1. From the footprints in the snow, I **surmised** that someone had been there before us. *(Verb: to infer)*  
-2. His explanation was based purely on **surmise**, as no concrete evidence had been found. *(Noun: a guess)*  
-3. She **surmised** the reason for his absence but didn’t want to jump to conclusions. *(Verb: to suppose)*  
-
-_Word Form Examples_  
-1. **Surmised**:  
-   - The detective **surmised** that the suspect had fled the city. *(Verb: past tense, to infer)*  
-   - ***Synonyms***: guessed, presumed, inferred, deduced, conjectured  
-2. **Surmising**:  
-   - He left the room without explanation, leaving everyone **surmising** about his sudden departure. *(Verb: present participle, guessing)*  
-   - ***Synonyms***: speculating, presuming, hypothesizing, assuming  
-3. **Surmisable**:  
-   - The cause of the accident was **surmisable** from the skid marks on the road. *(Adjective: capable of being surmised)*  
-   - ***Synonyms***: inferable, deducible, assumable, conjecturable  
-
-=====
 ### SURMOUNT  
 @@  
-**Verb** | हिंदी: पार करना, विजय प्राप्त करना :  
-1. To overcome a difficulty, obstacle, or challenge; to triumph over adversity.
-2. To be positioned at the top of something, often referring to physical objects like mountains or structures.
-
-- ***Synonyms***: overcome, conquer, triumph, ascend, prevail, master
-- ***Antonyms***: succumb, fail, yield, surrender, descend
+**Verb** | हिंदी: पार करना, विजय प्राप्त करना : To overcome a difficulty, obstacle, or challenge; to rise above or surpass something challenging.
+- ***Synonyms***: overcome, conquer, triumph over, master, surmount, transcend  
+- ***Antonyms***: succumb, fail, yield, surrender, capitulate  
 
 _Examples_  
-1. Despite the odds, she managed to **surmount** every obstacle in her path to success. *(Verb: overcome)*  
-2. The statue was designed to **surmount** the grand marble pedestal in the city square. *(Verb: be positioned above)*  
+1. She managed to **surmount** the challenges of her difficult childhood and build a successful career. *(Verb: overcome)*  
+2. The hikers had to **surmount** a steep cliff to reach the summit of the mountain. *(Verb: rise above physically)*  
 
 _Word Form Examples_  
-1. **Surmountable**:  
-   - With determination and teamwork, even the most daunting challenges can become **surmountable**. *(Adjective: able to be overcome)*  
-   - ***Synonyms***: conquerable, manageable, achievable, attainable  
-
-2. **Surmounting**:  
-   - The process of **surmounting** personal fears requires patience and self-awareness. *(Gerund: overcoming)*  
-   - ***Synonyms***: overcoming, conquering, mastering, prevailing  
-
-=====
-
-### SURPASS
-@@
-**Verb** | हिंदी: पार करना, आगे निकल जाना :
-1. To exceed or go beyond in degree, quality, or achievement.
-2. To be greater or better than someone or something else.
-
-- ***Synonyms***: exceed, outdo, outshine, transcend
-- ***Antonyms***: fall short, lag, trail, underperform, fail
-
-_Examples_
-1. Her performance in the exam **surpassed** everyone’s expectations. _(Verb: to exceed)_
-2. The new model of the car **surpasses** its predecessor in both speed and efficiency. _(Verb: to be better than)_
-3. He aimed to **surpass** his own previous records in the upcoming competition. _(Verb: to go beyond)_
-
-_Word Form Examples_
-1. **Surpassing**:
-	- The company is focused on **surpassing** its competitors in innovation. _(Verb, present participle: exceeding)_
-	- ***Synonyms***: exceeding, outdoing, outshining, transcending, eclipsing
-2. **Surpassed**:
-	- The athlete **surpassed** all previous records in the tournament. _(Verb, past tense: exceeded)_
-	- ***Synonyms***: exceeded, outdid, outshone, transcended, eclipsed
-3. **Surpassable**:
-	- The challenges seemed difficult, but they were **surpassable** with determination. _(Adjective: capable of being surpassed)_
-	- ***Synonyms***: achievable, conquerable, beatable, exceedable
-<!--SR:!2025-02-21,3,250-->
-
-=====
-
-### SURREPTITIOUS
-
-@@  
-**Adjective** | हिंदी: गुप्त, छिपा हुआ : Done secretly, stealthily, or without approval, often to avoid notice or disapproval.
-
-- ***Synonyms***: secret, stealthy, clandestine, covert, furtive, hidden
-- ***Antonyms***: open, overt, public, transparent, blatant
-
-_Examples_
-
-1. The spy conducted a **surreptitious** operation to gather sensitive information. _(Adjective: done secretly to avoid detection)_
-2. She glanced **surreptitiously** at her phone during the meeting to check the time. _(Adjective: stealthy or discreet in behavior)_
-
-_Word Form Examples_
-
-1. **Surreptitiously** (Adverb):
-    
-    - He **surreptitiously** slipped the note into her pocket without anyone noticing. _(Adverb: in a secret or stealthy manner)_
-    - ***Synonyms***: secretly, covertly, furtively, discreetly
-2. **Surreptitiousness** (Noun):
-    
-    - The **surreptitiousness** of their actions raised suspicion among their colleagues. _(Noun: the quality of being secretive or stealthy)_
-    - ***Synonyms***: secrecy, stealth, furtiveness, discretion
-
-=====
-
-### SURROGACY  
-@@  
-**Noun** | हिंदी: प्रतिनिधित्व, सौतेली मातृत्व :  
-1. The practice by which a woman (the surrogate mother) becomes pregnant and gives birth to a child for another person or couple, who will become the child’s parent(s) after birth.  
-2. The state of acting as a substitute or replacement for someone else in a specific role or function.  
-
-- ***Synonyms***: substitution, delegation, representation *(general)*; gestational arrangement, surrogate motherhood *(specific to childbirth)*  
-- ***Antonyms***: originality, direct involvement, personal responsibility  
-
-_Examples_  
-1. **Surrogacy** has become a widely discussed topic in modern reproductive medicine. *(Noun: practice of surrogate motherhood)*  
-2. In some cultures, **surrogacy** is viewed as a noble act of helping others build a family. *(Noun: substitution in parenthood)*  
-3. The company hired a consultant to handle their marketing needs as a form of temporary **surrogacy** for a full-time executive. *(Noun: substitution in a role)*  
-
-_Word Form Examples_  
-1. **Surrogate**:  
-   - The **surrogate** mother agreed to carry the child for the couple. *(Adjective/Noun: substitute mother)*  
-   - ***Synonyms***: stand-in, substitute, representative, proxy  
-2. **Surrogates**:  
-   - Several **surrogates** were considered for the role of interim CEO. *(Noun: plural form, substitutes)*  
-   - ***Synonyms***: replacements, delegates, stand-ins, proxies  
-3. **Surrogated**:  
-   - His responsibilities were **surrogated** to an assistant during his leave. *(Verb: past tense, delegated)*  
-   - ***Synonyms***: delegated, assigned, transferred, entrusted  
-
-=====
-### SUSCEPTIBLE
-
-@@  
-**Adjective** | हिंदी: संवेदनशील, प्रवृत्त : Likely or prone to be influenced, affected, or harmed by something.
-
-- ***Synonyms***: vulnerable, prone, sensitive, impressionable, liable, exposed
-- ***Antonyms***: resistant, immune, invulnerable, unaffected, impervious
-
-_Examples_
-
-1. Young children are often **susceptible** to colds during winter. _(Adjective: vulnerable)_
-2. He was **susceptible** to flattery, making him an easy target for manipulation. _(Adjective: easily influenced)_
-
-_Word Form Examples_
-
-1. **Susceptibility**:
-    
-    - His **susceptibility** to stress affected his performance at work. _(Noun: state of being easily affected)_
-    - ***Synonyms***: vulnerability, sensitivity, openness
-2. **Susceptibly**:
-    
-    - She reacted **susceptibly** to the harsh criticism. _(Adverb: in a vulnerable manner)_
-    - ***Synonyms***: vulnerably, sensitively, weakly
-
-=====
-
-### SUSTAIN
-
-@@  
-**Verb** | हिंदी: बनाए रखना, सहारा देना : To keep something going; to support or maintain over time.
-
-- ***Synonyms***: maintain, uphold, support, endure, bolster
-- ***Antonyms***: weaken, neglect, abandon, discontinue, collapse
-
-_Examples_
-
-1. The pillars are designed to **sustain** the weight of the building. _(Verb: support structurally)_
-2. Her determination helped her **sustain** her efforts despite numerous challenges. _(Verb: maintain over time)_
-
-_Word Form Examples_
-
-1. The company’s ability to **sustainability** of its profits impressed investors. _(Noun: capacity to endure)_
-2. He fought bravely but could not **sustain** the injuries from the accident. _(Verb: experience or endure)_
-
-=====
-
-### SWAGGER
-
-@@  
-**Verb** | हिंदी: घमंड करना, अकड़ना : To walk or behave in a confident or arrogant manner, often with exaggerated pride.
-
-- ***Synonyms***: strut, parade, boast, flaunt, prance
-- ***Antonyms***: slouch, shuffle, humble, meek, cower
-
-_Examples_
-
-1. He **swaggered** into the room, confident that everyone would notice him. _(Verb: to walk or behave in an arrogant manner)_
-2. The athlete **swaggered** after winning the game, showing off his victory. _(Verb: to display arrogance or confidence in one's actions)_
-3. She couldn't help but **swagger** as she walked down the street in her new designer dress. _(Verb: to move with exaggerated confidence or pride)_
-
-_Word Form Examples_
-
-1. His **swagger** made him the center of attention at the party. _(Noun: the characteristic of walking or behaving in an arrogant or confident manner)_
-2. She wore a **swaggering** grin after receiving praise for her work. _(Adjective: displaying arrogance or exaggerated confidence)_
-
-=====
-
-### SWAY
-@@  
-**Noun, Verb** | हिंदी: प्रभाव, झूलना :  
-1. (Noun) Control or influence over someone or something.  
-2. (Verb) To move slowly or rhythmically back and forth; to influence or control someone's opinions or actions.  
-
-- ***Synonyms***: influence, control, power, swing, oscillate  
-- ***Antonyms***: powerlessness, weakness, stability, stillness  
-
-_Examples_  
-1. The politician held significant **sway** over public opinion. _(Noun: influence)_  
-2. The trees **swayed** gently in the breeze. _(Verb: move rhythmically)_  
-3. Her speech **swayed** the audience to support her cause. _(Verb: influence)_  
-
-_Word Form Examples_  
-1. **Swaying**:  
-	- The **swaying** of the bridge made the pedestrians nervous. _(Verb: present participle of sway)_  
-	- ***Synonyms***: swinging, oscillating, rocking  
-2. **Swayed**:  
-	- He was **swayed** by her persuasive arguments. _(Verb: past tense of sway)_  
-	- ***Synonyms***: influenced, convinced, persuaded  
-
-=====
-
-### SWEEP
-
-@@  
-**Verb, Noun** | हिंदी: झाड़ू लगाना, बह जाना, छा जाना, व्यापक विजय :
-
-1. **(Verb)** To clean or move something by brushing or pushing, typically with a broom or hand.
-2. **(Verb)** To move quickly and smoothly across a surface or area.
-3. **(Verb)** To win overwhelmingly in a competition or election.
-4. **(Verb)** To spread or extend over a large area rapidly.
-5. **(Noun)** An act of cleaning by brushing or pushing.
-6. **(Noun)** A broad or extensive movement or range.
-7. **(Noun)** A complete victory in a series of contests.
-
-- ***Synonyms***: brush, clean, glide, surge, overwhelm, conquer
-- ***Antonyms***: stagnate, place, drop, fail, lose
-
-_Examples_
-
-1. She grabbed a broom to **sweep** the dust off the floor. _(Verb: cleaning action)_
-2. The storm **swept** across the coastline, causing severe damage. _(Verb: moving quickly over an area)_
-3. Their team **swept** the championship, winning all their matches. _(Verb: winning overwhelmingly)_
-4. A wave of excitement **swept** through the crowd as the band started playing. _(Verb: spreading rapidly)_
-5. He took a broad **sweep** of the landscape with his camera. _(Noun: extensive movement or range)_
-
-_Word Form Examples_
-
-1. **Swept** (Past tense/Past participle)
-    
-    - The floodwaters **swept** away everything in their path. _(Verb: moved forcefully)_
-    - ***Synonyms***: washed away, carried away, surged, flowed
-2. **Sweeping** (Present participle/Adjective)
-    
-    - She is **sweeping** the porch every morning to keep it clean. _(Verb: cleaning actively)_
-    - The politician made **sweeping** changes to the education system. _(Adjective: extensive, broad)_
-    - ***Synonyms***: extensive, broad, comprehensive, far-reaching
-3. **Sweeper** (Noun)
-    
-    - The street **sweeper** cleaned the roads early in the morning. _(Noun: a person or machine that sweeps)_
-    - ***Synonyms***: cleaner, janitor, sanitation worker
-4. **Sweepstakes** (Noun)
-    
-    - He entered a **sweepstakes** contest hoping to win a grand prize. _(Noun: a lottery or contest with prizes)_
-    - ***Synonyms***: lottery, raffle, drawing, giveaway
-
-=====
-### SWIFT  
-@@  
-**Adjective** | हिंदी: तेज़, शीघ्र :  
-1. Moving or capable of moving at high speed; quick.  
-2. Happening or done quickly or promptly.  
-
-- ***Synonyms***: fast, quick, rapid, speedy, brisk, prompt  
-- ***Antonyms***: slow, sluggish, delayed, leisurely, unhurried  
-
-_Examples_  
-1. The **swift** runner finished the race in record time. _(Adjective: moving at high speed)_  
-2. The company took **swift** action to address the customer complaints. _(Adjective: done quickly or promptly)_  
-3. A **swift** response to the emergency saved many lives. _(Adjective: happening quickly)_  
-
-_Word Form Examples_  
-1. **Swiftly**:  
-   - The cat **swiftly** climbed up the tree to escape the dog. _(Adverb: in a fast manner)_  
-   - ***Synonyms***: quickly, rapidly, speedily, briskly, promptly  
-2. **Swiftness**:  
-   - The **swiftness** of the delivery service impressed the customers. _(Noun: the quality of being swift)_  
-   - ***Synonyms***: speed, quickness, rapidity, briskness, promptness  
+1. **SURMOUNTABLE**: 🌟  
+   - With determination, even the most **surmountable** obstacles can be overcome. *(Adjective: capable of being overcome)*  
+   - ***Synonyms***: manageable, achievable, conquerable, feasible  
+2. **INSURMOUNTABLE**: 🌟  
+   - The team faced an **insurmountable** lead by their opponents in the final quarter. *(Adjective: impossible to overcome)*  
+   - ***Synonyms***: overwhelming, insuperable, unconquerable, invincible  
+3. **SURMOUNTING**:  
+   - The process of **surmounting** adversity requires patience and resilience. *(Gerund: the act of overcoming)*  
+   - ***Synonyms***: overcoming, conquering, mastering, transcending  
 
 =====
 
 ### SWINDLE  
 @@  
-**Verb, Noun** | हिंदी: ठगी करना, धोखा देना :  
-1. **(Verb)** To cheat or deceive someone out of money or possessions, often through trickery or fraud.  
-2. **(Noun)** A fraudulent scheme or action designed to cheat someone.  
-
-- ***Synonyms***: (Verb) cheat, defraud, scam, deceive, trick; (Noun) fraud, scam, deception, hoax, racket  
-- ***Antonyms***: (Verb) reimburse, compensate, repay; (Noun) honesty, fairness, integrity  
+**Verb, Noun** | हिंदी: धोखा देना, छल करना : To obtain money or property by deceitful or fraudulent means; a fraudulent scheme or act of deception.  
+- ***Synonyms***: cheat, defraud, deceive, scam, embezzle *(Verb)*; fraud, scam, trickery, deception *(Noun)*  
+- ***Antonyms***: be honest, deal fairly, repay, return *(Verb)*; honesty, integrity, truthfulness *(Noun)*  
 
 _Examples_  
-1. The con artist tried to **swindle** the elderly couple out of their savings. *(Verb: to cheat or defraud)*  
-2. The investment turned out to be a **swindle**, leaving many people bankrupt. *(Noun: a fraudulent scheme)*  
-3. He was arrested for attempting to **swindle** customers with fake insurance policies. *(Verb: to deceive)*  
+1. The con artist tried to **swindle** the elderly couple out of their savings. *(Verb: deceive for financial gain)*  
+2. The investment turned out to be a **swindle**, and many people lost their money. *(Noun: fraudulent act)*  
 
 _Word Form Examples_  
-1. **Swindler**:  
-   - The **swindler** was finally caught after years of defrauding innocent people. *(Noun: a person who swindles)*  
-   - ***Synonyms***: fraudster, con artist, cheat, scammer  
-2. **Swindling**:  
-   - The company was accused of **swindling** millions from its investors. *(Verb: present participle form of swindle)*  
-   - ***Synonyms***: cheating, defrauding, scamming, deceiving  
-
-=====
-### SYCOPHANTIC
-
-@@  
-**Adjective** | हिंदी: चापलूसी करने वाला : Characterized by excessive flattery, often to gain favor or manipulate someone.
-
-- ***Synonyms***: obsequious, fawning, servile, bootlicking, ingratiating
-- ***Antonyms***: independent, straightforward, candid, honest, genuine
-
-_Examples_
-
-1. The **sycophantic** behavior of the new employee was evident as he constantly praised the manager. _(Adjective: excessively flattering to gain favor)_
-2. His **sycophantic** attitude toward the wealthy client was hard to tolerate. _(Adjective: overly obedient or ingratiating)_
-3. She found the **sycophantic** remarks of the politician insincere and off-putting. _(Adjective: insincere flattery)_
-
-_Word Form Examples_
-
-1. The **sycophancy** displayed by the staff made the office environment uncomfortable. _(Noun: the act of excessively flattering or ingratiating oneself)_
-2. He **sycophantically** agreed with every decision the boss made, hoping for a promotion. _(Adverb: in an excessively flattering manner)_
+1. **SWINDLER**: 🌟  
+   - The **swindler** was eventually caught and sentenced to prison for his crimes. *(Noun: person who cheats others)*  
+   - ***Synonyms***: fraudster, scammer, trickster, charlatan  
+2. **SWINDLING**:  
+   - The company accused its former employee of **swindling** funds from the accounts department. *(Gerund: act of cheating)*  
+   - ***Synonyms***: cheating, deceiving, defrauding, scamming  
+3. **SWINDLED**:  
+   - Many investors felt **swindled** after realizing the business was a pyramid scheme. *(Adjective: having been cheated)*  
+   - ***Synonyms***: deceived, duped, conned, scammed  
 
 =====
 
-
-
-### SYNCHRONY  
+### SNUB  
 @@  
-**Noun** | हिंदी: समकालिकता, तालमेल :  
-1. The state of operating or occurring at the same time or rate; simultaneous action or occurrence.  
-2. In linguistics, the study of a language at a particular point in time without considering its historical development.  
-3. In biology, the coordination of events to occur simultaneously, such as heartbeats or brain waves.  
-
-- ***Synonyms***: simultaneity, synchronization, harmony, concurrence *(general)*; coordination, alignment *(biological)*  
-- ***Antonyms***: asynchrony, desynchronization, discordance, disarray  
+**Verb, Noun** | हिंदी: अनदेखा करना, ठुकराना : To ignore or reject someone or something in a deliberate and disdainful manner; an act of intentional disrespect or rejection.  
+- ***Synonyms***: ignore, rebuff, slight, dismiss, spurn *(Verb)*; insult, affront, rejection, put-down *(Noun)*  
+- ***Antonyms***: acknowledge, accept, embrace, praise, commend *(Verb)*; compliment, approval, respect *(Noun)*  
 
 _Examples_  
-1. The dancers moved in perfect **synchrony**, creating a mesmerizing performance. *(Noun: simultaneous action)*  
-2. Linguists focus on **synchrony** when analyzing the structure of modern languages. *(Noun: linguistic study)*  
-3. The patient’s brain waves showed remarkable **synchrony** during the meditation session. *(Noun: biological coordination)*  
+1. She felt deeply hurt when her friend chose to **snub** her at the party. *(Verb: deliberately ignore)*  
+2. His public **snub** of the award left many people shocked and confused. *(Noun: act of rejection)*  
 
 _Word Form Examples_  
-1. **Synchronous**:  
-   - The two machines worked in **synchronous** motion, completing tasks efficiently. *(Adjective: simultaneous)*  
-   - ***Synonyms***: concurrent, simultaneous, synchronized, harmonized  
-2. **Synchronize**:  
-   - They needed to **synchronize** their watches to ensure they started the race at the same time. *(Verb: coordinate timing)*  
-   - ***Synonyms***: align, coordinate, harmonize, match  
-3. **Synchronicity**:  
-   - The **synchronicity** of the lights and music added to the magic of the event. *(Noun: meaningful coincidence or alignment)*  
-   - ***Synonyms***: coincidence, harmony, correspondence, congruence  
+1. **SNUBBED**: 🌟  
+   - The actor was visibly upset after being **snubbed** at the awards ceremony. *(Adjective: having been ignored or rejected)*  
+   - ***Synonyms***: ignored, rebuffed, slighted, dismissed  
+2. **SNUBBING**:  
+   - The politician faced criticism for his **snubbing** of the peace talks. *(Gerund: act of ignoring or rejecting)*  
+   - ***Synonyms***: ignoring, rebuffing, dismissing, spurning  
 
 =====
 
-
-
-
-### SYNERGIZE
+### SPARSE  
 @@  
-**Verb** | हिंदी: सहक्रिय करना, संयुक्त प्रयास करना : 
-1. To combine or coordinate different elements to produce a combined effect greater than the sum of their separate effects.
-2. To work together in a collaborative and productive way.
+**Adjective** | हिंदी: विरल, कम : Thinly dispersed or scattered; not dense or crowded; present in small amounts or numbers.  
+- ***Synonyms***: scanty, meager, sparse, thin, infrequent *(Adjective)*  
+- ***Antonyms***: abundant, plentiful, dense, crowded, thick *(Adjective)*  
 
-- ***Synonyms***: collaborate, cooperate, combine, unite, integrate
-- ***Antonyms***: hinder, disrupt, divide, separate, counteract
+_Examples_  
+1. The desert landscape was covered with **sparse** vegetation, making it difficult for animals to find food. *(Adjective: thinly scattered)*  
+2. Attendance at the event was **sparse**, with only a handful of people showing up. *(Adjective: few in number)*  
+
+_Word Form Examples_  
+1. **SPARSELY**: 🌟  
+   - The trees were **sparsely** distributed across the hillside, leaving much of the land exposed. *(Adverb: in a thinly dispersed manner)*  
+   - ***Synonyms***: thinly, scarcely, infrequently, sparsely  
+2. **SPARSITY**: 🌟  
+   - The **sparsity** of resources in the remote village made daily life challenging for its inhabitants. *(Noun: state of being thinly dispersed or scarce)*  
+   - ***Synonyms***: scarcity, paucity, rarity, insufficiency  
+
+=====
+
+### SQUALID  
+@@  
+**Adjective** | हिंदी: गंदा, अस्वच्छ : Extremely dirty, neglected, or in a state of filth; morally repulsive or sordid.  
+- ***Synonyms***: filthy, sordid, grimy, unkempt, wretched *(Physical)*; depraved, vile, corrupt *(Moral)*  
+- ***Antonyms***: clean, tidy, immaculate, pristine *(Physical)*; virtuous, honorable, noble *(Moral)*  
+
+_Examples_  
+1. The **squalid** conditions of the refugee camp shocked the visiting aid workers. *(Adjective: physically dirty and neglected)*  
+2. His **squalid** behavior during the scandal tarnished his reputation forever. *(Adjective: morally repulsive)*  
+
+_Word Form Examples_  
+1. **SQUALOR**: 🌟  
+   - The old house was abandoned and fell into a state of **squalor**. *(Noun: condition of filth or neglect)*  
+   - ***Synonyms***: filth, grime, dirtiness, degradation  
+2. **SQUALIDLY**: *(Rare)*  
+   - The apartment was **squalidly** maintained, with garbage scattered everywhere. *(Adverb: in a filthy or neglected manner)*  
+   - ***Synonyms***: dirtily, unhygienically, repulsively, wretchedly  
+
+=====
+
+### SNEER  
+@@  
+**Verb, Noun** | हिंदी: तिरस्कार, नकारात्मक मुस्कान : To smile or speak in a contemptuous or mocking manner; an expression of scorn or derision.  
+- ***Synonyms***: scoff, jeer, mock, ridicule *(Verb)*; smirk, sneer, taunt *(Noun)*  
+- ***Antonyms***: praise, compliment, admire, respect *(Verb)*; admiration, approval, reverence *(Noun)*  
+
+_Examples_  
+1. She gave a **sneer** when he suggested an idea she thought was ridiculous. *(Noun: expression of scorn)*  
+2. He couldn’t help but **sneer** at their poorly executed plan. *(Verb: express contempt)*  
+
+_Word Form Examples_  
+1. **SNEERING**: 🌟  
+   - His **sneering** tone made it clear he didn’t take her seriously. *(Adjective: showing contempt)*  
+   - ***Synonyms***: mocking, derisive, scornful, disdainful  
+2. **SNEERED**:  
+   - The audience **sneered** at the actor’s over-the-top performance. *(Verb: past tense, expressed scorn)*  
+   - ***Synonyms***: mocked, ridiculed, jeered, scoffed  
+
+=====
+
+### SNOB
+@@
+**Noun** | हिंदी: घमंडी व्यक्ति, अभिमानी : A person who believes their tastes, social status, or intellect are superior to those of other people, often looking down on those they perceive as inferior or admiring only those of high social position or wealth.
+- ***Synonyms***: elitist, highbrow, prig, arrogant person, social climber, stuck-up person
+- ***Antonyms***: egalitarian, humble person, down-to-earth person, unpretentious person
 
 _Examples_
-1. The two companies decided to **synergize** their resources to create a more innovative product. _(Verb: to combine for greater effect)_
-2. The team members **synergized** their skills to complete the project ahead of schedule. _(Verb: to work together effectively)_
-3. By **synergizing** their efforts, the departments achieved remarkable results. _(Verb: to coordinate for better outcomes)_
+1. He's a complete **snob** and refuses to associate with anyone he deems 'common'. *(Noun)*
+2. She's a bit of a wine **snob** and only drinks expensive vintages. *(Noun)*
 
 _Word Form Examples_
-1. **Synergizing**:
-	- The process of **synergizing** different ideas led to a breakthrough solution. _(Verb, present participle: combining for greater effect)_
-	- ***Synonyms***: collaborating, cooperating, combining, uniting, integrating
-2. **Synergized**:
-	- The teams **synergized** their expertise to tackle the complex problem. _(Verb, past tense: combined effectively)_
-	- ***Synonyms***: collaborated, cooperated, combined, united, integrated
-3. **Synergy**:
-	- The **synergy** between the two departments resulted in increased productivity. _(Noun: the combined effect of collaboration)_
-	- ***Synonyms***: collaboration, cooperation, combination, unity, integration
+1. **SNOBBISH**: 🌟
+   - Her **snobbish** remarks about their small house were hurtful. *(Adjective)*
+   - ***Synonyms***: elitist, arrogant, condescending, haughty, pretentious, superior
+2. **SNOBBISHLY**:
+   - He **snobbishly** turned up his nose at the inexpensive gift. *(Adverb)*
+   - ***Synonyms***: arrogantly, haughtily, condescendingly, pretentiously, disdainfully
+3. **SNOBBERY** / **SNOBBISM**: 🌟
+   - Their cultural **snobbery** prevented them from enjoying popular music. *(Noun)*
+   - ***Synonyms***: elitism, arrogance, pretentiousness, haughtiness, condescension, superiority
+4. **SNOBS**:
+   - The gala was attended by many wealthy **snobs**. *(Noun - plural)*
+   - ***Synonyms***: elitists, highbrows, prigs, arrogant people
+
+=====
+
+### SNOWBALL
+@@
+**Noun, Verb** | हिंदी: बर्फ का गोला, बढ़ती समस्या : 
+1. A ball of snow, typically rolled or packed into a spherical shape, often used in playful activities like snowball fights. *(Noun)*
+2. To increase rapidly in size, intensity, or effect, much like a snowball rolling downhill and gathering more snow. *(Verb)*
+- ***Synonyms***: frost sphere *(Noun)*; escalate, grow, multiply, accumulate *(Verb)*
+- ***Antonyms***: shrink, diminish, reduce, dwindle *(Verb)*
+
+_Examples_
+1. The children spent the afternoon throwing **snowballs** at each other during their winter break. *(Noun: ball of snow)*
+2. What started as a small disagreement quickly began to **snowball** into a major conflict between the two families. *(Verb: increase rapidly)*
+
+_Word Form Examples_
+1. **SNOWBALLED**: 🌟
+   - The situation **snowballed** out of control before anyone could intervene. *(Verb past tense: grew rapidly)*
+   - ***Synonyms***: escalated, mushroomed, proliferated, ballooned
+2. **SNOWBALLING**:  
+   - The scandal was **snowballing**, attracting media attention from around the world. *(Gerund: growing rapidly)*
+   - ***Synonyms***: escalating, accumulating, intensifying, mounting
+
+=====
+
+### SOAR
+@@
+**Verb** | हिंदी: ऊँचाई पर उड़ना, बढ़ना : 
+1. To fly or rise high into the air, often describing birds or aircraft; to ascend to great heights. *(Verb)*
+2. To increase rapidly in level, amount, or intensity; to rise dramatically. *(Verb)*
+- ***Synonyms***: ascend, climb, glide, skyrocket *(Verb: fly/rise)*; surge, escalate, multiply, boom *(Verb: increase)*
+- ***Antonyms***: descend, plummet, fall, dwindle *(Verb: drop/decrease)*
+
+_Examples_
+1. The eagle began to **soar** gracefully above the mountains, riding the thermal currents. *(Verb: fly high)*
+2. Housing prices continued to **soar**, making it difficult for first-time buyers to enter the market. *(Verb: increase rapidly)*
+
+_Word Form Examples_
+1. **SOARED**: 🌟
+   - Her confidence **soared** after receiving praise from her mentor. *(Verb past tense: increased dramatically)*
+   - ***Synonyms***: skyrocketed, surged, escalated, multiplied
+2. **SOARING**:  
+   - The **soaring** cost of healthcare has become a major concern for many families. *(Adjective/Gerund: rising rapidly)*
+   - ***Synonyms***: climbing, escalating, skyrocketing, booming
+
+=====
+
+### SOCIAL
+@@
+**Adjective, Noun** | हिंदी: सामाजिक :
+1. Relating to society or its organization. *(Adjective)*
+2. Needing companionship and living or preferring to live in communities; gregarious. *(Adjective)*
+3. Relating to rank and status in society. *(Adjective)*
+- ***Synonyms***: communal, community, collective, public *(Adjective: relating to society)*; gregarious, outgoing, companionable, sociable *(Adjective: needing companionship)*;
+- ***Antonyms***: individual, private, personal *(Adjective: relating to society)*; unsociable, solitary, reclusive, antisocial *(Adjective: needing companionship)*;
+
+_Examples_
+1. Humans are **social** beings who thrive on interaction. *(Adjective: needing companionship)*
+2. We need to address pressing **social** issues like poverty and inequality. *(Adjective: relating to society)*
+3. Her family holds a high **social** standing in the town. *(Adjective: relating to rank)*
+
+_Word Form Examples_
+1. **SOCIALLY**: 🌟
+   - He feels **socially** awkward in large groups. *(Adverb)*
+   - ***Synonyms***: communally, publicly, collectively, companionably
+2. **SOCIABILITY**:
+   - Her natural **sociability** made her popular at parties. *(Noun)*
+   - ***Synonyms***: gregariousness, friendliness, outgoingness, companionability, conviviality
+3. **SOCIALIZE**: 🌟
+   - They often **socialize** with their neighbors on weekends. *(Verb)*
+   - ***Synonyms***: interact, mingle, mix, fraternize, associate
+4. **SOCIALIZATION**: 🌟
+   - Early **socialization** is important for puppies. *(Noun)*
+   - ***Synonyms***: interaction, integration, social training, acculturation
+5. **SOCIETY**: 🌟
+   - **Society** places great emphasis on academic achievement. *(Noun)*
+   - ***Synonyms***: community, public, population, civilization, culture
+6. **SOCIALITE**:
+   - The famous **socialite** attended the charity gala. *(Noun)*
+   - ***Synonyms***: celebrity, public figure, party-goer, notable
+7. **SOCIABLE**: 🌟
+   - She is a very **sociable** person who loves meeting new people. *(Adjective)*
+   - ***Synonyms***: friendly, outgoing, gregarious, affable, companionable
+8. **ANTISOCIAL**:
+    - His **antisocial** behavior worried his parents. *(Adjective)*
+    - ***Synonyms***: reclusive, withdrawn, uncommunicative, hostile, disruptive
+
+=====
+
+### SOLACE
+@@
+**Noun, Verb** | हिंदी: सांत्वना, दिलासा :
+1. Comfort or consolation in a time of great distress, sadness, or disappointment. *(Noun)*
+2. To give comfort or consolation to someone. *(Verb)*
+- ***Synonyms***: comfort, consolation, relief, support, cheer, condolence *(Noun)*; comfort, console, soothe, cheer, support *(Verb)*
+- ***Antonyms***: distress, anguish, misery, suffering, agony, discomfort *(Noun)*; distress, upset, aggravate, trouble, discomfort *(Verb)*
+
+_Examples_
+1. He found **solace** in his music after the difficult breakup. *(Noun)*
+2. She tried to **solace** her grieving friend with kind words and a hug. *(Verb)*
+
+_Word Form Examples_
+1. **SOLACED**:
+   - The grieving family was **solaced** by the outpouring of community support. *(Verb - Past Participle/Adjective)*
+   - ***Synonyms***: comforted, consoled, soothed, relieved, cheered
+2. **SOLACING**: 🌟
+   - Listening to calming music can be quite **solacing** during stressful times. *(Adjective/Present Participle)*
+   - ***Synonyms***: comforting, consoling, soothing, reassuring, cheering
+
+=====
+
+### SOLICIT
+@@
+**Verb** | हिंदी: प्रार्थना करना, अनुरोध करना : To ask for or try to obtain something from someone, often in a formal or urgent manner; to seek something earnestly or request assistance.
+- ***Synonyms***: request, appeal, petition, implore, entreat, crave
+- ***Antonyms***: refuse, reject, decline, ignore, dismiss
+
+_Examples_
+1. The charity organization decided to **solicit** donations from local businesses. *(Verb: request)*
+2. Politicians often **solicit** votes by promising reforms. *(Verb: seek)*
+
+_Word Form Examples_
+1. **SOLICITED**: 🌟  
+   - She had already **solicited** the support of several influential community leaders. *(Adjective: having been requested)*  
+   - ***Synonyms***: requested, appealed for, petitioned, implored  
+2. **SOLICITING**:  
+   - He was caught **soliciting** funds without proper authorization. *(Gerund: the act of requesting)*  
+   - ***Synonyms***: requesting, appealing, petitioning, imploring  
+3. **SOLICITOR** *(Rare)*:  
+   - In British English, a **solicitor** is a lawyer who advises clients and prepares legal documents. *(Noun: legal professional)*  
+   - ***Synonyms***: attorney, lawyer, legal advisor, counsel  
+4. **SOLICITATION**: 🌟  
+   - The company faced fines for illegal **solicitation** of personal data. *(Noun: act of requesting)*  
+   - ***Synonyms***: request, appeal, entreaty, proposition  
+
+=====
+
+### SOLICITUDE
+@@
+**Noun** | हिंदी: चिंता, व्याकुलता, परवाह : Care or concern for someone or something; anxious concern.
+- ***Synonyms***: concern, care, attentiveness, consideration, worry, anxiety, thoughtfulness
+- ***Antonyms***: indifference, carelessness, neglect, disregard, apathy, unconcern
+
+_Examples_
+1. She was touched by his genuine **solicitude** for her well-being during her illness. *(Noun)*
+2. He expressed his **solicitude** over the potential impact of the new policy. *(Noun)*
+
+_Word Form Examples_
+1. **SOLICITOUS**: 🌟
+   - The nurse was very **solicitous**, constantly checking on the patient's comfort. *(Adjective)*
+   - ***Synonyms***: concerned, caring, attentive, considerate, thoughtful, anxious
+2. **SOLICITOUSLY**: 🌟
+   - He **solicitously** asked if she needed anything. *(Adverb)*
+   - ***Synonyms***: attentively, considerately, thoughtfully, anxiously, carefully
+
+=====
+
+### SOOTHE
+@@
+**Verb** | हिंदी: शांत करना, सांत्वना देना : To gently calm or comfort someone or something; to reduce pain, anger, or distress.
+- ***Synonyms***: calm, pacify, comfort, ease, alleviate, mollify
+- ***Antonyms***: agitate, upset, irritate, provoke, disturb
+
+_Examples_
+1. She tried to **soothe** the crying baby with a lullaby. *(Verb: calm)*
+2. The ointment helped to **soothe** the burn on his skin. *(Verb: alleviate pain)*
+
+_Word Form Examples_
+1. **SOOTHED**:
+   - His nerves were **soothed** by the sound of the gentle waves. *(Verb: past tense, calmed)*
+   - ***Synonyms***: calmed, pacified, comforted, eased
+2. **SOOTHING** : 🌟
+   - The warm tea had a **soothing** effect on her sore throat. *(Adjective: providing comfort)*
+   - ***Synonyms***: calming, comforting, relaxing, gentle, tranquil
+3. **SOOTHER**:
+   - A kind word can act as a **soother** in times of stress. *(Noun: something that calms)*
+   - ***Synonyms***: comforter, pacifier, calmer, balm
+
+=====
+
+### SOVEREIGN
+@@
+**Noun, Adjective** | हिंदी: संप्रभु, शासक :
+1. A supreme ruler, especially a monarch. *(Noun)*
+2. Possessing supreme or ultimate power; (of a nation or state) fully independent and determining its own affairs. *(Adjective)*
+- ***Synonyms***: monarch, ruler, potentate, head of state *(Noun)*; autonomous, independent, self-governing, supreme, absolute *(Adjective)*
+- ***Antonyms***: subject, subordinate, vassal *(Noun)*; dependent, subordinate, subservient, colonial *(Adjective)*
+
+_Examples_
+1. The queen acted as the **sovereign** of the realm. *(Noun: ruler)*
+2. The nation proudly declared itself a **sovereign** state, free from foreign control. *(Adjective: independent)*
+3. The parliament holds **sovereign** power to make laws. *(Adjective: supreme)*
+
+_Word Form Examples_
+1. **SOVEREIGNTY** 🌟:
+   - The treaty recognized the nation's **sovereignty** over the disputed territory. *(Noun: supreme power or authority; independence)*
+   - ***Synonyms***: autonomy, independence, self-rule, dominion, supremacy, self-determination
+2. **SOVEREIGNLY** *(Rare)*:
+   - The monarch ruled **sovereignly**, with undisputed authority. *(Adverb: in a supreme or independent manner)*
+   - ***Synonyms***: independently, supremely, autonomously, absolutely, imperiously
+
+=====
+
+### SPAN
+@@
+**Noun, Verb** | हिंदी: अवधि, विस्तार :  
+1. The full extent, stretch, or reach of something, often referring to time, distance, or scope. *(Noun)*  
+2. To extend across or cover a particular area, distance, or period. *(Verb)*  
+- ***Synonyms***: duration, range, extent, coverage *(Noun)*; extend, cover, traverse, encompass *(Verb)*  
+- ***Antonyms***: brevity, limit, restriction, confinement *(Noun)*; exclude, avoid, bypass *(Verb)*  
+
+_Examples_  
+1. The bridge has a **span** of over 500 meters, making it one of the longest in the region. *(Noun: distance)*  
+2. Her career in journalism **spanned** three decades, during which she covered major global events. *(Verb: extend over time)*  
+
+_Word Form Examples_  
+1. **SPANNED**: 🌟  
+   - The project **spanned** multiple countries and required years of collaboration. *(Verb: extended over space or time)*  
+   - ***Synonyms***: covered, traversed, stretched, encompassed  
+2. **SPANNING**:  
+   - The documentary focuses on art movements **spanning** the 19th and 20th centuries. *(Gerund: extending over a period)*  
+   - ***Synonyms***: covering, encompassing, ranging, stretching   
+
+=====
+
+### SPAWN
+@@
+**Verb, Noun** | हिंदी: अंडे देना (जीव), पैदा करना, उत्पत्ति :
+1. (Of fish, frogs, mollusks, crustaceans, etc.) To release or deposit eggs. *(Verb)*
+2. To produce or generate something, especially in large numbers (often used with a negative connotation). *(Verb)*
+- ***Synonyms***: lay eggs, reproduce *(Verb: deposit eggs)*; generate, produce, create, give rise to, engender *(Verb: produce)*; 
+- ***Antonyms***: destroy, eradicate, eliminate, extinguish *(Verb: produce)*;
+
+_Examples_
+1. Salmon swim upstream to **spawn** in the rivers where they were born. *(Verb: deposit eggs)*
+2. The controversial policy **spawned** widespread protests across the country. *(Verb: generated)*
+
+_Word Form Examples_
+1. **SPAWNED**:
+   - The internet **spawned** a new era of communication and information sharing. *(Verb: past tense of generate)*
+   - ***Synonyms***: generated, produced, created, originated, resulted in
+2. **SPAWNING** 🌟:
+   - The annual salmon **spawning** run is a major ecological event. *(Noun/Gerund: the act or season of depositing eggs)*
+   - The conditions were perfect for **spawning** new ideas. *(Verb: present participle)*
+   - ***Synonyms***: reproduction, laying, generation, production, creation
+
+=====
+
+### SPECULATE
+@@
+**Verb** | हिंदी: अनुमान लगाना, सट्टा खेलना :  
+1. To form a theory or conjecture about a subject without firm evidence; to engage in thought or reflection about possibilities. *(Verb)*  
+2. To invest in stocks, property, or other ventures in the hope of making a profit from changes in market value, often involving risk. *(Verb)*  
+- ***Synonyms***: conjecture, theorize, hypothesize, guess, ponder, reflect *(Verb: thinking)*; gamble, trade, venture, risk *(Verb: financial)*  
+- ***Antonyms***: confirm, verify, ascertain, establish, guarantee *(Verb: certainty)*; save, secure, avoid risk *(Verb: financial)*  
+
+_Examples_  
+1. Scientists continue to **speculate** about the existence of life on other planets. *(Verb: theorize)*  
+2. He likes to **speculate** on the stock market, buying and selling shares for quick profits. *(Verb: invest with risk)*  
+
+_Word Form Examples_  
+1. **SPECULATED**: 🌟  
+   - The origins of the ancient artifact have long been **speculated** upon by historians. *(Verb: conjectured)*  
+   - ***Synonyms***: hypothesized, guessed, theorized, presumed  
+2. **SPECULATING**:  
+   - She enjoys **speculating** about future trends in technology. *(Gerund: forming theories)*  
+   - ***Synonyms***: conjecturing, hypothesizing, reflecting, pondering  
+3. **SPECULATION**: 🌟  
+   - His investment strategy is based purely on **speculation**, with little regard for market analysis. *(Noun: risky assumption)*  
+   - ***Synonyms***: conjecture, hypothesis, guesswork, supposition  
+4. **SPECULATIVE**:  
+   - The article was highly **speculative**, offering no concrete evidence to support its claims. *(Adjective: based on guesswork)*  
+   - ***Synonyms***: theoretical, hypothetical, conjectural, uncertain  
+
+=====
+
+### SPELLBIND
+@@
+**Verb** | हिंदी: मोहित करना, जादू करना : To captivate, fascinate, or mesmerize someone completely, often holding their attention as if under a spell.
+- ***Synonyms***: enchant, mesmerize, captivate, enthrall, hypnotize, bewitch  
+- ***Antonyms***: bore, repel, disillusion, disenchant, distract  
+
+_Examples_  
+1. The magician’s performance managed to **spellbind** the entire audience, leaving them in awe. *(Verb: captivate)*  
+2. Her storytelling ability could **spellbind** even the most restless children. *(Verb: mesmerize)*  
+
+_Word Form Examples_  
+1. **SPELLBOUND**: 🌟  
+   - The crowd sat **spellbound** as the orchestra played the symphony. *(Adjective: captivated)*  
+   - ***Synonyms***: enchanted, mesmerized, enthralled, hypnotized  
+2. **SPELLBINDING**:  
+   - The novel was a **spellbinding** tale of adventure and mystery. *(Adjective: captivating)*  
+   - ***Synonyms***: fascinating, gripping, enthralling, riveting  
+3. **SPELLBINDER** *(Rare)*:  
+   - The speaker was a true **spellbinder**, keeping the audience engaged for hours. *(Noun: person who captivates)*  
+   - ***Synonyms***: charmer, mesmerizer, enchantress, storyteller  
+
+=====
+
+### SPIKE
+@@
+**Noun, Verb** | हिंदी: कील, नोक, अचानक वृद्धि : 
+1. A thin, pointed piece of metal, wood, or other material. *(Noun)*
+2. A sudden sharp increase in something. *(Noun)*
+3. To pierce or impale with a sharp point. *(Verb)*
+4. To add alcohol or drugs secretly to a drink. *(Verb)*
+- ***Synonyms***: point, barb, prong *(Noun: pointed object)*; increase, surge, peak *(Noun: sudden rise)*; impale, pierce, stab *(Verb: sharp action)*; adulterate, lace, tamper *(Verb: adding substance)*
+- ***Antonyms***: blunt, dull *(Noun: pointed object)*; decrease, drop, decline *(Noun: sudden rise)*; protect, shield *(Verb: sharp action)*; purify, cleanse *(Verb: adding substance)*
+
+_Examples_
+1. He hammered the **spike** into the ground to mark the boundary. *(Noun: pointed object)*
+2. The graph showed a **spike** in temperatures during July. *(Noun: sudden increase)*
+3. The volleyball player jumped to **spike** the ball over the net. *(Verb: hit forcefully)*
+4. Someone had **spiked** her drink at the party. *(Verb: add alcohol/drugs secretly)*
+
+_Word Form Examples_
+1. **SPIKED**: 🌟
+   - The punch was **spiked** with rum, making it stronger than expected. *(Adjective: containing added alcohol)*
+   - ***Synonyms***: laced, doctored, adulterated, fortified
+2. **SPIKING**:
+   - The **spiking** of drinks at parties has become a serious safety concern. *(Noun: act of adding alcohol/drugs secretly)*
+   - ***Synonyms***: tampering, adulterating, doctoring
+3. **SPIKY**:
+   - The cactus had **spiky** protrusions that could easily pierce skin. *(Adjective: having spikes)*
+   - ***Synonyms***: thorny, prickly, barbed, pointed, sharp
+
+=====
+
+### SPIRAL
+@@
+**Noun, Verb, Adjective** | हिंदी: सर्पिल, कुंडली : A curve that winds around a fixed center point while continuously increasing or decreasing in distance from it.
+- ***Synonyms***: coil, helix, whorl, curl *(Noun)*; wind, coil, twist, revolve *(Verb)*; helical, winding, coiled *(Adjective)*
+- ***Antonyms***: straight line, direct path *(Noun)*; straighten, proceed directly *(Verb)*; linear, straight, direct *(Adjective)*
+
+_Examples_
+1. The shell had a perfect **spiral** pattern with symmetrical curves. *(Noun: curved shape)*
+2. The hawk began to **spiral** upward on a thermal current. *(Verb: move in a winding curve)*
+3. They climbed the **spiral** staircase to reach the tower's observation deck. *(Adjective: having a spiral form)*
+
+_Word Form Examples_
+1. **SPIRALLING**: 🌟
+   - Inflation is **spiraling** out of control in the struggling economy. *(Verb: increasing or moving rapidly in a deteriorating manner)*
+   - ***Synonyms***: escalating, soaring, mounting, snowballing
+2. **SPIRALLED**:
+   - The plane **spiraled** down from the sky after losing power to both engines. *(Verb: moved in a spiral path)*
+   - ***Synonyms***: twisted, whirled, corkscrewed, plunged
+
+=====
+
+### SPITE
+@@
+**Noun, Verb** | हिंदी: द्वेष, वैर : Ill will or desire to hurt, annoy, or offend someone; or the act of deliberately annoying or hurting someone.
+- ***Synonyms***: malice, vindictiveness, resentment, rancor *(Noun)*; offend, antagonize, thwart, hurt *(Verb)*
+- ***Antonyms***: goodwill, kindness, benevolence, compassion *(Noun)*; please, help, benefit, assist *(Verb)*
+
+_Examples_
+1. She rejected the invitation out of **spite** after being excluded from the previous gathering. *(Noun: ill will)*
+2. He stayed at the party late just to **spite** his parents who had set an earlier curfew. *(Verb: deliberately annoy)*
+
+_Word Form Examples_
+1. **SPITEFUL**: 🌟
+   - Her **spiteful** remarks wounded everyone in the room. *(Adjective: full of malice)*
+   - ***Synonyms***: malicious, vindictive, venomous, nasty, mean
+2. **SPITEFULLY**:
+   - He **spitefully** revealed her secret to the entire office. *(Adverb: in a malicious manner)*
+   - ***Synonyms***: maliciously, vengefully, nastily, cruelly
+
+=====
+
+### SPLURGE
+@@
+**Noun, Verb** | हिंदी: फ़िज़ूलख़र्ची, अपव्यय : An act of spending money freely or extravagantly, especially on a single item or occasion.
+- ***Synonyms***: extravagance, indulgence, spree, lavishness *(Noun)*; spend lavishly, indulge, treat oneself, squander *(Verb)*
+- ***Antonyms***: economy, thrift, frugality, restraint *(Noun)*; save, economize, skimp, conserve *(Verb)*
+
+_Examples_
+1. Her birthday **splurge** included an expensive dinner and a designer handbag. *(Noun: act of spending extravagantly)*
+2. We decided to **splurge** on first-class tickets for our anniversary trip. *(Verb: spend lavishly)*
+
+_Word Form Examples_
+1. **SPLURGED**: 
+   - She **splurged** on a new smartphone despite trying to save money. *(Verb: past tense of splurge)*
+   - ***Synonyms***: indulged, treated herself, spent extravagantly, luxuriated
+2. **SPLURGING**: 🌟
+   - **Splurging** occasionally on small luxuries can be good for mental health. *(Noun/Gerund: the act of spending extravagantly)*
+   - ***Synonyms***: indulging, treating, spending lavishly, pampering oneself
+
+=====
+
+### SPORADIC
+@@
+**Adjective** | हिंदी: अनियमित, कभी-कभी होने वाला : Occurring at irregular intervals, scattered, or appearing in isolated instances rather than as a continuous occurrence.
+- ***Synonyms***: intermittent, occasional, irregular, infrequent, scattered, random
+- ***Antonyms***: constant, regular, continuous, frequent, steady, consistent
+
+_Examples_
+1. **Sporadic** rainfall is expected throughout the region this weekend. *(Adjective: occurring irregularly)*
+2. The peace talks were interrupted by **sporadic** outbursts of violence along the border. *(Adjective: happening at irregular intervals)*
+
+_Word Form Examples_
+1. **SPORADICALLY**: 🌟
+   - The disease appears **sporadically** in remote villages rather than in predictable patterns. *(Adverb: in an irregular manner)*
+   - ***Synonyms***: intermittently, occasionally, irregularly, randomly, fitfully
+
+=====
+
+### SPUR
+@@
+**Noun, Verb** | हिंदी:  प्रोत्साहन (stimulus) : 
+1. Something that serves as a stimulus or incentive. *(Noun)*
+2. To encourage or stimulate to action; incite. *(Verb)*
+- ***Synonyms***: incentive, stimulus, impetus *(Noun: motivation)*; stimulate, prompt, incite, motivate *(Verb)*
+- ***Antonyms***:  discourage, deter, dissuade, restrain *(Verb)*
+
+_Examples_
+1. The threat of losing his job was the **spur** that motivated him to work harder. *(Noun: incentive)*
+2. The coach's pep talk helped to **spur** the team on to victory. *(Verb: encourage)*
+
+_Word Form Examples_
+1. **SPURRED**: 🌟
+   - Recent discoveries have **spurred** interest in deep-sea exploration. *(Verb: stimulated)*
+   - ***Synonyms***: prompted, motivated, incited,stimulated
+2. **SPURRING**:
+   - The manager was criticized for **spurring** employees with unrealistic deadlines. *(Gerund: act of motivating)*
+   - ***Synonyms***: urging, inciting, goading, prodding
+
+=====
+
+### SPURN
+@@
+**Verb** | हिंदी: तिरस्कार करना, अस्वीकार करना : To reject with disdain, contempt, or scorn; to refuse or turn down decisively or contemptuously.
+- ***Synonyms***: reject, rebuff, snub, disdain, scorn, repudiate, dismiss
+- ***Antonyms***: accept, embrace, welcome, appreciate, receive, cherish
+
+_Examples_
+1. She **spurned** his romantic advances, making it clear she wasn't interested. *(Verb: reject with contempt)*
+2. The artist **spurned** commercial success in favor of maintaining artistic integrity. *(Verb: reject decisively)*
+
+_Word Form Examples_
+1. **SPURNED**: 🌟
+   - The **spurned** lover wrote poetry about his heartbreak and rejection. *(Adjective: rejected with contempt)*
+   - He felt deeply hurt after being **spurned** by his childhood friends. *(Verb: past tense)*
+   - ***Synonyms***: rejected, rebuffed, snubbed, shunned, dismissed
+2. **SPURNING**:
+   - Her **spurning** of traditional methods shocked the conservative members of the committee. *(Gerund: act of rejecting)*
+   - ***Synonyms***: rejecting, rebuffing, dismissing, refusing, snubbing
+
+=====
+
+### SPUTTER
+@@
+**Verb, Noun** | हिंदी: फटफटाना, बुरबुराना : 
+1. To make a series of explosive spitting or popping sounds, often due to liquid being sprayed or gas igniting. *(Verb)* 
+2. A series of such sounds, especially when irregular or intermittent. *(Noun)*
+- ***Synonyms***: splutter, pop, hiss, crackle, spit *(Verb: make explosive sounds)*; spluttering, crackling, fizzing *(Noun: the sound itself)*
+- ***Antonyms***: silence, quiet, calm *(Verb/Noun: absence of noise)*
+
+_Examples_
+1. The engine began to **sputter** as it ran out of fuel. *(Verb: make irregular sounds)*
+2. She heard a faint **sputter** coming from the old radio before it went silent. *(Noun: sound of irregular popping)*
+
+_Word Form Examples_
+1. **SPUTTERED**: 🌟  
+   - The flame **sputtered** and went out after a few seconds. *(Verb: past tense, made explosive sounds)*  
+   - ***Synonyms***: spluttered, crackled, popped  
+2. **SPUTTERING**:  
+   - The chef stood back as the oil started **sputtering** in the hot pan. *(Gerund: act of making explosive sounds)*  
+   - ***Synonyms***: spluttering, crackling, hissing  
+
+=====
+
+### SQUANDER
+@@
+**Verb** | हिंदी: बरबाद करना, उड़ा देना : To waste or spend (money, time, resources, etc.) recklessly or extravagantly; to fail to make good use of something valuable.
+- ***Synonyms***: waste, dissipate, fritter away, squander away, lavish  
+- ***Antonyms***: conserve, save, hoard, preserve, utilize  
+
+_Examples_  
+1. He **squandered** his inheritance on frivolous purchases within a year. *(Verb: waste money)*  
+2. She regrets **squandering** her youth without pursuing meaningful goals. *(Verb: waste time/opportunities)*  
+
+_Word Form Examples_  
+1. **SQUANDERED**: 🌟  
+   - The company went bankrupt after its executives **squandered** millions on unprofitable ventures. *(Adjective: having been wasted)*  
+   - ***Synonyms***: wasted, dissipated, misused, blown  
+2. **SQUANDERING**:  
+   - His habit of **squandering** resources frustrated his colleagues. *(Gerund: act of wasting recklessly)*  
+   - ***Synonyms***: wasting, dissipating, mismanaging  
+
+=====
+
+### SQUIGGLE
+@@
+**Noun, Verb** | हिंदी: लहरदार रेखा : 
+1. A short, wavy line or mark; a twist or curl in handwriting or drawing. *(Noun)* 
+2. To draw or write with wavy, irregular lines. *(Verb)*
+- ***Synonyms***: scribble, scrawl, wiggle, squirm *(Noun: wavy line)*; doodle, trace, sketch *(Verb: draw irregularly)*
+- ***Antonyms***: straighten, align, flatten *(Verb: make even or straight)*
+
+_Examples_
+1. The child's drawing was full of colorful **squiggles** that looked like waves. *(Noun: wavy line)*
+2. She **squiggled** her name in the wet sand with a stick. *(Verb: draw irregularly)*
+
+_Word Form Examples_
+1. **SQUIGGLY**: 🌟
+   - The artist used a **squiggly** pattern to decorate the edges of the painting. *(Adjective: full of wavy lines)*
+   - ***Synonyms***: wavy, curly, zigzag, meandering
+2. **SQUIGGLING**:  
+   - He spent hours **squiggling** random shapes on his notebook during the meeting. *(Gerund: act of drawing wavy lines)*
+   - ***Synonyms***: doodling, sketching, tracing
+
+=====
+
+### STAGGER
+@@
+**Verb, Noun** | हिंदी: लड़खड़ाना, चौंका देना : 
+1. To walk or move unsteadily, as if about to fall; to arrange or distribute unevenly or at intervals. *(Verb)* 
+2. A feeling of shock, amazement, or disbelief. *(Noun)*
+- ***Synonyms***: stumble, totter, wobble, falter *(Verb: walk unsteadily)*; astound, shock, overwhelm *(Noun: feeling of disbelief)*  
+- ***Antonyms***: steady, stabilize, balance *(Verb: maintain stability)*; calm, compose, reassure *(Noun: lack of shock)*  
+
+_Examples_  
+1. After the long hike, he began to **stagger** under the weight of his backpack. *(Verb: walk unsteadily)*  
+2. The staggering beauty of the landscape left her speechless. *(Noun: feeling of amazement)*  
+
+_Word Form Examples_  
+1. **STAGGERED**: 🌟  
+   - The shelves were **staggered** to create a more visually appealing display. *(Adjective: arranged unevenly)*  
+   - ***Synonyms***: uneven, offset, staggered alignment  
+2. **STAGGERING**:  
+   - The **staggering** cost of the project raised concerns among investors. *(Adjective: overwhelming or astonishing)*  
+   - ***Synonyms***: astounding, breathtaking, mind-blowing  
+
+=====
+
+### STAGNANT
+@@
+**Adjective** | हिंदी: स्थिर, निष्क्रिय : Not flowing or moving; showing little or no sign of activity, growth, or development.
+- ***Synonyms***: motionless, inactive, dormant, sluggish, static
+- ***Antonyms***: flowing, dynamic, active, vibrant, progressive
+
+_Examples_
+1. The water in the pond was **stagnant**, covered with a layer of algae. *(Adjective: not flowing)*
+2. Economic growth has been **stagnant** for several years in that region. *(Adjective: showing no progress)*
+
+_Word Form Examples_
+1. **STAGNATION**: 🌟  
+   - The country is experiencing a period of economic **stagnation**. *(Noun: lack of growth or development)*  
+   - ***Synonyms***: inactivity, dormancy, standstill, stagnancy  
+2. **STAGNATE**:  
+   - Without new investment, the business will **stagnate** and eventually fail. *(Verb: to become inactive or show no progress)*  
+   - ***Synonyms***: idle, languish, halt  
+
+=====
+
+### STAIN  
+@@  
+**Noun, Verb** | हिंदी: दाग, कलंक, रंगना :  
+1. A mark or discoloration that is difficult to remove. *(Noun)*  
+2. To leave a mark or discolor something, often permanently. *(Verb)*  
+3. To damage or tarnish one's reputation or character. *(Verb: figurative)*  
+- ***Synonyms***: blemish, spot, smudge *(Noun: mark)*; taint, tarnish, soil *(Verb: discolor)*; disgrace, defame, sully *(Verb: reputation)*  
+- ***Antonyms***: clean, purity *(Noun: mark)*; cleanse, purify, erase *(Verb: discolor)*; honor, restore *(Verb: reputation)*  
+
+_Examples_  
+1. The coffee left an ugly **stain** on my white shirt. *(Noun: mark)*  
+2. Be careful, or the ink will **stain** your fingers. *(Verb: discolor)*  
+3. The scandal **stained** his otherwise impeccable reputation. *(Verb: figurative: tarnish reputation)*  
+
+_Word Form Examples_  
+1. **STAINED**: 🌟  
+   - The curtains were **stained** with red wine. *(Adjective: marked or discolored)*  
+   - ***Synonyms***: marked, discolored, tainted, blemished  
+2. **STAINING**:  
+   - The process of **staining** the wood gives it a rich, warm color. *(Noun: the act of coloring or marking)*  
+   - ***Synonyms***: coloring, dyeing, tinting, marking  
+3. **STAINLESS**: 🌟  
+   - The chef preferred **stainless** steel knives for cooking. *(Adjective: free of stains or corrosion)*  
+   - ***Synonyms***: spotless, unblemished, untarnished, pristine  
+
+=====  
+
+### STAMMER
+@@
+**Verb, Noun** | हिंदी: हकलाना, हकलाहट :  
+1. To speak with involuntary pauses or repetitions, often due to nervousness, speech impediments, or excitement. *(Verb)*  
+2. The act or condition of stammering; a speech disorder characterized by hesitations or repetitions. *(Noun)*  
+- ***Synonyms***: stutter, falter, hesitate, stumble *(Verb)*; stuttering, hesitation, speech impediment *(Noun)*  
+- ***Antonyms***: articulate, enunciate, speak fluently *(Verb)*; fluency, eloquence *(Noun)*  
+
+_Examples_  
+1. He began to **stammer** when asked to speak in front of the large audience. *(Verb: speak with difficulty)*  
+2. Her **stammer** became more noticeable when she was under stress. *(Noun: speech disorder)*  
+
+_Word Form Examples_  
+1. **STAMMERED**: 🌟  
+   - He **stammered** an apology after forgetting his lines during the play. *(Verb: past tense of stammer)*  
+   - ***Synonyms***: stuttered, faltered, hesitated, stumbled  
+2. **STAMMERING**:  
+   - His **stammering** made it difficult for others to understand his speech. *(Gerund/Noun: the act of stammering)*  
+   - ***Synonyms***: stuttering, hesitating, faltering, stumbling  
+3. **STAMMERER**:  
+   - The speech therapist worked closely with the **stammerer** to improve his fluency. *(Noun: a person who stammers)*  
+   - ***Synonyms***: stutterer, hesitator, falterer  
+
+=====
+
+### STARTLE
+@@
+**Verb** | हिंदी: चौंकाना, डराना : To cause someone to feel sudden shock or alarm; to surprise or frighten unexpectedly.
+- ***Synonyms***: surprise, shock, alarm, jolt, scare, stun
+- ***Antonyms***: calm, soothe, reassure, comfort, steady
+
+_Examples_
+1. The loud noise from the firecracker **startled** the dog, causing it to run away. *(Verb: cause sudden alarm)*
+2. She tried not to **startle** the sleeping baby when entering the room. *(Verb: surprise unexpectedly)*
+
+_Word Form Examples_
+1. **STARTLED**:
+   - He looked **startled** when the door slammed shut behind him. *(Adjective: feeling sudden shock or alarm)*
+   - ***Synonyms***: shocked, alarmed, surprised, jolted, stunned
+2. **STARTLING**:
+   - The news of the unexpected victory was **startling** to everyone. *(Adjective: causing sudden surprise or alarm)*
+   - ***Synonyms***: surprising, shocking, astonishing, alarming, unexpected
+3. **STARTLINGLY**: 🌟
+   - The painting was **startlingly** realistic, almost like a photograph. *(Adverb: in a way that causes surprise or alarm)*
+   - ***Synonyms***: surprisingly, shockingly, astonishingly, strikingly
+
+=====
+
+### STARVE  
+@@  
+**Verb** | हिंदी: भूखा मरना, भुखमरी झेलना :  
+1. To suffer or die due to lack of food. *(Literal: lack of nourishment)*  
+2. To be deprived of something essential, such as love, attention, or resources. *(Figurative: extreme deprivation)*  
+3. To intentionally deprive someone of food or necessary sustenance. *(Causative verb)*  
+- ***Synonyms***: famish, hunger, wither, deprive, weaken *(Verb: lack of food)*; crave, long for, yearn *(Verb: lack of essentials)*  
+- ***Antonyms***: nourish, feed, satiate, satisfy  
+
+_Examples_  
+1. Without food and water, the stranded travelers would **starve** in the desert. *(Verb: lack of nourishment)*  
+2. She felt emotionally **starved** for affection after years of neglect. *(Verb: figurative deprivation)*  
+3. The cruel king threatened to **starve** his prisoners unless they confessed. *(Verb: intentional deprivation)*  
+
+_Word Form Examples_  
+1. **STARVED**: 🌟  
+   - The abandoned dog was **starved** and weak when the rescuers found it. *(Adjective: suffering from extreme hunger or deprivation)*  
+   - ***Synonyms***: malnourished, emaciated, deprived  
+2. **STARVING**:  
+   - After skipping breakfast and lunch, he was absolutely **starving** by dinner. *(Verb: extreme hunger, often hyperbolic)*  
+   - ***Synonyms***: ravenous, famished, craving  
+3. **STARVATION**: 🌟  
+   - Many people perished from **starvation** during the famine. *(Noun: the state of extreme hunger leading to suffering or death)*  
+   - ***Synonyms***: famine, hunger, deprivation, malnutrition  
+
+=====  
+
+### STASH
+@@
+**Verb, Noun** | हिंदी: छिपाना, भंडार :  
+1. To store or hide something, especially in a secret or safe place, often for future use. *(Verb)*  
+2. A secret store or collection of items, often hidden away. *(Noun)*  
+- ***Synonyms***: hide, conceal, store, cache *(Verb)*; hoard, stockpile, reserve, cache *(Noun)*  
+- ***Antonyms***: reveal, expose, uncover *(Verb)*; scarcity, lack, depletion *(Noun)*  
+
+_Examples_  
+1. She decided to **stash** her savings under the mattress to keep them safe. *(Verb: hide secretly)*  
+2. The detective discovered a **stash** of stolen goods in the basement. *(Noun: hidden collection)*  
+
+_Word Form Examples_  
+1. **STASHED**: 🌟  
+   - He **stashed** the documents in a drawer to avoid suspicion. *(Verb: past tense of stash)*  
+   - ***Synonyms***: hidden, concealed, stored, cached  
+2. **STASHING**:  
+   - **Stashing** away money in secret accounts is a common tactic among tax evaders. *(Gerund: the act of hiding)*  
+   - ***Synonyms***: hiding, concealing, storing, caching  
+
+=====
+
+### STEAL
+@@
+**Verb, Noun** | हिंदी: चुराना, हथियाना :  
+1. To take something without permission or unlawfully; to commit theft. *(Verb)*  
+2. An act of stealing; a bargain or opportunity that is considered exceptionally good. *(Noun)*  
+- ***Synonyms***: pilfer, swipe, snatch, rob *(Verb: take unlawfully)*; theft, heist, bargain *(Noun)*  
+- ***Antonyms***: return, give, restore, donate *(Verb: opposite of taking)*; overcharge, rip-off *(Noun: opposite of bargain)*  
+
+_Examples_  
+1. Someone tried to **steal** her purse on the crowded bus. *(Verb: commit theft)*  
+2. The discounted laptop was such a **steal** at only $300. *(Noun: an exceptionally good deal)*  
+
+_Word Form Examples_  
+1. **STOLE**: 🌟  
+   - She **stole** the last piece of cake when no one was looking. *(Verb: past tense of steal)*  
+   - ***Synonyms***: pilfered, snatched, swiped, robbed  
+2. **STOLEN**:  
+   - The painting was reported as **stolen** from the museum last night. *(Adjective: taken unlawfully)*  
+   - ***Synonyms***: purloined, filched, embezzled, misappropriated  
+3. **STEALING**:  
+   - The security cameras captured him in the act of **stealing**. *(Gerund: the act of committing theft)* 
+   - ***Synonyms***: thievery, pilfering, looting, shoplifting  
+
+=====
+
+### STEALTH
+@@
+**Noun** | हिंदी: चुपके, छिपकर : The act of moving, proceeding, or acting in a covert or secretive manner to avoid detection; often associated with caution or slyness.
+- ***Synonyms***: secrecy, furtiveness, sneakiness, covertness, slyness
+- ***Antonyms***: openness, frankness, visibility, boldness, transparency
+
+_Examples_
+1. The cat approached its prey with remarkable **stealth**, unnoticed until the last moment. *(Noun: secretive movement)*
+2. The mission relied on **stealth** to bypass enemy defenses without raising an alarm. *(Noun: covert action)*
+
+_Word Form Examples_
+1. **STEALTHY**:
+   - The thief moved in a **stealthy** manner, avoiding the creaky floorboards. *(Adjective: done secretly or quietly)*
+   - ***Synonyms***: sneaky, furtive, sly, covert, secretive
+2. **STEALTHILY**: 🌟
+   - She **stealthily** slipped out of the room while everyone was distracted. *(Adverb: in a secretive or cautious way)*
+   - ***Synonyms***: secretly, furtively, slyly, quietly, covertly
+3. **STEALTHINESS**:
+   - The **stealthiness** of the operation ensured its success without detection. *(Noun: quality of being stealthy)*
+   - ***Synonyms***: sneakiness, furtiveness, covertness, secrecy
+
+=====
+
+### STEER  
+@@  
+**Verb, Noun** | हिंदी: मार्गदर्शन करना, हांकना, बैल :  
+1. To guide or direct the movement of a vehicle, vessel, or person. *(Verb: control movement)*  
+2. To influence or lead someone toward a particular course of action. *(Verb: figurative guidance)*  
+3. A young male bovine, especially one castrated and raised for beef. *(Noun: cattle)*  
+- ***Synonyms***: guide, direct, navigate, control *(Verb: movement)*; influence, lead, advise *(Verb: guidance)*; bullock, ox *(Noun: cattle)*  
+- ***Antonyms***: drift, stray *(Verb: movement)*; mislead, misguide *(Verb: guidance)*  
+
+_Examples_  
+1. He carefully **steered** the boat through the narrow canal. *(Verb: control movement)*  
+2. The mentor **steered** her toward a career in medicine. *(Verb: figurative guidance)*  
+3. The farmer bought a **steer** for his ranch. *(Noun: young male bovine)*  
+
+_Word Form Examples_  
+1. **STEERED**: 🌟  
+   - She **steered** the conversation away from sensitive topics. *(Verb: guided in a particular direction)*  
+   - ***Synonyms***: directed, navigated, led, influenced  
+2. **STEERING**:  
+   - The car's **steering** system needs repair. *(Noun: mechanism for guiding a vehicle)*  
+   - ***Synonyms***: navigation, control, guidance  
+3. **STEERABLE** *(Rare)*:  
+   - The drone is highly **steerable**, allowing precise movements. *(Adjective: capable of being guided or controlled)*  
+   - ***Synonyms***: maneuverable, controllable, adjustable  
+
+=====  
+
+### STEM
+@@
+**Noun, Verb** | हिंदी: तना, रोकना :  
+1. The main structural part of a plant that supports leaves, flowers, and fruits; also refers to a slender part of an object, such as a glass or pipe. *(Noun)*  
+2. To stop, check, or restrain something, such as a flow or development; to originate or derive from something. *(Verb)*  
+- ***Synonyms***: stalk, trunk, shoot *(Noun: plant part)*; stop, halt, curb, check *(Verb: restrain)*; arise, originate *(Verb: derive)*  
+- ***Antonyms***: root, base *(Noun: plant part, figurative)*; start, initiate, promote, encourage *(Verb: restrain)*; end, conclude *(Verb: derive)*  
+
+_Examples_  
+1. The rose’s **stem** was covered in sharp thorns. *(Noun: plant part)*  
+2. The engineers worked to **stem** the flow of water from the leaking dam. *(Verb: stop)*  
+3. Many of her fears **stem** from her childhood experiences. *(Verb: originate)*  
+
+_Word Form Examples_  
+1. **STEMMED**: 🌟  
+   - The decision **stemmed** from a lack of funding for the project. *(Verb: past tense of stem, meaning originate)*  
+   - ***Synonyms***: originated, arose, derived, resulted  
+2. **STEMMING**:  
+   - The team focused on **stemming** the spread of misinformation online. *(Gerund: the act of stopping)*  
+   - ***Synonyms***: stopping, halting, curbing, checking  
+
+=====
+
+### STERILE
+@@
+**Adjective** | हिंदी: बाँझ, निस्संक्रमण :  
+1. Free from bacteria or other living microorganisms; hygienically clean. *(Adjective: medically clean)*  
+2. Unable to produce offspring or children; infertile. *(Adjective: barren)*  
+3. Lacking creativity, originality, or vitality; unproductive. *(Adjective: figuratively unfruitful)*  
+- ***Synonyms***: aseptic, disinfected, germ-free *(Adjective: medically clean)*; barren, infertile, impotent *(Adjective: unable to reproduce)*; uninspired, arid, fruitless *(Adjective: lacking creativity)*  
+- ***Antonyms***: contaminated, infected, dirty *(Adjective: medically unclean)*; fertile, reproductive, fruitful *(Adjective: able to reproduce)*; creative, imaginative, vibrant *(Adjective: full of life or ideas)*  
+
+_Examples_  
+1. The surgeon ensured all instruments were **sterile** before the operation. *(Adjective: free from germs)*  
+2. The couple discovered that their pet was **sterile** and could not have puppies. *(Adjective: unable to reproduce)*  
+3. The discussion felt **sterile**, with no new ideas emerging. *(Adjective: lacking creativity or vitality)*  
+
+_Word Form Examples_  
+1. **STERILITY**: 🌟  
+   - The **sterility** of the soil made it impossible to grow crops. *(Noun: state of being barren or infertile)*  
+   - ***Synonyms***: infertility, barrenness, aridity, impotence  
+2. **STERILIZE**:  
+   - The nurse used an autoclave to **sterilize** the medical equipment. *(Verb: make something free from germs)*  
+   - ***Synonyms***: disinfect, sanitize, cleanse, purify  
+3. **STERILIZATION**:  
+   - The hospital adheres to strict **sterilization** protocols to prevent infections. *(Noun: process of making something sterile)*  
+   - ***Synonyms***: disinfection, sanitation, purification, decontamination  
+
+=====
+
+### STIFLE
+@@
+**Verb** | हिंदी: दमन करना, रोकना, दम घुटाना : To suppress, restrain, or suffocate, often used to describe the act of curbing emotions, creativity, or physical airflow.
+- ***Synonyms***: suppress, smother, quell, restrain, inhibit
+- ***Antonyms***: encourage, stimulate, promote, free
+
+_Examples_
+1. The manager's strict policies began to **stifle** innovation among the employees. *(Verb: suppress)*
+2. The heavy, humid air seemed to **stifle** the crowd's energy at the outdoor event. *(Verb: inhibit)*
+
+_Word Form Examples_
+1. **STIFLED**:
+   - The artist felt **stifled** by the conventional expectations of the community. *(Adjective: having been suppressed)*
+   - ***Synonyms***: suppressed, smothered, choked, oppressed
+2. **STIFLING**: 🌟
+   - The **stifling** heat of the midsummer afternoon made it difficult to concentrate. *(Adjective: suffocating)*
+   - ***Synonyms***: suffocating, oppressive, claustrophobic, smothering
+
+=====
+
+### STIGMA
+@@
+**Noun** | हिंदी: कलंक, लांछन :  
+1. A mark of disgrace or shame associated with a particular circumstance, quality, or person; often involves social disapproval or discrimination. *(Noun)*  
+2. A distinguishing mark or characteristic, sometimes used in a botanical or medical context (e.g., part of a flower or a visible sign of disease). *(Noun)*  
+- ***Synonyms***: disgrace, shame, dishonor, blemish, taint *(Noun: disgrace)*; mark, sign, feature *(Noun: characteristic)*  
+- ***Antonyms***: honor, pride, glory, acclaim *(Noun: disgrace)*; normalcy, absence *(Noun: characteristic)*  
+
+_Examples_  
+1. There is still a significant **stigma** attached to mental health issues in many societies. *(Noun: disgrace)*  
+2. The **stigma** of the flower was bright red, attracting pollinators. *(Noun: botanical part)*  
+
+_Word Form Examples_  
+1. **STIGMATIZE**: 🌟  
+   - Society tends to **stigmatize** those who seek help for addiction. *(Verb: to mark with disgrace)*  
+   - ***Synonyms***: disgrace, shame, discredit, taint, condemn  
+2. **STIGMATIZED**:  
+   - He felt **stigmatized** by his community after the scandal. *(Adjective: marked with disgrace)*  
+   - ***Synonyms***: disgraced, shamed, dishonored, tainted  
+3. **STIGMATIZATION**:  
+   - The **stigmatization** of certain professions can discourage young people from pursuing them. *(Noun: the act of disgracing)*  
+   - ***Synonyms***: disgracing, shaming, condemnation, discredit  
+
+=====
+
+### STILL
+@@
+**Adjective, Adverb, Verb, Noun** | हिंदी: अभी भी, शांत :  
+1. Not moving or making a sound; calm and quiet. *(Adjective)*  
+2. Up to this time; even now. *(Adverb)*  
+3. To make or become calm or quiet. *(Verb)*  
+4. A photograph or single frame from a film. *(Noun)*  
+- ***Synonyms***: motionless, silent, tranquil *(Adjective: calm)*; yet, even now, nonetheless *(Adverb: up to now)*; quiet, hush, soothe *(Verb: calm)*; snapshot, photo, image *(Noun: single frame)*  
+- ***Antonyms***: moving, noisy, restless *(Adjective: not calm)*; no longer, never again *(Adverb: opposite of still)*; agitate, disturb, excite *(Verb: opposite of calming)*  
+
+_Examples_  
+1. The lake was so **still** that it reflected the mountains perfectly. *(Adjective: calm and quiet)*  
+2. He is **still** waiting for his friend to arrive. *(Adverb: up to this time)*  
+3. She tried to **still** her racing thoughts before the exam. *(Verb: make calm)*  
+4. The photographer captured a beautiful **still** of the sunset. *(Noun: single frame/photo)*  
+
+_Word Form Examples_  
+1. **STILLNESS**: 🌟  
+   - The **stillness** of the forest was both peaceful and eerie. *(Noun: state of being calm or quiet)*  
+   - ***Synonyms***: tranquility, silence, calmness, serenity  
+2. **STILLED**:  
+   - His voice was **stilled** by emotion as he delivered the eulogy. *(Adjective: made quiet or calm)*  
+   - ***Synonyms***: silenced, hushed, calmed, quieted  
+3. **STILLING**:  
+   - The teacher’s presence had a **stilling** effect on the noisy classroom. *(Gerund: act of calming)*  
+   - ***Synonyms***: calming, soothing, quieting, pacifying  
+
+=====
+
+### STIMULATE
+@@
+**Verb** | हिंदी: उत्तेजित करना, प्रोत्साहित करना : To encourage or increase activity, growth, or interest; to excite or energize mentally or physically.
+- ***Synonyms***: encourage, inspire, provoke, arouse, energize, activate  
+- ***Antonyms***: suppress, hinder, dull, weaken, depress  
+
+_Examples_  
+1. The teacher used interactive games to **stimulate** the students’ interest in science. *(Verb: encourage interest)*  
+2. Caffeine helps to **stimulate** the nervous system, making people feel more alert. *(Verb: energize physically)*  
+
+_Word Form Examples_  
+1. **STIMULATED**:  
+   - The discussion **stimulated** new ideas among the researchers. *(Verb: encouraged growth or activity)*  
+   - ***Synonyms***: inspired, energized, motivated, aroused  
+2. **STIMULATING**: 🌟  
+   - She found the conversation intellectually **stimulating**. *(Adjective: exciting or inspiring)*  
+   - ***Synonyms***: invigorating, exciting, thought-provoking, engaging  
+3. **STIMULATION**:  
+   - The therapy focuses on sensory **stimulation** to help patients regain motor functions. *(Noun: the act of exciting or encouraging activity)*  
+   - ***Synonyms***: activation, excitation, provocation, encouragement  
+
+=====
+
+### STINT
+@@
+**Noun, Verb** | हिंदी: कार्यकाल, सीमित करना : 
+1. A period of time spent doing a specific job or activity, often temporary or limited in duration. *(Noun)*
+2. To limit or restrict someone to a particular amount or range of something. *(Verb)*
+- ***Synonyms***: assignment, tenure, spell *(Noun: period of work)*; restrict, confine, limit *(Verb)*
+- ***Antonyms***: permanence, unlimitedness, unboundedness *(Noun: duration)*; expand, extend, increase *(Verb)*
+
+_Examples_
+1. She completed her **stint** as a volunteer at the local shelter before moving abroad. *(Noun: period of work)*
+2. The company decided to **stint** its employees on bonuses this year due to budget cuts. *(Verb: limit)*
+
+_Word Form Examples_
+1. **STINTED**: 🌟
+   - The resources were so **stinted** that the project had to be postponed indefinitely. *(Adjective: restricted)*
+   - ***Synonyms***: limited, confined, restrained, curtailed
+2. **STINTING**:  
+   - His reputation suffered because of his **stinting** approach to employee benefits. *(Gerund: restricting)*
+   - ***Synonyms***: limiting, constraining, withholding, rationing
+
+=====
+
+### STIPULATE  
+@@  
+**Verb** | हिंदी: शर्त रखना, निर्धारित करना : To specify a condition, requirement, or demand in an agreement or contract.  
+- ***Synonyms***: specify, require, demand, prescribe, condition, mandate  
+- ***Antonyms***: waive, ignore, neglect, omit  
+
+_Examples_  
+1. The contract **stipulates** that employees must give a one-month notice before resigning. *(Verb: specify a condition)*  
+2. The judge **stipulated** that the defendant must attend counseling sessions as part of the sentence. *(Verb: set a requirement)*  
+
+_Word Form Examples_  
+1. **STIPULATED**: 🌟  
+   - The terms of the loan were clearly **stipulated** in the agreement. *(Verb: specified in detail)*  
+   - ***Synonyms***: established, mandated, required, dictated  
+2. **STIPULATING**:  
+   - The new law is **stipulating** stricter safety measures for construction sites. *(Gerund: specifying conditions)*  
+   - ***Synonyms***: prescribing, enforcing, setting conditions  
+3. **STIPULATION**: 🌟  
+   - One major **stipulation** of the contract is that the work must be completed within six months. *(Noun: a condition in an agreement)*  
+   - ***Synonyms***: requirement, provision, clause, condition  
+
+=====  
+
+### STIR
+@@
+**Verb, Noun** | हिंदी: हिलाना, उत्तेजना : 
+1. To move or cause to move slightly or change position, often by mixing or agitating. *(Verb)*
+2. A feeling of excitement, agitation, or disturbance among a group of people. *(Noun)*
+- ***Synonyms***: mix, blend, agitate *(Verb: movement)*; commotion, excitement, uproar *(Noun: disturbance)*
+- ***Antonyms***: calm, still, pacify *(Verb: movement)*; peace, quiet, tranquility *(Noun: disturbance)*
+
+_Examples_
+1. She used a spoon to **stir** the coffee until the sugar dissolved. *(Verb: mix)*
+2. The politician's speech caused quite a **stir** in the community. *(Noun: excitement)*
+
+_Word Form Examples_
+1. **STIRRED**: 🌟
+   - The news of the scandal **stirred** emotions across the nation. *(Adjective: moved emotionally)*
+   - ***Synonyms***: moved, aroused, provoked, agitated
+2. **STIRRING**:  
+   - The chef was busy **stirring** the sauce to prevent it from burning. *(Gerund: mixing)*
+   - ***Synonyms***: blending, agitating, mixing, moving
+3. **STIRRER**:
+   - A wooden **stirrer** was used to mix the paint thoroughly. *(Noun: tool for stirring)*
+   - ***Synonyms***: mixer, whisk, paddle, spatula
+
+=====
+
+### STOIC  
+@@  
+**Noun, Adjective** | हिंदी: भावनाहीन, धैर्यवान : A person who endures pain or hardship without showing emotions (Noun); showing little or no emotion in difficult situations (Adjective).  
+- ***Synonyms***: unemotional, impassive, indifferent, detached, resilient  
+- ***Antonyms***: emotional, sensitive, expressive, reactive  
+
+_Examples_  
+1. Despite the bad news, he remained a **stoic**, not letting his emotions show. *(Noun: a person who suppresses emotions)*  
+2. She gave a **stoic** response when told about the project’s failure. *(Adjective: showing no emotion)*  
+
+_Word Form Examples_  
+1. **STOICAL**: 🌟  
+   - She remained **stoical** even during the most stressful moments. *(Adjective: enduring hardship without complaint)*  
+   - ***Synonyms***: indifferent, unflinching, composed, imperturbable  
+2. **STOICALLY**:  
+   - He **stoically** accepted the criticism and moved forward. *(Adverb: without showing emotion or distress)*  
+   - ***Synonyms***: calmly, impassively, unemotionally, resignedly  
+
+=====  
+
+### STOKE
+@@
+**Verb** | हिंदी: जलाना, बढ़ाना : 
+1. To add fuel to a fire or furnace to make it burn more intensely. *(Verb)*
+2. To increase or intensify feelings, emotions, or reactions in someone or something. *(Verb)*
+- ***Synonyms***: fuel, feed, kindle *(Verb: literal fire)*; incite, inflame, intensify *(Verb: figurative)*
+- ***Antonyms***: extinguish, dampen, smother *(Verb: literal fire)*; calm, soothe, pacify *(Verb: figurative)*
+
+_Examples_
+1. The campers took turns **stoking** the fire to keep warm through the night. *(Verb: literal fire)*
+2. His speech was intended to **stoke** the crowd's enthusiasm for the cause. *(Verb: figurative)*
+
+_Word Form Examples_
+1. **STOKED**: 🌟
+   - The flames were already **stoked** high when the guests arrived at the bonfire. *(Adjective: intensified)*
+   - ***Synonyms***: fueled, fed, kindled, invigorated
+2. **STOKING**:  
+   - The activist continued **stoking** public anger with her powerful speeches. *(Gerund: intensifying)*
+   - ***Synonyms***: inciting, inflaming, fanning, escalating
+3. **STOKER**:
+   - The **stoker** worked tirelessly to ensure the ship's engine remained at full power. *(Noun: person who feeds fuel)*
+   - ***Synonyms***: fireman, feeder, attendant
+
+=====
+
+### STRIKE  
+@@  
+**Noun, Verb** | हिंदी: हड़ताल, प्रहार, मारना :  
+1. A sudden, forceful hit or attack. *(Noun)*  
+2. To hit or attack with force. *(Verb)*  
+3. To refuse to work as a form of protest. *(Verb: labor action)*  
+- ***Synonyms***: blow, hit, attack, impact *(Noun: forceful hit)*; hit, smack, slap, pound *(Verb: physical action)*; protest, walkout, stoppage *(Verb: labor action)*  
+- ***Antonyms***: miss, avoid *(Verb: physical action)*; agreement, compliance *(Verb: labor action)*  
+
+_Examples_  
+1. The boxer delivered a powerful **strike** to his opponent’s jaw. *(Noun: forceful hit)*  
+2. The workers decided to **strike** for better wages. *(Verb: labor protest)*  
+3. The clock will **strike** midnight soon. *(Verb: marking time)*  
+
+_Word Form Examples_  
+1. **STRUCK**: 🌟  
+   - The lightning **struck** the tree during the storm. *(Past tense of strike: hit with force)*  
+   - ***Synonyms***: hit, smacked, slammed, impacted  
+2. **STRIKING**:  
+   - She has a **striking** resemblance to her mother. *(Adjective: very noticeable)*  
+   - ***Synonyms***: noticeable, eye-catching, remarkable  
+3. **STRIKER**:  
+   - The **striker** scored a goal in the final minutes of the match. *(Noun: attacking player in sports)*  
+   - ***Synonyms***: forward, goal-scorer, attacker  
+4. **STRIKEOUT**:  
+   - The pitcher recorded another **strikeout**, eliminating the batter. *(Noun: baseball term for missing three pitches)*  
+   - ***Synonyms***: failure, miss, dismissal  
+
+=====  
+
+### STRINGENT
+@@
+**Adjective** | हिंदी: कठोर, सख्त : Strict, precise, and exacting; imposing severe rules or restrictions; demanding high standards.
+- ***Synonyms***: strict, rigorous, severe, harsh, exacting, firm
+- ***Antonyms***: lenient, lax, flexible, permissive, forgiving
+
+_Examples_
+1. The government implemented **stringent** measures to control the spread of the virus. *(Adjective: strict)*
+2. The teacher was known for her **stringent** grading policy, leaving no room for error. *(Adjective: exacting)*
+
+_Word Form Examples_
+1. **STRINGENCY**: 🌟
+   - The **stringency** of the new regulations forced companies to adapt quickly. *(Noun: strictness or severity)*
+   - ***Synonyms***: strictness, severity, rigidity, harshness, precision
+2. **STRINGENTLY**:
+   - The guidelines were **stringently** enforced to ensure compliance. *(Adverb: in a strict or severe manner)*
+   - ***Synonyms***: strictly, rigorously, severely, firmly, harshly
+
+=====
+
+### STRIVE
+@@
+**Verb** | हिंदी: प्रयास करना, संघर्ष करना : To make great efforts or attempts to achieve something; to struggle or fight towards a goal with determination.
+- ***Synonyms***: endeavor, strive for, labor, toil, struggle, fight
+- ***Antonyms***: slack off, give up, abandon, neglect, surrender
+
+_Examples_
+1. She continues to **strive** for excellence in her academic pursuits. *(Verb: endeavor)*
+2. Despite the challenges, they **strive** to maintain a positive outlook on life. *(Verb: struggle with determination)*
+
+_Word Form Examples_
+1. **STRIVING**: 🌟
+   - His relentless **striving** towards success inspired those around him. *(Gerund/Noun: the act of making an effort)*
+   - ***Synonyms***: endeavoring, struggling, striving for, toiling, laboring
+2. **STRIVEN**:
+   - Over the years, she had **striven** tirelessly to improve the community. *(Past Participle: made great efforts)*
+   - ***Synonyms***: endeavored, struggled, labored, toiled
+
+=====
+
+### STUN  
+@@  
+**Verb, Noun** | हिंदी: अचंभित करना, स्तब्ध करना :  
+1. To shock or surprise someone greatly. *(Verb)*  
+2. To make someone temporarily unable to move or react, often due to a blow or loud noise. *(Verb)*  
+3. A state of being dazed or shocked. *(Noun: rare usage)*  
+- ***Synonyms***: shock, amaze, astound, daze, stupefy, overwhelm *(Verb: surprise or incapacitate)*  
+- ***Antonyms***: reassure, calm, revive, comfort *(Verb: reduce shock or restore awareness)*  
+
+_Examples_  
+1. The unexpected news managed to **stun** everyone in the room. *(Verb: shock or surprise)*  
+2. The fighter delivered a punch that seemed to **stun** his opponent. *(Verb: temporarily incapacitate)*  
+3. He was in a state of **stun** after hearing the tragic news. *(Noun: rare usage, state of shock)*  
+
+_Word Form Examples_  
+1. **STUNNED**: 🌟  
+   - She was completely **stunned** by the breathtaking view. *(Adjective: deeply shocked or amazed)*  
+   - ***Synonyms***: shocked, astounded, flabbergasted, dumbfounded  
+2. **STUNNING**:  
+   - The actress wore a **stunning** red gown to the event. *(Adjective: extremely beautiful or impressive)*  
+   - ***Synonyms***: gorgeous, dazzling, striking, breathtaking  
+3. **STUNNER**:  
+   - That last-minute goal was an absolute **stunner**! *(Noun: something or someone exceptionally impressive or attractive)*  
+   - ***Synonyms***: sensation, marvel, knockout, spectacle  
+
+=====
+
+### STUNT
+@@
+**Noun, Verb** | हिंदी: करतब, चमत्कार : 
+1. A daring or spectacular act requiring great skill, often performed for entertainment. *(Noun)*  
+2. To hinder or prevent the growth or development of something. *(Verb)*  
+- ***Synonyms***: feat, trick, exploit *(Noun: daring act)*; restrict, impede, hamper *(Verb: hinder growth)*  
+- ***Antonyms***: failure, flop *(Noun: unimpressive act)*; promote, encourage, foster *(Verb: support growth)*  
+
+_Examples_  
+1. The daredevil performed an incredible **stunt** on his motorcycle during the show. *(Noun: daring act)*  
+2. Poor nutrition can **stunt** a child’s physical and mental development. *(Verb: hinder growth)*  
+
+_Word Form Examples_  
+1. **STUNTS**: 🌟  
+   - The movie featured several thrilling **stunts** that left the audience in awe. *(Noun: plural form of daring acts)*  
+   - ***Synonyms***: tricks, feats, exploits, acrobatics  
+2. **STUNTED**:  
+   - Years of neglect had **stunted** her ability to form meaningful relationships. *(Adjective: hindered or underdeveloped)*  
+   - ***Synonyms***: restricted, inhibited, retarded, dwarfed  
+3. **STUNTING**:  
+   - The lack of sunlight was **stunting** the growth of the plants. *(Gerund/Participle: hindering progress)*  
+   - ***Synonyms***: impeding, hampering, restricting, arresting  
+
+=====
+
+### STYMIE  
+@@  
+**Verb, Noun** | हिंदी: अवरुद्ध करना, बाधा डालना :  
+1. To prevent or hinder progress. *(Verb)*  
+2. A situation or problem that blocks advancement. *(Noun: rare usage)*  
+- ***Synonyms***: hinder, obstruct, impede, thwart, block, frustrate *(Verb: prevent progress)*  
+- ***Antonyms***: assist, aid, facilitate, encourage, support *(Verb: help progress)*  
+
+_Examples_  
+1. The sudden budget cuts will **stymie** the development of the new project. *(Verb: hinder progress)*  
+2. His inability to access key data became a major **stymie** in his research. *(Noun: rare usage, an obstacle)*  
+
+_Word Form Examples_  
+1. **STYMIED**: 🌟  
+   - The investigation was **stymied** by a lack of evidence. *(Past tense: obstructed or hindered)*  
+   - ***Synonyms***: blocked, thwarted, hindered, impeded  
+2. **STYMYING**:  
+   - The heavy snowfall is **stymying** rescue efforts in the mountains. *(Present participle: actively hindering progress)*  
+   - ***Synonyms***: obstructing, frustrating, preventing, hampering  
+
+=====  
+
+### SUBDUE
+@@
+**Verb** | हिंदी: वश में करना, शांत करना : To bring under control or subjugate; to quiet or calm someone or something; to make less intense or prominent.
+- ***Synonyms***: conquer, suppress, pacify, restrain, tame, mollify  
+- ***Antonyms***: incite, provoke, agitate, liberate, unleash  
+
+_Examples_  
+1. The soldiers were sent to **subdue** the rebellion in the region. *(Verb: conquer or subjugate)*  
+2. She took deep breaths to **subdue** her rising anxiety during the interview. *(Verb: calm or reduce intensity)*  
+
+_Word Form Examples_  
+1. **SUBDUED**: 🌟  
+   - The lighting in the room was **subdued**, creating a cozy atmosphere. *(Adjective: made less intense or prominent)*  
+   - ***Synonyms***: softened, muted, toned down, restrained, quieted  
+2. **SUBDUES**:  
+   - The medication effectively **subdues** the symptoms of the disease. *(Verb: makes less intense)*  
+   - ***Synonyms***: suppresses, alleviates, mitigates, dampens  
+3. **SUBDUING**:  
+   - The firefighter’s efforts in **subduing** the blaze saved several homes. *(Gerund/Participle: bringing under control)*  
+   - ***Synonyms***: conquering, suppressing, pacifying, quelling  
+
+=====
+
+### SUBSERVIENT
+@@
+**Adjective** | हिंदी: अधीन, वशीभूत : Compliant and obedient to someone else; excessively willing to serve or follow another’s orders; subordinate in position or function.
+- ***Synonyms***: submissive, compliant, obedient, deferential, subservient, docile  
+- ***Antonyms***: assertive, dominant, rebellious, defiant, independent  
+
+_Examples_  
+1. The employee was **subservient** to his boss, always agreeing with every decision. *(Adjective: excessively obedient)*  
+2. In the feudal system, peasants were often **subservient** to the landowners. *(Adjective: subordinate in position)*  
+
+_Word Form Examples_  
+1. **SUBSERVIENCE**: 🌟  
+   - Her **subservience** to authority made her an easy target for exploitation. *(Noun: the quality of being overly submissive)*  
+   - ***Synonyms***: compliance, obedience, submission, deference, docility  
+2. **SUBSERVIENTLY**:  
+   - He nodded **subserviently**, afraid to express his own opinion. *(Adverb: in a compliant or submissive manner)*  
+   - ***Synonyms***: compliantly, obediently, deferentially, submissively, humbly  
+
+=====
+
+### SUBSIDIZE  
+@@  
+**Verb** | हिंदी: अनुदान देना, आर्थिक सहायता देना :  
+1. To financially support or assist an individual, organization, or activity. *(Verb)*  
+2. To reduce the cost of something by providing government or external funding. *(Verb)*  
+- ***Synonyms***: fund, sponsor, support, finance, underwrite, assist *(Verb: provide financial aid)*  
+- ***Antonyms***: withdraw funding, defund, charge, overburden *(Verb: take away financial aid)*  
+
+_Examples_  
+1. The government decided to **subsidize** farmers to help them cope with rising costs. *(Verb: provide financial aid)*  
+2. The company **subsidizes** employees’ transportation expenses. *(Verb: reduce costs through funding)*  
+
+_Word Form Examples_  
+1. **SUBSIDIZED**: 🌟  
+   - Many low-income families benefit from **subsidized** housing programs. *(Adjective: financially supported by external aid)*  
+   - ***Synonyms***: funded, assisted, supported, sponsored  
+2. **SUBSIDIZING**:  
+   - The organization is **subsidizing** education for underprivileged students. *(Present participle: actively providing financial support)*  
+   - ***Synonyms***: financing, sponsoring, funding, aiding  
+3. **SUBSIDY**:  
+   - The government provides a **subsidy** to encourage the use of renewable energy. *(Noun: financial assistance given to reduce costs)*  
+   - ***Synonyms***: grant, aid, allowance, funding  
+
+=====  
+
+### SUBSTANCE
+@@
+**Noun** | हिंदी: पदार्थ, वस्तु : A particular kind of matter with uniform properties; the real or physical aspect of something; the essential quality or nature of something.
+- ***Synonyms***: material, matter, essence, core, substance, content
+- ***Antonyms***: insubstantiality, void, emptiness, insignificance
+
+_Examples_
+1. The scientist was studying the chemical **substance** to determine its properties. *(Noun: material)*
+2. There is no **substance** to his argument; it's all just speculation. *(Noun: essence or core meaning)*
+
+_Word Form Examples_
+1. **SUBSTANTIAL**: 🌟
+   - She made a **substantial** contribution to the project, which was highly appreciated. *(Adjective: considerable in importance or size)*
+   - ***Synonyms***: significant, considerable, large, important, meaningful
+2. **SUBSTANTIATE**: 
+   - The lawyer worked hard to **substantiate** the claims with solid evidence. *(Verb: to provide evidence for)*
+   - ***Synonyms***: verify, confirm, prove, validate, corroborate
+3. **SUBSTANTIALLY**: 
+   - The company’s profits have increased **substantially** over the past year. *(Adverb: to a great extent)*
+   - ***Synonyms***: significantly, considerably, greatly, markedly
+4. **INSUBSTANTIAL** *(Rare)*:
+   - His excuse for being late was rather **insubstantial**, lacking any real justification. *(Adjective: lacking strength or solidity)*
+   - ***Synonyms***: flimsy, weak, negligible, trivial
+
+=====
+
+### SUCCUMB
+@@
+**Verb** | हिंदी: झुक जाना, हार मान लेना : To give in to pressure, temptation, or a superior force; to yield or submit, often with a sense of failure or being overwhelmed; also, to die as a result of illness or injury.
+- ***Synonyms***: yield, surrender, give in, submit, capitulate, collapse
+- ***Antonyms***: resist, withstand, overcome, prevail, endure
+
+_Examples_
+1. Despite his efforts, he had to **succumb** to the demands of the striking workers. *(Verb: yield to pressure)*
+2. The patient fought bravely but eventually **succumbed** to the disease. *(Verb: die from illness)*
+
+_Word Form Examples_
+1. **SUCCUMBED**: 🌟
+   - She **succumbed** to the allure of the luxurious lifestyle. *(Verb: gave in)*
+   - ***Synonyms***: yielded, surrendered, submitted, gave in, capitulated
+2. **SUCCUMBING**:
+   - The company is at risk of **succumbing** to financial difficulties. *(Gerund: the act of yielding)*
+   - ***Synonyms***: yielding, surrendering, submitting, giving in, collapsing
+
+=====
+
+### SUFFICE
+@@
+**Verb** | हिंदी: पर्याप्त होना, काफी होना : To be enough or adequate; to meet the needs of a situation or requirement without needing more.
+- ***Synonyms***: satisfy, fulfill, meet, serve, answer, do
+- ***Antonyms***: lack, fall short, fail, insufficient, inadequate
+
+_Examples_
+1. A simple "thank you" will **suffice** as an acknowledgment for her help. *(Verb: be enough)*
+2. The evidence presented should **suffice** to prove his innocence in court. *(Verb: meet the need adequately)*
+
+_Word Form Examples_
+1. **SUFFICIENT**: 🌟
+   - The food supplies were **sufficient** to last the entire week. *(Adjective: enough for the purpose)*
+   - ***Synonyms***: adequate, ample, enough, satisfactory, sufficient
+2. **SUFFICIENCY**: 
+   - The **sufficiency** of the data collected was questioned by the research team. *(Noun: the quality of being enough)*
+   - ***Synonyms***: adequacy, abundance, sufficiency, plenty
+3. **INSUFFICIENT**:
+   - The funds raised were deemed **insufficient** to complete the project. *(Adjective: not enough)*
+   - ***Synonyms***: inadequate, lacking, deficient, wanting, meager
+
+=====
+
+### SUMMON  
+@@  
+**Verb** | हिंदी: बुलाना, आदेश देना : To call upon someone to appear, especially in an official or authoritative manner; to gather or bring forth something.  
+- ***Synonyms***: call, beckon, convene, order, invoke, assemble  
+- ***Antonyms***: dismiss, disperse, banish, ignore  
+
+_Examples_  
+1. The judge **summoned** the witness to testify in court. *(Verb: officially call upon someone)*  
+2. She **summoned** the courage to speak in front of the large audience. *(Verb: gather or bring forth something within oneself)*  
+3. The king **summoned** his advisors for an urgent meeting. *(Verb: call for people to assemble)*  
+
+_Word Form Examples_  
+1. **SUMMONED**: 🌟  
+   - The manager **summoned** the employees for an important announcement. *(Past tense of summon: called upon someone or something)*  
+   - ***Synonyms***: called, beckoned, convened, ordered  
+2. **SUMMONING**:  
+   - The hero was **summoning** all his strength to lift the fallen tree. *(Gerund: the act of calling or gathering something)*  
+   - ***Synonyms***: calling, invoking, mustering, assembling  
+
+=====  
+
+### SURGE
+@@
+**Noun, Verb** | हिंदी: उछाल, लहर, तेजी से बढ़ना : 
+1. A sudden powerful forward or upward movement, especially of a crowd or a natural force like water. *(Noun)*
+2. A sudden large increase, typically temporary, in activity, quantity, or intensity. *(Noun)*
+3. To rise or increase suddenly and powerfully. *(Verb)*
+- ***Synonyms***: rush, wave, swell, upsurge *(Noun: movement/increase)*; soar, escalate, rise, spike *(Verb)*  
+- ***Antonyms***: decline, drop, decrease, fall, ebb *(Noun/Verb)*  
+
+_Examples_  
+1. A **surge** of water flooded the streets after the dam broke. *(Noun: powerful movement)*  
+2. There was a **surge** in demand for the new product during the holiday season. *(Noun: sudden increase)*  
+3. The stock prices began to **surge** after the positive earnings report. *(Verb: rise suddenly)*  
+
+_Word Form Examples_  
+1. **SURGED**: 🌟  
+   - The crowd **surged** forward when the gates opened. *(Verb: moved suddenly)*  
+   - ***Synonyms***: rushed, swelled, soared, escalated, spiked  
+2. **SURGING**:  
+   - The **surging** waves made it dangerous to swim. *(Adjective: rising powerfully)*
+   - ***Synonyms***: swelling, rushing, soaring, escalating, rising  
+
+=====
+
+### SURMISE
+@@
+**Verb, Noun** | हिंदी: अनुमान लगाना, अनुमान : 
+1. To suppose or guess something without strong evidence; to make an inference based on incomplete information. *(Verb)*  
+2. A thought or idea based on scanty evidence; a conjecture or guess. *(Noun)*  
+- ***Synonyms***: guess, conjecture, speculate, infer, assume *(Verb)*; supposition, hypothesis, guess, conjecture *(Noun)*  
+- ***Antonyms***: know, confirm, verify, ascertain, establish *(Verb/Noun)*  
+
+_Examples_  
+1. Based on the clues, she **surmised** that the meeting had been canceled. *(Verb: guessed)*  
+2. His **surmise** about the project’s failure turned out to be incorrect. *(Noun: conjecture)*  
+
+_Word Form Examples_  
+1. **SURMISED**: 🌟  
+   - He **surmised** the outcome of the experiment without conducting proper tests. *(Verb: inferred)*  
+   - ***Synonyms***: guessed, conjectured, speculated, inferred, assumed  
+2. **SURMISING**:  
+   - Her **surmising** nature often led her to jump to conclusions. *(Gerund: the act of guessing)*  
+   - ***Synonyms***: guessing, conjecturing, speculating, inferring, assuming  
+3. **SURMISAL** *(Rare)*:  
+   - His **surmisal** of the situation was based on mere rumors. *(Noun: the act or result of surmising)*  
+   - ***Synonyms***: conjecture, guess, supposition, hypothesis, inference  
+
+=====
+
+### SURPASS
+@@
+**Verb** | हिंदी: पार करना, आगे निकलना : To exceed, go beyond, or be greater than something in quality, quantity, or extent; to excel or outdo.
+- ***Synonyms***: exceed, outstrip, outdo, eclipse, transcend, beat  
+- ***Antonyms***: fall behind, trail, lag, underperform, fail  
+
+_Examples_  
+1. Her performance in the competition **surpassed** all expectations. *(Verb: exceeded)*  
+2. The new model **surpasses** its predecessor in both speed and efficiency. *(Verb: outdoes)*  
+
+_Word Form Examples_  
+1. **SURPASSED**: 🌟  
+   - The athlete **surpassed** the previous world record by a significant margin. *(Verb: exceeded)*  
+   - ***Synonyms***: outstripped, outdid, eclipsed, transcended, beat  
+2. **SURPASSING**:  
+   - The beauty of the landscape was **surpassing**, leaving everyone in awe. *(Adjective: exceeding)*  
+   - ***Synonyms***: outstanding, exceptional, superior, remarkable, extraordinary  
+
+=====
+
+### SURVEIL
+@@
+**Verb** | हिंदी: निगरानी करना, जासूसी करना : To keep under close observation or surveillance, especially for security, law enforcement, or intelligence purposes; to monitor systematically.
+- ***Synonyms***: monitor, observe, watch, scrutinize, track, oversee  
+- ***Antonyms***: ignore, neglect, overlook, disregard, miss  
+
+_Examples_  
+1. The security team was assigned to **surveil** the suspect’s movements. *(Verb: monitor closely)*  
+2. Advanced cameras were used to **surveil** the restricted area. *(Verb: observe systematically)*  
+
+_Word Form Examples_  
+1. **SURVEILLED**: 🌟  
+   - The premises were **surveilled** around the clock to prevent unauthorized access. *(Verb: monitored)*  
+   - ***Synonyms***: watched, observed, tracked, scrutinized, monitored  
+2. **SURVEILLING**:  
+   - The act of **surveilling** public spaces has raised privacy concerns. *(Gerund: the act of monitoring)*  
+   - ***Synonyms***: monitoring, observing, watching, tracking, overseeing  
+3. **SURVEILLANCE**:  
+   - The government increased **surveillance** in response to the security threat. *(Noun: the act of monitoring)*  
+   - ***Synonyms***: observation, monitoring, scrutiny, supervision, watch  
+
+=====
+
+### SUSCEPTIBLE
+@@
+**Adjective** | हिंदी: संवेदनशील, प्रभावित होने योग्य : Easily influenced, harmed, or affected by external factors; having a tendency to be impacted emotionally or physically.
+- ***Synonyms***: vulnerable, impressionable, sensitive, prone, open, liable
+- ***Antonyms***: immune, resistant, invulnerable, unaffected, impervious
+
+_Examples_
+1. Children are often more **susceptible** to colds and flu due to their developing immune systems. *(Adjective: easily affected physically)*
+2. She is highly **susceptible** to emotional manipulation because of her trusting nature. *(Adjective: easily influenced emotionally)*
+
+_Word Form Examples_
+1. **SUSCEPTIBILITY**: 🌟
+   - The patient's **susceptibility** to infections was a concern for the doctors. *(Noun: state of being easily affected)*
+   - ***Synonyms***: vulnerability, sensitivity, openness, proneness, liability
+2. **SUSCEPTIBLY**: *(Rare)*
+   - The medication made him unusually **susceptibly** to light, forcing him to wear sunglasses indoors. *(Adverb: in a manner of being easily affected)*
+   - ***Synonyms***: vulnerably, sensitively, impressionably, openly
+3. **INSUSCEPTIBLE**: 
+   - The plant species was found to be **insusceptible** to common pests, making it ideal for cultivation. *(Adjective: not easily affected)*
+   - ***Synonyms***: immune, resistant, impervious, unaffected, invulnerable
+
+=====
+
+### SUSPECT
+@@
+**Verb, Noun, Adjective** | हिंदी: संदेह करना, अपराधी, संदिग्ध :
+1. To have doubts or mistrust about something or someone. *(Verb)*
+2. A person thought to be guilty of a crime or offense. *(Noun)*
+3. Open to doubt or suspicion; not trustworthy. *(Adjective)*
+- ***Synonyms***: doubt, mistrust, question *(Verb)*; culprit, offender, felon *(Noun)*; dubious, questionable, suspicious *(Adjective)*
+- ***Antonyms***: trust, believe, accept *(Verb)*; innocent, victim, law-abiding *(Noun)*; certain, reliable, trustworthy *(Adjective)*
+
+_Examples_
+1. The detective began to **suspect** that the witness was lying. *(Verb: doubt)*
+2. The police arrested a key **suspect** in the robbery case. *(Noun: person under suspicion)*
+3. The package had a **suspect** appearance, so it was carefully inspected. *(Adjective: questionable)*
+
+_Word Form Examples_
+1. **SUSPECTED**: 🌟
+   - The **suspected** thief was seen near the bank earlier today. *(Adjective: believed to be guilty)*
+   - ***Synonyms***: presumed, alleged, supposed, reputed
+2. **SUSPECTING**:  
+   - She caught him in a lie, but he showed no signs of **suspecting** her involvement. *(Gerund: act of doubting)*
+   - ***Synonyms***: doubting, mistrusting, questioning, suspecting
+3. **SUSPICION**: 🌟
+   - His behavior raised **suspicion** among his colleagues. *(Noun: feeling of doubt)*
+   - ***Synonyms***: doubt, mistrust, wariness, apprehension
+4. **SUSPICIOUS**:  
+   - The security guard grew **suspicious** when the man avoided eye contact. *(Adjective: causing doubt or mistrust)*
+   - ***Synonyms***: doubtful, wary, skeptical, distrustful
+
+=====
+
+### SUSTAIN  
+@@  
+**Verb** | हिंदी: बनाए रखना, सहारा देना, सहन करना : To support, maintain, or endure something over a period of time; to uphold or keep going without weakening.  
+- ***Synonyms***: maintain, uphold, support, endure, preserve, continue  
+- ***Antonyms***: weaken, abandon, neglect, discontinue, collapse  
+
+_Examples_  
+1. The bridge was built to **sustain** heavy loads for many years. *(Verb: support structurally)*  
+2. She tried to **sustain** a positive attitude despite the difficulties. *(Verb: maintain emotionally)*  
+3. The food and water supplies were enough to **sustain** the survivors until rescue arrived. *(Verb: keep alive)*  
+
+_Word Form Examples_  
+1. **SUSTAINED**: 🌟  
+   - The country **sustained** significant economic losses due to the recession. *(Verb: suffered or endured)*  
+   - ***Synonyms***: endured, maintained, upheld, prolonged  
+2. **SUSTAINING**:  
+   - A well-balanced diet plays a key role in **sustaining** good health. *(Gerund: keeping or maintaining over time)*  
+   - ***Synonyms***: maintaining, preserving, continuing, upholding  
+3. **SUSTAINABILITY**: 🌟  
+   - The company focuses on **sustainability** by using renewable energy sources. *(Noun: ability to be maintained without depletion or harm)*  
+   - ***Synonyms***: viability, endurance, resilience, eco-friendliness  
+4. **SUSTAINABLE**:  
+   - Solar power is considered a **sustainable** energy source. *(Adjective: able to be maintained over time without harm)*  
+   - ***Synonyms***: renewable, long-lasting, viable, eco-friendly  
+5. **SUSTAINABLY**:  
+   - The resources must be used **sustainably** to ensure future generations can benefit. *(Adverb: in a way that maintains balance or prevents depletion)*  
+   - ***Synonyms***: responsibly, efficiently, conservatively  
+
+=====  
+
+### SWAMP
+@@
+**Noun, Verb** | हिंदी: दलदल, कीचड़ : 
+1. An area of low-lying, uncultivated ground where water collects; a bog or marsh. *(Noun)*
+2. To overwhelm or flood with water; to submerge or inundate. *(Verb)*
+- ***Synonyms***: marsh, bog, wetland, mire *(Noun)*; flood, inundate, overwhelm, engulf *(Verb)*
+- ***Antonyms***: dry land, desert, upland *(Noun)*; drain, dry, clear, empty *(Verb)*
+
+_Examples_
+1. The hikers got stuck in a muddy **swamp** while exploring the forest. *(Noun: marshy area)*
+2. Heavy rains threatened to **swamp** the small village near the river. *(Verb: flood)*
+
+_Word Form Examples_
+1. **SWAMPED**: 🌟
+   - She was completely **swamped** with work and had no time to rest. *(Adjective: overwhelmed)*
+   - ***Synonyms***: overwhelmed, inundated, flooded, overloaded, snowed under
+2. **SWAMPING**:
+   - The sudden downpour was **swamping** the streets, causing traffic delays. *(Gerund: the act of flooding)*
+   - ***Synonyms***: flooding, inundating, submerging, engulfing
+3. **SWAMPY**:
+   - The **swampy** terrain made it difficult to build a stable foundation. *(Adjective: marsh-like)*
+   - ***Synonyms***: marshy, boggy, muddy, waterlogged, soggy
+
+=====
+
+### SWAY
+@@
+**Verb, Noun** | हिंदी: झुकना, प्रभावित करना, लहराना :
+1. To move or cause to move slowly or rhythmically backward and forward or from side to side. *(Verb)*
+2. Influence or power over someone or something. *(Noun)*
+- ***Synonyms***: swing, waver, oscillate *(Verb: movement)*; influence, dominance, authority *(Noun: power)*
+- ***Antonyms***: stabilize, steady, remain still *(Verb: movement)*; weakness, impotence, insignificance *(Noun: power)*
+
+_Examples_
+1. The trees gently **swayed** in the breeze. *(Verb: move rhythmically)*
+2. The professor had a lot of **sway** over his students' decisions. *(Noun: influence)*
+
+_Word Form Examples_
+1. **SWAYED**: 🌟
+   - The crowd was noticeably **swayed** by the politician's speech. *(Verb: influenced)*
+   - ***Synonyms***: influenced, persuaded, convinced, affected
+2. **SWAYING**:  
+   - She found herself hypnotized by the **swaying** motion of the pendulum. *(Gerund: rhythmic movement)*
+   - ***Synonyms***: swinging, oscillating, wavering, rocking
+
+=====
+
+### SWEEP
+@@
+**Verb, Noun** | हिंदी: झाड़ू लगाना, सफाई करना : 
+1. To clean or clear a surface by brushing away dirt or debris, typically with a broom. *(Verb)*
+2. To move or extend over an area quickly and widely; to cover or affect comprehensively. *(Verb)*
+3. A wide, curving movement or extent; an act of sweeping. *(Noun)*
+- ***Synonyms***: brush, clean, clear *(Verb: clean)*; rush, surge, spread, extend *(Verb: move widely)*; arc, curve, swing, scope *(Noun)*
+- ***Antonyms***: dirty, soil, litter *(Verb: clean)*; halt, stop, contain, limit *(Verb: move widely)*; stillness, halt, pause *(Noun)*
+
+_Examples_
+1. She decided to **sweep** the kitchen floor before dinner. *(Verb: clean)*
+2. The wildfire began to **sweep** across the dry grasslands. *(Verb: move widely)*
+3. With a grand **sweep** of his arm, he gestured toward the horizon. *(Noun: wide movement)*
+
+_Word Form Examples_
+1. **SWEPT**: 🌟
+   - The storm **swept** through the town, leaving destruction in its wake. *(Verb, past tense: moved widely)*
+   - ***Synonyms***: rushed, surged, spread, extended, engulfed
+2. **SWEEPING**:
+   - The politician made a **sweeping** statement about economic reforms. *(Adjective: extensive or comprehensive)*
+   - ***Synonyms***: broad, extensive, wide-ranging, comprehensive, general
+3. **SWEEPER**:
+   - The street **sweeper** worked tirelessly to keep the roads clean. *(Noun: person or thing that sweeps)*
+   - ***Synonyms***: cleaner, janitor, custodian, brush, broom
+
+=====
+
+### SYNCHRONOUS
+@@
+**Adjective** | हिंदी: समकालिक, तुल्यकालिक : Existing or occurring at the same time; happening in unison or simultaneously.
+- ***Synonyms***: simultaneous, concurrent, coincident, parallel, synchronized
+- ***Antonyms***: asynchronous, sequential, staggered, delayed, non-simultaneous
+
+_Examples_
+1. The dancers performed a perfectly **synchronous** routine, captivating the audience. *(Adjective: simultaneous)*
+2. The online meeting required all participants to join in a **synchronous** discussion. *(Adjective: happening at the same time)*
+
+_Word Form Examples_
+1. **SYNCHRONOUSLY**: 🌟
+   - The two clocks ticked **synchronously**, marking the exact same time. *(Adverb: in a simultaneous manner)*
+   - ***Synonyms***: simultaneously, concurrently, together, in unison, at once
+2. **SYNCHRONICITY**:
+   - The **synchronicity** of their movements made the performance breathtaking. *(Noun: the state of being simultaneous)*
+   - ***Synonyms***: simultaneity, concurrence, coincidence, harmony, alignment
 
 =====
 
 ### SYNERGY
-@@  
-**Noun** | हिंदी: सहयोग, संयुक्त प्रभाव :  
-1. The combined effect or cooperation of two or more teams, processes, or elements working together, where the whole is greater than the sum of its parts.  
-2. In business, the increased effectiveness or efficiency achieved through collaboration between individuals, groups, or organizations.  
-3. In biology or medicine, the interaction of multiple agents (e.g., drugs) to produce a greater effect than each would individually.  
+@@
+**Noun** | हिंदी: सहयोग, संयुक्त प्रभाव : The combined effect or cooperation of two or more forces, processes, or substances that together produce a greater result than the sum of their individual effects.
+- ***Synonyms***: collaboration, cooperation, partnership, harmony, integration
+- ***Antonyms***: conflict, opposition, discord, separation, isolation
 
-- ***Synonyms***: collaboration, cooperation, teamwork, harmony, integration, symbiosis  
-- ***Antonyms***: conflict, disunity, opposition, isolation, inefficiency  
+_Examples_
+1. The **synergy** between the marketing and sales teams led to record-breaking profits. *(Noun: combined effect)*
+2. Scientists observed a unique **synergy** when they combined the two chemicals in the experiment. *(Noun: cooperative interaction)*
 
-_Examples_  
-1. The **synergy** between the marketing and sales teams led to a significant increase in revenue. *(Noun: collaboration)*  
-2. The drug combination created a powerful **synergy**, enhancing the treatment’s effectiveness. *(Noun: biological interaction)*  
-3. There is a natural **synergy** between renewable energy sources and sustainable development goals. *(Noun: combined effect)*  
-
-_Word Form Examples_  
-1. **Synergistic**:  
-   - The project’s success was due to the **synergistic** efforts of all departments involved. *(Adjective: cooperative)*  
-   - ***Synonyms***: collaborative, cooperative, complementary, harmonious, integrative  
-2. **Synergize**:  
-   - To achieve better results, we need to **synergize** our individual strengths. *(Verb: combine for mutual benefit)*  
-   - ***Synonyms***: collaborate, integrate, unify, align, harmonize  
+_Word Form Examples_
+1. **SYNERGIC**: *(Rare)*  
+   - The project's success was attributed to its **synergic** approach, blending creativity with technical expertise. *(Adjective: relating to synergy)*
+   - ***Synonyms***: collaborative, integrative, cooperative, harmonious
+2. **SYNERGIZE**: 🌟  
+   - To improve efficiency, the company sought to **synergize** its departments through better communication. *(Verb: create synergy)*
+   - ***Synonyms***: collaborate, integrate, unify, harmonize
+3. **SYNERGETIC**:  
+   - Their **synergetic** efforts resulted in a highly innovative product design. *(Adjective: characterized by synergy)*
+   - ***Synonyms***: cooperative, complementary, unified, cohesive
 
 =====
-
-
-
-
-

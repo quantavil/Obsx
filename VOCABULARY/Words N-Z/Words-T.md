@@ -1,1817 +1,1261 @@
-
-#wordsTUV
+#wordsTUVWXYZ
 ```dataviewjs
 const file = dv.current().file.path; // Get the current file's path
 app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
     const matches = content.match(/(^|\s)=====(\s|$)/g); // Match all occurrences of "====="
     const count = matches ? matches.length : 0; // Count matches or default to 0
     dv.paragraph(`Total "=====" count in the current file: ${count}`);
-
     const matches1 = content.match(/(^|\s)###(\s|$)/g); // Match all occurrences of "###"
     const count1 = matches1 ? matches1.length : 0; // Count matches or default to 0
     dv.paragraph(`Total "###" count in the current file: ${count1}`);
-    
 });
-
 ```
 
-
-# TA
-
-
 ### TACITURN
-@@  
-**Adjective** | हिंदी: मितभाषी, चुप रहने वाला : Reserved or uncommunicative in speech; saying little.
-
-- ***Synonyms***: reserved, reticent, silent, quiet, introverted
-- ***Antonyms***: talkative, garrulous, loquacious, communicative, verbose
+@@
+**Adjective** | हिंदी: मौन, शांत : Reserved or uncommunicative in speech; tending to say little or remain silent.
+- ***Synonyms***: reticent, reserved, silent, quiet, withdrawn, laconic
+- ***Antonyms***: talkative, loquacious, verbose, outspoken, garrulous
 
 _Examples_
-
-1. The **taciturn** man rarely spoke during meetings but listened attentively. _(Adjective: reserved)_
-2. Her **taciturn** nature made her seem mysterious to her classmates. _(Adjective: uncommunicative)_
+1. Despite being highly knowledgeable, she was **taciturn** during the meeting. *(Adjective: reserved)*
+2. His **taciturn** nature made it difficult for others to understand his true feelings. *(Adjective: uncommunicative)*
 
 _Word Form Examples_
-
-1. Despite his **taciturnity**, he expressed his thoughts clearly when needed. _(Noun: quality of being reserved)_
-2. He nodded **taciturnly**, avoiding further conversation. _(Adverb: in a quiet or reserved manner)_
+1. **TACITURNITY**: 🌟  
+   - His **taciturnity** was often mistaken for disinterest. *(Noun: the quality of being reserved or silent)*  
+   - ***Synonyms***: silence, reticence, reserve, quietness, muteness  
+2. **TACITURNLY**:  
+   - He responded to the questions **taciturnly**, offering only brief answers. *(Adverb: in a reserved or silent manner)*  
+   - ***Synonyms***: quietly, silently, laconically, tersely  
 
 =====
 
 ### TACK
-@@  
+@@
 **Noun, Verb** | हिंदी: कील, दिशा बदलना : 
-1. (Noun) A small, sharp nail with a flat head.
-2. (Noun) A course of action or approach, especially in achieving a goal.
-3. (Verb) To fasten or attach something using a tack.
-4. (Verb) To change the direction of a ship by turning its bow into and through the wind.
-
-- ***Synonyms***: (Noun) nail, pin, staple, approach, method; (Verb) fasten, attach, secure, change course, shift
-- ***Antonyms***: (Verb) detach, unfasten, loosen, maintain course, stay
+1. A small, sharp nail or pin used to fasten things, typically with a flat head. *(Noun)*
+2. A course of action or approach to dealing with a situation. *(Noun)*
+3. To change direction, especially of a sailing vessel, or to shift strategy. *(Verb)*
+- ***Synonyms***: nail, pin, thumbtack *(Noun: fastener)*; approach, method, strategy *(Noun: course)*; veer, shift, pivot *(Verb)*
+- ***Antonyms***: remove, unfasten *(Noun: fastener)*; stagnation, inaction *(Noun: course)*; maintain, stay, persist *(Verb)*
 
 _Examples_
-1. She used a **tack** to pin the notice on the bulletin board. _(Noun: a small nail)_
-2. The team decided to take a different **tack** to solve the problem. _(Noun: a course of action)_
-3. He **tacked** the poster to the wall with a few small nails. _(Verb: to fasten)_
-4. The sailor **tacked** the boat to navigate against the wind. _(Verb: to change direction)_
+1. She used a **tack** to pin the note to the bulletin board. *(Noun: fastener)*
+2. His new **tack** in negotiations proved more successful. *(Noun: approach)*
+3. The captain decided to **tack** the ship against the wind. *(Verb: change direction)*
 
 _Word Form Examples_
-1. **Tacking**:
-	- The sailor was **tacking** the boat to reach the harbor. _(Verb, present participle: changing direction)_
-	- ***Synonyms***: shifting, changing course, maneuvering, zigzagging, veering
-2. **Tacked**:
-	- She **tacked** the fabric pieces together before sewing them. _(Verb, past tense: fastened)_
-	- ***Synonyms***: fastened, attached, secured, pinned, fixed
-3. **Tacky**:
-	- The glue was still wet, leaving a **tacky** surface. _(Adjective: slightly sticky)_
-	- ***Synonyms***: sticky, adhesive, gummy, clingy, gluey
+1. **TACKED**: 🌟
+   - The poster was **tacked** to the wall with bright red pins. *(Verb: fastened)*
+   - ***Synonyms***: pinned, nailed, fastened, attached
+2. **TACKING**:
+   - The sailor was skilled at **tacking** through rough waters. *(Gerund: act of changing direction)*
+   - ***Synonyms***: veering, shifting, pivoting, maneuvering
+3. **TACKINESS** *(Rare)*:
+   - The **tackiness** of the adhesive made it perfect for the job. *(Noun: stickiness, derived from related sense)*
+   - ***Synonyms***: stickiness, adhesion, clinginess, gumminess
 
 =====
-### TAD
+
+### TACT  
 @@  
-**Noun** | हिंदी: थोड़ा, मामूली : A small amount or slight degree of something; a little bit.
-
-1. A small amount or tiny bit of something.
-2. A slight increase or change in something, often used informally.
-
-- ***Synonyms***: bit, smidgen, touch, fraction, slight
-- ***Antonyms***: lot, abundance, plenty, excess
-
-_Examples_
-
-1. Could you add a **tad** more salt to the soup? _(Noun: a small amount of something)_
-2. She was feeling a **tad** nervous before her presentation. _(Noun: a slight or small degree)_
-3. The car is **tad** faster than the previous model. _(Noun: a slight increase in performance)_
-
-_Word Form Examples_
-
-1. **Tad** (used as an adverb):
-    - The dress is **tad** too big for her, but it looks great. _(Adverb: slightly or a little)_
-    - ***Synonyms***: a little, slightly, a bit, somewhat
-
-=====
-### TAILOR  
-@@  
-**Noun, Verb** | हिंदी: दर्जी, ढालना :  
-1. A person who makes, repairs, or alters clothing professionally, especially suits and other outer garments. (Noun)  
-2. To adapt or modify something to suit specific needs or preferences. (Verb)  
-
-- ***Synonyms***: seamstress, designer, cutter, adjust, customize, adapt  
-- ***Antonyms***: mass-produce, generalize, standardize  
+**Noun** | हिंदी: चातुर्य, कुशलता, निपुणता : The ability to handle sensitive situations or communicate with others in a considerate and diplomatic manner.  
+- ***Synonyms***: diplomacy, discretion, sensitivity, finesse, prudence, acumen  
+- ***Antonyms***: bluntness, insensitivity, tactlessness, rudeness  
 
 _Examples_  
-1. The **tailor** carefully measured the client for a bespoke suit. *(Noun: professional clothing maker)*  
-2. She decided to **tailor** her resume to fit the requirements of each job application. *(Verb: adapt or modify)*  
-3. The software can be **tailored** to meet the unique demands of different industries. *(Verb: customize for specific needs)*  
+1. She handled the disagreement with great **tact**, ensuring no one felt offended. *(Noun: diplomacy in speech or action)*  
+2. A good leader must possess **tact** to navigate workplace conflicts effectively. *(Noun: skill in handling delicate situations)*  
 
 _Word Form Examples_  
-1. **Tailored**:  
-   - He wore a perfectly **tailored** jacket that fit him like a glove. *(Adjective: custom-made or fitted)*  
-   - ***Synonyms***: customized, adapted, adjusted, personalized  
-2. **Tailoring**:  
-   - The company specializes in **tailoring** solutions for small businesses. *(Verb: adapting or modifying)*  
-   - ***Synonyms***: customizing, adjusting, fitting, designing  
+1. **TACTFUL**: 🌟  
+   - His **tactful** response prevented the argument from escalating. *(Adjective: showing diplomacy and sensitivity)*  
+   - ***Synonyms***: diplomatic, considerate, thoughtful, courteous  
+2. **TACTLESS**: 🌟  
+   - His **tactless** remark about her weight made everyone uncomfortable. *(Adjective: lacking sensitivity or diplomacy)*  
+   - ***Synonyms***: blunt, insensitive, inconsiderate, rude  
+3. **TACTFULLY**:  
+   - She **tactfully** changed the subject to avoid embarrassing him. *(Adverb: in a diplomatic manner)*  
+   - ***Synonyms***: diplomatically, sensitively, wisely, discreetly  
+4. **TACTLESSLY**:  
+   - He **tactlessly** pointed out her mistake in front of everyone. *(Adverb: in an insensitive or undiplomatic way)*  
+   - ***Synonyms***: bluntly, rudely, insensitively, thoughtlessly  
+
+=====  
+
+### TACTIC  
+@@  
+**Noun** | हिंदी: रणनीति, युक्ति : A carefully planned action or strategy used to achieve a specific goal, often in competition or conflict.  
+- ***Synonyms***: strategy, maneuver, plan, approach, method, scheme  
+- ***Antonyms***: randomness, impulsiveness, thoughtlessness, miscalculation  
+
+_Examples_  
+1. The coach devised a new **tactic** to counter the opponent’s aggressive play. *(Noun: strategic approach in sports or competition)*  
+2. His negotiation **tactic** helped secure a better deal for the company. *(Noun: method used to achieve a favorable outcome)*  
+
+_Word Form Examples_  
+1. **TACTICAL**: 🌟  
+   - The army launched a **tactical** strike to weaken the enemy’s defenses. *(Adjective: related to strategy and planning)*  
+   - ***Synonyms***: strategic, calculated, planned, methodical  
+2. **TACTICALLY**:  
+   - She **tactically** avoided answering the controversial question. *(Adverb: in a strategic manner)*  
+   - ***Synonyms***: strategically, methodically, deliberately, carefully  
+3. **TACTICIAN**: 🌟  
+   - As a skilled **tactician**, he always anticipated his opponent’s moves. *(Noun: a person skilled in planning strategies)*  
+   - ***Synonyms***: strategist, planner, mastermind, schemer  
+
+=====  
+
+### TAILOR
+@@
+**Noun, Verb** | हिंदी: दर्ज़ी :  
+1. A person whose occupation is making or altering garments to fit individual customers. *(Noun)*  
+2. To adapt or modify something to suit specific needs or preferences. *(Verb)*  
+- ***Synonyms***: seamstress, dressmaker *(Noun: garment maker)*; customize, adapt, modify, adjust *(Verb)*  
+
+_Examples_  
+1. The **tailor** carefully measured the fabric before stitching the suit. *(Noun: garment maker)*  
+2. She decided to **tailor** her resume for each job application. *(Verb: adapt)*  
+
+_Word Form Examples_  
+1. **TAILORING**: 🌟  
+   - The **tailoring** of the dress was impeccable, with every stitch in place. *(Noun: the act of making or altering clothes)*  
+   - ***Synonyms***: sewing, stitching, alteration, customization  
+2. **TAILOR-MADE**:  
+   - The software was **tailor-made** to meet the company's unique requirements. *(Adjective: specifically customized)*  
+   - ***Synonyms***: bespoke, customized, personalized, adapted  
+3. **TAILORED**:  
+   - He wore a perfectly **tailored** jacket that fit him like a glove. *(Adjective: made or adjusted to fit)*  
+   - ***Synonyms***: fitted, customized, adapted, modified  
 
 =====
+
 ### TANGENT
-@@  
-**Noun** | हिंदी: स्पर्श रेखा : A straight line or plane that touches a curve or surface at a single point, without crossing it. Also used metaphorically to describe a subject or activity that diverges from the main topic.
-
-- ***Synonyms***: touchpoint, line, digression, deviation, offshoot
-- ***Antonyms***: intersection, focus, central
+@@
+**Noun, Adjective** | हिंदी: स्पर्शरेखा, असंबंधित : 
+1. A straight line that touches a curve at a single point without crossing it, used in geometry. *(Noun)*
+2. A completely different line of thought or action, often diverging from the main topic. *(Noun)*
+3. Touching at a single point, as in mathematics or physics. *(Adjective)*
+- ***Synonyms***: secant, contact line *(Noun: geometry)*; digression, aside, detour *(Noun: divergence)*; touching, contiguous *(Adjective)*
+- ***Antonyms***: intersection, overlap *(Noun: geometry)*; focus, relevance, connection *(Noun: divergence)*; separate, distant *(Adjective)*
 
 _Examples_
-
-1. The **tangent** to the circle touched it at exactly one point. _(Noun: a line that touches a curve)_
-2. He went off on a **tangent** during the meeting, discussing unrelated issues. _(Noun: a deviation from the main topic)_
+1. The teacher drew a **tangent** to illustrate the curve’s slope. *(Noun: geometry)*
+2. His speech went off on a **tangent** about unrelated issues. *(Noun: digression)*
+3. The two circles are **tangent** at exactly one point. *(Adjective: touching)*
 
 _Word Form Examples_
-
-1. The discussion took an unexpected **tangential** turn. _(Adjective: diverging from the main point)_
-2. Her comment was a **tangential** thought that didn’t add much to the conversation. _(Adjective: related but not central)_
+1. **TANGENTIAL**: 🌟
+   - Her comments were **tangential** to the main discussion, adding little value. *(Adjective: slightly related or diverging)*
+   - ***Synonyms***: peripheral, incidental, off-topic, divergent
+2. **TANGENTIALLY**:
+   - The issue was only **tangentially** mentioned during the meeting. *(Adverb: in a slightly related way)*
+   - ***Synonyms***: indirectly, peripherally, incidentally, obliquely
 
 =====
 
-### TANGIBLE  
-@@  
-**Adjective** | हिंदी: स्पर्शनीय, मूर्त :  
-1. Perceptible by touch; something that can be physically touched or felt. *(Adjective)*  
-2. Clear and definite; able to be clearly identified or measured. *(Adjective)*  
-
-- ***Synonyms***: palpable, concrete, material, perceptible, identifiable, measurable  
-- ***Antonyms***: intangible, abstract, immaterial, vague, elusive, imperceptible  
+### TANTALIZE
+@@
+**Verb** | हिंदी: लालच दिखाना, उत्तेजित करना : To tease or torment by offering something desirable but keeping it out of reach; to excite desire without satisfying it.
+- ***Synonyms***: tease, tempt, allure, entice, provoke, frustrate  
+- ***Antonyms***: satisfy, fulfill, gratify, content  
 
 _Examples_  
-1. The artist’s hard work resulted in a **tangible** improvement in her painting skills. *(Adjective: clear and measurable)*  
-2. The warmth of the sun on her skin was a **tangible** reminder of spring’s arrival. *(Adjective: perceptible by touch)*  
+1. The delicious aroma from the kitchen continued to **tantalize** her all morning. *(Verb: tempt)*  
+2. Advertisements often **tantalize** consumers with promises of luxury they cannot afford. *(Verb: excite desire without fulfillment)*  
 
 _Word Form Examples_  
-1. **Tangibly**:  
-   - The new policy has **tangibly** improved the quality of life for residents in the area. *(Adverb: in a way that is clear and measurable)*  
-   - ***Synonyms***: noticeably, evidently, palpably, materially, demonstrably  
-2. **Tangibility**:  
-   - The **tangibility** of the evidence made it impossible for the defendant to deny the charges. *(Noun: quality of being tangible)*  
-   - ***Synonyms***: concreteness, palpability, materiality, solidity  
+1. **TANTALIZING**: 🌟  
+   - The **tantalizing** scent of fresh baked cookies made everyone hungry. *(Adjective: arousing desire or curiosity)*  
+   - ***Synonyms***: tempting, alluring, enticing, provocative  
+2. **TANTALIZATION**:  
+   - The constant **tantalization** of unreachable goals left him feeling disillusioned. *(Noun: the act of teasing or tormenting)*  
+   - ***Synonyms***: teasing, temptation, provocation, frustration  
 
 =====
 
-### TANTAMOUNT
-@@  
-**Adjective** | हिंदी: समान, बराबर :  
-
-1. Equivalent in seriousness or effect; virtually the same as.
-2. Having the same value, meaning, or significance as something else.
-
-- ***Synonyms***: equivalent, equal, identical, comparable, synonymous
-- ***Antonyms***: different, unequal, dissimilar, contrasting, distinct
-
-_Examples_
-
-1. His actions were **tantamount** to an admission of guilt. _(Adjective: equivalent in effect)_
-2. Failing to report the incident is **tantamount** to ignoring the law. _(Adjective: practically the same as)_
-
-=====
-
-
-### TAPPING
-@@  
-**Noun** | हिंदी: टैपिंग, दोहन : The act of lightly hitting or striking; the process of drawing liquid or resources from a source.  
-**Verb** | हिंदी: ठकठकाना, दोहन करना : The act of lightly striking something or using resources effectively (present participle of "tap").
-
-- ***Synonyms***: striking, knocking, extracting, utilizing, drawing
-- ***Antonyms***: ignoring, neglecting, withholding
-
-_Examples_
-
-1. The rhythmic **tapping** of rain on the roof was soothing. _(Noun: light striking)_
-2. The company is **tapping** into new markets to expand its reach. _(Verb: utilizing)_
-3. He kept **tapping** the desk impatiently while waiting for the results. _(Verb: lightly striking)_
-
-_Word Form Examples_
-
-1. **Tapped**:
-    
-    - They **tapped** the maple trees to collect sap for syrup. _(Verb: past tense, extracted)_
-    - ***Synonyms***: extracted, utilized, struck
-2. **Tap**:
-    
-    - Please **tap** the screen to unlock your phone. _(Verb: to lightly touch)_
-    - ***Synonyms***: touch, strike, knock
-3. **Tappable**:
-    
-    - The reservoir is a **tappable** resource for the surrounding villages. _(Adjective: capable of being utilized)_
-    - ***Synonyms***: usable, accessible, exploitable
-
-=====
-### TAUNT
+### TAP
 @@
-**Verb** | हिंदी: ताना देना, उपहास करना : To provoke or tease someone in a mocking, insulting, or contemptuous manner.
-**Noun** | हिंदी: ताना, व्यंग्य : A remark or statement that mocks, ridicules, or insults someone, often to provoke a reaction.
-
-- ***Synonyms (Verb)***: mock, ridicule, jeer, insult, taunt, tease
-- ***Synonyms (Noun)***: insult, mockery, jeer, sneer, jibe
-- ***Antonyms (Verb)***: praise, compliment, encourage, support
-- ***Antonyms (Noun)***: praise, approval, compliment
+**Verb, Noun** | हिंदी: थपथपाना, नल : 
+1. To strike gently with a light blow or blows, often with the hand or a small object. *(Verb)*
+2. A gentle touch or contact, or a device for controlling the flow of liquid (e.g., a faucet). *(Noun)*
+- ***Synonyms***: pat, knock, rap *(Verb)*; touch, pat, faucet *(Noun)*
+- ***Antonyms***: hit, smash, pound *(Verb)*; gush, flood *(Noun: faucet context)*
 
 _Examples_
-
-1. The bullies **taunted** the new student for not knowing the school rules. _(Verb: mock or insult)_
-2. The crowd **taunted** the athlete after he missed the final shot. _(Verb: provoke with ridicule)_
-3. His constant **taunts** made her feel small and unworthy. _(Noun: mocking remarks)_
+1. She decided to **tap** his shoulder to get his attention. *(Verb: gentle strike)*
+2. He turned on the **tap** to fill the glass with water. *(Noun: faucet)*
 
 _Word Form Examples_
-
-1. **Taunting** (Adjective/Verb - Present Participle):
-
-    - The **taunting** voices of the crowd echoed in the stadium.
-    - ***Synonyms***: mocking, teasing, ridiculing
-2. **Taunted** (Verb - Past Tense):
-
-    - The children **taunted** him for his unusual accent.
-    - ***Synonyms***: mocked, ridiculed, insulted
-3. **Taunter** (Noun):
-
-    - The **taunter** enjoyed getting a rise out of others.
-    - ***Synonyms***: mocker, teaser, insulter
-<!--SR:!2025-02-21,3,250-->
+1. **TAPPED**: 🌟
+   - The tree was **tapped** to collect its sap for syrup. *(Verb: past tense, to extract or strike)*
+   - ***Synonyms***: struck, patted, extracted, drained
+2. **TAPPING**:
+   - The rhythmic **tapping** of her fingers annoyed everyone in the room. *(Gerund: act of striking gently)*
+   - ***Synonyms***: rapping, patting, knocking, drumming
 
 =====
 
-### TAWDRY
-@@  
-**Adjective** | हिंदी: सस्ते, घटिया : Refers to something that is cheap, showy, and of poor quality, often with a lack of taste or refinement.
-
-- ***Synonyms***: gaudy, flashy, cheap, shabby, kitschy
-- ***Antonyms***: elegant, tasteful, refined, sophisticated
+### TEASE
+@@
+**Verb, Noun** | हिंदी: चिढ़ाना, मजाक उड़ाना :
+1. To make fun of or attempt to provoke (someone) in a playful way. *(Verb)*
+2. A person or thing that provokes or annoys someone, often by being difficult to attain or by behaving in an irritating manner. *(Noun)*
+- ***Synonyms***: taunt, mock, jest, provoke, irritate *(Verb)*; tormentor, annoyance, pest *(Noun)*
+- ***Antonyms***: soothe, comfort, console, praise *(Verb)*; delight, pleasure *(Noun)*
 
 _Examples_
-
-1. The **tawdry** jewelry she wore at the party looked out of place among the more elegant outfits. _(Adjective: cheap and showy)_
-2. The hotel room was decorated in a **tawdry** style, with loud colors and poor-quality furniture. _(Adjective: lacking taste)_
+1. The children loved to **tease** their dog by pretending to throw a ball. *(Verb: provoke playfully)*
+2. She was a constant **tease**, always promising things but never delivering. *(Noun: irritation)*
 
 _Word Form Examples_
-
-1. The **tawdriness** of his actions made it clear that he wasn't interested in anything serious. _(Noun: the quality of being cheap and showy)_
+1. **TEASING**: 🌟  
+   - His **teasing** remarks made her laugh despite herself. *(Gerund: the act of making fun in a playful way)*  
+   - ***Synonyms***: mocking, jesting, taunting, bantering  
+2. **TEASED**:  
+   - The cat looked **teased** after playing with the string for hours. *(Adjective: annoyed or provoked)*  
+   - ***Synonyms***: irritated, provoked, riled up  
+3. **TEASER**: 🌟  
+   - The movie trailer was a **teaser**, leaving the audience wanting more. *(Noun: something that provokes curiosity or desire)*  
+   - ***Synonyms***: preview, taster, appetizer, enticement  
 
 =====
 
+### TEMPER
+@@
+**Noun, Verb** | हिंदी: स्वभाव, गुस्सा, संतुलन करना :  
+1. A person's state of mind in terms of being angry or calm; a tendency to become angry easily. *(Noun)*  
+2. To moderate, balance, or soften something; to make less extreme. *(Verb)*  
+- ***Synonyms***: mood, disposition, temperament *(Noun: state of mind)*; moderate, mitigate, soften, calm *(Verb)*  
+- ***Antonyms***: calmness, composure, tranquility *(Noun: state of mind)*; intensify, heighten, aggravate, worsen *(Verb)*  
 
+_Examples_  
+1. She has a fiery **temper** and often loses patience quickly. *(Noun: tendency to anger)*  
+2. He tried to **temper** his criticism with a few kind words. *(Verb: moderate)*  
 
-### TEDIOUS
-@@  
-**Adjective** | हिंदी: ऊबाऊ, थकाऊ : Something that is long, repetitive, and tiresome, causing boredom or fatigue.
+_Word Form Examples_  
+1. **TEMPERED**: 🌟  
+   - The steel was **tempered** to increase its strength and durability. *(Adjective: moderated or hardened)*  
+   - ***Synonyms***: moderated, balanced, hardened, softened, adjusted  
+2. **TEMPERING**:  
+   - The chef focused on **tempering** the chocolate to achieve a smooth texture. *(Gerund: the act of moderating)*  
+   - ***Synonyms***: moderating, balancing, softening, adjusting  
+3. **TEMPERAMENT**:  
+   - His cheerful **temperament** made him a favorite among his peers. *(Noun: disposition)*  
+   - ***Synonyms***: disposition, nature, character, personality, mood  
 
-- ***Synonyms***: boring, monotonous, dull, repetitive, laborious
-- ***Antonyms***: exciting, interesting, engaging, stimulating, entertaining
+=====
 
-_Examples_
+### TEMPT
+@@
+**Verb** | हिंदी: प्रलोभन देना, फुसलाना : To entice or try to entice someone to do something, often by offering something desirable or appealing; to allure or attract.
+- ***Synonyms***: entice, allure, lure, seduce, coax, persuade  
+- ***Antonyms***: deter, discourage, dissuade, repel, reject  
 
-1. The task of sorting through the paperwork was **tedious** and time-consuming. _(Adjective: boring and exhausting)_
-2. He found the process of writing the report to be **tedious** and repetitive. _(Adjective: long and monotonous)_
+_Examples_  
+1. The delicious aroma of the freshly baked cookies was enough to **tempt** anyone passing by. *(Verb: allure)*  
+2. He tried to **tempt** her with promises of wealth and luxury. *(Verb: entice)*  
 
-_Word Form Examples_
-
-1. She complained about the **tediousness** of the meeting, which seemed to drag on forever. _(Noun: the quality of being boring or tiresome)_
-2. After a **tediously** long wait, they finally got the information they needed. _(Adverb: in a manner that is boring and slow)_
+_Word Form Examples_  
+1. **TEMPTING**: 🌟  
+   - The offer was too **tempting** to refuse, so she decided to accept it. *(Adjective: highly appealing)*  
+   - ***Synonyms***: alluring, enticing, inviting, tempting, attractive  
+2. **TEMPTATION**: 🌟  
+   - The chocolate cake on display was a constant **temptation** for the dieting individual. *(Noun: the act or state of being enticed)*  
+   - ***Synonyms***: allure, enticement, lure, seduction, attraction  
+3. **TEMPTED**:  
+   - She felt **tempted** to skip the meeting and enjoy a day off instead. *(Adjective: feeling enticed)*  
+   - ***Synonyms***: enticed, lured, seduced, persuaded  
 
 =====
 
-### TEMPEST
-@@  
-**Noun, Verb** | हिंदी: आंधी, तूफान : 
-1. (Noun) A violent, windy storm.
-2. (Noun) A tumultuous or turbulent situation or period.
-3. (Verb) To agitate or disturb violently (archaic or literary usage).
-
-- ***Synonyms***: (Noun) storm, gale, hurricane, squall, turmoil; (Verb) agitate, disturb, stir up, provoke
-- ***Antonyms***: (Noun) calm, peace, tranquility, serenity; (Verb) soothe, calm, pacify, settle
-
-_Examples_
-1. The ship struggled to stay afloat during the **tempest** that raged at sea. _(Noun: violent storm)_
-2. The political scandal caused a **tempest** in the media, with everyone weighing in on the issue. _(Noun: tumultuous situation)_
-3. The poet described how the winds **tempested** the ocean, creating chaos. _(Verb: to agitate violently - archaic)_
-
-_Word Form Examples_
-1. **Tempestuous**:
-	- Their **tempestuous** relationship was marked by constant arguments and reconciliations. _(Adjective: turbulent or stormy)_
-	- ***Synonyms***: turbulent, stormy, volatile, tumultuous, chaotic
-2. **Tempestuously**:
-	- The waves crashed **tempestuously** against the rocks during the storm. _(Adverb: in a turbulent or stormy manner)_
-	- ***Synonyms***: turbulently, stormily, violently, chaotically, wildly
-3. **Tempests**:
-	- The history of the region is filled with **tempests** of war and revolution. _(Noun: plural form of tempest)_
-	- ***Synonyms***: storms, gales, hurricanes, squalls, turmoils
-
-=====
 ### TENDER
-@@  
-**Adjective** | हिंदी: कोमल, सौम्य : Showing gentleness, kindness, and concern, or soft and delicate in texture.
-
-- ***Synonyms***: gentle, soft, affectionate, caring, delicate
-- ***Antonyms***: tough, hard, rough, harsh, insensitive
-
-_Examples_
-
-1. The **tender** touch of the nurse helped calm the patient. _(Adjective: gentle and caring)_
-2. She felt a **tender** love for her newborn baby. _(Adjective: showing affection or care)_
-3. The steak was perfectly cooked and very **tender**. _(Adjective: soft and easy to cut or chew)_
-
-_Word Form Examples_
-
-1. He spoke with a **tenderness** that was unmistakable. _(Noun: gentleness and compassion)_
-2. The baby had **tender** skin that needed special care. _(Adjective: sensitive or delicate)_
-
-=====
-
-### TENET
-@@  
-**Noun** | हिंदी: सिद्धांत, मत : 
-1. A principle or belief, especially one held to be true by a group or organization.
-2. A doctrine or dogma that forms the basis of a system of thought or behavior.
-
-- ***Synonyms***: principle, belief, doctrine, dogma, creed
-- ***Antonyms***: disbelief, doubt, skepticism, heresy, rejection
-
-_Examples_
-1. One of the core **tenets** of democracy is the right to free speech. _(Noun: principle)_
-2. The **tenets** of the religion emphasize compassion and forgiveness. _(Noun: belief)_
-3. The scientific community adheres to the **tenet** that theories must be supported by evidence. _(Noun: doctrine)_
-
-_Word Form Examples_
-1. **Tenets**:
-	- The **tenets** of the organization were clearly outlined in its charter. _(Noun: plural form of tenet)_
-	- ***Synonyms***: principles, beliefs, doctrines, dogmas, creeds
-
-=====
-### TENUOUS
-@@  
-**Adjective** | हिंदी: कमजोर, पतला : Weak, slight, or fragile in nature; lacking substance or strength; thin or insubstantial.
-
-- ***Synonyms***: weak, flimsy, fragile, slight, unsubstantial, faint
-- ***Antonyms***: strong, solid, substantial, robust, firm
-
-_Examples_
-
-1. The evidence presented in the case was **tenuous**, and the jury struggled to reach a verdict. _(Adjective: weak or lacking strength)_
-2. His **tenuous** connection to the company made it difficult for him to influence decisions. _(Adjective: insubstantial or weak in nature)_
-
-_Word Form Examples_
-
-1. **Tenuously**:
-    
-    - He argued **tenuously**, relying on weak assumptions and unconvincing points. _(Adverb: in a weak or insubstantial manner)_
-    - ***Synonyms***: weakly, faintly, unsubstantially
-2. **Tenuity**:
-    
-    - The **tenuity** of the argument made it difficult to believe in its validity. _(Noun: the quality of being weak or insubstantial)_
-    - ***Synonyms***: fragility, weakness, faintness, unsubstantiality
-
-=====
-
-### TENURE
-@@  
-**Noun, Verb** | हिंदी: कार्यकाल, पदावधि : 
-1. The period during which an office, position, or property is held.
-2. The conditions or terms under which land or property is held.
-3. (In academia) A permanent post, especially as a teacher or professor, granted after a probationary period.
-4. (Verb) To grant or hold a position or property for a specific period.
-
-- ***Synonyms***: term, incumbency, occupancy, possession, appointment
-- ***Antonyms***: dismissal, removal, eviction, termination, dispossession
-
-_Examples_
-1. During his **tenure** as CEO, the company saw significant growth. _(Noun: period of holding a position)_
-2. The farmer's **tenure** of the land was secured by a long-term lease. _(Noun: conditions of holding property)_
-3. She was granted **tenure** at the university after years of dedicated service. _(Noun: permanent academic position)_
-4. The landlord agreed to **tenure** the property to the tenant for five years. _(Verb: to grant possession)_
-
-_Word Form Examples_
-1. **Tenured**:
-	- The **tenured** professor was highly respected in her field. _(Adjective: having a permanent position)_
-	- ***Synonyms***: permanent, established, secured, confirmed
-2. **Tenureship**:
-	- His **tenureship** as the director was marked by innovation and success. _(Noun: the state or period of holding a position)_
-	- ***Synonyms***: incumbency, occupancy, term, appointment
-3. **Tenurial**:
-	- The **tenurial** rights of the farmers were protected by the new law. _(Adjective: relating to tenure)_
-	- ***Synonyms***: proprietary, possessive, holding, occupational
-
-=====
-### TERRAIN  
-@@  
-**Noun** | हिंदी: भूभाग, इलाका :  
-1. A stretch of land, especially with regard to its physical features or characteristics. *(Noun)*  
-2. The type of ground or land in a particular area, often used in contexts like geography, military strategy, or outdoor activities. *(Noun)*  
-3. A field or area of activity, often metaphorically referring to challenges or circumstances. *(Noun)*  
-
-- ***Synonyms***: landscape, topography, ground, territory, region *(Noun: physical land)*; domain, field, area, realm *(Noun: metaphorical use)*  
-- ***Antonyms***: sky, airspace, waterbody *(Noun: opposite of land)*; simplicity, ease *(Noun: opposite of challenging terrain)*  
+@@
+**Adjective, Verb, Noun** | हिंदी: कोमल, नरम, प्रस्ताव :  
+1. Gentle, kind, or affectionate; showing care or sympathy. *(Adjective)*  
+2. Soft or delicate in texture, often easily damaged or hurt. *(Adjective)*  
+3. To offer or present something formally, such as a resignation or bid. *(Verb)*  
+4. A formal offer, such as a bid for a contract. *(Noun)*  
+- ***Synonyms***: gentle, caring, affectionate *(Adjective: kind)*; soft, delicate, fragile *(Adjective: texture)*; offer, submit, propose *(Verb)*; bid, proposal, offer *(Noun)*  
+- ***Antonyms***: harsh, cruel, rough *(Adjective: kind)*; tough, hard, firm *(Adjective: texture)*; withdraw, retract, withhold *(Verb)*; rejection, refusal *(Noun)*  
 
 _Examples_  
-1. The hikers struggled to cross the rocky **terrain** as it was uneven and slippery. *(Noun: physical land)*  
-2. Soldiers are trained to navigate difficult **terrain** during combat missions. *(Noun: ground/land in military context)*  
-3. Navigating the **terrain** of modern politics requires skill and adaptability. *(Noun: metaphorical use, referring to challenges)*  
+1. She gave him a **tender** smile, full of warmth and understanding. *(Adjective: affectionate)*  
+2. The meat was so **tender** that it melted in my mouth. *(Adjective: soft)*  
+3. He decided to **tender** his resignation after years of service. *(Verb: offer formally)*  
+4. The company submitted a **tender** for the construction project. *(Noun: formal bid)*  
 
 _Word Form Examples_  
-1. **Terrains**:  
-   - Different **terrains** require different types of vehicles, such as jeeps for deserts and snowmobiles for icy regions. *(Noun: plural form of terrain)*  
-   - ***Synonyms***: landscapes, topographies, grounds, territories  
-2. **Terrain-like**:  
-   - The surface of the moon is often described as **terrain-like**, with craters and uneven patches resembling Earth's rugged landscapes. *(Adjective: resembling terrain)*  
-   - ***Synonyms***: landscape-like, topography-like, rugged, uneven  
+1. **TENDERLY**: 🌟  
+   - She held the child **tenderly**, comforting him after his fall. *(Adverb: in a gentle manner)*  
+   - ***Synonyms***: gently, affectionately, kindly, softly  
+2. **TENDERED**:  
+   - The contractor **tendered** a competitive bid for the project. *(Verb: past tense of offer formally)*  
+   - ***Synonyms***: offered, submitted, proposed, presented  
 
 =====
-### TERRESTRIAL
+
+### THINK
 @@
-**Adjective, Noun** | हिंदी: पार्थिव, भूमि संबंधी : 
-1. (Adjective) Of, on, or relating to the earth
-2. (Adjective) Living or growing on land rather than in water or air
-3. (Noun) An inhabitant of the earth
-4. (Adjective) Of or relating to television signals received through the air rather than by satellite
-
-- ***Synonyms***: earthly, land-based, worldly, earth-bound
-- ***Antonyms***: celestial, aquatic, extraterrestrial, marine
-
-*Examples*
-1. Scientists study both aquatic and **terrestrial** ecosystems. *(Adjective: land-based)*
-2. The documentary showed various **terrestrial** animals in their natural habitats. *(Adjective: land-dwelling)*
-3. **Terrestrial** broadcasting was common before satellite TV. *(Adjective: earth-based)*
-4. Most **terrestrial** plants have complex root systems. *(Adjective: land-growing)*
-
-*Word Forms*
-1. **Terrestrially** - The species evolved **terrestrially** rather than in water. *(Adverb)*
-2. **Extra-terrestrial** - Scientists search for **extra-terrestrial** life. *(Adjective: beyond Earth)*
-
-=====
-
-
-
-
-### TESTY
-@@  
-**Adjective** | हिंदी: चिढ़चिढ़ा, चिड़चिड़ा :
-
-1. Easily irritated or annoyed; quick to anger or frustration.
-2. Impatient or touchy in demeanor, often in response to trivial matters.
-
-- ***Synonyms***: irritable, short-tempered, cranky, grumpy, edgy
-- ***Antonyms***: patient, calm, composed, even-tempered, tolerant
+**Verb, Noun** | हिंदी: सोचना, विचार : To use one's mind actively to form connected ideas, opinions, or decisions; to engage in cognitive processing.
+- ***Synonyms***: ponder, contemplate, consider, reflect, reason, deliberate
+- ***Antonyms***: ignore, disregard, overlook, forget, dismiss
 
 _Examples_
-
-1. He became **testy** when I asked him to repeat the instructions. _(Adjective: quick to anger)_
-2. The manager was in a **testy** mood after the long meeting, snapping at everyone. _(Adjective: easily irritated)_
+1. I need to **think** carefully before making such an important decision. *(Verb: mental processing)*
+2. What do you **think** about the new proposal? *(Verb: opinion)*
+3. Let me have a **think** about how to solve this problem. *(Noun: thought process)*
 
 _Word Form Examples_
-
-1. **Testily**:
-    
-    - She **testily** pointed out that she had already explained the task several times. _(Adverb: in an irritated manner)_
-    - ***Synonyms***: irritably, sharply, impatiently
-
-=====
-
-### THRESHOLD 🪐
-@@  
-**Noun** | हिंदी: दहलीज, सीमा : The point or level at which something begins or changes; the entry point or starting point for something.
-
-- ***Synonyms***: brink, verge, limit, cusp, boundary
-- ***Antonyms***: end, conclusion, limitlessness, infinity
-
-_Examples_
-
-1. She stood at the **threshold** of a new career, full of excitement and hope. _(Noun: starting point)_
-2. The company reached the **threshold** for profitability after months of hard work. _(Noun: critical point)_
+1. **THINKING**: 🌟
+   - Critical **thinking** skills are essential in today's complex world. *(Noun: thought process)*
+   - She was **thinking** deeply about the philosophical question. *(Verb: present participle)*
+   - ***Synonyms***: reasoning, contemplation, reflection, cogitation, rumination
+2. **THOUGHT**: 🌟
+   - The **thought** of traveling abroad excited her. *(Noun: idea)*
+   - I **thought** about calling you yesterday. *(Verb: past tense)*
+   - ***Synonyms***: idea, concept, notion, reflection, consideration
+3. **THINKER**:
+   - She's known as a deep **thinker** who analyzes problems thoroughly. *(Noun: person who thinks)*
+   - ***Synonyms***: philosopher, intellectual, theorist, scholar, sage
+4. **THINKABLE**:
+   - Such a scenario is barely **thinkable** in today's political climate. *(Adjective: conceivable)*
+   - ***Synonyms***: conceivable, imaginable, plausible, possible, feasible
+5. **UNTHINKABLE**:
+   - Going to war over such a minor dispute seems **unthinkable**. *(Adjective: impossible to consider)*
+   - ***Synonyms***: inconceivable, unimaginable, implausible, impossible, preposterous
 
 =====
 
-### THRILL
-@@  
-**Noun/Verb** | हिंदी: उत्तेजना, रोमांच : A feeling of excitement or exhilaration, or to cause someone to feel excited or exhilarated.
-
-- ***Synonyms***: excitement, exhilaration, rush, buzz, joy
-- ***Antonyms***: dullness, boredom, indifference, apathy
-
-_Examples_
-
-1. The roller coaster gave me an incredible **thrill**. _(Noun: a strong feeling of excitement or pleasure)_
-2. The news of the victory sent a **thrill** through the crowd. _(Noun: a sudden feeling of joy or excitement)_
-3. She was **thrilled** to meet her favorite author in person. _(Verb: to cause intense excitement)_
-
-_Word Form Examples_
-
-1. The **thrilling** performance left the audience in awe. _(Adjective: causing excitement or joy)_
-2. The **thrill-seeker** enjoyed extreme sports like skydiving. _(Noun: a person who seeks excitement or adventure)_
-
-=====
-
-### THRIVE  
-@@  
-**Verb** | हिंदी: फलना-फूलना, सफल होना :  
-1. To grow or develop successfully; to flourish or prosper. *(Verb)*  
-2. To remain healthy and strong, especially in challenging conditions. *(Verb)*  
-
-- ***Synonyms***: flourish, prosper, succeed, bloom, thrive, burgeon  
-- ***Antonyms***: wither, fail, decline, perish, stagnate, deteriorate  
+### THREAT
+@@
+**Noun** | हिंदी: धमकी, खतरा :  
+1. A statement of an intention to inflict pain, injury, damage, or other hostile action on someone. *(Noun)*  
+2. A person, thing, or situation regarded as likely to cause harm or danger. *(Noun)*  
+- ***Synonyms***: warning, ultimatum, menace *(Noun: statement of intent)*; danger, risk, hazard *(Noun: source of harm)*  
+- ***Antonyms***: promise, assurance, comfort *(Noun: statement of intent)*; safety, security, protection *(Noun: source of harm)*  
 
 _Examples_  
-1. The plants will **thrive** in this sunny spot, producing vibrant flowers all summer. *(Verb: grow successfully)*  
-2. Despite the economic downturn, her business managed to **thrive** due to innovative strategies. *(Verb: prosper)*  
+1. The bully issued a **threat** to harm him if he didn’t comply. *(Noun: statement of intent)*  
+2. Climate change poses a significant **threat** to global ecosystems. *(Noun: source of danger)*  
 
 _Word Form Examples_  
-1. **Thriving**:  
-   - The city is known for its **thriving** arts scene, attracting artists from around the world. *(Adjective: flourishing/prosperous)*  
-   - ***Synonyms***: flourishing, booming, prospering, thriving, successful  
-2. **Thrived**:  
-   - Even in harsh climates, certain species of cacti have **thrived** for centuries. *(Verb: past tense of grow successfully)*  
-   - ***Synonyms***: flourished, prospered, succeeded, bloomed, burgeoned  
+1. **THREATEN**: 🌟  
+   - The dark clouds **threaten** rain later this afternoon. *(Verb: indicate impending harm)*  
+   - ***Synonyms***: menace, endanger, jeopardize, intimidate  
+2. **THREATENING**:  
+   - His **threatening** tone made everyone in the room uneasy. *(Adjective: expressing a threat)*  
+   - ***Synonyms***: menacing, ominous, intimidating, sinister  
+3. **THREATENINGLY**:  
+   - She glared **threateningly** at the intruder, warning him to leave. *(Adverb: in a threatening manner)*  
+   - ***Synonyms***: menacingly, ominously, intimidatingly  
 
 =====
 
-### THROTTLE
+### THRILL  
+@@  
+**Noun, Verb** | हिंदी: रोमांच, उत्साह, झुरझुरी : A strong sensation of excitement or pleasure; to excite or give a sense of exhilaration.  
+- ***Synonyms***: excitement, exhilaration, delight, joy, sensation *(Noun)*; excite, elate, electrify, enchant, exhilarate *(Verb)*  
+- ***Antonyms***: boredom, dullness, monotony, indifference *(Noun)*; bore, depress, dishearten *(Verb)*  
+
+_Examples_  
+1. The roller coaster ride gave him an unforgettable **thrill**. *(Noun: excitement, exhilaration)*  
+2. The audience was **thrilled** by the magician’s incredible performance. *(Verb: excited, delighted)*  
+3. She gets a **thrill** from skydiving and other extreme sports. *(Noun: strong excitement or pleasure)*  
+
+_Word Form Examples_  
+1. **THRILLED**: 🌟  
+   - She was **thrilled** to receive the award for her outstanding work. *(Adjective: extremely excited or happy)*  
+   - ***Synonyms***: elated, overjoyed, delighted, ecstatic  
+2. **THRILLING**:  
+   - The movie had a **thrilling** plot that kept the audience on the edge of their seats. *(Adjective: extremely exciting or exhilarating)*  
+   - ***Synonyms***: exhilarating, gripping, electrifying, breathtaking  
+3. **THRILLER**:  
+   - The new crime **thriller** kept readers hooked until the very last page. *(Noun: an exciting or suspenseful book, movie, or story)*  
+   - ***Synonyms***: suspense novel, mystery, action-packed story  
+4. **THRILLINGLY**:  
+   - The match ended **thrillingly** with a last-minute goal. *(Adverb: in an exciting or exhilarating manner)*  
+   - ***Synonyms***: excitingly, exhilaratingly, dramatically  
+
+=====  
+
+### THRIVE
 @@
-**Noun, Verb** | हिंदी: गला घोंटना, गति कम करना :   
+**Verb** | हिंदी: सफलतापूर्वक बढ़ना, पनपना : To grow or develop successfully; to prosper or flourish, especially under favorable conditions; to be in a state of good health or vitality.
+- ***Synonyms***: flourish, prosper, succeed, bloom, thrive, burgeon *(Verb: growth)*; excel, advance, progress *(Verb: personal development)*  
+- ***Antonyms***: wither, decline, fail, perish, stagnate, deteriorate  
 
-1. (Noun) A valve controlling the flow of fuel or power to an engine.
-2. (Verb) To reduce the speed or power of an engine.
-3. (Verb) To attack or kill someone by choking or strangling them.
-4. (Verb) To restrain or prevent the progress or development of something.
+_Examples_  
+1. The plants will **thrive** in this fertile soil, producing abundant flowers by summer. *(Verb: grow successfully)*  
+2. Despite the challenges, she managed to **thrive** in her career and became a respected leader. *(Verb: prosper personally)*  
 
-- ***Synonyms***:
-    - (Noun): valve, regulator, control
-    - (Verb - reduce power): decelerate, restrain, curb, limit
-    - (Verb - choke): strangle, suffocate, choke, garrote
-    - (Verb - restrain progress): hinder, impede, stifle, suppress
-
-- ***Antonyms***:
-    - (Verb - reduce power): accelerate, increase, boost, enhance
-    - (Verb - restrain progress): encourage, promote, facilitate, unleash
-
-_Examples_
-
-1. The pilot adjusted the **throttle** to reduce the engine speed. _(Noun)_
-2. He had to **throttle** back the engine as he approached the airport. _(Verb: reduce power)_
-3. The villain attempted to **throttle** his victim. _(Verb: choke)_
-4. Excessive bureaucracy can **throttle** innovation. _(Verb: restrain progress)_
-
-_Word Form Examples (if applicable)_
-
-1. **Throttling** :
-        - The **throttling** of internet speeds during peak hours frustrated many users. _(Noun: act of reducing)_
-        - ***Synonyms***: reduction, limitation, suppression, deceleration
-
-2. **Throttled**:
-        - The company's growth was **throttled** by the new regulations. _(Adjective: restricted)_
-        - ***Synonyms***: restricted, limited, suppressed, curbed
-
-3. **Throttler**:
-        - He was known as a notorious **throttler** in the criminal underworld. _(Noun: one who strangles)_
-        - ***Synonyms***: strangler, choker
+_Word Form Examples_  
+1. **THRIVING**: 🌟  
+   - The city’s economy is **thriving**, thanks to recent technological advancements. *(Adjective: flourishing or prospering)*  
+   - ***Synonyms***: flourishing, booming, thriving, successful, prosperous  
+2. **THRIVEN**: *(Rare)*  
+   - The ancient civilization had long since **thriven** before its mysterious collapse. *(Past Participle: having grown or prospered)*  
+   - ***Synonyms***: prospered, flourished, succeeded  
 
 =====
+
+### THROB
+@@
+**Verb, Noun** | हिंदी: धड़कन, धड़कना :  
+1. To beat or pulse strongly, often with a regular rhythm, typically in reference to the heart or pain. *(Verb)*  
+2. A strong, rhythmic beat or pulsation, often associated with pain or emotion. *(Noun)*  
+- ***Synonyms***: pulse, beat, pound *(Verb)*; pulsation, beating, pounding *(Noun)*  
+- ***Antonyms***: still, calm, quiet *(Verb)*; stillness, calmness, quietness *(Noun)*  
+
+_Examples_  
+1. Her heart began to **throb** with excitement as the race started. *(Verb: beat strongly)*  
+2. The **throb** of pain in his leg was unbearable after the injury. *(Noun: pulsation)*  
+
+_Word Form Examples_  
+1. **THROBBED**: 🌟  
+   - His head **throbbed** relentlessly after the loud concert. *(Verb: past tense of beat strongly)*  
+   - ***Synonyms***: pulsed, pounded, beat, hammered  
+2. **THROBBING**:  
+   - The **throbbing** pain in her ankle made it difficult to walk. *(Adjective: characterized by strong beating)*  
+   - ***Synonyms***: pulsating, pounding, beating, aching  
+
+=====
+
+### THROTTLE  
+@@  
+**Noun, Verb** | हिंदी: गला घोंटना, गति नियंत्रक : To choke or suffocate; to control or limit something; a device controlling the flow of fuel in an engine.  
+- ***Synonyms***: choke, strangle, suppress, smother, restrain *(Verb)*; accelerator, regulator, valve *(Noun: engine control)*  
+- ***Antonyms***: release, free, encourage, allow *(Verb)*  
+
+_Examples_  
+1. The attacker tried to **throttle** him, but he managed to escape. *(Verb: choke, strangle)*  
+2. The government attempted to **throttle** free speech by censoring the media. *(Verb: suppress, restrain)*  
+3. He pushed the **throttle** forward, increasing the car’s speed. *(Noun: engine control mechanism)*  
+
+_Word Form Examples_  
+1. **THROTTLED**:  
+   - The dictator **throttled** any opposition to his rule. *(Verb: suppressed, restricted)*  
+   - ***Synonyms***: suppressed, choked, stifled, restrained  
+2. **THROTTLING**: 🌟  
+   - The company is accused of **throttling** internet speeds for certain users. *(Verb: deliberately restricting or slowing down)*  
+   - ***Synonyms***: restricting, limiting, suppressing, hindering  
+
+=====  
 
 ### THWART
 @@  
 **Verb** | हिंदी: विफल करना, रोकना : To prevent someone from accomplishing something; to oppose or hinder the progress of something.
-
 - ***Synonyms***: prevent, hinder, obstruct, frustrate, thwart
 - ***Antonyms***: assist, support, help, facilitate, encourage
 
 _Examples_
-
 1. The police were able to **thwart** the robbery before it could take place. _(Verb: prevent or stop)_
 2. His plans were **thwarted** by unforeseen circumstances. _(Verb: hinder or frustrate)_
 
 _Word Form Examples_
-
-1. **Thwarted**:
-    
+1. **THWARTED**:
     - The team's efforts were **thwarted** by a series of technical failures. _(Adjective: hindered or obstructed)_
     - ***Synonyms***: foiled, defeated, obstructed, frustrated
-2. **Thwarting**:
-    
+2. **THWARTING**:
     - He was focused on **thwarting** the opponent’s strategy at every turn. _(Verb: actively preventing or hindering)_
     - ***Synonyms***: blocking, preventing, opposing
 
 =====
 
-### TICKLISH
+### TIDY  
 @@  
-**Adjective** | हिंदी: गुदगुदाने वाला, संवेदनशील : 
-1. Sensitive to being tickled, causing laughter or squirming when touched lightly.
-2. Requiring careful handling; delicate or difficult to deal with.
-3. Easily upset or offended; sensitive.
-
-- ***Synonyms***: sensitive, delicate, tricky, difficult, touchy, precarious
-- ***Antonyms***: easy, straightforward, insensitive, unresponsive, robust
-
-_Examples_
-1. The child is very **ticklish** and bursts into laughter when touched on the ribs. _(Adjective: sensitive to tickling)_
-2. Negotiating the contract was a **ticklish** matter, requiring great tact and diplomacy. _(Adjective: delicate/difficult)_
-3. She is **ticklish** about her weight and avoids discussing it. _(Adjective: easily upset/sensitive)_
-_Word Form Examples_
-1. **Ticklishness**:
-	- His **ticklishness** made it hard for him to sit still during the massage. _(Noun: sensitivity to tickling)_
-	- ***Synonyms***: sensitivity, delicacy, touchiness, precariousness
-2. **Ticklishly**:
-	- The situation was **ticklishly** handled, avoiding any major conflicts. _(Adverb: delicately/carefully)_
-	- ***Synonyms***: delicately, carefully, sensitively, tactfully
-
-=====
-
-### TILT
-@@  
-**Noun, Verb** | हिंदी: झुकाव, झुकना : 
-1. (Verb) To incline or cause to incline at an angle; to slant.
-2. (Noun) A sloping position or movement.
-3. (Verb) To shift one's opinion or attitude, especially in favor of one side over another.
-4. (Noun) A slight bias or tendency toward a particular perspective.
-
-- ***Synonyms***: (Verb) slant, lean, tip, angle, incline; (Noun) slope, angle, inclination, bias, tendency
-- ***Antonyms***: (Verb) straighten, level, balance; (Noun) balance, evenness, neutrality
-
-_Examples_
-1. The tower began to **tilt** dangerously after the earthquake. _(Verb: to incline)_
-2. She adjusted the lamp to reduce the **tilt** and improve the lighting. _(Noun: a sloping position)_
-3. His opinion began to **tilt** in favor of the new policy after hearing the arguments. _(Verb: to shift attitude)_
-4. There was a noticeable **tilt** in the media coverage toward one political party. _(Noun: bias or tendency)_
-
-_Word Form Examples_
-1. **Tilted**:
-	- The picture frame was **tilted** slightly to the left. _(Verb: past tense of tilt)_
-	- ***Synonyms***: slanted, leaned, tipped, angled, inclined
-2. **Tilting**:
-	- The boat was **tilting** precariously in the strong winds. _(Verb: present participle of tilt)_
-	- ***Synonyms***: slanting, leaning, tipping, angling, inclining
-3. **Tilts**:
-	- The table **tilts** if you put too much weight on one side. _(Verb: third-person singular of tilt)_
-	- ***Synonyms***: slants, leans, tips, angles, inclines
-
-=====
-### TIMID
-@@  
-**Adjective** | हिंदी: संकोची, डरपोक : Lacking courage or self-confidence; shy or easily frightened.
-
-- ***Synonyms***: shy, fearful, hesitant, nervous, meek
-- ***Antonyms***: bold, confident, brave, assertive
-
-_Examples_
-
-1. The **timid** child was afraid to speak in front of the class. _(Adjective: lacking confidence)_
-2. He gave a **timid** response, unsure of how his answer would be received. _(Adjective: shy and uncertain)_
-
-_Word Form Examples_
-
-1. Her **timidity** prevented her from taking leadership roles in the group. _(Noun: the quality of being shy or lacking confidence)_
-2. The dog showed **timidness** when approached by strangers. _(Noun: the quality of being fearful or shy)_
-
-=====
-
-### TANTALIZE  
-@@  
-**Verb** | हिंदी: ललचाना, उत्तेजित करना :  
-1. To tease or torment someone with the sight or promise of something that is unattainable or out of reach. *(Verb)*  
-2. To excite or allure someone by offering the possibility of pleasure or satisfaction, but withholding it. *(Verb)*  
-
-- ***Synonyms***: tease, tempt, allure, entice, frustrate *(Verb)*  
-- ***Antonyms***: satisfy, fulfill, gratify, content *(Verb)*  
+**Adjective, Verb** | हिंदी: साफ़-सुथरा, व्यवस्थित : Neat, organized, and arranged properly; to clean or arrange things in an orderly manner.  
+- ***Synonyms***: neat, orderly, organized, clean, well-kept *(Adjective)*; arrange, organize, straighten, declutter *(Verb)*  
+- ***Antonyms***: messy, untidy, disorganized, cluttered *(Adjective)*; scatter, disarrange, disorder *(Verb)*  
 
 _Examples_  
-1. The aroma of freshly baked cookies served to **tantalize** her hunger as she waited for dinner. *(Verb)*  
-2. The advertisement was designed to **tantalize** viewers with the promise of luxury they couldn’t afford. *(Verb)*  
+1. Her desk is always **tidy**, with everything in its proper place. *(Adjective: neat and organized)*  
+2. He took a few minutes to **tidy** his room before the guests arrived. *(Verb: clean or organize)*  
 
 _Word Form Examples_  
-1. **Tantalized**:  
-   - The children were **tantalized** by the sight of the candy jar placed just out of their reach. *(Adjective: past participle form)*  
-   - ***Synonyms***: teased, tempted, allured, enticed  
-2. **Tantalizing**:  
-   - The **tantalizing** scent of the perfume lingered in the air, leaving everyone curious about its source. *(Adjective)*  
-   - ***Synonyms***: tempting, alluring, enticing, provocative  
-3. **Tantalizingly**:  
-   - The dessert was placed **tantalizingly** close to him, yet he wasn’t allowed to touch it. *(Adverb)*  
-   - ***Synonyms***: teasingly, temptingly, alluringly, provocatively  
+1. **TIDIED**:  
+   - She **tidied** up the kitchen after dinner. *(Verb: past tense of tidy, meaning cleaned or organized)*  
+   - ***Synonyms***: cleaned, arranged, organized, straightened  
+2. **TIDYING**:  
+   - He spent the morning **tidying** his workspace. *(Verb: present participle of tidy, meaning the act of making something neat)*  
+   - ***Synonyms***: cleaning, organizing, arranging, decluttering  
+3. **TIDINESS**: 🌟  
+   - The **tidiness** of the hotel rooms impressed the guests. *(Noun: the state of being neat and orderly)*  
+   - ***Synonyms***: neatness, orderliness, cleanliness, organization  
+4. **UNTIDY**: 🌟  
+   - His handwriting was so **untidy** that the teacher struggled to read it. *(Adjective: messy or not organized)*  
+   - ***Synonyms***: messy, disorganized, cluttered, chaotic  
+5. **UNTIDILY**:  
+   - She threw her clothes **untidily** on the floor. *(Adverb: in a messy or disorganized manner)*  
+   - ***Synonyms***: messily, carelessly, disorderly, haphazardly  
+6. **UNTIDINESS**:  
+   - The **untidiness** of his office made it hard to find important papers. *(Noun: the state of being messy or disorganized)*  
+   - ***Synonyms***: messiness, disorder, clutter, chaos  
 
 =====  
 
-
-### TEETER  
-@@  
-**Verb, Noun** | हिंदी: लड़खड़ाना, अस्थिरता :  
-1. To move or balance unsteadily; to wobble or sway as if about to fall. *(Verb)*  
-2. A state of instability or precariousness, often referring to being on the verge of a significant change or decision. *(Noun)*  
-
-- ***Synonyms***: wobble, totter, sway, stagger, falter *(Verb)*; instability, brink, precipice *(Noun)*  
-- ***Antonyms***: stabilize, steady, balance, firm up *(Verb)*  
-
-_Examples_  
-1. The toddler began to **teeter** as he took his first steps, clutching onto furniture for support. *(Verb: wobble)*  
-2. The economy seemed to be on the **teeter**, with analysts predicting either recovery or collapse. *(Noun: brink of change)*  
-
-_Word Form Examples_  
-1. **Teetered**:  
-   - She **teetered** on the edge of the diving board, hesitant to jump into the pool. *(Verb: past tense, wobbled)*  
-   - ***Synonyms***: wobbled, tottered, swayed, faltered  
-2. **Teetering**:  
-   - The company is **teetering** on the edge of bankruptcy after months of poor financial performance. *(Verb: present participle, swaying)*  
-   - ***Synonyms***: wobbling, tottering, faltering, staggering  
-3. **Teeter-Totter**:  
-   - The children played on the **teeter-totter**, laughing as they went up and down. *(Noun: seesaw, a balanced plank)*  
-   - ***Synonyms***: seesaw, balance beam  
-
-=====
-
-### TEPID  🪐
-@@  
-**Adjective** | हिंदी: गुनगुना, ठंडा :  
-1. Moderately warm; lukewarm, especially in temperature. *(Physical warmth)*  
-2. Lacking enthusiasm, passion, or intensity; indifferent or unenthusiastic. *(Emotional response)*  
-
-- ***Synonyms***: lukewarm, warmish, mild, moderate, indifferent, halfhearted, apathetic  
-- ***Antonyms***: boiling, scalding, freezing, passionate, enthusiastic, fervent  
-
-_Examples_  
-1. The bathwater was **tepid**, neither too hot nor too cold. *(Adjective: moderately warm)*  
-2. His response to the proposal was **tepid**, showing little excitement or interest. *(Adjective: lacking enthusiasm)*  
-3. She sipped the **tepid** tea, wishing it were hotter. *(Adjective: lukewarm)*  
-
-_Word Form Examples_  
-1. **Tepidly**:  
-   - He **tepidly** agreed to join the project, though his heart wasn’t in it. *(Adverb: indifferently/unenthusiastically)*  
-   - ***Synonyms***: indifferently, halfheartedly, apathetically, reluctantly, coolly  
-2. **Tepidity**:  
-   - The **tepidity** of their applause suggested the audience was unimpressed. *(Noun: lack of enthusiasm/warmth)*  
-   - ***Synonyms***: lukewarmness, indifference, apathy, mediocrity, coolness  
-
-=====
-
-### TINKER
-
-@@  
-**Verb / Noun** | हिंदी: सुधारना, हाथ से काम करना : To make small changes or adjustments to something in an attempt to improve or fix it, often without a clear understanding or detailed plan.
-
-1. **Verb**: To attempt to repair or improve something in a casual or experimental manner, often with limited skill or knowledge.
-2. **Verb**: To fiddle or tamper with something, usually for no practical reason or in an unskilled way.
-3. **Noun**: A person who makes small repairs or alterations, often in an unskilled or experimental way.
-
-- ***Synonyms***: fiddle, adjust, modify, tinker with, tamper, experiment
-- ***Antonyms***: perfect, fix, repair, refine, optimize
-
-_Examples_
-
-1. He spent hours **tinkering** with the old radio, trying to make it work. _(Verb: adjusting or experimenting without a clear plan)_
-2. The **tinker** repaired the broken shoes with some simple tools and materials. _(Noun: a person who makes small repairs or adjustments)_
-3. Stop **tinkering** with the settings; you might make the problem worse! _(Verb: fiddling or tampering with something)_
-
-_Word Form Examples_
-
-1. **Tinkered**:
-    
-    - He had **tinkered** with the machine so much that it no longer functioned properly. _(Verb: past tense, made casual or unskilled adjustments)_
-    - ***Synonyms***: adjusted, fiddled, tampered, experimented
-2. **Tinkering**:
-    
-    - She was **tinkering** with the car's engine, hoping to fix the issue herself. _(Verb: present participle, making small adjustments)_
-    - ***Synonyms***: fiddling, adjusting, tampering, experimenting
-
-=====
-
-
-
-# TO
-
-
-### TOPOGRAPHY
-
-@@  
-**Noun** | हिंदी: भू-आकृति : The arrangement of the natural and artificial physical features of an area.
-
-- ***Synonyms***: terrain, landscape, geography, landform, features
-- ***Antonyms***: flatness, uniformity
-
-_Examples_
-
-1. The **topography** of the region includes mountains, valleys, and rivers. _(Noun: the physical features of an area)_
-2. The hiker studied the **topography** of the map before starting the journey. _(Noun: the detailed features of a landscape)_
-
-_Word Form Examples_
-
-1. The **topographical** survey of the land was crucial for the construction project. _(Adjective: relating to the arrangement of features on the land)_
-2. Advances in **topography** have helped scientists understand the Earth's surface better. _(Noun: the study or science of Earth's features)_
-
-=====
-
-### TOPPLE  
-@@  
-**Verb** | हिंदी: गिरना, ढहना :  
-1. To fall or cause to fall from an upright position, often due to instability or external force.  
-2. To overthrow or bring down a person, regime, or system from power or authority.  
-
-- ***Synonyms***: tumble, collapse, overturn, overthrow, destabilize, upend  
-- ***Antonyms***: stabilize, support, uphold, maintain, preserve  
-
-_Examples_  
-1. The strong winds caused the tree to **topple** onto the road. *(Verb: fall)*  
-2. Protesters aimed to **topple** the corrupt government through peaceful demonstrations. *(Verb: overthrow)*  
-3. The statue was **toppled** during the revolution as a symbol of resistance. *(Verb: bring down)*  
-
-_Word Form Examples_  
-1. **Toppled**:  
-   - The old building **toppled** after years of neglect and structural damage. *(Verb: past tense)*  
-   - ***Synonyms***: collapsed, fell, crumbled, overthrown  
-2. **Toppling**:  
-   - The dictator is facing the threat of **toppling** from power due to widespread unrest. *(Verb: present participle)*  
-   - ***Synonyms***: collapsing, falling, overthrowing, destabilizing  
-3. **Topple-over**:  
-   - The toddler had a funny habit of **topple-over** while trying to walk. *(Verb: informal usage)*  
-   - ***Synonyms***: stumble, trip, fall  
-
-=====
-### TORMENT
+### TILT
 @@
-**Verb, Noun** | हिंदी: यातना देना (Verb), पीड़ा (Noun) :
-1. To cause severe physical or mental suffering to someone; to harass or afflict persistently. *(Verb)*
-2. Extreme pain, suffering, or anguish, whether physical or emotional. *(Noun)*
-
-- ***Synonyms***: torture, harass, afflict, agonize, plague *(Verb)*; agony, anguish, distress, misery, suffering *(Noun)*
-- ***Antonyms***: comfort, soothe, relieve, ease, alleviate *(Verb)*; peace, happiness, contentment *(Noun)*
+**Verb, Noun** | हिंदी: झुकना, ढाल : 
+1. To cause something to slope or incline; to move or cause to move into a sloping position. *(Verb)*
+2. A slanting or sloping position. *(Noun)*
+- ***Synonyms***: slant, incline, tip, cant *(Verb)*; slope, angle, gradient, pitch *(Noun)*
+- ***Antonyms***: level, straighten, align, balance *(Verb)*; flatness, evenness, horizontality *(Noun)*
 
 _Examples_
-1. The prisoner was **tormented** by his captors for days without respite. *(Verb)*
-2. The loss of her loved one left her in constant **torment**. *(Noun)*
+1. The strong wind caused the fence to **tilt** slightly to one side. *(Verb: slant)*
+2. The artist adjusted the **tilt** of the easel to catch the light better. *(Noun: slanting position)*
+3. She felt the room begin to **tilt** as she stood up too quickly. *(Verb: sway or lean)*
 
 _Word Form Examples_
-1. **Tormented**:
-   - The child was **tormented** by nightmares every night. *(Adjective: past participle form)*
-   - ***Synonyms***: tortured, harassed, afflicted, agonized
-2. **Tormenting**:
-   - The guilt continued **tormenting** him long after the incident. *(Verb: present participle form)*
-   - ***Synonyms***: torturing, harassing, afflicting, plaguing
-3. **Tormentor**:
-   - The victim finally confronted her **tormentor** in court. *(Noun)*
-   - ***Synonyms***: tormenter, harasser, oppressor, bully
-<!--SR:!2025-02-21,3,250-->
+1. **TILTED**: 🌟
+   - The old barn was **tilted** dangerously after years of neglect. *(Adjective: slanted)*
+   - ***Synonyms***: inclined, angled, sloped, pitched
+2. **TILTING**: 
+   - The construction crew was busy with the **tilting** of the roof beams. *(Gerund: act of causing to slope)*
+   - ***Synonyms***: slanting, inclining, angling, pitching
 
 =====
-### TORPEDO
 
+### TIMID  
 @@  
-**Noun** | हिंदी: टॉरपीडो : A weapon used in warfare, typically a self-propelled missile that is launched underwater and explodes upon impact.  
-**Verb** | हिंदी: नष्ट करना, बाधित करना : To attack or damage something, often in a destructive or disruptive manner.
+**Adjective** | हिंदी: डरपोक, संकोची : Lacking courage, confidence, or boldness; easily frightened or hesitant in actions or speech.  
+- ***Synonyms***: shy, bashful, apprehensive, hesitant, fainthearted, meek  
+- ***Antonyms***: bold, confident, courageous, fearless, assertive  
 
-- ***Synonyms***: missile, bomb, weapon, attack
-- ***Antonyms***: protect, shield, defend
+_Examples_  
+1. The **timid** child hesitated before answering the teacher’s question. *(Adjective: shy, lacking confidence)*  
+2. His **timid** nature prevented him from speaking up in the meeting. *(Adjective: hesitant, fearful)*  
+
+_Word Form Examples_  
+1. **TIMIDLY**:  
+   - She **timidly** knocked on the door, unsure if she was welcome. *(Adverb: in a shy or hesitant manner)*  
+   - ***Synonyms***: hesitantly, bashfully, meekly, shyly  
+2. **TIMIDITY**:  
+   - His **timidity** kept him from trying new experiences. *(Noun: the state of being timid or lacking courage)*  
+   - ***Synonyms***: shyness, nervousness, diffidence, insecurity  
+
+=====  
+
+### TOLERATE
+@@
+**Verb** | हिंदी: सहन करना, बर्दाश्त करना : To allow the existence of something one dislikes or disagrees with; to endure or bear something unpleasant.
+- ***Synonyms***: endure, bear, accept, allow, permit, stand
+- ***Antonyms***: prohibit, reject, oppose, ban, resist, forbid
 
 _Examples_
-
-1. The submarine launched a **torpedo** at the enemy ship, causing it to sink. _(Noun: a type of underwater weapon)_
-2. His actions were intended to **torpedo** the company's merger plans. _(Verb: to intentionally disrupt or destroy)_
+1. She had to **tolerate** her roommate's loud music for the entire semester. *(Verb: endure without objection)*
+2. His body could no longer **tolerate** the medication. *(Verb: endure physically)*
+3. The company will not **tolerate** any form of discrimination. *(Verb: allow or accept)*
 
 _Word Form Examples_
+1. **TOLERATED**:
+   - The behavior was reluctantly **tolerated** by the teacher. *(Verb: past tense)*
+   - ***Synonyms***: endured, accepted, allowed, permitted
+2. **TOLERATING**:
+   - **Tolerating** different viewpoints is essential in a democratic society. *(Gerund: the act of enduring)*
+   - ***Synonyms***: enduring, accepting, allowing, permitting
+3. **TOLERABLE**: 🌟
+   - The pain was **tolerable** after taking the medication. *(Adjective: able to be endured)*
+   - ***Synonyms***: bearable, endurable, acceptable, passable
+4. **TOLERANCE**: 🌟
+   - She showed great **tolerance** for differing opinions. *(Noun: willingness to accept behavior and beliefs)*
+   - ***Synonyms***: acceptance, forbearance, patience, open-mindedness
+5. **TOLERANT**: 🌟
+   - A **tolerant** society embraces diversity. *(Adjective: showing willingness to allow differences)*
+   - ***Synonyms***: accepting, open-minded, permissive, broad-minded
 
-1. The **torpedoes** caused significant damage to the fleet. _(Noun: plural form of torpedo)_
-2. The leader's efforts were **torpedoed** by a series of internal conflicts. _(Verb: past tense of torpedo, meaning disrupted)_
+=====
+
+### TOPPLE
+@@
+**Verb** | हिंदी: गिरना, उखड़ना : To overturn or cause to fall or collapse; to become unstable and fall down, often due to an external force or internal weakness.
+- ***Synonyms***: tumble, fall, collapse, overturn, tip over, upend
+- ***Antonyms***: stabilize, stand, support, uphold, balance
+
+_Examples_
+1. The strong wind threatened to **topple** the old tree in the garden. *(Verb: cause to fall)*
+2. Protesters tried to **topple** the statue as a symbol of their resistance. *(Verb: overturn deliberately)*
+
+_Word Form Examples_
+1. **TOPPLED**: 🌟
+   - The vase was accidentally **toppled** by the playful cat. *(Adjective: having fallen or been overturned)*
+   - ***Synonyms***: overturned, collapsed, tumbled, fallen, upended
+2. **TOPPLING**: 🌟
+   - The **toppling** of the dictator marked the beginning of a new era for the nation. *(Gerund: act of falling or being overthrown)*
+   - ***Synonyms***: collapsing, tumbling, overturning, falling, upending
+3. **TOPPLES**: 
+   - A sudden earthquake can cause buildings to **topples** if they are not properly constructed. *(Verb: present tense form indicating repeated action)*
+   - ***Synonyms***: collapses, falls, overturns, tips over
 
 =====
 
 ### TORPID
-
-@@  
-**Adjective** | हिंदी: सुस्त, निष्क्रिय : Inactive, sluggish, or lethargic; lacking energy or vitality.
-
-- ***Synonyms***: sluggish, lethargic, inactive, slow, dull
-- ***Antonyms***: energetic, active, lively, vigorous
+@@
+**Adjective** | हिंदी: सुस्त, निष्क्रिय : Physically or mentally inactive; sluggish, lacking energy or enthusiasm; dormant.
+- ***Synonyms***: sluggish, lethargic, inactive, dormant, listless, languid
+- ***Antonyms***: active, energetic, lively, alert, vigorous, animated
 
 _Examples_
-
-1. After the long journey, he felt **torpid** and needed rest. _(Adjective: feeling sluggish or lacking energy)_
-2. The **torpid** response from the team showed their disinterest in the proposal. _(Adjective: lacking enthusiasm or energy)_
-
-_Word Form Examples_
-
-1. The patient was diagnosed with **torpidity**, a condition characterized by extreme sluggishness. _(Noun: the state of being torpid)_
-
-=====
-
-### TORPOR
-
-@@  
-**Noun** | हिंदी: सुस्ती, निद्रालुता : A state of physical or mental inactivity or sluggishness, often associated with hibernation or extreme fatigue.
-
-- ***Synonyms***: lethargy, inactivity, dullness, sluggishness, stupor
-- ***Antonyms***: energy, activity, liveliness, vitality
-
-_Examples_
-
-1. After the long winter, the animals emerged from **torpor** and began foraging for food. _(Noun: a state of inactivity or dormancy)_
-2. His mind was in a state of **torpor**, making it difficult for him to focus on the task. _(Noun: mental sluggishness or dullness)_
+1. The **torpid** lizard barely moved in the cool morning air. *(Adjective: sluggish)*
+2. After the large meal, he fell into a **torpid** state on the couch. *(Adjective: lethargic)*
+3. The economy remained **torpid** for several years after the financial crisis. *(Adjective: stagnant)*
 
 _Word Form Examples_
-
-1. The **torpor** of the elderly man was a result of his prolonged illness. _(Noun: the state of being torpid)_
-2. The cold weather left him in a **torpid** state, unwilling to move or speak. _(Adjective: in a state of lethargy or sluggishness)_
+1. **TORPIDITY**:
+   - The **torpidity** of the animals during winter hibernation helps them conserve energy. *(Noun: state of being torpid)*
+   - ***Synonyms***: lethargy, sluggishness, inactivity, dormancy, languor
+2. **TORPIDLY**:
+   - He moved **torpidly** across the room, still groggy from his medication. *(Adverb: in a torpid manner)*
+   - ***Synonyms***: sluggishly, lethargically, listlessly, languidly
+3. **TORPOR**: 🌟
+   - Many animals enter a state of **torpor** during extreme weather conditions. *(Noun: state of decreased physiological activity)*
+   - ***Synonyms***: dormancy, lethargy, hibernation, inactivity, stupor
 
 =====
 
 ### TORRENT
-
-@@  
-**Noun** | हिंदी: बाढ़, धारा : A strong and fast-moving stream of water or other liquid; a heavy downpour or flood.
-
-- ***Synonyms***: deluge, flood, cascade, stream, gush, surge
-- ***Antonyms***: trickle, drip, streamlet, drought, dryness
+@@
+**Noun, Verb** | हिंदी: धारा, प्रवाह : A strong and violent stream of water or other substance; an overwhelming amount or outpouring; a file-sharing protocol.
+- ***Synonyms***: deluge, flood, rush, surge, downpour, cascade
+- ***Antonyms***: trickle, drip, dribble, scarcity, restraint, calm
 
 _Examples_
-
-1. The heavy rain turned into a **torrent**, flooding the streets in minutes. _(Noun: powerful flow of water)_
-2. A **torrent** of emotions overwhelmed her as she received the news. _(Noun: overwhelming outpouring)_
-3. The river became a violent **torrent** after the storm. _(Noun: rapid flow of water)_
+1. The heavy rain created a **torrent** that washed away the bridge. *(Noun: violent stream)*
+2. She faced a **torrent** of criticism after her controversial speech. *(Noun: overwhelming amount)*
+3. The rain **torrented** down, flooding the streets within minutes. *(Verb: to flow violently)* *(Rare)*
+4. He downloaded the movie using a **torrent** client. *(Noun: file sharing protocol)*
 
 _Word Form Examples_
-
-1. **Torrential** (Adjective):
-    
-    - The **torrential** rains caused severe flooding in the region.
-    - ***Synonyms***: heavy, intense, overwhelming
-2. **Torrentially** (Adverb):
-    
-    - It rained **torrentially** throughout the night, causing widespread disruption.
-    - ***Synonyms***: heavily, intensely, forcefully
+1. **TORRENTIAL**: 🌟
+   - The **torrential** rain caused severe flooding in the area. *(Adjective: resembling a torrent)*
+   - ***Synonyms***: heavy, abundant, overwhelming, copious, violent, pouring
+2. **TORRENTIALLY**:
+   - The rain fell **torrentially** for hours, causing flash floods. *(Adverb: in a torrential manner)*
+   - ***Synonyms***: heavily, violently, abundantly, copiously, powerfully
 
 =====
 
-### TORTIOUS
-
+### TOXIC  
 @@  
-**Adjective** | हिंदी: अन्यायपूर्ण, अपराधपूर्ण : Relating to or constituting a tort, which is a wrongful act or infringement of a right leading to legal liability.
-
-- ***Synonyms***: wrongful, unlawful, injurious, harmful, culpable
-- ***Antonyms***: lawful, legal, just, permissible, rightful
-
-_Examples_
-
-1. The company faced a lawsuit for its **tortious** actions, which caused significant harm to its customers. _(Adjective: wrongful)_
-2. The court ruled that the defendant's **tortious** conduct led to damages that needed compensation. _(Adjective: unlawful)_
-3. Misrepresentation in contracts can often be considered a **tortious** act. _(Adjective: related to tort law)_
-
-_Word Form Examples_
-
-1. **Tortiously** (Adverb):
-    
-    - The property was **tortiously** interfered with, leading to a lengthy legal dispute.
-    - ***Synonyms***: wrongfully, unlawfully, injuriously
-
-=====
-
-### TORTUOUS
-
-@@  
-**Adjective** | हिंदी: घुमावदार, जटिल : Full of twists and turns; complicated and difficult to follow.
-
-- ***Synonyms***: winding, curvy, convoluted, intricate, meandering
-- ***Antonyms***: straight, direct, simple, clear
-
-_Examples_
-
-1. The road to the mountain top was **tortuous**, making the journey slow and difficult. _(Adjective: winding or having many twists)_
-2. The conversation became **tortuous**, with many unrelated tangents, making it hard to follow. _(Adjective: complicated and difficult to understand)_
-
-_Word Form Examples_
-
-1. The **tortuosity** of the path made it hard for travelers to navigate. _(Noun: the quality of being full of twists or turns)_
-2. The **tortuous** process of applying for a visa often discourages many applicants. _(Adjective: describing a complex and winding process)_
-
-=====
-
-
-### TOTTER  
-@@  
-**Verb** | हिंदी: लड़खड़ाना, टांगे खींचना :  
-1. To move or walk unsteadily, as if about to fall; to stagger or wobble.  
-2. To be unstable or on the verge of collapse, either physically or metaphorically.  
-
-- ***Synonyms***: stagger, wobble, stumble, sway, teeter, falter, lurch  
-- ***Antonyms***: steady, stabilize, balance, firm up, stand firm  
+**Adjective** | हिंदी: विषैला, हानिकारक : Poisonous or harmful; causing serious negative effects physically, emotionally, or environmentally.  
+- ***Synonyms***: poisonous, harmful, noxious, venomous, lethal, pernicious  
+- ***Antonyms***: harmless, safe, beneficial, wholesome, non-toxic  
 
 _Examples_  
-1. The toddler took a few steps but began to **totter** and fell into his mother’s arms. *(Verb: walk unsteadily)*  
-2. The old building started to **totter** during the earthquake, raising fears of its collapse. *(Verb: be unstable)*  
-3. After hours of standing, she felt her legs begin to **totter** under the strain. *(Verb: wobble or weaken)*  
+1. The factory released **toxic** chemicals into the river, polluting the water. *(Adjective: poisonous or harmful substance)*  
+2. She decided to leave the **toxic** relationship for the sake of her mental health. *(Adjective: emotionally harmful or destructive)*  
 
 _Word Form Examples_  
-1. **Tottered**:  
-   - He **tottered** across the icy path, clutching onto the railing for support. *(Verb: past tense, staggered)*  
-   - ***Synonyms***: staggered, stumbled, wobbled, teetered, faltered  
-2. **Tottering**:  
-   - The **tottering** tower was cordoned off to prevent accidents. *(Adjective: unstable or on the verge of collapse)*  
-   - ***Synonyms***: unstable, shaky, wobbly, unsteady, precarious  
-3. **Tottery**:  
-   - The elderly man walked with a **tottery** gait, leaning heavily on his cane. *(Adjective: unsteady in movement)*  
-   - ***Synonyms***: unsteady, wobbly, shaky, faltering, feeble  
+1. **TOXICITY**: 🌟  
+   - The **toxicity** of the substance was confirmed through lab tests. *(Noun: the degree to which something is poisonous or harmful)*  
+   - ***Synonyms***: poison, harmfulness, venomousness, lethality  
+2. **TOXICALLY**:  
+   - The gas spread **toxically** through the air, affecting nearby residents. *(Adverb: in a poisonous or harmful manner)*  
+   - ***Synonyms***: poisonously, harmfully, dangerously, lethally  
+3. **NON-TOXIC**: 🌟  
+   - The children's toys are made from **non-toxic** materials. *(Adjective: not harmful or poisonous)*  
+   - ***Synonyms***: harmless, safe, chemical-free, eco-friendly  
 
-=====
-### TOUCHSTONE  
+=====  
+
+### TRACE  
 @@  
-**Noun** | हिंदी: परीक्षण-पत्र, मानदंड :  
-1. A standard or criterion by which something is judged or evaluated.  
-2. A black siliceous stone used for testing the purity of gold and silver by the color of the streak produced when rubbed against it.  
-3. A benchmark or reference point used to assess quality, value, or authenticity.  
-
-- ***Synonyms***: standard, benchmark, criterion, measure, yardstick, litmus test, gauge  
-- ***Antonyms***: anomaly, deviation, inconsistency, irregularity  
+**Noun, Verb** | हिंदी: चिन्ह, पदचिह्न, खोज :  
+1. A small sign, mark, or indication of something left behind. *(Noun: evidence/remnant)*  
+2. A very slight amount of something. *(Noun: minimal quantity)*  
+3. To find or discover by investigation. *(Verb: track down)*  
+4. To outline or follow a path, shape, or development. *(Verb: delineate or track movement)*  
+- ***Synonyms***: mark, hint, imprint, remnant *(Noun: evidence/remnant)*; bit, fragment, particle *(Noun: minimal quantity)*; track, detect, follow, discover *(Verb: track down)*; outline, sketch, delineate *(Verb: draw or follow)*  
+- ***Antonyms***: obliteration, disappearance *(Noun: evidence/remnant)*; abundance, excess *(Noun: minimal quantity)*; lose, ignore *(Verb: track down)*; distort, erase *(Verb: delineate or track movement)*  
 
 _Examples_  
-1. Shakespeare's works are often regarded as the **touchstone** of English literature. *(Noun: standard for evaluation)*  
-2. The company uses customer satisfaction as a **touchstone** for its success. *(Noun: benchmark)*  
-3. In ancient times, merchants carried a **touchstone** to verify the authenticity of precious metals. *(Noun: literal use for testing purity)*  
+1. The detective found a **trace** of blood at the crime scene. *(Noun: evidence/remnant)*  
+2. There was only a **trace** of sugar in the recipe, making it barely sweet. *(Noun: minimal quantity)*  
+3. The police managed to **trace** the suspect’s whereabouts through phone records. *(Verb: track down)*  
+4. She carefully **traced** the outline of the design onto the paper. *(Verb: delineate or track movement)*  
 
 _Word Form Examples_  
-1. **Touchstones**:  
-   - These principles serve as **touchstones** for ethical decision-making in the organization. *(Noun: plural form, standards)*  
-   - ***Synonyms***: benchmarks, criteria, measures, references  
-2. **Touchstone-like**: *(Rare/Constructed)*  
-   - The document provided a **touchstone-like** framework for evaluating future projects. *(Adjective: resembling a standard or benchmark)*  
-   - ***Synonyms***: standard-like, criterion-based, benchmark-like  
+1. **TRACED**:  
+   - The ancient ruins were carefully **traced** back to an early civilization. *(Verb: identified through tracking)*  
+   - ***Synonyms***: tracked, detected, followed, discovered  
+2. **TRACING**: 🌟  
+   - The child enjoyed **tracing** the pictures in her coloring book. *(Verb: outlining or copying shapes)*  
+   - ***Synonyms***: outlining, sketching, copying, reproducing  
+3. **TRACEABLE**:  
+   - The origins of the artifact were easily **traceable** through historical records. *(Adjective: able to be tracked or discovered)*  
+   - ***Synonyms***: trackable, detectable, identifiable  
 
-=====
+=====  
 
-
-
-### TOUT 🪐
+### TRACT  
 @@  
-**Verb, Noun** | हिंदी: बढ़ाई करना, जोरदार प्रचार करना :  
-1. (Verb) To attempt to persuade people of the merits of someone or something, often in a persistent or aggressive manner.  
-2. (Verb) To solicit business, customers, or support in a persistent way.  
-3. (Noun) A person who solicits business or customers aggressively, often in a dishonest or unethical way.  
-
-- ***Synonyms***: (Verb) promote, advertise, praise, endorse, brag; (Noun) promoter, solicitor, hustler, peddler  
-- ***Antonyms***: (Verb) criticize, discourage, dissuade; (Noun) critic, detractor  
+**Noun** | हिंदी: भूखंड, इलाका, मार्ग, पुस्तिका :  
+1. A large area of land, especially one designated for a specific purpose. *(Noun: land area)*  
+2. A short pamphlet or leaflet, usually on a religious or political topic. *(Noun: publication)*  
+3. A system of body parts or organs that function together, such as the digestive or respiratory tract. *(Noun: anatomical system)*  
+- ***Synonyms***: region, expanse, zone, territory *(Noun: land area)*; booklet, pamphlet, leaflet *(Noun: publication)*; passage, system, channel *(Noun: anatomical system)*  
+- ***Antonyms***: spot, fragment, section *(Noun: land area)*; silence, suppression *(Noun: publication)*; blockage, obstruction *(Noun: anatomical system)*  
 
 _Examples_  
-1. The company hired a marketing team to **tout** the benefits of their new product. _(Verb: to promote)_  
-2. Street vendors often **tout** their goods to passersby in busy markets. _(Verb: to solicit)_  
-3. The politician was accused of being a **tout** for making unrealistic promises to gain votes. _(Noun: a person who aggressively promotes)_  
-4. She didn’t like how the salesman tried to **tout** his services to her at the mall. _(Verb: to aggressively persuade)_  
+1. The government allocated a vast **tract** of land for agricultural development. *(Noun: land area)*  
+2. He handed out a **tract** explaining the importance of mental health awareness. *(Noun: publication)*  
+3. Smoking can severely damage the respiratory **tract** over time. *(Noun: anatomical system)*  
 
 _Word Form Examples_  
-1. **Touting**:  
-   - The **touting** of the new smartphone began weeks before its official release. _(Noun: the act of promoting aggressively)_  
-   - ***Synonyms***: promoting, advertising, endorsing, pitching  
-2. **Touted**:  
-   - The product was widely **touted** as a revolutionary breakthrough in technology. _(Verb: past tense of promoting)_  
-   - ***Synonyms***: praised, promoted, endorsed, acclaimed  
+1. **TRACTABLE**: 🌟  
+   - The young horse was surprisingly **tractable**, responding well to training. *(Adjective: easily managed or controlled)*  
+   - ***Synonyms***: manageable, obedient, docile, compliant  
 
-=====
-### TOXIC
-
-@@  
-**Adjective** | हिंदी: विषाक्त : Poisonous, capable of causing harm or damage to living organisms.
-
-- ***Synonyms***: poisonous, harmful, dangerous, noxious, lethal
-- ***Antonyms***: harmless, safe, beneficial, non-toxic
-
-_Examples_
-
-1. The **toxic** chemicals in the water caused severe health problems for the local population. _(Adjective: harmful or poisonous)_
-2. The factory was fined for releasing **toxic** gases into the environment. _(Adjective: harmful to the environment)_
-
-_Word Form Examples_
-
-1. The **toxicity** of the substance was confirmed after extensive tests. _(Noun: the state of being toxic)_
-2. The **toxic** waste must be handled carefully to avoid contamination. _(Adjective: dangerous and harmful)_
-
-=====
-
-### TOXIN
-
-@@  
-**Noun** | हिंदी: विषाणु, जहर : A poisonous substance, especially one produced by living organisms, that causes harm when ingested, inhaled, or absorbed.
-
-- ***Synonyms***: poison, venom, toxin, contaminant, irritant
-- ***Antonyms***: antidote, remedy, cure, treatment
-
-_Examples_
-
-1. The **toxin** released by the bacteria caused a severe infection in the patient. _(Noun: a harmful substance produced by an organism)_
-2. The snake bite injected a **toxin** that paralyzed the victim's muscles. _(Noun: venomous substance from an animal)_
-
-_Word Form Examples_
-
-1. The doctor administered an **antitoxin** to counteract the effects of the poison. _(Noun: a substance that neutralizes a toxin)_
-2. Researchers are studying how certain plants produce **toxins** to protect themselves from predators. _(Noun: plural of toxin)_
-
-=====
-
-
-
-### TRACEABILITY
-@@  
-**Noun** | हिंदी: पता लगाने की क्षमता :  
-1. The ability to trace or track the origin, history, or development of something.  
-2. A systematic process of documenting and following the movement of products, components, or information through a supply chain or process.  
-
-- ***Synonyms***: trackability, accountability, transparency, auditability, verifiability  
-- ***Antonyms***: untraceability, obscurity, invisibility, ambiguity  
-
-_Examples_  
-1. The **traceability** of the product ensures that consumers can verify its origin and quality. *(Noun: trackability/accountability)*  
-2. Food safety regulations require **traceability** in the supply chain to identify the source of contamination. *(Noun: transparency/auditability)*  
-3. The lack of **traceability** in the system made it difficult to identify where the error occurred. *(Noun: verifiability)*  
-
-_Word Form Examples_  
-1. **Traceable**:  
-   - The ingredients in the product are fully **traceable** to their farms of origin. *(Adjective: trackable/verifiable)*  
-   - ***Synonyms***: trackable, verifiable, identifiable, accountable  
-2. **Untraceable**:  
-   - The hacker used advanced techniques to make the transaction **untraceable**. *(Adjective: unidentifiable/obscure)*  
-   - ***Synonyms***: unidentifiable, obscure, invisible, hidden  
-
-=====
-### TRACTOR
-
-@@  
-**Noun** | हिंदी: ट्रैक्टर : A powerful vehicle used for pulling heavy loads or machinery, typically used in agriculture or construction.
-
-- ***Synonyms***: vehicle, farm equipment, machinery, hauler
-
-_Examples_
-
-1. The farmer used a **tractor** to plow the fields before planting crops. _(Noun: a type of farm vehicle)_
-2. The construction site required a **tractor** to move large piles of dirt. _(Noun: a vehicle used for heavy-duty work)_
-
-=====
-
-
-
+=====  
 
 ### TRAMPLE  
 @@  
-**Verb** | हिंदी: कुचलना, पददलित करना : To step heavily on something or someone, causing damage or injury; to treat harshly or oppressively.  
-1. Refers to physically crushing or flattening something by walking over it.  
-2. Can also describe figuratively suppressing or disregarding rights, feelings, or ideas.  
-
-- ***Synonyms***: crush, tread, stomp, squash *(physical)*; oppress, suppress, violate, disregard *(figurative)*  
-- ***Antonyms***: protect, preserve, nurture, respect *(general)*  
+**Verb** | हिंदी: कुचलना, पीसना : To tread heavily or repeatedly on something, causing damage or injury; to treat someone or their feelings with disrespect or disregard by acting forcefully or carelessly.
+- ***Synonyms***: crush, stomp, tread, squash, overwhelm, violate  
+- ***Antonyms***: respect, honor, protect, preserve, uplift  
 
 _Examples_  
-1. The elephants accidentally **trampled** the crops while crossing the field. *(Verb: physical action)*  
-2. The new law was criticized for **trampling** on the rights of minority groups. *(Verb: figurative oppression)*  
-3. She felt her ideas had been **trampled** in the heated debate. *(Verb: disregard or disrespect)*  
+1. The horse began to **trample** the flowers in the garden as it ran loose. *(Verb: physically crush)*  
+2. Her comments seemed to **trample** on his emotions, leaving him feeling hurt and disrespected. *(Verb: metaphorically disregard)*  
 
 _Word Form Examples_  
-1. **Trampled**:  
-   - The flowers were completely **trampled** after the crowd passed through the garden. *(Adjective/Verb: past tense)*  
-   - ***Synonyms***: crushed, flattened, destroyed, oppressed  
-2. **Trampling**:  
-   - Protesters accused the government of **trampling** their freedom of speech. *(Verb: present participle)*  
-   - ***Synonyms***: suppressing, violating, disregarding, oppressing  
-3. **Trampler**:  
-   - The **trampler** left behind a trail of destruction in the meadow. *(Noun: one who tramples)*  
-   - ***Synonyms***: destroyer, oppressor, violator  
+1. **TRAMPLED**: 🌟  
+   - The delicate plants were completely **trampled** after the crowd passed through the field. *(Adjective: having been crushed)*  
+   - ***Synonyms***: crushed, flattened, squashed, damaged  
+2. **TRAMPLING**: 🌟  
+   - The farmer was upset about the **trampling** of his crops by wild animals. *(Gerund: act of crushing or damaging)*  
+   - ***Synonyms***: crushing, stomping, treading, destroying  
 
 =====
 
-### TRANQUILITY
-
+### TRANQUIL  
 @@  
-**Noun** | हिंदी: शांति, शांति का भाव : A state of being calm, peaceful, and free from disturbance or agitation.
+**Adjective** | हिंदी: शांत, प्रसन्न : Calm, peaceful, and free from disturbance or agitation; characterized by a state of serenity and quietness.
+- ***Synonyms***: peaceful, serene, calm, placid, still, quiet  
+- ***Antonyms***: agitated, chaotic, restless, turbulent, noisy  
 
-- ***Synonyms***: peace, calmness, serenity, stillness, quietness
-- ***Antonyms***: chaos, turmoil, agitation, disturbance, unrest
+_Examples_  
+1. The lake was so **tranquil** that its surface reflected the mountains like a mirror. *(Adjective: calm and undisturbed)*  
+2. After a long day at work, she found solace in the **tranquil** atmosphere of her garden. *(Adjective: peaceful and soothing)*  
 
-_Examples_
-
-1. She enjoyed the **tranquility** of the countryside after years of living in the noisy city. _(Noun: peace)_
-2. The meditation session brought a sense of **tranquility** to her mind. _(Noun: calmness)_
-3. The lake's **tranquility** was only broken by the occasional splash of a fish. _(Noun: stillness)_
-
-_Root Word_
-
-- **Root:** Latin "tranquillitas" (calmness, stillness), from "tranquillus" (quiet, calm).
-- **Derived Words:**
-    1. Tranquil: Calm and peaceful, free from disturbance.
-    2. Tranquilize: To make calm or sedate.
-    3. Tranquilizer: A drug that reduces tension or anxiety.
-
-=====
-
-### TRANSGRESSION
-
-@@  
-**Noun** | हिंदी: उल्लंघन, अपराध : An act of violating a law, rule, or moral code; a breach or offense.
-
-- ***Synonyms***: violation, infringement, offense, wrongdoing, breach
-- ***Antonyms***: obedience, compliance, adherence, observance
-
-_Examples_
-
-1. His **transgression** of company policies led to his immediate dismissal. _(Noun: violation of rules)_
-2. The judge emphasized the seriousness of the **transgression**, as it endangered public safety. _(Noun: moral or legal offense)_
-
-_Word Form Examples_
-
-1. She was accused of **transgressing** the school rules by cheating in the exam. _(Verb: to violate or go beyond limits)_
-2. His actions were considered morally **transgressive**, challenging societal norms. _(Adjective: involving a violation of moral or social boundaries)_
+_Word Form Examples_  
+1. **TRANQUILITY**: 🌟  
+   - The **tranquility** of the forest made it an ideal place for meditation. *(Noun: state of being calm and peaceful)*  
+   - ***Synonyms***: peace, serenity, calmness, quietness, stillness  
+2. **TRANQUILLY**:  
+   - He spoke **tranquilly**, his voice barely above a whisper, as if not to disturb the silence. *(Adverb: in a calm and peaceful manner)*  
+   - ***Synonyms***: peacefully, serenely, calmly, quietly  
 
 =====
 
 ### TRANSIENT
-
-@@  
-**Adjective** | हिंदी: अस्थायी, क्षणिक : Lasting only for a short time; temporary or fleeting.
-
-- ***Synonyms***: temporary, short-lived, brief, momentary, fleeting
-- ***Antonyms***: permanent, lasting, enduring, eternal
+@@
+**Adjective, Noun** | हिंदी: क्षणिक, अस्थायी : 
+1. Lasting only for a short time; impermanent. *(Adjective)*
+2. A person who stays or works in a place for only a short time. *(Noun)*
+- ***Synonyms***: fleeting, temporary, momentary, ephemeral, short-lived *(Adjective)*; wanderer, drifter, nomad, vagrant *(Noun)*
+- ***Antonyms***: permanent, lasting, enduring, eternal, stable *(Adjective)*; resident, settler, local, permanent inhabitant *(Noun)*
 
 _Examples_
-
-1. The **transient** nature of the storm meant that it passed quickly, leaving no damage. _(Adjective: lasting only for a short time)_
-2. He lived in a **transient** state, never staying in one place for too long. _(Adjective: temporary or not lasting)_
+1. The beauty of the sunset was **transient**, fading quickly into the night. *(Adjective: temporary)*
+2. The shelter provided refuge for many **transients** passing through the city. *(Noun: temporary resident)*
 
 _Word Form Examples_
-
-1. The **transience** of youth makes it all the more precious. _(Noun: the quality of being short-lived)_
-
-=====
-
-### TRANSITORY
-
-@@  
-**Adjective** | हिंदी: क्षणिक, अस्थायी : Lasting for a very short time; not permanent.
-
-- ***Synonyms***: fleeting, short-lived, temporary, ephemeral, brief
-- ***Antonyms***: permanent, enduring, lasting, eternal
-
-_Examples_
-
-1. The **transitory** nature of fame means it often fades away quickly. _(Adjective: lasting only for a short time)_
-2. Their happiness was **transitory**, quickly replaced by sorrow after hearing the news. _(Adjective: brief and short-lived)_
+1. **TRANSIENTLY**: 🌟
+   - The pain was **transiently** alleviated by the medication, but it soon returned. *(Adverb: in a temporary manner)*
+   - ***Synonyms***: temporarily, momentarily, fleetingly, briefly
+2. **TRANSIENCE**: 🌟
+   - The **transience** of youth is a common theme in literature. *(Noun: state of being temporary)*
+   - ***Synonyms***: impermanence, ephemerality, fleetingness, brevity
 
 =====
 
-### TRANSMUTATION
 
+
+
+
+### TAUNT  
 @@  
-**Noun** | हिंदी: परिवर्तन, रूपांतरण : The act or process of changing from one form, state, or substance into another.
+**Verb, Noun** | हिंदी: चिढ़ाना, उपहास : To provoke or challenge someone with insulting or mocking remarks. *(Verb)*; An insulting or mocking remark intended to provoke or humiliate. *(Noun)*  
+- ***Synonyms***: tease, mock, jeer, ridicule *(Verb)*; insult, jibe, barb, sarcasm *(Noun)*  
+- ***Antonyms***: praise, compliment, encourage *(Verb)*; admiration, flattery, respect *(Noun)*  
 
-- ***Synonyms***: transformation, conversion, alteration, change, metamorphosis
-- ***Antonyms***: stagnation, preservation, stability, constancy
+_Examples_  
+1. The older kids would often **taunt** him for being shorter than everyone else. *(Verb)*  
+2. Her cruel **taunt** left him feeling embarrassed and hurt. *(Noun)*  
+
+_Word Form Examples_  
+1. **TAUNTED**: 🌟  
+   - The athlete was **taunted** by the opposing team’s fans during the game. *(Adjective: subjected to mockery or provocation)*  
+   - ***Synonyms***: mocked, ridiculed, teased, jeered, provoked  
+2. **TAUNTING**:  
+   - His **taunting** tone made it clear he wasn’t interested in a serious discussion. *(Adjective: characterized by teasing or mocking)*  
+   - ***Synonyms***: mocking, jeering, taunting, ridiculing, provoking  
+3. **TAUNTS**:  
+   - The crowd hurled **taunts** at the politician as he walked to his car. *(Noun: plural form of mocking remarks)*  
+   - ***Synonyms***: insults, jibes, barbs, sarcasms, jeers  
+
+=====
+
+### TENACIOUS  
+@@  
+**Adjective** | हिंदी: दृढ़, स्थिर : Holding firmly to a purpose, goal, or belief; characterized by persistence, determination, and resilience.  
+- ***Synonyms***: persistent, resolute, dogged, unyielding, relentless, determined  
+- ***Antonyms***: weak, indecisive, yielding, apathetic, fickle  
+
+_Examples_  
+1. The **tenacious** athlete refused to give up, even when the race seemed impossible to win. *(Adjective: determined)*  
+2. Her **tenacious** efforts to solve the mystery eventually uncovered the truth. *(Adjective: persistent)*  
+
+_Word Form Examples_  
+1. **TENACITY**: 🌟  
+   - His **tenacity** in the face of adversity inspired everyone around him. *(Noun: quality of being persistent)*  
+   - ***Synonyms***: persistence, determination, resolve, steadfastness, perseverance  
+2. **TENACIOUSLY**:  
+   - She clung **tenaciously** to her dream of becoming a writer, despite numerous rejections. *(Adverb: in a firm and persistent manner)*  
+   - ***Synonyms***: stubbornly, resolutely, unwaveringly, doggedly, firmly  
+
+=====
+
+### TORMENT  
+@@  
+**Noun, Verb** | हिंदी: यातना, पीड़ा : Extreme physical or mental suffering; anguish. *(Noun)*; To cause someone to experience extreme pain or distress, either physically or emotionally. *(Verb)*  
+- ***Synonyms***: agony, anguish, torture, distress *(Noun)*; harass, torment, torture, afflict *(Verb)*  
+- ***Antonyms***: comfort, relief, solace, peace *(Noun)*; soothe, console, alleviate, ease *(Verb)*  
+
+_Examples_  
+1. The **torment** of losing a loved one stayed with her for years. *(Noun)*  
+2. The bully continued to **torment** the younger students despite warnings. *(Verb)*  
+
+_Word Form Examples_  
+1. **TORMENTED**: 🌟  
+   - The artist painted a portrait of a **tormented** soul, reflecting his inner struggles. *(Adjective: deeply distressed or anguished)*  
+   - ***Synonyms***: tortured, anguished, tormented, afflicted, harrowed  
+2. **TORMENTING**:  
+   - The **tormenting** memories of the accident made it hard for him to sleep at night. *(Adjective: causing distress or anguish)*  
+   - ***Synonyms***: harassing, torturing, afflicting, agonizing, troubling  
+3. **TORMENTS**:  
+   - The prisoner endured unimaginable **torments** during his captivity. *(Noun: plural form, referring to multiple instances of suffering)*  
+   - ***Synonyms***: agonies, tortures, distresses, miseries  
+
+=====
+
+### TRESPASS
+@@  
+**Noun, Verb** | हिंदी: अतिक्रमण, अनधिकृत प्रवेश करना :
+1. To enter someone’s property or land without permission. _(Verb)_
+2. To violate a law, rule, or someone’s rights. _(Verb)_
+3. An unlawful or unwanted intrusion. _(Noun)_
+- _**Synonyms**_: intrude, encroach, invade, infringe, transgress
+- _**Antonyms**_: obey, respect, comply, abide
 
 _Examples_
-
-1. The **transmutation** of lead into gold was a goal for ancient alchemists. _(Noun: a process of changing one substance into another)_
-2. The **transmutation** of the organization’s culture took many years of effort. _(Noun: a complete change in form or structure)_
+1. The sign warned people not to **trespass** on private property. _(Verb: enter without permission)_
+2. He felt she had **trespassed** on his personal space. _(Verb: violate someone’s rights)_
+3. The company was sued for **trespass** after building on private land. _(Noun: unlawful intrusion)_
 
 _Word Form Examples_
-
-1. The **transmutability** of the material made it possible to adapt it for different uses. _(Noun: the quality of being capable of change)_
-2. The scientist studied the **transmutations** in the genetic code to understand its evolution. _(Noun: plural of transmutation)_
+1. **TRESPASSER**: 🌟
+    - The guard caught a **trespasser** sneaking into the restricted area. _(Noun: a person who unlawfully enters property)_
+    - _**Synonyms**_: intruder, invader, encroacher
+2. **TRESPASSING**: 🌟
+    - They were fined for **trespassing** on government land. _(Verb: present participle of trespass; illegal entry)_
+    - _**Synonyms**_: invading, intruding, encroaching
+3. **TRESPASSED**:
+    - The hunters **trespassed** onto private farmland. _(Verb: past tense of trespass; unlawfully entered)_
+    - _**Synonyms**_: intruded, encroached, violated
 
 =====
+
+### TROUBLE
+@@  
+**Noun, Verb** | हिंदी: परेशानी, मुसीबत, तकलीफ़ :
+1. A situation that causes difficulty, worry, or distress. _(Noun: problem or difficulty)_
+2. To cause distress, discomfort, or inconvenience. _(Verb: to bother or create problems for someone)_
+- _**Synonyms**_: difficulty, problem, hardship, distress _(Noun: challenging situation)_; bother, disturb, annoy, inconvenience _(Verb: to cause discomfort)_
+- _**Antonyms**_: ease, peace, comfort, relief _(Noun: lack of problems)_; soothe, assist, comfort _(Verb: to help or relieve)_
+
+_Examples_
+1. The company faced financial **trouble** after the market crash. _(Noun: difficulty or hardship)_
+2. Sorry to **trouble** you, but could you help me with this task? _(Verb: to inconvenience or bother someone)_
+
+_Word Form Examples_
+1. **TROUBLED** 🌟
+    - She had a **troubled** childhood due to family conflicts. _(Adjective: experiencing distress or difficulties)_
+    - _**Synonyms**_: distressed, worried, anxious, uneasy
+2. **TROUBLESOME** 🌟
+    - The new software update had many **troublesome** bugs. _(Adjective: causing inconvenience or problems)_
+    - _**Synonyms**_: annoying, difficult, bothersome, inconvenient
+3. **TROUBLING**
+    - The news about climate change is deeply **troubling**. _(Adjective: causing concern or distress)_
+    - _**Synonyms**_: worrying, disturbing, alarming, unsettling
+4. **TROUBLEMAKER**
+    - He was known as a **troublemaker** in school due to his rebellious nature. _(Noun: a person who causes problems)_
+    - _**Synonyms**_: mischief-maker, agitator, disruptor, instigator
+5. **TROUBLE-FREE**
+    - The journey was surprisingly **trouble-free**, with no delays or issues. _(Adjective: without difficulties or problems)_
+    - _**Synonyms**_: smooth, effortless, problem-free, peaceful
+
+=====
+
+
+### TRANSMUTE  
+@@  
+**Verb** | हिंदी: रूपांतरित करना, परिवर्तित करना : To change or transform in form, nature, or substance, often into something of higher value or completely different composition.  
+- ***Synonyms***: transform, convert, metamorphose, alter, mutate, transfigure  
+- ***Antonyms***: preserve, maintain, keep, stagnate  
+
+_Examples_  
+1. Alchemists once believed they could **transmute** lead into gold. *(Verb: transform in substance)*  
+2. Her sorrow was gradually **transmuted** into strength over time. *(Verb: emotional or abstract transformation)*  
+
+_Word Form Examples_  
+1. **TRANSMUTED**:  
+   - Over centuries, the city **transmuted** from a small village into a bustling metropolis. *(Verb: changed completely)*  
+   - ***Synonyms***: transformed, evolved, modified  
+2. **TRANSMUTING**:  
+   - The scientist was focused on **transmuting** ordinary elements into new compounds. *(Verb: ongoing transformation)*  
+   - ***Synonyms***: altering, converting, reshaping  
+3. **TRANSMUTATION**: 🌟  
+   - The **transmutation** of energy into matter is a concept explored in physics. *(Noun: the process of transformation)*  
+   - ***Synonyms***: conversion, transformation, metamorphosis  
+
+=====  
 
 ### TREACHERY  
 @@  
-**Noun** | हिंदी: कपट, दगा :  
-1. The act of betraying someone or something, especially in a deceitful or dishonest manner. *(Noun)*  
-2. A betrayal of trust or confidence, often involving disloyalty or treachery. *(Noun)*  
-
-- ***Synonyms***: betrayal, deceit, perfidy, treason, duplicity, disloyalty *(Noun)*  
-- ***Antonyms***: loyalty, faithfulness, honesty, trustworthiness, fidelity *(Noun)*  
+**Noun** | हिंदी: कपट, दगा : The act of betraying someone’s trust or confidence; deliberate deception or betrayal, often involving disloyalty or deceit in a relationship or agreement.
+- ***Synonyms***: betrayal, deceit, treachery, perfidy, duplicity, treason *(Rare)*  
+- ***Antonyms***: loyalty, honesty, faithfulness, integrity, trustworthiness  
 
 _Examples_  
-1. The soldier was executed for **treachery** after being caught spying for the enemy. *(Noun)*  
-2. Acts of **treachery** within the organization led to its eventual downfall. *(Noun)*  
+1. The knight was executed for **treachery** after he was caught conspiring with the enemy. *(Noun: act of betrayal)*  
+2. Her **treachery** was revealed when the secret documents were discovered in her possession. *(Noun: deceitful behavior)*  
 
 _Word Form Examples_  
-1. **Treacheries**:  
-   - History is filled with tales of **treacheries** that changed the course of nations. *(Noun: plural form)*  
-   - ***Synonyms***: betrayals, deceits, perfidies, treasons  
-2. **Treacherous**:  
-   - The politician's **treacherous** actions were exposed during the investigation. *(Adjective)*  
-   - ***Synonyms***: deceitful, disloyal, unfaithful, duplicitous, perfidious  
-3. **Treacherously**:  
-   - The kingdom was **treacherously** betrayed by one of its most trusted generals. *(Adverb)*  
-   - ***Synonyms***: deceitfully, perfidiously, traitorously, dishonestly  
-
-_Note_  
-"Treachery" is a strong term used to describe acts of betrayal or disloyalty, often implying a breach of trust. Its adjective form "treacherous" and adverb form "treacherously" are commonly used to describe individuals or actions characterized by deceit or betrayal.  
+1. **TREACHEROUS**: 🌟  
+   - The mountain path was **treacherous**, with loose rocks and steep drops at every turn. *(Adjective: dangerously unstable or unreliable)*  
+   - ***Synonyms***: perilous, hazardous, dangerous, risky, untrustworthy  
+2. **TREACHEROUSLY**:  
+   - He **treacherously** abandoned his allies during the battle, leaving them vulnerable to attack. *(Adverb: in a deceitful or disloyal manner)*  
+   - ***Synonyms***: deceitfully, traitorously, dishonestly, perfidiously  
 
 =====
-### TREASON  
-@@  
-**Noun** | हिंदी: राजद्रोह, विश्वासघात :  
-1. The act of betraying one’s country, especially by attempting to overthrow the government or aiding its enemies. *(Legal/political context)*  
-2. A violation of allegiance toward one’s sovereign or state. *(Historical or formal usage)*  
 
-- ***Synonyms***: betrayal, treachery, sedition, espionage, conspiracy, perfidy, disloyalty  
-- ***Antonyms***: loyalty, patriotism, allegiance, fidelity, devotion, faithfulness  
+### TREASON
+@@
+**Noun** | हिंदी: राजद्रोह, विश्वासघात : The crime of betraying one's country, especially by attempting to overthrow the government or harm the sovereign; disloyalty to the state.
+- ***Synonyms***: betrayal, disloyalty, sedition, rebellion, treachery
+- ***Antonyms***: loyalty, allegiance, fidelity, patriotism, faithfulness
 
-_Examples_  
-1. He was accused of **treason** for leaking classified information to a foreign power. *(Noun: betrayal of country)*  
-2. In medieval times, **treason** was often punished by execution. *(Noun: violation of allegiance)*  
-3. Her actions were seen as an act of **treason** against the crown. *(Noun: disloyalty to authority)*  
+_Examples_
+1. The general was executed for committing **treason** against the crown. *(Noun: betrayal of country)*
+2. Accusations of **treason** can carry severe penalties, including imprisonment or death. *(Noun: disloyalty to state)*
 
-_Word Form Examples_  
-1. **Treasonous**:  
-   - The general was labeled as **treasonous** for conspiring with the enemy. *(Adjective: characterized by treason)*  
-   - ***Synonyms***: traitorous, disloyal, perfidious, treacherous, subversive, seditious  
-2. **Treasonably**:  
-   - He acted **treasonably** by plotting to assassinate the king. *(Adverb: in a manner involving treason)*  
-   - ***Synonyms***: traitorously, perfidiously, disloyally, treacherously, seditiously  
+_Word Form Examples_
+1. **TREASONOUS**: 🌟
+   - His **treasonous** actions during the war led to his exile. *(Adjective: involving betrayal of country)*
+   - ***Synonyms***: traitorous, disloyal, seditious, rebellious, treacherous
+2. **TREASONABLY**: 🌟 *(Rare)*
+   - The spy acted **treasonably** by leaking classified information to the enemy. *(Adverb: in a manner involving betrayal of country)*
+   - ***Synonyms***: disloyally, seditiously, treacherously, traitorously
 
 =====
-### TREATISE  
-@@  
-**Noun** | हिंदी: ग्रंथ, विवरण :  
-1. A formal and systematic written discussion or exposition on a specific subject, often scholarly or academic in nature.  
-2. A detailed and comprehensive study or analysis of a topic, typically presenting arguments, evidence, or theories.  
-- ***Synonyms***: dissertation, thesis, essay, exposition, discourse, monograph, analysis  
-- ***Antonyms***: summary, synopsis, brief, overview, abstraction  
-_Examples_  
-1. The philosopher's **treatise** on ethics became a cornerstone of modern moral philosophy. *(Noun: scholarly work)*  
-2. She wrote a **treatise** exploring the economic impact of climate change on developing countries. *(Noun: detailed study)*  
 
-_Word Form Examples_  
-1. **Treatises**:  
-   - The library houses several **treatises** on ancient history, each offering unique insights into the period. *(Noun: plural form of treatise)*  
-   - ***Synonyms***: dissertations, essays, expositions, discourses, monographs  
-
-=====
 ### TREK  
 @@  
-**Noun** | हिंदी: यात्रा, सफ़र : A long and often arduous journey, typically on foot or through difficult terrain.  
-**Verb** | हिंदी: यात्रा करना, पैदल चलना : To make a long and difficult journey, often on foot.  
-1. Refers to a challenging journey, especially in remote or rugged areas.  
-2. Can also describe any strenuous or lengthy undertaking, metaphorically or literally.  
-
-- ***Synonyms***: journey, voyage, expedition, hike *(Noun)*; travel, hike, trudge, march *(Verb)*  
-- ***Antonyms***: stay, halt, rest, stagnation *(general)*  
+**Noun, Verb** | हिंदी: लंबी यात्रा, कठिन यात्रा करना :  
+1. A long and difficult journey, especially on foot. *(Noun: arduous journey)*  
+2. To travel or migrate slowly, often with effort. *(Verb: travel with difficulty)*  
+- ***Synonyms***: journey, expedition, hike, odyssey *(Noun: long trip)*; trudge, march, travel, roam *(Verb: move with effort)*  
+- ***Antonyms***: sprint, stay, rest *(Verb: remain in place)*  
 
 _Examples_  
-1. The climbers prepared for a three-day **trek** through the Himalayan mountains. *(Noun: physical journey)*  
-2. After hours of **trekking** through the dense jungle, they finally reached the hidden waterfall. *(Verb: action of traveling)*  
-3. Completing the project felt like a **trek** through uncharted territory, full of unexpected challenges. *(Noun: metaphorical journey)*  
+1. Their **trek** through the dense jungle took three days. *(Noun: difficult journey)*  
+2. We had to **trek** across the mountains to reach the village. *(Verb: travel with effort)*  
 
 _Word Form Examples_  
-1. **Trekking**:  
-   - The group spent the weekend **trekking** across the rugged countryside. *(Verb: present participle)*  
-   - ***Synonyms***: hiking, trudging, marching, wandering  
-2. **Trekker**:  
-   - Experienced **trekkers** know the importance of carrying lightweight gear. *(Noun: person who treks)*  
-   - ***Synonyms***: hiker, traveler, adventurer, wanderer  
+1. **TREKKED**:  
+   - The explorers **trekked** through the harsh desert for weeks. *(Verb: traveled with difficulty)*  
+   - ***Synonyms***: hiked, trudged, wandered  
+2. **TREKKING**: 🌟  
+   - Many adventure seekers enjoy **trekking** in the Himalayas. *(Noun/Verb: activity of long, difficult travel)*  
+   - ***Synonyms***: hiking, journeying, rambling  
+3. **TREKKER**:  
+   - As an experienced **trekker**, she had explored many remote locations. *(Noun: person who treks)*  
+   - ***Synonyms***: traveler, hiker, explorer  
 
-=====
-### TREMENDOUS  
-@@  
-**Adjective** | हिंदी: भयानक, विशाल :  
-1. Extraordinarily large in size, amount, or degree; immense. *(Adjective)*  
-2. Remarkable or extraordinary in a positive way; awe-inspiring. *(Adjective)*  
-3. Producing a strong feeling of fear, wonder, or admiration. *(Adjective)*  
-
-- ***Synonyms***: enormous, colossal, massive, extraordinary, remarkable, impressive, astonishing  
-- ***Antonyms***: insignificant, tiny, ordinary, unremarkable, trivial  
-
-_Examples_  
-1. The **tremendous** storm caused widespread damage across the city. *(Adjective: extraordinarily large in degree)*  
-2. She showed **tremendous** courage in overcoming her challenges. *(Adjective: remarkable or extraordinary)*  
-3. The view from the mountain peak was **tremendous**, leaving everyone speechless. *(Adjective: awe-inspiring)*  
-
-_Word Form Examples_  
-1. **Tremendously**:  
-   - The project was **tremendously** successful, exceeding all expectations. *(Adverb: to an extraordinary degree)*  
-   - ***Synonyms***: enormously, incredibly, remarkably, exceptionally, vastly  
-
-2. **Tremendousness**:  
-   - The **tremendousness** of the task ahead made them rethink their strategy. *(Noun: quality of being tremendous)*  
-   - ***Synonyms***: enormity, vastness, immensity, extraordinariness, impressiveness  
-
-=====
-
+=====  
 
 ### TRENCH  
 @@  
-**Noun, Verb** | हिंदी: खाई, कुंड :  
-1. A long, narrow ditch dug in the ground, often used for military defense or drainage purposes. *(Noun)*  
-2. A deep depression or groove, especially one formed by erosion or excavation. *(Noun)*  
-3. To dig or cut into (the ground or another surface). *(Verb)*  
-
-- ***Synonyms***: ditch, furrow, canal, moat *(Noun)*; excavate, dig, gouge, carve *(Verb)*  
-- ***Antonyms***: mound, hill, ridge *(opposite of a trench)*; fill, cover *(opposite of digging)*  
+**Noun, Verb** | हिंदी: खाई, कुंड : A long, narrow ditch dug into the ground, often used for military defense, drainage, or laying utilities; to cut or dig deeply into something.
+- ***Synonyms***: ditch, furrow, moat, channel *(Noun: excavation)*; dig, excavate, gouge *(Verb: action of digging)*  
+- ***Antonyms***: mound, hill, ridge *(Noun: raised landform)*; fill, cover *(Verb: opposite of digging)*  
 
 _Examples_  
-1. Soldiers took cover in the **trench** during the battle to avoid enemy fire. *(Noun: military defense)*  
-2. The farmer dug a **trench** around the field to prevent waterlogging. *(Noun: drainage purpose)*  
-3. Workers will **trench** the road to lay new pipes beneath the surface. *(Verb: dig)*  
+1. Soldiers took shelter in the **trench** during the battle to avoid enemy fire. *(Noun: defensive ditch)*  
+2. Workers had to **trench** the ground to lay the new water pipes. *(Verb: dig a deep hole)*  
 
 _Word Form Examples_  
-1. **Trenches**:  
-   - Archaeologists discovered ancient artifacts buried deep within the **trenches**. *(Noun: plural form, referring to ditches)*  
-   - ***Synonyms***: ditches, furrows, channels, canals  
-2. **Trenching**:  
-   - The construction crew is **trenching** the site to install underground cables. *(Verb: present participle, referring to digging)*  
-   - ***Synonyms***: excavating, digging, carving, cutting  
-3. **Trenchant**:  
-   - Her **trenchant** critique of the policy highlighted its flaws effectively. *(Adjective: sharp or incisive, metaphorical use of "cutting")*  
-   - ***Synonyms***: incisive, sharp, penetrating, insightful, caustic  
+1. **TRENCHED**: 🌟  
+   - The field was deeply **trenched** to prepare it for irrigation. *(Adjective: having been dug into)*  
+   - ***Synonyms***: excavated, gouged, dug, carved  
+2. **TRENCHING**:  
+   - The construction crew is busy with **trenching** to install underground cables. *(Gerund: act of digging trenches)*  
+   - ***Synonyms***: excavating, digging, cutting, channeling  
 
 =====
-### TRIBUTARY
+
+### TRICKLE
 @@
-**Noun, Adjective** | हिंदी: सहायक नदी, करद : 
-1. (Noun) A river or stream flowing into a larger river or lake
-2. (Noun) A person or state that pays tribute to another in authority
-3. (Adjective) Paying tribute to a superior power
-4. (Adjective) Contributing to a larger system or process
-
-- ***Synonyms***: branch, affluent, feeder, subordinate
-- ***Antonyms***: main stream, primary river, sovereign, independent
-
-*Examples*
-1. The Missouri River is the longest **tributary** of the Mississippi River. *(Noun: feeding stream)*
-2. Ancient kingdoms often had **tributary** states that paid them regular taxes. *(Adjective: subordinate)*
-3. The smaller streams were all **tributary** to the main river system. *(Adjective: contributing)*
-4. Several small brooks served as **tributaries** to the lake. *(Noun: feeding streams)*
-
-*Word Forms*
-1. **Tributaries** - The Amazon River has hundreds of **tributaries**. *(Noun plural: feeding streams)*
-2. **Tributary-like** - The small channels formed a **tributary-like** network. *(Adjective: resembling a tributary)*
-3. **Tributarily** - The stream flows **tributarily** into the main river. *(Adverb: in a tributary manner)*
-
-=====
-### TRIFLE
-
-@@  
-**Noun, Verb** | हिंदी: तुच्छ बात, छोटी चीज़, हल्के में लेना :
-
-1. **(Noun)** Something of little value, importance, or significance.
-2. **(Noun)** A light dessert made of sponge cake, fruit, custard, and cream.
-3. **(Verb)** To treat something or someone as unimportant or without seriousness.
-4. **(Verb)** To play or toy with something in a careless or disrespectful manner.
-
-- ***Synonyms***: triviality, insignificance, bauble, frivolity, play, toy, dally
-- ***Antonyms***: significance, importance, seriousness, earnestness
+**Verb, Noun** | हिंदी: रिसना, टपकना : 
+1. To flow or fall in drops or in a small, gentle stream. *(Verb)*
+2. A small, slow flow of liquid; a slight or gradual amount of something. *(Noun)*
+- ***Synonyms***: drip, dribble, seep, ooze, leak *(Verb)*; streamlet, dribble, drip, rivulet *(Noun)*
+- ***Antonyms***: gush, flood, pour, surge, torrent *(Verb)*; deluge, flood, rush, cascade *(Noun)*
 
 _Examples_
-
-1. He dismissed my concerns as a mere **trifle**, but they mattered to me. _(Noun: something unimportant)_
-2. She served a delicious **trifle** for dessert at the party. _(Noun: layered dessert)_
-3. Do not **trifle** with people’s emotions; it can have serious consequences. _(Verb: treat lightly or without seriousness)_
-4. He spent the afternoon **trifling** with his phone instead of working. _(Verb: wasting time carelessly)_
+1. Water began to **trickle** through the crack in the dam. *(Verb: flow slowly)*
+2. A **trickle** of sweat ran down his forehead during the intense heat. *(Noun: small flow)*
 
 _Word Form Examples_
-
-1. **Trifling** _(Adjective, Verb)_:
-    
-    - The issue seemed **trifling**, but it later caused a major problem. _(Adjective: insignificant or minor)_
-    - He was **trifling** with his responsibilities instead of handling them properly. _(Verb: treating lightly)_
-    - ***Synonyms***: petty, negligible, unimportant, frivolous
-2. **Trifler** _(Noun)_:
-    
-    - He was known as a **trifler** who never took anything seriously. _(Noun: someone who treats things carelessly)_
-    - ***Synonyms***: idler, procrastinator, dabbler
+1. **TRICKLED**: 🌟
+   - Rainwater **trickled** down the windowpane during the storm. *(Verb: past tense of flow slowly)*
+   - ***Synonyms***: dripped, dribbled, seeped, oozed, leaked
+2. **TRICKLING**: 🌟
+   - The **trickling** sound of the stream was soothing to hear. *(Gerund/Adjective: act of flowing slowly or describing such flow)*
+   - ***Synonyms***: dripping, dribbling, seeping, oozing, leaking
+3. **TRICKLE-DOWN**: 🌟
+   - The **trickle-down** effect of the policy was meant to benefit lower-income groups. *(Adjective: describing gradual distribution)*
+   - ***Synonyms***: cascading, filtering, percolating, seeping
 
 =====
+
+### TRIFLE  
+@@  
+**Noun, Verb** | हिंदी: तुच्छ वस्तु, हल्के में लेना :  
+1. A thing of little value or importance. *(Noun: insignificant matter)*  
+2. A type of layered dessert made with sponge cake, custard, and fruit. *(Noun: dessert)*  
+3. To treat someone or something without seriousness or respect. *(Verb: deal with lightly)*  
+- ***Synonyms***: triviality, insignificance, bauble *(Noun: unimportant thing)*; toy, play, dally *(Verb: handle lightly)*  
+- ***Antonyms***: significance, importance, priority *(Noun: unimportant thing)*; respect, value, cherish *(Verb: handle lightly)*  
+
+_Examples_  
+1. He dismissed the problem as a mere **trifle**, but it turned out to be serious. *(Noun: insignificant matter)*  
+2. The chef prepared a delicious **trifle** for dessert. *(Noun: dessert)*  
+3. You shouldn’t **trifle** with people’s emotions. *(Verb: deal with lightly)*  
+
+_Word Form Examples_  
+1. **TRIFLING**: 🌟  
+   - His concerns seemed **trifling** compared to the real issues at hand. *(Adjective: insignificant or unimportant)*  
+   - ***Synonyms***: petty, minor, negligible  
+2. **TRIFLED**:  
+   - She **trifled** with his feelings and later regretted it. *(Verb: treated lightly)*  
+   - ***Synonyms***: toyed, played, dallied  
+3. **TRIFLER**: *(Rare)*  
+   - He was known as a **trifler**, never taking anything seriously. *(Noun: someone who deals with things carelessly)*  
+   - ***Synonyms***: idler, dabbler, time-waster  
+
+=====  
+
 ### TRIUMPH
-
-@@  
-**Noun** | हिंदी: विजय, सफलता : A great victory, achievement, or success, often accompanied by a sense of celebration or pride.
-
-- ***Synonyms***: victory, success, conquest, achievement, win, accomplishment, mastery
-- ***Antonyms***: defeat, failure, loss, setback, disappointment
+@@
+**Noun, Verb** | हिंदी: विजय, जीत : 
+1. A great victory or achievement, often after overcoming significant obstacles. *(Noun)*
+2. To achieve victory or success, often in a way that is publicly celebrated. *(Verb)*
+- ***Synonyms***: victory, success, achievement, conquest, win *(Noun)*; prevail, succeed, conquer, overcome, excel *(Verb)*
+- ***Antonyms***: defeat, failure, loss, setback, disaster *(Noun)*; fail, lose, surrender, succumb, falter *(Verb)*
 
 _Examples_
-
-1. The team's **triumph** in the final game earned them the championship title. _(Noun: a great victory)_
-2. Her scientific discovery was a **triumph** of years of hard work and dedication. _(Noun: a significant achievement)_
+1. The team's **triumph** in the championship was celebrated with a parade. *(Noun: victory)*
+2. She worked hard to **triumph** over her fears and deliver a flawless performance. *(Verb: succeed)*
 
 _Word Form Examples_
-
-1. **Triumphant**:
-    
-    - The **triumphant** crowd cheered as the winning team took to the stage. _(Adjective: feeling or expressing victory or success)_
-    - ***Synonyms***: victorious, celebratory, successful, jubilant
-2. **Triumphantly**:
-    
-    - They walked **triumphantly** into the room after winning the competition. _(Adverb: in a manner showing victory or pride)_
-    - ***Synonyms***: victoriously, proudly, jubilantly
-3. **Triumpher**:
-    
-    - The **triumpher** of the race took home the gold medal. _(Noun: a person who achieves victory or success)_
-    - ***Synonyms***: victor, winner, champion
+1. **TRIUMPHED**: 🌟
+   - The underdog **triumphed** against all odds, winning the tournament. *(Verb: past tense of succeed)*
+   - ***Synonyms***: prevailed, succeeded, conquered, overcame, excelled
+2. **TRIUMPHANT**: 🌟
+   - The **triumphant** soldiers returned home to a hero’s welcome. *(Adjective: having achieved victory)*
+   - ***Synonyms***: victorious, successful, winning, conquering, prevailing
+3. **TRIUMPHANTLY**: 🌟
+   - She smiled **triumphantly** as she crossed the finish line first. *(Adverb: in a victorious manner)*
+   - ***Synonyms***: victoriously, successfully, proudly, exultantly
+4. **TRIUMPHAL**: 🌟
+   - The **triumphal** arch was built to commemorate the historic victory. *(Adjective: relating to or celebrating a victory)*
+   - ***Synonyms***: victorious, celebratory, ceremonial, monumental
 
 =====
 
 ### TRIVIAL
-
-@@  
-**Adjective** | हिंदी: तुच्छ, मामूली : Refers to something of little importance or value, often insignificant or unworthy of serious attention.
-
-- ***Synonyms***: insignificant, minor, petty, inconsequential, negligible
-- ***Antonyms***: significant, important, major, substantial, crucial
+@@
+**Adjective** | हिंदी: तुच्छ, महत्वहीन : Of little value or importance; insignificant or minor.
+- ***Synonyms***: insignificant, minor, petty, trifling, unimportant, negligible
+- ***Antonyms***: significant, important, major, substantial, crucial, vital
 
 _Examples_
-
-1. She dismissed the argument as **trivial**, saying it wasn't worth their time. _(Adjective: insignificant)_
-2. The professor reminded the students not to get stuck on **trivial** details and to focus on the main concept. _(Adjective: minor or inconsequential)_
+1. He dismissed the issue as **trivial**, not worth his time or attention. *(Adjective: unimportant)*
+2. Spending hours on **trivial** details can distract from the main goal. *(Adjective: minor)*
 
 _Word Form Examples_
-
-1. The **triviality** of the situation made everyone realize how foolish their argument was. _(Noun: the quality of being unimportant)_
-2. He spoke **trivially** about the event, showing he didn’t think it mattered much. _(Adverb: in an insignificant manner)_
+1. **TRIVIALLY**: 🌟
+   - The problem was **trivially** solved with a simple adjustment. *(Adverb: in an unimportant manner)*
+   - ***Synonyms***: insignificantly, pettily, slightly, minorly
+2. **TRIVIALITY**: 🌟
+   - The meeting was bogged down by discussions of **triviality** instead of focusing on key issues. *(Noun: state of being unimportant)*
+   - ***Synonyms***: insignificance, pettiness, unimportance, minor detail, trifle
 
 =====
 
+### TRUNCATE
+@@
+**Verb** | हिंदी: छोटा करना, काटना : To shorten something by cutting off a part; to reduce the length or extent of something, often abruptly.
+- ***Synonyms***: shorten, cut, trim, crop, abbreviate, reduce
+- ***Antonyms***: extend, lengthen, elongate, expand, prolong
 
-### TROOPS
+_Examples_
+1. The editor decided to **truncate** the article to fit the page limit. *(Verb: shorten)*
+2. The software will **truncate** any decimal numbers to two places for simplicity. *(Verb: cut off)*
+
+_Word Form Examples_
+1. **TRUNCATED**: 🌟
+   - The **truncated** version of the film left out several important scenes. *(Adjective: having been shortened)*
+   - ***Synonyms***: shortened, cut, trimmed, cropped, abbreviated
+2. **TRUNCATION**: 🌟
+   - The **truncation** of the data caused errors in the final analysis. *(Noun: act or result of shortening)*
+   - ***Synonyms***: shortening, cutting, trimming, reduction, abbreviation
+3. **TRUNCATING**: 🌟
+   - The process of **truncating** long strings of text is common in database management. *(Gerund: act of shortening)*
+   - ***Synonyms***: shortening, cutting, trimming, cropping, reducing
+
+=====
+
+### TUMULT  
 @@  
-**Noun** | हिंदी: सैनिक, फौज :  
-1. Soldiers or armed forces collectively.  
-2. A group of people or animals, especially when moving or acting together.  
-
-- ***Synonyms***: soldiers, army, forces, militia, personnel  
-- ***Antonyms***: civilians, noncombatants, individuals, pacifists  
+**Noun** | हिंदी: कोलाहल, हंगामा, अशांति :  
+1. A loud, confused noise, especially one caused by a large crowd. *(Noun: uproar or commotion)*  
+2. A state of confusion, disorder, or emotional turmoil. *(Noun: chaos or upheaval)*  
+- ***Synonyms***: uproar, commotion, chaos, turbulence, clamor, disorder  
+- ***Antonyms***: peace, calm, order, tranquility, harmony  
 
 _Examples_  
-1. The **troops** were deployed to the border to defend against the invasion. *(Noun: soldiers/armed forces)*  
-2. A **troop** of scouts gathered around the campfire to share stories. *(Noun: group of people)*  
-3. The **troops** marched in perfect formation during the parade. *(Noun: soldiers/armed forces)*  
+1. The stadium erupted in **tumult** when the home team scored the winning goal. *(Noun: loud uproar)*  
+2. After losing his job, he went through a period of emotional **tumult**. *(Noun: internal chaos or upheaval)*  
+
 _Word Form Examples_  
-1. **Trooper**:  
-   - The **trooper** displayed immense bravery during the battle. *(Noun: a soldier or police officer)*  
-   - ***Synonyms***: soldier, officer, cavalryman, constable  
-2. **Trooping**:  
-   - The **trooping** of the colors is a traditional military ceremony. *(Noun: the act of moving or gathering in a group)*  
-   - ***Synonyms***: marching, parading, assembling, gathering  
+1. **TUMULTUOUS**: 🌟  
+   - The protest turned **tumultuous** as the crowd clashed with the police. *(Adjective: full of noise, disorder, or excitement)*  
+   - ***Synonyms***: turbulent, chaotic, riotous, boisterous  
+2. **TUMULTUOUSLY**:  
+   - The waves crashed **tumultuously** against the rocks during the storm. *(Adverb: in a disorderly or noisy manner)*  
+   - ***Synonyms***: violently, turbulently, frantically  
 
-=====
-### TRYST
-@@  
-**Noun** | हिंदी: मिलन, समागम : 
-1. A private or secret meeting, especially between lovers.
-2. An agreed-upon meeting place or time, often implying a romantic or clandestine encounter.
-
-- ***Synonyms***: rendezvous, meeting, assignation, encounter, liaison
-- ***Antonyms***: separation, parting, disengagement, avoidance
-
-_Examples_
-1. The lovers planned their **tryst** under the old oak tree by the riverbank. *(Noun: secret meeting)*
-2. In medieval times, knights would often have a **tryst** with their ladies before going off to battle. *(Noun: romantic meeting)*
-
-_Word Form Examples_
-1. **Trysting**:
-   - They were **trysting** in the moonlight, hidden from prying eyes by the dense forest. *(Verb: meeting secretly)*
-   - ***Synonyms***: meeting, rendezvousing, encountering, uniting
-
-=====
-
-
-
-### TUMULT  🪐
-@@  
-**Noun** | हिंदी: हलचल, उथल-पुथल : A loud, confused noise, especially one caused by a large mass of people; a state of great confusion or disorder.
-
-- ***Synonyms***: uproar, chaos, disorder, commotion, agitation, havoc, pandemonium 
-- ***Antonyms***: calm, peace, tranquility, order, serenity
-
-_Examples_
-
-1. The **tumult** in the streets could be heard from miles away as the protestors gathered. _(Noun: loud noise or disorder)_
-2. The **tumult** of the crowd was overwhelming as the celebrity arrived at the event. _(Noun: great confusion or excitement)_
-
-_Word Form Examples_
-
-1. **Tumultuous**:
-    - The **tumultuous** applause from the audience showed their appreciation for the performance. _(Adjective: characterized by loud noise or excitement)_
-    - ***Synonyms***: noisy, chaotic, uproarious, wild, pandemonium
-2. **Tumultuously**:
-    - The crowd cheered **tumultuously** as the team made their way to the field. _(Adverb: in a loud or disorderly manner)_
-    - ***Synonyms***: noisily, excitedly, wildly
-
-=====
-### TURBID  
-@@  
-**Adjective** | हिंदी: धुंधला, मटमैला : Cloudy, opaque, or unclear; often used to describe liquids with suspended particles or abstract concepts like thoughts or emotions that are confused or muddled.
-1. **Adjective**: Having a cloudy, muddy, or unclear appearance, especially in reference to liquids containing suspended particles.
-as in _murky_ (to be thick with sediment or impurities):
-- ***Synonyms***: murky, cloudy, muddy, opaque, unclear
-- ***Antonyms***: clear, transparent, limpid, pure
-as in _confused_ (pertaining to abstract ideas or emotions that are disordered or chaotic):
-- ***Synonyms***: confused, muddled, chaotic, disordered
-- ***Antonyms***: lucid, coherent, organized, orderly
-_Examples:_
-1. The river water became **turbid** after the heavy rainstorm. _(Adjective: murky)_
-2. His thoughts were **turbid**, making it hard for him to focus on a solution. _(Adjective: confused)_
-_Word Form Examples:_
-1. **Turbidity**:
-    
-    - The **turbidity** of the lake made it impossible to see the fish swimming below. _(Noun: cloudiness)_
-    - ***Synonyms***: cloudiness, murkiness, opacity, haziness
-2. **Turbidly**:
-    
-    - The mixture settled **turbidly** at the bottom of the glass. _(Adverb: in a cloudy manner)_
-    - ***Synonyms***: opaquely, murkily, unclearly
-=====
-
-
+=====  
 
 ### TURBULENT
-
-@@  
-**Adjective** | हिंदी: उथल-पुथल, अशांत : Characterized by disorder, confusion, or instability; involving or causing great unrest or agitation.
-
-- ***Synonyms***: chaotic, tumultuous, stormy, unsettled, riotous
-- ***Antonyms***: calm, peaceful, stable, tranquil, serene
+@@
+**Adjective** | हिंदी: अशांत, उग्र : Characterized by conflict, disorder, or confusion; not calm or stable; often involving rapid changes or agitation.
+- ***Synonyms***: stormy, chaotic, tumultuous, unsettled, restless, rough
+- ***Antonyms***: calm, peaceful, stable, tranquil, serene, orderly
 
 _Examples_
-
-1. The **turbulent** waters made it difficult for the ship to navigate through the storm. _(Adjective: rough or violent)_
-2. The country experienced a **turbulent** period of political unrest and protests. _(Adjective: marked by instability)_
-3. His **turbulent** emotions were hard to control after hearing the bad news. _(Adjective: chaotic or unsettled feelings)_
+1. The airplane experienced **turbulent** weather, causing a bumpy ride for passengers. *(Adjective: rough)*
+2. The country went through a **turbulent** period of political upheaval and protests. *(Adjective: chaotic)*
 
 _Word Form Examples_
-
-1. The **turbulence** of the plane ride made the passengers feel uneasy. _(Noun: the state of being turbulent)_
-2. After the **turbulent** negotiations, the deal was finally signed. _(Adjective: describing a situation filled with disorder)_
+1. **TURBULENCE**: 🌟
+   - The pilot warned passengers to fasten their seatbelts due to expected **turbulence**. *(Noun: state of being turbulent)*
+   - ***Synonyms***: turmoil, unrest, disturbance, agitation, chaos
+2. **TURBULENTLY**: 🌟
+   - The river flowed **turbulently** after the heavy rains, making it dangerous to cross. *(Adverb: in a turbulent manner)*
+   - ***Synonyms***: stormily, chaotically, tumultuously, restlessly, roughly
 
 =====
 
 ### TURMOIL
-
-@@  
-**Noun** | हिंदी: उथल-पुथल, अशांति : A state of great disturbance, confusion, or uncertainty; a situation characterized by chaos or disorder.
-
-- ***Synonyms***: chaos, unrest, upheaval, confusion, agitation, disturbance, disorder
-- ***Antonyms***: calm, peace, tranquility, order, stability
+@@
+**Noun** | हिंदी: उथल-पुथल, अशांति : A state of great disturbance, confusion, or uncertainty; emotional or mental agitation.
+- ***Synonyms***: chaos, disorder, upheaval, turbulence, confusion, unrest
+- ***Antonyms***: calm, peace, stability, order, tranquility, serenity
 
 _Examples_
-
-1. The country was in **turmoil** after the sudden political upheaval. _(Noun: a state of confusion or disorder)_
-2. He felt an inner **turmoil** after making the difficult decision. _(Noun: emotional or mental confusion)_
+1. The sudden resignation of the CEO threw the company into **turmoil**. *(Noun: state of confusion)*
+2. She felt inner **turmoil** as she struggled to make a difficult decision. *(Noun: emotional agitation)*
 
 _Word Form Examples_
-
-1. **Turmoiled**:
-    
-    - The community was **turmoiled** by the sudden economic crisis, with people losing their jobs. _(Verb: to be in a state of confusion or disorder)_
-    - ***Synonyms***: disturbed, agitated, unsettled
+1. **TURMOILED**: 
+   - The region remained **turmoiled** by conflicts for decades. *(Adjective: characterized by turmoil)*  
+   - ***Synonyms***: chaotic, unsettled, turbulent, disordered  
 
 =====
 
-### TURNCOAT
-
+### TUSSLE  
 @@  
-**Noun** | हिंदी: विश्वासघाती, पलटी मारने वाला : A person who switches allegiance from one party, cause, or belief to another, often betraying the original group.
-
-- ***Synonyms***: traitor, defector, backstabber, betrayer, apostate
-- ***Antonyms***: loyalist, adherent, ally, supporter
-
-_Examples_
-
-1. The once loyal soldier became a **turncoat** when he joined the enemy side. _(Noun: a person who betrays or switches sides)_
-2. He was labeled a **turncoat** for abandoning his political party after years of allegiance. _(Noun: a person who betrays a cause or group)_
-
-=====
-
-### TUSSLE
-
-@@  
-**Noun, Verb** | हिंदी: हाथापाई, संघर्ष :  
-
-1. **(Noun)** A vigorous struggle or scuffle, either physical or metaphorical.  
-2. **(Verb)** To engage in a vigorous struggle or fight, either physically or metaphorically.  
-
-- ***Synonyms***: (Noun) scuffle, fight, struggle, clash, brawl; (Verb) wrestle, grapple, struggle, clash, brawl  
-- ***Antonyms***: (Noun) agreement, peace, harmony; (Verb) agree, surrender, yield  
+**Noun, Verb** | हिंदी: झगड़ा, संघर्ष : A vigorous struggle or scuffle, often involving physical effort or competition; to engage in such a struggle.  
+- ***Synonyms***: scuffle, brawl, skirmish, wrestle, struggle, contention *(Noun)*; grapple, fight, contend, struggle *(Verb)*  
+- ***Antonyms***: peace, harmony, agreement, calm *(Noun)*; surrender, yield, acquiesce *(Verb)*  
 
 _Examples_  
-
-1. The two players got into a **tussle** over the ball during the match. *(Noun: physical struggle)*  
-2. The politicians **tussled** over the proposed policy changes for hours. *(Verb: metaphorical struggle)*  
-3. A minor **tussle** broke out in the crowd, but it was quickly controlled by security. *(Noun: scuffle)*  
+1. The two children got into a **tussle** over the last piece of cake. *(Noun: struggle)*  
+2. They had to **tussle** with the heavy furniture to move it upstairs. *(Verb: struggle physically)*  
+3. The political candidates were locked in a bitter **tussle** for votes. *(Noun: competition)*  
 
 _Word Form Examples_  
-
-1. **Tussled**:  
-   - The siblings **tussled** over the remote control, each wanting to watch their favorite show. *(Verb: past tense)*  
-   - ***Synonyms***: wrestled, grappled, struggled, fought, clashed  
-
-2. **Tussling**:  
-   - The two dogs were **tussling** playfully in the park. *(Verb: present participle)*  
-   - ***Synonyms***: wrestling, grappling, struggling, fighting, clashing  
-
-3. **Tussles**:  
-   - The team has had several **tussles** with their rivals this season. *(Noun: plural form)*  
-   - ***Synonyms***: scuffles, fights, struggles, clashes, brawls  
+1. **TUSSLED**: 🌟  
+   - After a long day of **tussled** negotiations, the deal was finally closed. *(Adjective: having struggled)*  
+   - ***Synonyms***: struggled, fought, contended, wrestled  
+2. **TUSSLING**:  
+   - The wrestlers were still **tussling** on the mat when the referee called a timeout. *(Gerund: the act of struggling)*  
+   - ***Synonyms***: grappling, wrestling, struggling, fighting  
 
 =====
 
 ### TWEAK
-@@  
-**Verb, Noun** | हिंदी: झटके से मोड़ना, सुधार करना : 
-1. As a verb, it means to make small adjustments or fine-tune something for improvement.
-2. As a noun, it refers to a minor modification or adjustment.
-3. It can also mean to twist or pull something sharply, often with a sudden motion.
-
-- ***Synonyms***: (Verb) adjust, modify, fine-tune, alter, refine; (Noun) adjustment, modification, refinement, twist, pinch
-- ***Antonyms***: (Verb) ruin, damage, break, worsen, neglect; (Noun) flaw, defect, error, mistake
+@@
+**Verb, Noun** | हिंदी: सुधार करना, छेड़छाड़ करना : 
+1. To make small adjustments or improvements to something, often to enhance its performance or accuracy. *(Verb)*
+2. A small change or adjustment made to improve something. *(Noun)*
+- ***Synonyms***: adjust, modify, fine-tune, refine, alter *(Verb)*; adjustment, modification, change, refinement *(Noun)*
+- ***Antonyms***: ruin, damage, disrupt, worsen *(Verb)*; overhaul, major change, disruption *(Noun)*
 
 _Examples_
-1. The engineer decided to **tweak** the design to improve its efficiency. _(Verb: make small adjustments)_
-2. She gave his ear a playful **tweak** to get his attention. _(Noun: a sharp twist or pull)_
-3. After some final **tweaks**, the software was ready for release. _(Noun: minor modifications)_
+1. The engineer needed to **tweak** the software to fix the minor bugs. *(Verb: make small adjustments)*
+2. A slight **tweak** to the recipe made the dish taste even better. *(Noun: small change)*
+
 _Word Form Examples_
-1. **Tweaked**:
-	- He **tweaked** the settings on his camera to get the perfect shot. _(Verb: past tense of tweak)_
-	- ***Synonyms***: adjusted, modified, fine-tuned, altered, refined
-2. **Tweaking**:
-	- The team spent hours **tweaking** the presentation to make it flawless. _(Verb: present participle of tweak)_
-	- ***Synonyms***: adjusting, modifying, fine-tuning, altering, refining
-3. **Tweaker**:
-	- The **tweaker** in the group always finds ways to improve even the smallest details. _(Noun: one who tweaks)_
-	- ***Synonyms***: adjuster, modifier, fine-tuner, perfectionist, improver
+1. **TWEAKED**: 🌟
+   - The designer **tweaked** the layout to make it more user-friendly. *(Verb: past tense of make small adjustments)*
+   - ***Synonyms***: adjusted, modified, fine-tuned, refined, altered
+2. **TWEAKING**: 🌟
+   - The process of **tweaking** the engine improved its fuel efficiency. *(Gerund: act of making small adjustments)*
+   - ***Synonyms***: adjusting, modifying, fine-tuning, refining, altering
+3. **TWEAKABLE**: 🌟
+   - The settings on this device are **tweakable**, allowing for personalized adjustments. *(Adjective: capable of being tweaked)*
+   - ***Synonyms***: adjustable, modifiable, alterable, customizable
 
 =====
 
-### TWEAKS
+### TYRANT  
 @@  
-**Noun, Verb** | हिंदी: समायोजन, सुधार :  
-1. **(Noun)** A small adjustment or modification made to improve something.  
-2. **(Verb)** To make small changes or adjustments to something, often to improve its performance or functionality.  
-
-- ***Synonyms***: adjustments, modifications, refinements, alterations, enhancements  
-- ***Antonyms***: disruptions, damages, deteriorations, worsenings  
+**Noun** | हिंदी: अत्याचारी, दमनकारी शासक : A cruel and oppressive ruler who exercises power unjustly or harshly; someone who demands absolute obedience or control over others.  
+- ***Synonyms***: dictator, oppressor, despot, autocrat, authoritarian, bully *(Noun)*  
+- ***Antonyms***: democrat, liberator, benefactor, egalitarian, humanitarian *(Noun)*  
 
 _Examples_  
-1. **(Noun)** The latest software update included a few **tweaks** to improve user experience. _(Noun: small adjustments)_  
-2. **(Verb)** He decided to **tweak** the design slightly to make it more visually appealing. _(Verb: make small changes)_  
+1. The **tyrant** ruled the kingdom with an iron fist, punishing anyone who dared to oppose him. *(Noun: oppressive ruler)*  
+2. Her boss was a **tyrant**, demanding long hours and showing no mercy for mistakes. *(Noun: overbearing authority figure)*  
 
 _Word Form Examples_  
-1. **Tweaking**:  
-   - She spent hours **tweaking** the settings to get the perfect sound quality. _(Verb: present participle of tweak)_  
-   - ***Synonyms***: adjusting, modifying, refining, altering, enhancing  
-2. **Tweaked**:  
-   - The recipe was **tweaked** to include less sugar and more spices. _(Verb: past tense of tweak)_  
-   - ***Synonyms***: adjusted, modified, refined, altered, enhanced  
+1. **TYRANNICAL**: 🌟  
+   - The king's **tyrannical** policies led to widespread unrest among the citizens. *(Adjective: oppressive or dictatorial)*  
+   - ***Synonyms***: despotic, authoritarian, dictatorial, oppressive, domineering  
+2. **TYRANNY**:  
+   - The people revolted against the **tyranny** of the corrupt government. *(Noun: oppressive rule or authority)*  
+   - ***Synonyms***: oppression, dictatorship, despotism, authoritarianism, subjugation  
+3. **TYRANNIZE**: *(Rare)*  
+   - The supervisor would often **tyrannize** his employees by imposing unreasonable demands. *(Verb: treat harshly or oppressively)*  
+   - ***Synonyms***: oppress, dominate, bully, subjugate, intimidate  
 
 =====
-
-
-
-### TYPECAST
-
-@@  
-**Verb, Noun** | हिंदी: निश्चित भूमिका देना, एक ही प्रकार की भूमिका में बांध देना : Assign someone to a specific type of role, often repeatedly, based on their appearance or past performances.
-
-- ***Synonyms***: pigeonhole, stereotype, categorize, label, assign
-- ***Antonyms***: diversify, generalize, vary
-
-_Examples_
-
-1. The actor was **typecast** as a villain after playing similar roles in several films. _(Verb: repeatedly assigned a specific role)_
-2. The tendency to **typecast** individuals based on their past actions limits their potential. _(Verb: categorize)_
-3. His **typecast** as a comedic actor made it hard for him to get serious roles. _(Noun: predefined role)_
-
-_Word Form Examples_
-
-1. **Typecasting**:
-    - The industry is notorious for **typecasting** young actors, restricting their creative growth. _(Noun: the act of assigning specific roles repeatedly)_
-    - _***Synonyms***:_ stereotyping, labeling, categorizing
-
-=====
-
-### TYRANT
-
-@@  
-**Noun** | हिंदी: अत्याचारी, तानाशाह :  
-
-1. A ruler who exercises absolute power in an oppressive, cruel, or unjust manner.
-2. A person who uses their power or authority in a harsh, abusive, or oppressive way.
-3. A person who demands strict obedience and imposes harsh conditions, often in a non-political context.
-
-- ***Synonyms***: dictator, despot, autocrat, oppressor, authoritarian
-- ***Antonyms***: leader, democrat, liberator, humanitarian, protector
-
-_Examples_
-
-1. The people lived in fear under the rule of a **tyrant** who controlled every aspect of their lives. _(Noun: oppressive ruler)_
-2. She was known as a **tyrant** at work, demanding perfection and punishing even the smallest mistakes. _(Noun: harsh or oppressive person)_
-3. The **tyrant** used fear and manipulation to maintain control over the citizens. _(Noun: person abusing power)_
-
-_Word Form Examples_
-
-1. **Tyrannical**:
-    
-    - The **tyrannical** government imposed strict curfews and punished anyone who dared to protest. _(Adjective: characteristic of a tyrant, oppressive)_
-    - ***Synonyms***: oppressive, autocratic, dictatorial, brutal, despotic
-2. **Tyrannically**:
-    
-    - He ruled **tyrannically**, making decisions without consulting anyone else. _(Adverb: in a manner characteristic of a tyrant)_
-    - ***Synonyms***: oppressively, dictatorially, ruthlessly, autocratically
-3. **Tyranny**:
-    
-    - The people overthrew the **tyranny** of the cruel monarch after years of suffering. _(Noun: the oppressive rule or reign of a tyrant)_
-    - ***Synonyms***: despotism, dictatorship, oppression, autocracy, authoritarianism
-
-=====
-
-
-
