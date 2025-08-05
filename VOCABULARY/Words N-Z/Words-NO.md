@@ -1,15 +1,58 @@
 #wordsNOP
 ```dataviewjs
-const file = dv.current().file.path; // Get the current file's path
+const file = dv.current().file.path;
 app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
-    const matches = content.match(/(^|\s)=====(\s|$)/g); // Match all occurrences of "====="
-    const count = matches ? matches.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "=====" count in the current file: ${count}`);
-    const matches1 = content.match(/(^|\s)###(\s|$)/g); // Match all occurrences of "###"
-    const count1 = matches1 ? matches1.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "###" count in the current file: ${count1}`);
+    const lines = content.split('\n');
+    let headerCount = 0, separatorCount = 0;
+    let pendingWord = null, lastCorrectWord = null;
+    const issues = [];
+    
+    const addIssue = (word, problem) => issues.push({ word, problem, lastCorrect: lastCorrectWord });
+    
+    lines.forEach(line => {
+        const trimmed = line.trim();
+        
+        if (trimmed.startsWith('### ')) {
+            // Close pending word if exists
+            if (pendingWord) addIssue(pendingWord, 'Missing separator');
+            
+            headerCount++;
+            pendingWord = trimmed.slice(4).split(/\s/)[0].replace(/[🪐@@]/g, '');
+        }
+        else if (/^=+$/.test(trimmed)) {
+            if (trimmed === '=====') {
+                separatorCount++;
+                if (pendingWord) {
+                    lastCorrectWord = pendingWord;
+                    pendingWord = null;
+                } else {
+                    addIssue('UNKNOWN', 'Separator without header');
+                }
+            } else if (pendingWord) {
+                addIssue(pendingWord, `Wrong separator: ${trimmed} (${trimmed.length} equals)`);
+                pendingWord = null;
+            }
+        }
+    });
+    
+    // Handle final pending word
+    if (pendingWord) addIssue(pendingWord, 'Missing separator (EOF)');
+    
+    // Results
+    dv.paragraph(`📊 Headers: ${headerCount} | Separators: ${separatorCount}`);
+    
+    if (headerCount === separatorCount && !issues.length) {
+        dv.paragraph(`✅ **Perfect formatting!** (${headerCount} words)`);
+    } else {
+        dv.paragraph(`❌ **${issues.length} issue(s) found:**`);
+        issues.forEach(({ word, problem, lastCorrect }) => {
+            const ref = lastCorrect ? ` *(after ${lastCorrect})*` : '';
+            dv.paragraph(`• **${word}**: ${problem}${ref}`);
+        });
+    }
 });
 ```
+
 # N
 
 ### NAIVE
@@ -185,6 +228,53 @@ _Word Form Examples_
 
 =====
 
+
+
+
+
+### NOTICE
+@@
+**Noun** | हिंदी: ध्यान / सूचना; सूचना / चेतावनी / विज्ञप्ति; इत्तला : Attention or awareness; A formal warning or announcement (often written); Advance notification of departure (from job/residence).
+**Verb** | हिंदी: ध्यान देना / देखना / गौर करना : To become aware of, perceive, or observe.
+- ***Synonyms***:
+    - **Noun:**
+        - *Attention/Awareness:* Attention, observation, awareness, perception, heed, regard
+        - *Formal Warning/Announcement:* Announcement, notification, warning, communication, intimation, bulletin, sign
+        - *Advance Notification:* Resignation, warning, notification (period)
+    - **Verb:**
+        - *Become Aware/Observe:* Observe, perceive, note, see, spot, detect, discern, remark, mind
+- ***Antonyms***:
+    - **Noun:**
+        - *Attention/Awareness:* Inattention, disregard, oversight, ignorance, neglect
+        - *Formal Warning/Announcement:* Secret, concealment, suppression
+    - **Verb:**
+        - *Become Aware/Observe:* Overlook, ignore, miss, disregard, neglect
+_Example_:
+1. His sudden departure came to everyone's **notice**. *(Noun: attention/awareness)*
+2. A **notice** regarding the new policy was pinned to the board. *(Noun: formal warning/announcement)*
+3. You are required to give one month's **notice** if you wish to terminate the contract. *(Noun: advance notification)*
+4. Did you **notice** the change in her hair color? *(Verb: become aware/observe)*
+5. He failed to **notice** the warning signs. *(Verb: become aware/observe)*
+
+_Word Form Examples_
+1. **NOTICEABLE**: 🌟
+   - There was a **noticeable** improvement in his performance after the training. *(Adjective: easily seen or recognized)*
+   - ***Synonyms***: perceptible, detectable, observable, visible, apparent, distinct, evident
+2. **NOTICEABLY**:
+   - The temperature dropped **noticeably** overnight. *(Adverb: in a way that is easily seen or noticed)*
+   - ***Synonyms***: perceptibly, visibly, detectably, markedly, significantly, clearly
+3. **UNNOTICED**:
+   - The small error went **unnoticed** for weeks. *(Adjective: not observed or perceived)*
+   - ***Synonyms***: overlooked, ignored, missed, unperceived, unseen, disregarded
+4. **NOTICING**:
+   - **Noticing** the time, she realized she was late. *(Verb Present Participle: the action of observing or becoming aware)*
+   - ***Synonyms***: observing, perceiving, spotting, detecting, seeing, discerning
+5. **NOTICED**:
+   - The manager **noticed** his potential early on. *(Verb Past Tense: became aware of)*
+   - The much-**noticed** event attracted media attention. *(Adjective/Past Participle: having attracted attention)*
+   - ***Synonyms***: (verb) observed, perceived, saw, spotted; (adj) observed, perceived, recognized
+
+=====
 ### NONPLUS
 @@
 **Verb** | हिंदी: अचंभित करना, परेशान करना : To cause someone to be at a loss as to what to say or do; to perplex or bewilder completely. *(Rare)*
@@ -364,6 +454,81 @@ _Word Form Examples_
 1. **OBESITY**: 🌟  
    - **Obesity** is becoming a growing concern worldwide due to its association with various chronic diseases. *(Noun: condition of being obese)*
    - ***Synonyms***: corpulence, overweight, adiposity, heaviness, bulkiness
+
+=====
+
+### OBSERVE
+@@
+**Verb** | हिंदी: देखना / ध्यान देना; पालन करना; टिप्पणी करना : To notice or perceive (something) and register it as being significant; To fulfill or comply with (a law, rule, or custom); To make a remark or comment.
+- ***Synonyms***:
+    - **Verb:**
+        - *Notice/Perceive:* Watch, view, note, perceive, detect, monitor, scrutinize, witness
+        - *Comply with:* Follow, keep, obey, adhere to, honor, respect, uphold, comply with
+        - *Remark:* Comment, remark, state, mention, note, declare, say
+- ***Antonyms***:
+    - **Verb:**
+        - *Notice/Perceive:* Ignore, overlook, miss, disregard, neglect
+        - *Comply with:* Break, violate, disobey, disregard, flout, ignore
+        - *Remark:* Be silent, keep quiet, refrain
+_Example_:
+1. Scientists **observe** the planet's surface using powerful telescopes. *(Verb: notice/perceive)*
+2. It is important to **observe** the rules of the road for everyone's safety. *(Verb: comply with)*
+3. "The weather seems to be improving," he **observed**. *(Verb: remark)*
+
+_Word Form Examples_
+1. **OBSERVATION**: 🌟
+   - Careful **observation** is key to understanding animal behavior. *(Noun: the action or process of observing something carefully)*
+   - He shared his insightful **observations** during the meeting. *(Noun: a remark, statement, or comment based on something one has seen, heard, or noticed)*
+   - ***Synonyms***: (watching) Scrutiny, monitoring, surveillance, examination, inspection; (remark) Comment, remark, statement, finding, reflection, note
+2. **OBSERVANT**: 🌟
+   - The **observant** child noticed the tiny flower growing between the cracks. *(Adjective: quick to notice things)*
+   - ***Synonyms***: Attentive, perceptive, alert, watchful, sharp-eyed, eagle-eyed, vigilant
+3. **OBSERVER**: 🌟
+   - She attended the conference as an independent **observer**. *(Noun: a person who watches or notices something)*
+   - ***Synonyms***: Watcher, onlooker, spectator, witness, viewer, monitor, commentator
+4. **OBSERVANCE**: 🌟
+   - Strict **observance** of the safety procedures is mandatory. *(Noun: the action or practice of fulfilling or respecting a law, custom, or rule)*
+   - ***Synonyms***: Compliance, adherence, keeping, honoring, fulfillment, respect, following
+5. **OBSERVABLE**:
+   - The effects of the treatment were clearly **observable** within a week. *(Adjective: able to be noticed or perceived; discernible)*
+   - ***Synonyms***: Noticeable, visible, detectable, perceptible, discernible, apparent, evident
+6. **OBSERVED**:
+   - The **observed** data differed slightly from the expected results. *(Adjective/Past Participle: noticed or perceived through observation)*
+   - ***Synonyms***: Noticed, detected, seen, noted, perceived, witnessed
+7. **OBSERVATORY**:
+   - They visited the astronomical **observatory** to look through the large telescope. *(Noun: a building designed for astronomical or meteorological observation)*
+   - ***Synonyms***: Lookout, watchtower, viewing station
+
+=====
+
+### OMIT
+@@
+**Verb** | हिंदी: हटाना/छोड़ना; नजरअंदाज़ करना : To leave out or exclude deliberately; To fail to include or mention.
+
+- ***Synonyms***:
+    - **Verb:**
+        - *Leave out deliberately:* exclude, eliminate, skip, discard
+        - *Fail to include:* overlook, ignore, neglect
+
+- ***Antonyms***:
+    - **Verb:**
+        - *Leave out deliberately:* include, retain
+        - *Fail to include:* mention, acknowledge
+
+_Example_:
+1. Please **omit** your name from the final submission to ensure anonymity. *(Verb: leave out deliberately)*
+2. He **omitted** key details during the meeting, which led to confusion. *(Verb: fail to include)*
+
+_Word Form Examples_  
+1. **OMITTED**:  
+   - Several critical findings were **omitted** from the published report. *(Adjective/Verb: excluded or left out)*  
+   - ***Synonyms***: excluded, skipped, neglected, disregarded  
+2. **OMITTING**:  
+   - She edited the essay by **omitting** unnecessary words. *(Verb - present participle: leaving out)*
+   - ***Synonyms***: skipping, removing, cutting, deleting  
+3. **OMISSION** 🌟:  
+   - His **omission** of key facts weakened his argument. *(Noun: something left out)*  
+   - ***Synonyms***: exclusion, oversight, lapse, neglect  
 
 =====
 
@@ -624,28 +789,6 @@ _Word Form Examples_
    - ***Synonyms***: insulting, rude, objectionable, provocative
 
 =====
-
-### OMIT  
-@@  
-**Verb** | हिंदी: छोड़ देना, हटाना, अनदेखा करना :  
-1. To leave out or exclude something, either intentionally or accidentally. *(Verb)*  
-2. To fail to do something, either deliberately or by mistake. *(Verb)*  
-- ***Synonyms***: exclude, ignore, neglect, eliminate, bypass, overlook  
-- ***Antonyms***: include, add, mention, insert, retain  
-
-_Examples_  
-1. He decided to **omit** unnecessary details from his speech to keep it brief. *(Verb: leave out)*  
-2. You must not **omit** any important information in your application. *(Verb: fail to include)*  
-
-_Word Form Examples_  
-1. **OMITTED**: 🌟  
-   - The editor **omitted** several paragraphs from the final article. *(Verb: excluded or removed)*  
-   - ***Synonyms***: deleted, excluded, erased, overlooked  
-2. **OMITTING**:  
-   - He is **omitting** key facts to mislead the audience. *(Verb: actively leaving out)*  
-   - ***Synonyms***: excluding, ignoring, bypassing, eliminating  
-
-=====  
 
 ### OPAQUE
 @@

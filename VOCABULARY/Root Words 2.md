@@ -1,13 +1,56 @@
 #root2
+
 ```dataviewjs
-const file = dv.current().file.path; // Get the current file's path
+const file = dv.current().file.path;
 app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
-    const matches = content.match(/(^|\s)=====(\s|$)/g); // Match all occurrences of "====="
-    const count = matches ? matches.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "=====" count in the current file: ${count}`);
-    const matches1 = content.match(/(^|\s)###(\s|$)/g); // Match all occurrences of "###"
-    const count1 = matches1 ? matches1.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "###" count in the current file: ${count1}`);
+    const lines = content.split('\n');
+    let headerCount = 0, separatorCount = 0;
+    let pendingWord = null, lastCorrectWord = null;
+    const issues = [];
+    
+    const addIssue = (word, problem) => issues.push({ word, problem, lastCorrect: lastCorrectWord });
+    
+    lines.forEach(line => {
+        const trimmed = line.trim();
+        
+        if (trimmed.startsWith('### ')) {
+            // Close pending word if exists
+            if (pendingWord) addIssue(pendingWord, 'Missing separator');
+            
+            headerCount++;
+            pendingWord = trimmed.slice(4).split(/\s/)[0].replace(/[🪐@@]/g, '');
+        }
+        else if (/^=+$/.test(trimmed)) {
+            if (trimmed === '=====') {
+                separatorCount++;
+                if (pendingWord) {
+                    lastCorrectWord = pendingWord;
+                    pendingWord = null;
+                } else {
+                    addIssue('UNKNOWN', 'Separator without header');
+                }
+            } else if (pendingWord) {
+                addIssue(pendingWord, `Wrong separator: ${trimmed} (${trimmed.length} equals)`);
+                pendingWord = null;
+            }
+        }
+    });
+    
+    // Handle final pending word
+    if (pendingWord) addIssue(pendingWord, 'Missing separator (EOF)');
+    
+    // Results
+    dv.paragraph(`📊 Headers: ${headerCount} | Separators: ${separatorCount}`);
+    
+    if (headerCount === separatorCount && !issues.length) {
+        dv.paragraph(`✅ **Perfect formatting!** (${headerCount} words)`);
+    } else {
+        dv.paragraph(`❌ **${issues.length} issue(s) found:**`);
+        issues.forEach(({ word, problem, lastCorrect }) => {
+            const ref = lastCorrect ? ` *(after ${lastCorrect})*` : '';
+            dv.paragraph(`• **${word}**: ${problem}${ref}`);
+        });
+    }
 });
 ```
 ## **31 MOM/ MOB/ MOT/ MOV** = move
@@ -742,13 +785,14 @@ _Example_: Stealing the ancient artifacts from the temple was considered a **sac
 
 =====
 
-### SACROSANCT
+### SACROSANCT  🪐
 @@
-**Adjective** | हिंदी: अति पवित्र : Regarded as too important or valuable to be interfered with or changed.
-- ***Synonyms***: Inviolable, untouchable, holy, unassailable, invulnerable
-_Example_: The right to privacy is considered **sacrosanct** in many democratic societies and protected by constitutional law. *(Adjective: too sacred to be violated)*
+**Adjective** | हिंदी: पवित्र / अत्यंत सम्मानित : Regarded as too important or valuable to be interfered with or criticized.
+- ***Synonyms***: Sacred, inviolable, untouchable, revered, hallowed,   
+_Example_: The Constitution is considered **sacrosanct** in many democratic nations. *(Adjective: too important or respected to be changed or criticized)*
 
 =====
+
 
 ### SANCTIFY
 @@
@@ -912,7 +956,7 @@ _Example_:
 
 =====
 
-### SEDENTARY
+### SEDENTARY  🪐
 @@
 **Adjective** | हिंदी: बैठे रहने वाला; निष्क्रिय : Characterized by much sitting and little physical activity.
 - ***Synonyms***: Inactive, stationary, desk-bound, sitting, motionless, immobile
@@ -1016,14 +1060,35 @@ _Example_:
 
 =====
 
-### CONSENSUS
+### CONSENSUAL
 @@
-**Noun** | हिंदी: आम सहमति / मतैक्य : General agreement among a group of people.
-- ***Synonyms***: Agreement, harmony, accord, unanimity, concord, unity
-_Example_: After hours of discussion, the committee finally reached a **consensus**. *(Noun: general agreement)*
+**Adjective** | हिंदी: सहमतिपूर्ण / आपसी सहमति का : Relating to or involving agreement and consent between all parties.
+
+- ***Synonyms***:
+    - **Adjective:**
+        - *By mutual agreement:* Agreed, voluntary, willing, mutual, unanimous, concordant
+
+- ***Antonyms***:
+    - **Adjective:**
+        - *Without agreement or forced:* Nonconsensual, forced, coerced, compulsory, involuntary, unwilling
+
+_Example_:
+1.  Any romantic or physical relationship between employees must be strictly **consensual**. *(Adjective: involving mutual agreement)*
+
+_Word Form Examples_
+1.  **CONSENT** 🌟
+    - She gave her **consent** for the medical procedure. *(Noun: permission or agreement)*
+    - ***Synonyms***: agreement, permission, approval, assent, authorization
+    - He refused to **consent** to the new terms of the contract. *(Verb: to agree or give permission)*
+    - ***Synonyms***: agree, assent, approve, permit, allow
+2.  **CONSENSUS** 🌟
+    - After a long debate, the committee finally reached a **consensus**. *(Noun: general agreement)*
+    - ***Synonyms***: agreement, unanimity, harmony, accord, concord
+3.  **NONCONSENSUAL**
+    - The film depicted a **nonconsensual** encounter, which was highly controversial. *(Adjective: without consent)*
+    - ***Synonyms***: forced, coerced, involuntary, unwilling
 
 =====
-
 ### CONSENT
 @@
 **Noun** | हिंदी: सहमति / अनुमति : Permission for something to happen or agreement to do something.
@@ -1673,20 +1738,22 @@ _Example_ : She **averred** that she had never seen the man before. *(Verb: stat
 
 =====
 
-### VERACITY
+
+### Veracious  🪐
 @@
-**Noun** | हिंदी: सच्चाई / सत्यता : Conformity to facts; accuracy; habitual truthfulness.
-- ***Synonyms***: Truthfulness, accuracy, correctness, truth, fidelity, credibility
-_Example_ : The jury questioned the **veracity** of the witness's testimony. *(Noun: accuracy or truthfulness)*
+**Adjective** | हिंदी: सत्यवादी : Speaking or representing the truth; truthful.
+- ***Synonyms***: Truthful, honest, accurate, factual, candid, forthright
+_Example_ :
+1. Known for being a **veracious** reporter, his articles were always trusted by the public. *(Adjective: habitually truthful)*
+2. The jury questioned the **veracity** of the witness's testimony. *(Noun: accuracy or truthfulness)*
 
 =====
-
 ### VERDICT
 @@
 **Noun** | हिंदी: निर्णय / फैसला : A decision on an issue of fact in a civil or criminal case or an inquest; an opinion or judgment.
 - ***Synonyms***: Judgment, decision, finding, ruling, conclusion, opinion
 _Example_ : The jury reached a guilty **verdict** after six hours of deliberation. *(Noun: formal decision in court)*
-_Example_ : The public **verdict** was that the new policy was ineffective. *(Noun: general opinion or judgment)*
+
 
 =====
 

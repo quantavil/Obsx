@@ -84,26 +84,27 @@ _Word Form Examples_
 
 =====  
 
-### TACTIC  
-@@  
-**Noun** | हिंदी: रणनीति, युक्ति : A carefully planned action or strategy used to achieve a specific goal, often in competition or conflict.  
-- ***Synonyms***: strategy, maneuver, plan, approach, method, scheme  
-- ***Antonyms***: randomness, impulsiveness, thoughtlessness, miscalculation  
+### TACTIC
+@@
+**Noun** | हिंदी: रणनीति, युक्ति : A carefully planned action or strategy used to achieve a specific goal, often in competition or conflict.
+- ***Synonyms***: strategy, maneuver, plan, approach, method, scheme
+- ***Antonyms***: randomness, impulsiveness, thoughtlessness, miscalculation
 
-_Examples_  
-1. The coach devised a new **tactic** to counter the opponent’s aggressive play. *(Noun: strategic approach in sports or competition)*  
-2. His negotiation **tactic** helped secure a better deal for the company. *(Noun: method used to achieve a favorable outcome)*  
+_Examples_
+1. The coach devised a new **tactic** to counter the opponent’s aggressive play. *(Noun: strategic approach in sports or competition)*
+2. His negotiation **tactic** helped secure a better deal for the company. *(Noun: method used to achieve a favorable outcome)*
 
-_Word Form Examples_  
-1. **TACTICAL**: 🌟  
-   - The army launched a **tactical** strike to weaken the enemy’s defenses. *(Adjective: related to strategy and planning)*  
-   - ***Synonyms***: strategic, calculated, planned, methodical  
-2. **TACTICALLY**:  
-   - She **tactically** avoided answering the controversial question. *(Adverb: in a strategic manner)*  
-   - ***Synonyms***: strategically, methodically, deliberately, carefully  
-3. **TACTICIAN**: 🌟  
-   - As a skilled **tactician**, he always anticipated his opponent’s moves. *(Noun: a person skilled in planning strategies)*  
-   - ***Synonyms***: strategist, planner, mastermind, schemer  
+_Word Form Examples_
+1. **TACTICAL**: 🌟
+   - The army launched a **tactical** strike to weaken the enemy’s defenses. *(Adjective: related to strategy and planning)*
+   - ***Synonyms***: strategic, calculated, planned, methodical
+2. **TACTICALLY**:
+   - She **tactically** avoided answering the controversial question. *(Adverb: in a strategic manner)*
+   - ***Synonyms***: strategically, methodically, deliberately, carefully
+3. **TACTICIAN**: 🌟
+   - As a skilled **tactician**, he always anticipated his opponent’s moves. *(Noun: a person skilled in planning strategies)*
+   - ***Synonyms***: strategist, planner, mastermind, schemer
+<!--SR:!2025-04-21,3,250-->
 
 =====  
 
@@ -353,30 +354,31 @@ _Word Form Examples_
 
 =====
 
-### THRILL  
-@@  
-**Noun, Verb** | हिंदी: रोमांच, उत्साह, झुरझुरी : A strong sensation of excitement or pleasure; to excite or give a sense of exhilaration.  
-- ***Synonyms***: excitement, exhilaration, delight, joy, sensation *(Noun)*; excite, elate, electrify, enchant, exhilarate *(Verb)*  
-- ***Antonyms***: boredom, dullness, monotony, indifference *(Noun)*; bore, depress, dishearten *(Verb)*  
+### THRILL
+@@
+**Noun, Verb** | हिंदी: रोमांच, उत्साह, झुरझुरी : A strong sensation of excitement or pleasure; to excite or give a sense of exhilaration.
+- ***Synonyms***: excitement, exhilaration, delight, joy, sensation *(Noun)*; excite, elate, electrify, enchant, exhilarate *(Verb)*
+- ***Antonyms***: boredom, dullness, monotony, indifference *(Noun)*; bore, depress, dishearten *(Verb)*
 
-_Examples_  
-1. The roller coaster ride gave him an unforgettable **thrill**. *(Noun: excitement, exhilaration)*  
-2. The audience was **thrilled** by the magician’s incredible performance. *(Verb: excited, delighted)*  
-3. She gets a **thrill** from skydiving and other extreme sports. *(Noun: strong excitement or pleasure)*  
+_Examples_
+1. The roller coaster ride gave him an unforgettable **thrill**. *(Noun: excitement, exhilaration)*
+2. The audience was **thrilled** by the magician’s incredible performance. *(Verb: excited, delighted)*
+3. She gets a **thrill** from skydiving and other extreme sports. *(Noun: strong excitement or pleasure)*
 
-_Word Form Examples_  
-1. **THRILLED**: 🌟  
-   - She was **thrilled** to receive the award for her outstanding work. *(Adjective: extremely excited or happy)*  
-   - ***Synonyms***: elated, overjoyed, delighted, ecstatic  
-2. **THRILLING**:  
-   - The movie had a **thrilling** plot that kept the audience on the edge of their seats. *(Adjective: extremely exciting or exhilarating)*  
-   - ***Synonyms***: exhilarating, gripping, electrifying, breathtaking  
-3. **THRILLER**:  
-   - The new crime **thriller** kept readers hooked until the very last page. *(Noun: an exciting or suspenseful book, movie, or story)*  
-   - ***Synonyms***: suspense novel, mystery, action-packed story  
-4. **THRILLINGLY**:  
-   - The match ended **thrillingly** with a last-minute goal. *(Adverb: in an exciting or exhilarating manner)*  
-   - ***Synonyms***: excitingly, exhilaratingly, dramatically  
+_Word Form Examples_
+1. **THRILLED**: 🌟
+   - She was **thrilled** to receive the award for her outstanding work. *(Adjective: extremely excited or happy)*
+   - ***Synonyms***: elated, overjoyed, delighted, ecstatic
+2. **THRILLING**:
+   - The movie had a **thrilling** plot that kept the audience on the edge of their seats. *(Adjective: extremely exciting or exhilarating)*
+   - ***Synonyms***: exhilarating, gripping, electrifying, breathtaking
+3. **THRILLER**:
+   - The new crime **thriller** kept readers hooked until the very last page. *(Noun: an exciting or suspenseful book, movie, or story)*
+   - ***Synonyms***: suspense novel, mystery, action-packed story
+4. **THRILLINGLY**:
+   - The match ended **thrillingly** with a last-minute goal. *(Adverb: in an exciting or exhilarating manner)*
+   - ***Synonyms***: excitingly, exhilaratingly, dramatically
+<!--SR:!2025-04-21,3,250-->
 
 =====  
 
@@ -585,9 +587,10 @@ _Word Form Examples_
 2. **TOPPLING**: 🌟
    - The **toppling** of the dictator marked the beginning of a new era for the nation. *(Gerund: act of falling or being overthrown)*
    - ***Synonyms***: collapsing, tumbling, overturning, falling, upending
-3. **TOPPLES**: 
+3. **TOPPLES**:
    - A sudden earthquake can cause buildings to **topples** if they are not properly constructed. *(Verb: present tense form indicating repeated action)*
    - ***Synonyms***: collapses, falls, overturns, tips over
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -612,6 +615,7 @@ _Word Form Examples_
 3. **TORPOR**: 🌟
    - Many animals enter a state of **torpor** during extreme weather conditions. *(Noun: state of decreased physiological activity)*
    - ***Synonyms***: dormancy, lethargy, hibernation, inactivity, stupor
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -660,95 +664,35 @@ _Word Form Examples_
 
 =====  
 
-### TRACE  
-@@  
-**Noun, Verb** | हिंदी: चिन्ह, पदचिह्न, खोज :  
-1. A small sign, mark, or indication of something left behind. *(Noun: evidence/remnant)*  
-2. A very slight amount of something. *(Noun: minimal quantity)*  
-3. To find or discover by investigation. *(Verb: track down)*  
-4. To outline or follow a path, shape, or development. *(Verb: delineate or track movement)*  
-- ***Synonyms***: mark, hint, imprint, remnant *(Noun: evidence/remnant)*; bit, fragment, particle *(Noun: minimal quantity)*; track, detect, follow, discover *(Verb: track down)*; outline, sketch, delineate *(Verb: draw or follow)*  
-- ***Antonyms***: obliteration, disappearance *(Noun: evidence/remnant)*; abundance, excess *(Noun: minimal quantity)*; lose, ignore *(Verb: track down)*; distort, erase *(Verb: delineate or track movement)*  
+### TRACE
+@@
+**Noun, Verb** | हिंदी: चिन्ह, पदचिह्न, खोज :
+1. A small sign, mark, or indication of something left behind. *(Noun: evidence/remnant)*
+2. A very slight amount of something. *(Noun: minimal quantity)*
+3. To find or discover by investigation. *(Verb: track down)*
+4. To outline or follow a path, shape, or development. *(Verb: delineate or track movement)*
+- ***Synonyms***: mark, hint, imprint, remnant *(Noun: evidence/remnant)*; bit, fragment, particle *(Noun: minimal quantity)*; track, detect, follow, discover *(Verb: track down)*; outline, sketch, delineate *(Verb: draw or follow)*
+- ***Antonyms***: obliteration, disappearance *(Noun: evidence/remnant)*; abundance, excess *(Noun: minimal quantity)*; lose, ignore *(Verb: track down)*; distort, erase *(Verb: delineate or track movement)*
 
-_Examples_  
-1. The detective found a **trace** of blood at the crime scene. *(Noun: evidence/remnant)*  
-2. There was only a **trace** of sugar in the recipe, making it barely sweet. *(Noun: minimal quantity)*  
-3. The police managed to **trace** the suspect’s whereabouts through phone records. *(Verb: track down)*  
-4. She carefully **traced** the outline of the design onto the paper. *(Verb: delineate or track movement)*  
+_Examples_
+1. The detective found a **trace** of blood at the crime scene. *(Noun: evidence/remnant)*
+2. There was only a **trace** of sugar in the recipe, making it barely sweet. *(Noun: minimal quantity)*
+3. The police managed to **trace** the suspect’s whereabouts through phone records. *(Verb: track down)*
+4. She carefully **traced** the outline of the design onto the paper. *(Verb: delineate or track movement)*
 
-_Word Form Examples_  
-1. **TRACED**:  
-   - The ancient ruins were carefully **traced** back to an early civilization. *(Verb: identified through tracking)*  
-   - ***Synonyms***: tracked, detected, followed, discovered  
-2. **TRACING**: 🌟  
-   - The child enjoyed **tracing** the pictures in her coloring book. *(Verb: outlining or copying shapes)*  
-   - ***Synonyms***: outlining, sketching, copying, reproducing  
-3. **TRACEABLE**:  
-   - The origins of the artifact were easily **traceable** through historical records. *(Adjective: able to be tracked or discovered)*  
-   - ***Synonyms***: trackable, detectable, identifiable  
-
-=====  
-
-### TRACT  
-@@  
-**Noun** | हिंदी: भूखंड, इलाका, मार्ग, पुस्तिका :  
-1. A large area of land, especially one designated for a specific purpose. *(Noun: land area)*  
-2. A short pamphlet or leaflet, usually on a religious or political topic. *(Noun: publication)*  
-3. A system of body parts or organs that function together, such as the digestive or respiratory tract. *(Noun: anatomical system)*  
-- ***Synonyms***: region, expanse, zone, territory *(Noun: land area)*; booklet, pamphlet, leaflet *(Noun: publication)*; passage, system, channel *(Noun: anatomical system)*  
-- ***Antonyms***: spot, fragment, section *(Noun: land area)*; silence, suppression *(Noun: publication)*; blockage, obstruction *(Noun: anatomical system)*  
-
-_Examples_  
-1. The government allocated a vast **tract** of land for agricultural development. *(Noun: land area)*  
-2. He handed out a **tract** explaining the importance of mental health awareness. *(Noun: publication)*  
-3. Smoking can severely damage the respiratory **tract** over time. *(Noun: anatomical system)*  
-
-_Word Form Examples_  
-1. **TRACTABLE**: 🌟  
-   - The young horse was surprisingly **tractable**, responding well to training. *(Adjective: easily managed or controlled)*  
-   - ***Synonyms***: manageable, obedient, docile, compliant  
+_Word Form Examples_
+1. **TRACED**:
+   - The ancient ruins were carefully **traced** back to an early civilization. *(Verb: identified through tracking)*
+   - ***Synonyms***: tracked, detected, followed, discovered
+2. **TRACING**: 🌟
+   - The child enjoyed **tracing** the pictures in her coloring book. *(Verb: outlining or copying shapes)*
+   - ***Synonyms***: outlining, sketching, copying, reproducing
+3. **TRACEABLE**:
+   - The origins of the artifact were easily **traceable** through historical records. *(Adjective: able to be tracked or discovered)*
+   - ***Synonyms***: trackable, detectable, identifiable
+<!--SR:!2025-04-21,3,250-->
 
 =====  
-
-### TRAMPLE  
-@@  
-**Verb** | हिंदी: कुचलना, पीसना : To tread heavily or repeatedly on something, causing damage or injury; to treat someone or their feelings with disrespect or disregard by acting forcefully or carelessly.
-- ***Synonyms***: crush, stomp, tread, squash, overwhelm, violate  
-- ***Antonyms***: respect, honor, protect, preserve, uplift  
-
-_Examples_  
-1. The horse began to **trample** the flowers in the garden as it ran loose. *(Verb: physically crush)*  
-2. Her comments seemed to **trample** on his emotions, leaving him feeling hurt and disrespected. *(Verb: metaphorically disregard)*  
-
-_Word Form Examples_  
-1. **TRAMPLED**: 🌟  
-   - The delicate plants were completely **trampled** after the crowd passed through the field. *(Adjective: having been crushed)*  
-   - ***Synonyms***: crushed, flattened, squashed, damaged  
-2. **TRAMPLING**: 🌟  
-   - The farmer was upset about the **trampling** of his crops by wild animals. *(Gerund: act of crushing or damaging)*  
-   - ***Synonyms***: crushing, stomping, treading, destroying  
-
-=====
-
-### TRANQUIL  
-@@  
-**Adjective** | हिंदी: शांत, प्रसन्न : Calm, peaceful, and free from disturbance or agitation; characterized by a state of serenity and quietness.
-- ***Synonyms***: peaceful, serene, calm, placid, still, quiet  
-- ***Antonyms***: agitated, chaotic, restless, turbulent, noisy  
-
-_Examples_  
-1. The lake was so **tranquil** that its surface reflected the mountains like a mirror. *(Adjective: calm and undisturbed)*  
-2. After a long day at work, she found solace in the **tranquil** atmosphere of her garden. *(Adjective: peaceful and soothing)*  
-
-_Word Form Examples_  
-1. **TRANQUILITY**: 🌟  
-   - The **tranquility** of the forest made it an ideal place for meditation. *(Noun: state of being calm and peaceful)*  
-   - ***Synonyms***: peace, serenity, calmness, quietness, stillness  
-2. **TRANQUILLY**:  
-   - He spoke **tranquilly**, his voice barely above a whisper, as if not to disturb the silence. *(Adverb: in a calm and peaceful manner)*  
-   - ***Synonyms***: peacefully, serenely, calmly, quietly  
-
-=====
 
 ### TRANSIENT
 @@
@@ -843,7 +787,7 @@ _Word Form Examples_
 =====
 
 ### TRESPASS
-@@  
+@@
 **Noun, Verb** | हिंदी: अतिक्रमण, अनधिकृत प्रवेश करना :
 1. To enter someone’s property or land without permission. _(Verb)_
 2. To violate a law, rule, or someone’s rights. _(Verb)_
@@ -866,11 +810,12 @@ _Word Form Examples_
 3. **TRESPASSED**:
     - The hunters **trespassed** onto private farmland. _(Verb: past tense of trespass; unlawfully entered)_
     - _**Synonyms**_: intruded, encroached, violated
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
 ### TROUBLE
-@@  
+@@
 **Noun, Verb** | हिंदी: परेशानी, मुसीबत, तकलीफ़ :
 1. A situation that causes difficulty, worry, or distress. _(Noun: problem or difficulty)_
 2. To cause distress, discomfort, or inconvenience. _(Verb: to bother or create problems for someone)_
@@ -897,6 +842,7 @@ _Word Form Examples_
 5. **TROUBLE-FREE**
     - The journey was surprisingly **trouble-free**, with no delays or issues. _(Adjective: without difficulties or problems)_
     - _**Synonyms**_: smooth, effortless, problem-free, peaceful
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -1129,6 +1075,7 @@ _Word Form Examples_
 3. **TRUNCATING**: 🌟
    - The process of **truncating** long strings of text is common in database management. *(Gerund: act of shortening)*
    - ***Synonyms***: shortening, cutting, trimming, cropping, reducing
+<!--SR:!2025-04-21,3,250-->
 
 =====
 

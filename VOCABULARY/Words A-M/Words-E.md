@@ -11,6 +11,37 @@ app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
 });
 ```
 
+
+### EXAMINE
+@@
+**Verb** | हिंदी: जाँच करना / परीक्षण करना; परीक्षा लेना : To inspect (someone or something) thoroughly in order to determine their nature or condition; To test the knowledge or proficiency of (someone) by requiring them to answer questions or perform tasks.
+- ***Synonyms***:
+    - **Verb:**
+        - *Inspect thoroughly:* Inspect, scrutinize, investigate, study, analyze, survey, check, probe, peruse
+        - *Test knowledge:* Test, quiz, assess, question, interrogate, catechize
+- ***Antonyms***:
+    - **Verb:**
+        - *Inspect thoroughly:* Ignore, overlook, disregard, neglect, glance, skim
+_Example_:
+1. The doctor will **examine** the patient to diagnose the illness. *(Verb: inspect thoroughly)*
+2. The professor will **examine** the students on the material covered in the semester. *(Verb: test knowledge)*
+
+_Word Form Examples_
+1. **EXAMINATION** / **EXAM**: 🌟
+   - He passed the final **examination** with high marks. *(Noun: a formal test of knowledge or proficiency)*
+   - A close **examination** of the evidence revealed inconsistencies. *(Noun: a detailed inspection or study)*
+   - ***Synonyms***: (test) test, assessment, quiz, appraisal; (inspection) inspection, scrutiny, analysis, investigation, study
+2. **EXAMINER**: 🌟
+   - The driving **examiner** assessed her ability to parallel park. *(Noun: a person who tests someone's knowledge or proficiency)*
+   - ***Synonyms***: assessor, tester, inspector, investigator, questioner, interrogator
+3. **EXAMINED**:
+   - The artifacts were carefully **examined** by the archaeologists. *(Adjective/Past Participle: having been inspected or tested)*
+   - ***Synonyms***: inspected, scrutinized, tested, assessed, investigated, checked
+4. **EXAMINING**:
+   - The committee is **examining** the proposal in detail. *(Verb Gerund/Present Participle: the act of inspecting or testing)*
+   - ***Synonyms***: inspecting, scrutinizing, testing, assessing, investigating, studying
+
+=====
 ### EASE  
 @@  
 **Noun, Verb** | हिंदी: आराम, सुविधा :  
@@ -359,52 +390,6 @@ _Word Form Examples_
 4. **ELEVATING**:  
    - The motivational speech had an **elevating** effect on the team’s morale. *(Gerund: uplifting or improving)*  
    - ***Synonyms***: uplifting, inspiring, enhancing, refining  
-
-=====
-
-### ELICIT  🪐
-@@  
-**Verb** | हिंदी: उजागर करना, प्राप्त करना : To draw out or bring forth a reaction, response, or information.
-- ***Synonyms***: evoke, draw out, extract, provoke, obtain, generate
-- ***Antonyms***: suppress, stifle, conceal, repress, withhold
-
-_Examples_
-1. The teacher's question **elicited** thoughtful responses from the students. _(Verb: drew out)_
-2. His speech **elicited** both praise and criticism from the audience. _(Verb: provoked)_
-
-_Word Form Examples_
-1. **ELICITATION**:
-    - The **elicitation** of emotions during the play moved the audience deeply. _(Noun: the act of drawing out)_
-    - ***Synonyms***: extraction, provocation, evocation
-2. **ELICITED**:
-    - The documentary **elicited** empathy from viewers around the world. _(Adjective: drawn out)_
-    - ***Synonyms***: extracted, evoked, obtained
-
-=====
-
-### ELONGATE  
-@@  
-**Verb, Adjective** | हिंदी: लम्बा करना, लम्बा :  
-1. To make or become longer, especially in a stretched or extended form; to lengthen something physically. *(Verb)*  
-2. Having an extended or stretched form; characterized by being long and slender. *(Adjective)*  
-- ***Synonyms***: stretch, extend, lengthen, draw out *(Verb)*; slender, long, stretched, extended *(Adjective)*  
-- ***Antonyms***: shorten, compress, contract, condense *(Verb: opposite of lengthening)*  
-
-_Examples_  
-1. The artist decided to **elongate** the figure in the painting to create a sense of elegance. *(Verb: make longer)*  
-2. Yoga poses like the cobra help **elongate** the spine and improve posture. *(Verb: stretch)*  
-3. The plant’s **elongate** leaves were perfectly adapted for catching sunlight. *(Adjective: long and slender)*  
-
-_Word Form Examples_  
-1. **ELONGATED**: 🌟  
-   - The shadow of the tree appeared **elongated** as the sun set in the evening. *(Adjective: made longer or stretched)*  
-   - ***Synonyms***: stretched, extended, lengthened, drawn out  
-2. **ELONGATION**:  
-   - The **elongation** of the muscles during the exercise improved flexibility. *(Noun: process of making longer)*  
-   - ***Synonyms***: stretching, extension, lengthening, expansion  
-3. **ELONGATING**:  
-   - The physical therapist focused on **elongating** the patient’s tightened hamstring. *(Gerund: act of stretching)*  
-   - ***Synonyms***: stretching, extending, lengthening, drawing out  
 
 =====
 

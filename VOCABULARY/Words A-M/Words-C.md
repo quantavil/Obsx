@@ -481,7 +481,7 @@ _Word Form Examples_
 2. **CATHARTICALLY**:
     - He spoke **cathartically** about his struggles, feeling lighter after the conversation. _(Adverb: in a way that provides emotional release)_
     - ***Synonyms***: therapeutically, emotionally,
-<!--SR:!2025-04-04,5,242-->
+<!--SR:!2025-04-07,3,222-->
 
 =====
 
@@ -555,7 +555,7 @@ _Word Form Examples_
 3. **CESSATION**:
    - The treaty called for an immediate **cessation** of hostilities. _(Noun: a complete stop or pause in an action)_
    - ***Synonyms***: halt, pause, stop, termination
-<!--SR:!2025-04-10,6,208-->
+<!--SR:!2025-05-25,12,208-->
 
 =====
 
@@ -831,33 +831,51 @@ _Word Form Examples_
 
 =====
 
-### CHEAP
+### CHEAP  🪐
 @@
-**Adjective, Adverb** | हिंदी: सस्ता, कम कीमत :
-1. Low in price or cost; inexpensive. *(Adjective)*
-2. Of little worth or quality; inferior. *(Adjective)*
-3. In a manner that involves little expense. *(Adverb)*
-- ***Synonyms***: inexpensive, affordable, economical, low-cost, budget *(Adjective: low price)*; shoddy, inferior, poor, tacky, second-rate *(Adjective: low quality)*; inexpensively, affordably, economically *(Adverb)*
-- ***Antonyms***: expensive, costly, high-priced, premium, luxurious *(Adjective: high price)*; superior, high-quality, excellent, first-rate, premium *(Adjective: high quality)*; expensively, lavishly *(Adverb)*
-
-_Examples_
-1. The market sells **cheap** vegetables that are fresh and delicious. *(Adjective: low price)*
-2. The **cheap** plastic toy broke within a day of use. *(Adjective: low quality)*
-3. They traveled **cheap** by staying in hostels and eating street food. *(Adverb: inexpensively)*
+**Adjective** | हिंदी: सस्ता; घटिया; नीच / ओछा : Low in price; Of poor quality or inferior standard; Contemptible because of meanness or lack of principle.
+**Adverb** | हिंदी: सस्ते में : At or for a low price.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Low price:* inexpensive, low-cost, affordable, budget, economical, reasonable
+        - *Poor quality:* shoddy, inferior, poor, tawdry, second-rate, trashy, flimsy
+        - *Contemptible:* mean, vulgar, despicable, base, sordid, low, nasty, contemptible
+    - **Adverb:**
+        - *Low cost:* inexpensively, economically, affordably, on the cheap
+- ***Antonyms***:
+    - **Adjective:**
+        - *Low price:* expensive, costly, dear, pricey, high-priced, valuable, premium
+        - *Poor quality:* high-quality, superior, excellent, fine, premium, well-made, durable
+        - *Contemptible:* noble, honorable, decent, admirable, generous, principled, classy
+    - **Adverb:**
+        - *Low cost:* expensively, dearly, lavishly
+_Example_:
+1.  We found some really **cheap** flights for our vacation. *(Adjective: low price)*
+2.  Don't buy that brand; their products are notoriously **cheap** and break easily. *(Adjective: poor quality)*
+3.  Spreading rumors like that is a **cheap** way to undermine someone. *(Adjective: contemptible)*
+4.  They managed to renovate the entire house relatively **cheap**. *(Adverb: low cost)*
 
 _Word Form Examples_
-1. **CHEAPLY**:
-   - The furniture was made **cheaply** and didn’t last long. *(Adverb: in a low-cost or low-quality manner)*
-   - ***Synonyms***: inexpensively, affordably, economically, frugally, shoddily
-2. **CHEAPNESS**:
-   - The **cheapness** of the product was evident in its poor craftsmanship. *(Noun: quality of being cheap)*
-   - ***Synonyms***: inexpensiveness, affordability, inferiority, shoddiness, tackiness
-3. **CHEAPSKATE**:
-   - He’s such a **cheapskate** that he never tips the waiter. *(Noun: a stingy person)*
-   - ***Synonyms***: miser, penny-pincher, scrooge, tightwad, skinflint
-4. **CHEAPEN**:
-   - The company’s decision to use low-quality materials **cheapened** the brand’s reputation. *(Verb: to make something seem inferior or less valuable)*
-   - ***Synonyms***: degrade, devalue, diminish, lower, depreciate
+1.  **CHEAPLY**: 🌟
+    - The furniture was **cheaply** made and didn't last long. *(Adverb: inexpensively; often implying poor quality)*
+    - ***Synonyms***: inexpensively, economically, affordably, poorly, shoddily
+2.  **CHEAPNESS**: 🌟
+    - The main attraction of the store is the **cheapness** of its goods. *(Noun: the quality of being low in price)*
+    - The **cheapness** of his insult revealed his own insecurity. *(Noun: the quality of being contemptible or mean)*
+    - ***Synonyms***: inexpensiveness, low cost, affordability; poor quality, shoddiness; meanness, vulgarity, sordidness
+3.  **CHEAPER**:
+    - Buying in bulk is usually **cheaper**. *(Adjective - Comparative: lower in price)*
+    - ***Synonyms***: less expensive, lower-cost, more affordable
+4.  **CHEAPEST**:
+    - We chose the **cheapest** option that met our basic needs. *(Adjective - Superlative: lowest in price)*
+    - ***Synonyms***: least expensive, lowest-cost, most affordable
+5.  **CHEAPEN**:
+    - Adding too many artificial flavors can **cheapen** the taste of the dish. *(Verb: to make something seem less valuable or respected)*
+    - ***Synonyms***: devalue, degrade, lower, depreciate, belittle, demean
+6.  **CHEAPSKATE** *(Informal)*: 🌟
+    - He's such a **cheapskate** that he reuses paper towels. *(Noun: a mean or miserly person)*
+    - ***Synonyms***: miser, skinflint, tightwad, penny-pincher, scrooge
+<!--SR:!2025-04-06,2,241-->
 
 =====
 
@@ -939,67 +957,77 @@ _Word Form Examples_
     - The constant **churning** of employees is damaging morale. *(Gerund: state of turmoil or rapid turnover)*
     - The washing machine was **churning** the clothes noisily. *(Verb - Present Participle: agitating)*
     - ***Synonyms***: agitating, turbulent, boiling, seething, unsettling, turnover (in context)
-<!--SR:!2025-04-11,7,220-->
+<!--SR:!2025-05-02,15,220-->
 
 =====
 
-### CITE  
-@@  
-**Verb** | हिंदी: उद्धृत करना, हवाला देना :  
-1. To quote or refer to as evidence or proof in support of an argument or statement. *(Verb)*  
-2. To mention someone or something as an example or as proof of a point. *(Verb)*  
-3. To formally commend or honor someone for their achievements. *(Verb)*  
-- ***Synonyms***: quote, reference, mention *(Verb: quoting evidence)*; commend, honor, recognize *(Verb: formal commendation)*; acknowledge, credit, applaud *(Verb: giving recognition)*  
-- ***Antonyms***: ignore, overlook, disregard *(Verb: quoting evidence)*; criticize, condemn, belittle *(Verb: formal commendation)*  
+### CITE
+@@
+**Verb** | हिंदी: उद्धृत करना, हवाला देना :
+1. To quote or refer to as evidence or proof in support of an argument or statement. *(Verb)*
+2. To mention someone or something as an example or as proof of a point. *(Verb)*
+3. To formally commend or honor someone for their achievements. *(Verb)*
+- ***Synonyms***: quote, reference, mention *(Verb: quoting evidence)*; commend, honor, recognize *(Verb: formal commendation)*; acknowledge, credit, applaud *(Verb: giving recognition)*
+- ***Antonyms***: ignore, overlook, disregard *(Verb: quoting evidence)*; criticize, condemn, belittle *(Verb: formal commendation)*
 
-_Examples_  
-1. The lawyer decided to **cite** previous cases to strengthen her argument in court. *(Verb: quoting evidence)*  
-2. The teacher asked students to **cite** examples from the text to support their answers. *(Verb: mentioning as an example)*  
-3. The soldier was **cited** for his bravery during the rescue mission. *(Verb: formal commendation)*  
+_Examples_
+1. The lawyer decided to **cite** previous cases to strengthen her argument in court. *(Verb: quoting evidence)*
+2. The teacher asked students to **cite** examples from the text to support their answers. *(Verb: mentioning as an example)*
+3. The soldier was **cited** for his bravery during the rescue mission. *(Verb: formal commendation)*
 
-_Word Form Examples_  
-1. **CITATION**: 🌟  
-   - The professor received a prestigious **citation** for her groundbreaking research in physics. *(Noun: formal commendation or reference)*  
-   - ***Synonyms***: accolade, award, honor, acknowledgment, reference  
-2. **CITED**:  
-   - The article was widely **cited** by other researchers in the field. *(Adjective/Verb: past tense of quoting or honoring)*  
-   - ***Synonyms***: quoted, referenced, mentioned, acknowledged, recognized  
-3. **CITABLE**:  
-   - The data is **citable** because it comes from a reliable and credible source. *(Adjective: suitable for citation)*  
-   - ***Synonyms***: quotable, referable, reliable, authoritative, trustworthy  
-4. **CITING**:  
-   - The author is **citing** numerous studies to validate her hypothesis. *(Verb: ongoing action of quoting)*  
-   - ***Synonyms***: quoting, referencing, acknowledging, crediting, mentioning  
+_Word Form Examples_
+1. **CITATION**: 🌟
+   - The professor received a prestigious **citation** for her groundbreaking research in physics. *(Noun: formal commendation or reference)*
+   - ***Synonyms***: accolade, award, honor, acknowledgment, reference
+2. **CITED**:
+   - The article was widely **cited** by other researchers in the field. *(Adjective/Verb: past tense of quoting or honoring)*
+   - ***Synonyms***: quoted, referenced, mentioned, acknowledged, recognized
+3. **CITABLE**:
+   - The data is **citable** because it comes from a reliable and credible source. *(Adjective: suitable for citation)*
+   - ***Synonyms***: quotable, referable, reliable, authoritative, trustworthy
+4. **CITING**:
+   - The author is **citing** numerous studies to validate her hypothesis. *(Verb: ongoing action of quoting)*
+   - ***Synonyms***: quoting, referencing, acknowledging, crediting, mentioning
+<!--SR:!2025-04-06,2,241-->
 
 =====
 
-### CIVIL  
-@@  
-**Adjective** | हिंदी: नागरिक, सभ्य :  
-1. Relating to the ordinary citizens or inhabitants of a country or community. *(Adjective)*  
-2. Polite and courteous in behavior or speech. *(Adjective)*  
-3. Relating to the state or government, especially in contrast to military or religious authority. *(Adjective)*  
-- ***Synonyms***: civilian, civic, public *(Adjective: relating to citizens)*; polite, courteous, respectful *(Adjective: behavior)*; governmental, administrative, secular *(Adjective: relating to the state)*  
-- ***Antonyms***: military, religious, private *(Adjective: relating to citizens)*; rude, impolite, discourteous *(Adjective: behavior)*; non-governmental, unofficial *(Adjective: relating to the state)*  
+### CIVIL
+@@
+**Adjective** | हिंदी: नागरिक / असैनिक; सभ्य / शिष्ट; दीवानी (विधि संबंधी) : Relating to ordinary citizens and their concerns, as distinct from military or ecclesiastical matters; Courteous and polite; Relating to private rights and remedies sought by civil actions, as contrasted with criminal proceedings.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Relating to citizens:* public, municipal, civic, community, non-military, secular
+        - *Polite:* polite, courteous, well-mannered, respectful, cordial, gracious, affable
+        - *Legal (non-criminal):* non-criminal, private (law)
+- ***Antonyms***:
+    - **Adjective:**
+        - *Relating to citizens:* military, governmental (sometimes), ecclesiastical, religious
+        - *Polite:* rude, impolite, discourteous, uncivil, disrespectful, brusque, curt
+        - *Legal (non-criminal):* criminal
+_Example_:
+1.  After the war, the soldiers returned to **civil** life. *(Adjective: relating to ordinary citizens)*
+2.  Even though they disagreed strongly, they managed to maintain a **civil** conversation. *(Adjective: polite)*
+3.  The lawsuit was a **civil** matter concerning breach of contract. *(Adjective: legal, non-criminal)*
 
-_Examples_  
-1. The **civil** population was evacuated during the military conflict. *(Adjective: relating to citizens)*  
-2. She maintained a **civil** tone even when disagreeing with her colleague. *(Adjective: polite)*  
-3. The court handled the matter under **civil** law rather than criminal law. *(Adjective: relating to the state)*  
-
-_Word Form Examples_  
-1. **CIVILITY**: 🌟  
-   - Despite their differences, they treated each other with **civility** during the meeting. *(Noun: politeness)*  
-   - ***Synonyms***: courtesy, respect, politeness, decorum  
-2. **CIVILIAN**:  
-   - The soldier returned to **civilian** life after completing his service. *(Noun/Adjective: non-military person)*  
-   - ***Synonyms***: noncombatant, citizen, commoner  
-3. **CIVILIZATION**:  
-   - The ancient **civilization** left behind remarkable architectural ruins. *(Noun: advanced society)*  
-   - ***Synonyms***: culture, society, community, progress  
-4. **UNCIVIL**:  
-   - His **uncivil** remarks during the meeting created tension among the team members. *(Adjective: rude or impolite)*  
-   - ***Synonyms***: rude, discourteous, impolite, disrespectful, boorish, ill-mannered 
+_Word Form Examples_
+1.  **CIVILITY**: 🌟
+    - Basic **civility** requires you to acknowledge someone when they greet you. *(Noun: formal politeness and courtesy in behaviour or speech)*
+    - ***Synonyms***: courtesy, politeness, respect, graciousness, decorum, manners
+2.  **CIVILIAN**: 🌟
+    - During the conflict, many **civilians** were displaced from their homes. *(Noun: a person not in the armed services or police force)*
+    - The rebels attacked **civilian** targets. *(Adjective: relating to civilians)*
+    - ***Synonyms***: non-combatant, non-military person, ordinary citizen (Noun); non-military, non-combatant (Adjective)
+3.  **CIVILIZE / CIVILISE**:
+    - Missionaries attempted to **civilize** the indigenous populations according to their own standards. *(Verb: to bring a place or people to a stage of social, cultural, and moral development considered to be more advanced)*
+    - ***Synonyms***: cultivate, educate, enlighten, refine, tame, socialize
+4.  **CIVILIZATION / CIVILISATION**: 🌟
+    - Ancient Egypt was one of the world's earliest **civilizations**. *(Noun: the stage of human social and cultural development and organization that is considered most advanced; the society, culture, and way of life of a particular area)*
+    - ***Synonyms***: human development, advancement, culture, society, enlightenment, refinement
+5.  **CIVILLY**:
+    - He nodded **civilly** but didn't stop to chat. *(Adverb: in a polite way)*
+    - ***Synonyms***: politely, courteously, respectfully, graciously, decorously
+<!--SR:!2025-04-06,2,241-->
 
 =====
 
@@ -1328,46 +1356,52 @@ _Word Form Examples_
 
 =====
 
-### COERCE  
-@@  
-**Verb** | हिंदी: बाध्य करना, मजबूर करना : To compel or force someone to do something by using threats, intimidation, or pressure; to achieve compliance through forceful means.  
-- ***Synonyms***: force, compel, pressure, intimidate, bully, constrain  
-- ***Antonyms***: persuade, coax, encourage, request, entice  
+### COERCE  🪐
+@@
+**Verb** | हिंदी: मजबूर करना / विवश करना; दबाव डालना : To persuade an unwilling person to do something by using force or threats; To compel or constrain.
+- ***Synonyms***:
+    - **Verb:**
+        - *Compel by force:* compel, pressure, force, intimidate, bully, browbeat
+- ***Antonyms***:
+    - **Verb:**
+        - *Compel by force:* persuade, coax, convince, allow, permit, cajole
 
-_Examples_  
-1. The manager tried to **coerce** the employee into working overtime by threatening to withhold their bonus. *(Verb: force through intimidation)*  
-2. They were **coerced** into signing the contract under duress. *(Verb: compelled through pressure)*  
+_Example_:
+1.  He claimed he was **coerced** into signing the confession after hours of interrogation. *(Verb: to persuade using force or threats)*
 
-_Word Form Examples_  
-1. **COERCION**: 🌟  
-   - The agreement was signed under **coercion**, making it invalid in court. *(Noun: act of forcing or pressuring)*  
-   - ***Synonyms***: compulsion, intimidation, duress, oppression  
-2. **COERCIVE**:  
-   - The government faced criticism for its **coercive** tactics during the protests. *(Adjective: involving force or threats)*  
-   - ***Synonyms***: forceful, oppressive, authoritarian, domineering  
-3. **COERCED**:  
-   - She felt **coerced** into lying on the witness stand. *(Verb: past tense of compel through force)*  
-   - ***Synonyms***: forced, compelled, pressured, intimidated  
+_Word Form Examples_
+1. **COERCION** 🌟:
+   - The court ruled that the confession was inadmissible because it was obtained through **coercion**. *(Noun: the practice of persuading someone using force or threats)*
+   - ***Synonyms***: force, compulsion, intimidation, pressure, duress, enforcement
+2. **COERCIVE** 🌟:
+   - The regime used **coercive** measures, including arrests and intimidation, to silence its critics. *(Adjective: relating to or using force or threats)*
+   - ***Synonyms***: intimidating, threatening, forceful, authoritarian, bullying
+3. **COERCED**:
+   - The **coerced** testimony was later thrown out of court. *(Adjective: obtained or compelled by force)*
+   - ***Synonyms***: forced, compelled, pressured, constrained
 
 =====
 
-### COGENT
-@@  
-**Adjective** | हिंदी: प्रभावशाली, ठोस : Clear, logical, and convincing in argument or reasoning.
-- ***Synonyms***: persuasive, convincing, compelling, sound, logical
-- ***Antonyms***: weak, unconvincing, illogical, implausible, ineffective
+### COGENT 🪐
+@@
+**Adjective** | हिंदी: ठोस / प्रभावशाली / युक्तिसंगत : (Of an argument or case) clear, logical, and convincing.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Clear and convincing:* compelling, persuasive, convincing, powerful, effective, valid, sound, logical, forceful
+- ***Antonyms***:
+    - **Adjective:**
+        - *Clear and convincing:* unconvincing, weak, invalid, ineffective, illogical, flimsy, inconclusive
 
-_Examples_
-1. The lawyer presented a **cogent** argument that left the jury with no doubt about the defendant's innocence. _(Adjective: convincing)_
-2. Her **cogent** explanation of the complex scientific theory made it easy for everyone to understand. _(Adjective: clear and logical)_
+_Example_:
+1.  The lawyer presented a **cogent** argument that convinced the jury of her client's innocence. *(Adjective: clear, logical, and convincing)*
 
 _Word Form Examples_
-1. **COGENTLY**:
-	- He **cogently** argued his point, leaving no room for counterarguments. _(Adverb: in a clear and logical manner)_
-	- ***Synonyms***: persuasively, convincingly, compellingly, logically, forcefully
-2. **COGENCY**:
-	- The **cogency** of her speech won over even the most skeptical members of the audience. _(Noun: the quality of being clear and logical)_
-	- ***Synonyms***: persuasiveness, forcefulness, clarity, logic, effectiveness
+1. **COGENTLY** 🌟:
+   - He argued his point so **cogently** that it was impossible to disagree with his conclusion. *(Adverb: in a clear, logical, or convincing manner)*
+   - ***Synonyms***: persuasively, convincingly, compellingly, forcefully, logically
+2. **COGENCY** 🌟:
+   - The **cogency** of her reasoning was undeniable, and the committee quickly approved her proposal. *(Noun: the quality of being clear, logical, and convincing; intellectual forcefulness)*
+   - ***Synonyms***: force, validity, power, persuasiveness, soundness, logic
 
 =====
 
@@ -1485,7 +1519,6 @@ _Example_:
 2.  The charity aims to **collect** donations for the flood victims. *(Verb: receive payment/items)*
 3.  He paused for a moment to **collect** his thoughts before answering. *(Verb: regain control)*
 4.  Can you **collect** the dry cleaning on your way home? *(Verb: pick up)*
-5.  He had no money, so he had to make a **collect** call to his family. *(Adjective: paid by recipient)*
 
 _Word Form Examples_
 1. **COLLECTED**: 🌟
@@ -1511,7 +1544,7 @@ _Word Form Examples_
    - It was a **collective** effort by the entire team. *(Adjective: done by people acting as a group)*
    - The workers formed a **collective** to buy the factory. *(Noun: a cooperative enterprise)*
    - ***Synonyms***: (Adjective) joint, shared, common, combined, communal, mutual; (Noun) cooperative, commune, co-op, association
-<!--SR:!2025-04-04,5,242-->
+<!--SR:!2025-04-07,3,222-->
 
 =====
 
@@ -1925,7 +1958,7 @@ _Word Form Examples_
 3. **CONCEALMENT**:
     - The **concealment** of evidence led to a mistrial. _(Noun: the act of hiding something)_
     - ***Synonyms***: hiding, secrecy, suppression
-<!--SR:!2025-03-24,11,241-->
+<!--SR:!2025-04-10,6,221-->
 
 =====
 
@@ -2940,7 +2973,7 @@ _Word Form Examples_
 5.  **CONTEMPLATIVELY**:
     - She gazed **contemplatively** at the painting, trying to understand its message. *(Adverb: in a thoughtful or reflective manner)*
     - ***Synonyms***: thoughtfully, reflectively, pensively, meditatively, introspectively
-<!--SR:!2025-04-06,2,204-->
+<!--SR:!2025-04-21,4,204-->
 
 =====
 
@@ -4061,27 +4094,4 @@ _Word Form Examples_
 
 =====
 
-### CYNICAL  
-@@  
-**Adjective** | हिंदी: निराशावादी, उपहासपूर्ण :  
-1. Believing that people are motivated by self-interest; distrustful of human sincerity or integrity. *(Adjective)*  
-2. Sarcastic or mocking, often expressing contempt or disbelief in an idea or statement. *(Adjective)*  
-- ***Synonyms***: skeptical, distrustful, pessimistic, jaded *(Adjective: distrustful)*; sarcastic, mocking, derisive, scornful *(Adjective: mocking)*  
-- ***Antonyms***: optimistic, trusting, hopeful, idealistic *(Adjective: positive and trusting)*; sincere, earnest, respectful *(Adjective: not mocking)*  
 
-_Examples_  
-1. His **cynical** attitude made it hard for him to trust anyone’s intentions. *(Adjective: distrustful)*  
-2. She gave a **cynical** laugh when he promised to change his ways. *(Adjective: mocking)*  
-
-_Word Form Examples_  
-1. **CYNICALLY**: 🌟  
-   - He **cynically** remarked that the politician’s promises were just empty words. *(Adverb: in a mocking or distrustful manner)*  
-   - ***Synonyms***: skeptically, mockingly, scornfully, derisively  
-2. **CYNICISM**:  
-   - The **cynicism** in her voice was evident when she spoke about the new policy. *(Noun: the quality of being cynical)*  
-   - ***Synonyms***: skepticism, distrust, pessimism, sarcasm  
-3. **CYNIC**:  
-   - A **cynic** might argue that no one acts purely out of altruism. *(Noun: a person who believes people are motivated by self-interest)*  
-   - ***Synonyms***: skeptic, pessimist, doubter, critic  
-
-=====

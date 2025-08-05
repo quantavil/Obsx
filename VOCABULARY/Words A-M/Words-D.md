@@ -2714,7 +2714,7 @@ _Word Form Examples_
 
 =====
 
-### DISGRUNTLE
+### DISGRUNTLE  🪐
 @@ 
 **Verb** | हिंदी: नाराज़ करना, असंतुष्ट करना : To make someone feel dissatisfied, discontented, or annoyed; to put someone in a state of ill humor or dissatisfaction.
 - _**Synonyms**_ : annoy, irritate, frustrate, upset, displease, exasperate

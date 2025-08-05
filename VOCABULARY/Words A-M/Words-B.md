@@ -101,24 +101,27 @@ _Word Form Examples_
 
 =====
 
-### BANAL 🪐
-@@  
-**Adjective** | हिंदी: सामान्य, नीरस : Lacking originality, freshness, or novelty; overused and uninteresting due to repetition.
-- ***Synonyms***: mundane, trite, dull, stale, clichéd, unoriginal
-- ***Antonyms***: original, fresh, novel, unique, creative
-
-_Examples_
-1. The movie's plot was **banal**, offering nothing new or exciting. _(Adjective: unoriginal)_
-2. His speech was filled with **banal** phrases that failed to inspire the audience. _(Adjective: clichéd and dull)_
-3. The conversation turned **banal** quickly, as everyone was repeating the same old stories. _(Adjective: lacking interest)_
+### BANAL  🪐
+@@
+**Adjective** | हिंदी: तुच्छ / मामूली / साधारण / घिसा-पिटा : So lacking in originality as to be obvious and boring; commonplace; trite.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Lacking originality/Boring:* trite, hackneyed, commonplace, ordinary, stock, conventional, pedestrian, platitudinous, vapid, unoriginal, mundane, stale, cliché
+- ***Antonyms***:
+    - **Adjective:**
+        - *Lacking originality/Boring:* original, fresh, new, novel, imaginative, unconventional, distinctive, interesting, stimulating, creative, uncommon
+_Example_:
+1.  The conversation was filled with **banal** remarks about the weather. *(Adjective: commonplace, boring)*
+2.  Despite its flashy effects, the film's plot was utterly **banal** and predictable. *(Adjective: lacking originality, trite)*
 
 _Word Form Examples_
-1. **BANALITY**:
-    - The **banality** of the meeting made everyone lose interest very quickly.
-    - ***Synonyms***: dullness, triteness, mediocrity, lack of originality
-2. **BANALLY**:
-    - The idea was **banally** presented, and the audience struggled to stay engaged.
-    - ***Synonyms***: unoriginally, tritely, dully
+1.  **BANALITY**: 🌟
+    - The sheer **banality** of the discussion made it hard to stay focused. *(Noun: the quality or fact of being banal; lack of originality)*
+    - ***Synonyms***: triteness, commonplaceness, predictability, platitude, cliché, insipidity, vapidity
+2.  **BANALLY**:
+    - The character spoke **banally**, using only tired clichés. *(Adverb: in a boringly ordinary or predictable way)*
+    - ***Synonyms***: tritely, commonly, predictably, conventionally, unoriginally, unimaginatively
+<!--SR:!2025-04-07,3,265-->
 
 =====
 

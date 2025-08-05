@@ -1,15 +1,58 @@
 #wordsABC
 ```dataviewjs
-const file = dv.current().file.path; // Get the current file's path
+const file = dv.current().file.path;
 app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
-    const matches = content.match(/(^|\s)=====(\s|$)/g); // Match all occurrences of "====="
-    const count = matches ? matches.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "=====" count in the current file: ${count}`);
-    const matches1 = content.match(/(^|\s)###(\s|$)/g); // Match all occurrences of "###"
-    const count1 = matches1 ? matches1.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "###" count in the current file: ${count1}`);
+    const lines = content.split('\n');
+    let headerCount = 0, separatorCount = 0;
+    let pendingWord = null, lastCorrectWord = null;
+    const issues = [];
+    
+    const addIssue = (word, problem) => issues.push({ word, problem, lastCorrect: lastCorrectWord });
+    
+    lines.forEach(line => {
+        const trimmed = line.trim();
+        
+        if (trimmed.startsWith('### ')) {
+            // Close pending word if exists
+            if (pendingWord) addIssue(pendingWord, 'Missing separator');
+            
+            headerCount++;
+            pendingWord = trimmed.slice(4).split(/\s/)[0].replace(/[🪐@@]/g, '');
+        }
+        else if (/^=+$/.test(trimmed)) {
+            if (trimmed === '=====') {
+                separatorCount++;
+                if (pendingWord) {
+                    lastCorrectWord = pendingWord;
+                    pendingWord = null;
+                } else {
+                    addIssue('UNKNOWN', 'Separator without header');
+                }
+            } else if (pendingWord) {
+                addIssue(pendingWord, `Wrong separator: ${trimmed} (${trimmed.length} equals)`);
+                pendingWord = null;
+            }
+        }
+    });
+    
+    // Handle final pending word
+    if (pendingWord) addIssue(pendingWord, 'Missing separator (EOF)');
+    
+    // Results
+    dv.paragraph(`📊 Headers: ${headerCount} | Separators: ${separatorCount}`);
+    
+    if (headerCount === separatorCount && !issues.length) {
+        dv.paragraph(`✅ **Perfect formatting!** (${headerCount} words)`);
+    } else {
+        dv.paragraph(`❌ **${issues.length} issue(s) found:**`);
+        issues.forEach(({ word, problem, lastCorrect }) => {
+            const ref = lastCorrect ? ` *(after ${lastCorrect})*` : '';
+            dv.paragraph(`• **${word}**: ${problem}${ref}`);
+        });
+    }
 });
 ```
+
 
 ### ABANDON  🪐
 @@  
@@ -375,25 +418,26 @@ _Word Form Examples_
 =====
 
 ### ABSCOND  🪐
-@@  
-**Verb** | हिंदी: भाग जाना, फ़रार होना : To leave hurriedly and secretly, often to avoid arrest, debt, or legal consequences; to flee in a clandestine manner.  
-- ***Synonyms***: flee, escape, run away, evade, bolt, vanish  
-- ***Antonyms***: stay, remain, confront, surrender, face  
+@@
+**Verb** | हिंदी: भाग जाना, फ़रार होना : To leave hurriedly and secretly, often to avoid arrest, debt, or legal consequences; to flee in a clandestine manner.
+- ***Synonyms***: flee, escape, run away, evade, bolt, vanish
+- ***Antonyms***: stay, remain, confront, surrender, face
 
-_Examples_  
-1. The thief managed to **abscond** with the stolen money before the police arrived. *(Verb: flee secretly)*  
-2. He was accused of attempting to **abscond** from the country to avoid prosecution. *(Verb: escape legally)*  
+_Examples_
+1. The thief managed to **abscond** with the stolen money before the police arrived. *(Verb: flee secretly)*
+2. He was accused of attempting to **abscond** from the country to avoid prosecution. *(Verb: escape illegally)*
 
-_Word Form Examples_  
-1. **ABSCONDED**: 🌟  
-   - The suspect had already **absconded** by the time the authorities reached his hideout. *(Adjective: having fled secretly)*  
-   - ***Synonyms***: fled, escaped, vanished, disappeared  
-2. **ABSCONDING**:  
-   - The officer was tasked with tracking down an **absconding** criminal. *(Gerund: the act of fleeing secretly)*  
-   - ***Synonyms***: fleeing, escaping, evading, running away  
-3. **ABSCONDER**:  
-   - The police issued a warrant for the arrest of the **absconder**. *(Noun: a person who flees secretly)*  
-   - ***Synonyms***: fugitive, runaway, escapee, outlaw  
+_Word Form Examples_
+1. **ABSCONDED**: 🌟
+   - The suspect had already **absconded** by the time the authorities reached his hideout. *(Adjective: having fled secretly)*
+   - ***Synonyms***: fled, escaped, vanished, disappeared
+2. **ABSCONDING**:
+   - The officer was tasked with tracking down an **absconding** criminal. *(Gerund: the act of fleeing secretly)*
+   - ***Synonyms***: fleeing, escaping, evading, running away
+3. **ABSCONDER**:
+   - The police issued a warrant for the arrest of the **absconder**. *(Noun: a person who flees secretly)*
+   - ***Synonyms***: fugitive, runaway, escapee, outlaw
+<!--SR:!2025-04-22,5,248-->
 
 =====
 
@@ -639,7 +683,7 @@ _Word Form Examples_
 5. **ACCEPTABILITY**:
    - The **acceptability** of the new policy is still being debated. *(Noun: the quality of being satisfactory or tolerable)*
    - ***Synonyms***: suitability, appropriateness, satisfactoriness, adequacy, reasonableness
-<!--SR:!2025-04-16,12,248-->
+<!--SR:!2025-04-23,6,228-->
 
 =====
 
@@ -2253,26 +2297,27 @@ _Word Form Examples_
 
 =====
 
-### ANXIOUS  
-@@  
+### ANXIOUS
+@@
 **Adjective** | हिंदी: चिंतित, बेचैन : Experiencing worry, unease, or nervousness about an imminent event or uncertain outcome; also used to express eagerness or anticipation.
-- ***Synonyms***: worried, apprehensive, uneasy, nervous, restless, concerned  
-- ***Antonyms***: calm, relaxed, confident, reassured, composed  
+- ***Synonyms***: worried, apprehensive, uneasy, nervous, restless, concerned
+- ***Antonyms***: calm, relaxed, confident, reassured, composed
 
-_Examples_  
-1. She felt **anxious** about the upcoming exam results. *(Adjective: feeling worry)* 
-2. He was **anxious** to meet his long-lost friend after years of separation. *(Adjective: expressing eagerness)*  
+_Examples_
+1. She felt **anxious** about the upcoming exam results. *(Adjective: feeling worry)*
+2. He was **anxious** to meet his long-lost friend after years of separation. *(Adjective: expressing eagerness)*
 
-_Word Form Examples_  
-1. **ANXIOUSLY**: 🌟  
-   - She waited **anxiously** for the doctor to deliver the diagnosis. *(Adverb: in a worried manner)*  
-   - ***Synonyms***: nervously, apprehensively, uneasily, restlessly  
-2. **ANXIETY**: 🌟  
-   - The constant **anxiety** about her job security was affecting her health. *(Noun: state of worry)*  
-   - ***Synonyms***: worry, concern, unease, nervousness, apprehension  
-3. **ANXIOUSNESS**:  
-   - His **anxiousness** was evident as he paced back and forth in the waiting room. *(Noun: quality of being anxious)*  
-   - ***Synonyms***: nervousness, restlessness, uneasiness, apprehension  
+_Word Form Examples_
+1. **ANXIOUSLY**: 🌟
+   - She waited **anxiously** for the doctor to deliver the diagnosis. *(Adverb: in a worried manner)*
+   - ***Synonyms***: nervously, apprehensively, uneasily, restlessly
+2. **ANXIETY**: 🌟
+   - The constant **anxiety** about her job security was affecting her health. *(Noun: state of worry)*
+   - ***Synonyms***: worry, concern, unease, nervousness, apprehension
+3. **ANXIOUSNESS**:
+   - His **anxiousness** was evident as he paced back and forth in the waiting room. *(Noun: quality of being anxious)*
+   - ***Synonyms***: nervousness, restlessness, uneasiness, apprehension
+<!--SR:!2025-04-21,5,248-->
 
 =====
 
@@ -2767,31 +2812,40 @@ _Word Form Examples_
 
 =====
 
-### ARTICULATE🪐
+### ARTICULATE
 @@
-**Verb, Adjective** | हिंदी: स्पष्ट करना, सुस्पष्ट : 
-1. To express thoughts, ideas, or feelings clearly and effectively in words. *(Verb)*
-2. Clearly spoken or expressed; able to express oneself fluently. *(Adjective)*  
-- ***Synonyms***: express, voice, enunciate *(Verb: to speak clearly)*; clear, eloquent, fluent *(Adjective)*  
-- ***Antonyms***: mumble, slur, stammer *(Verb: to speak unclearly)*; inarticulate, unclear, vague *(Adjective)*  
+**Adjective** | हिंदी: सुवक्ता/स्पष्ट; संधि-युक्त : Able to speak fluently and coherently; Having joints or jointed segments.
+**Verb** | हिंदी: स्पष्ट रूप से व्यक्त करना; स्पष्ट उच्चारण करना : To express an idea or feeling fluently and coherently; To pronounce something clearly and distinctly.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Fluent speaker:* eloquent, fluent, lucid, well-spoken, silver-tongued
+        - *Jointed:* jointed, segmented, hinged
+    - **Verb:**
+        - *Express clearly:* express, voice, state, communicate, enunciate, pronounce
+- ***Antonyms***:
+    - **Adjective:**
+        - *Fluent speaker:* inarticulate, incoherent, tongue-tied, unintelligible
+    - **Verb:**
+        - *Express clearly:* mumble, garble, stammer, misrepresent
 
-_Examples_  
-1. She was able to **articulate** her concerns during the meeting with confidence. *(Verb: express clearly)*  
-2. His **articulate** speech impressed everyone in the audience. *(Adjective: well-spoken)*  
+_Example_:
+1.  She is a highly **articulate** and intelligent speaker who can simplify complex topics. *(Adjective: able to speak fluently)*
+2.  He struggled to **articulate** his deep feelings of disappointment. *(Verb: to express an idea clearly)*
+3.  The robot's **articulate** arm could precisely manipulate small objects. *(Adjective: having joints)*
 
-_Word Form Examples_  
-1. **ARTICULATED**: 🌟  
-   - The teacher **articulated** the instructions so everyone could understand. *(Verb, past tense: expressed clearly)*  
-   - ***Synonyms***: expressed, stated, voiced, pronounced  
-2. **ARTICULATING**:  
-   - He is skilled at **articulating** complex ideas in simple terms. *(Gerund: the act of expressing clearly)*  
-   - ***Synonyms***: expressing, conveying, phrasing, verbalizing  
-3. **ARTICULATION**: 🌟  
-   - The **articulation** of her argument was flawless, leaving no room for doubt. *(Noun: act or quality of clear expression)*  
-   - ***Synonyms***: expression, clarity, enunciation, fluency  
-4. **INARTICULATE**:  
-   - His **inarticulate** response made it difficult for the interviewer to follow his thoughts. *(Adjective: unable to express clearly)*  
-   - ***Synonyms***: unclear, vague, tongue-tied, muddled, hesitant  
+_Word Form Examples_
+1. **ARTICULATION** 🌟:
+   - The actor's clear **articulation** of every word was impressive. *(Noun: the formation of clear and distinct sounds in speech)*
+   - ***Synonyms***: enunciation, diction, pronunciation, expression, utterance
+2. **ARTICULATELY** 🌟:
+   - She spoke **articulately** about the challenges facing the community. *(Adverb: in a clear and fluent manner)*
+   - ***Synonyms***: eloquently, fluently, lucidly, coherently, clearly
+3. **INARTICULATE**:
+   - When asked about the accident, he became flustered and **inarticulate**. *(Adjective: unable to express oneself clearly)*
+   - ***Synonyms***: tongue-tied, incoherent, speechless, unintelligible
+4. **ARTICULATING**:
+   - The new policy is a way of **articulating** the company's core values. *(Verb, Gerund: expressing or stating)*
+   - ***Synonyms***: expressing, voicing, stating, formulating, pronouncing
 
 =====
 
@@ -3003,28 +3057,28 @@ _Word Form Examples_
 =====
 
 ### ASSIMILATE  🪐
-@@  
-**Verb** | हिंदी: अवशोषित करना, समायोजित होना : 
-1. To absorb and integrate new information, ideas, or experiences into one's existing knowledge or culture. *(Verb: intellectual or cultural context)* 
-2. To take in and digest food or nutrients into the body. *(Verb: biological context)*  
-- ***Synonyms***: incorporate, integrate, absorb, comprehend *(Intellectual/cultural context)*; digest, ingest, process, metabolize *(Biological context)*  
-- ***Antonyms***: reject, exclude, expel *(General usage)*; misunderstand, ignore, disregard *(Intellectual context)*  
+@@
+**Verb** | हिंदी: अवशोषित करना, समायोजित होना :
+1. To absorb and integrate new information, ideas, or experiences into one's existing knowledge or culture. *(Verb: intellectual or cultural context)*
+2. To take in and digest food or nutrients into the body. *(Verb: biological context)*
+- ***Synonyms***: incorporate, integrate, absorb, comprehend *(Intellectual/cultural context)*; digest, ingest, process, metabolize *(Biological context)*
+- ***Antonyms***: reject, exclude, expel *(General usage)*; misunderstand, ignore, disregard *(Intellectual context)*
 
-_Examples_  
-1. Children **assimilate** language quickly when immersed in a new environment. *(Verb: intellectual context)*  
-2. The body needs time to **assimilate** nutrients after a meal. *(Verb: biological context)*  
+_Examples_
+1. Children **assimilate** language quickly when immersed in a new environment. *(Verb: intellectual context)*
+2. The body needs time to **assimilate** nutrients after a meal. *(Verb: biological context)*
 
-_Word Form Examples_  
-1. **ASSIMILATED**: 🌟  
-   - The immigrant community became fully **assimilated** into the local culture over time. *(Adjective: integrated or absorbed)*  
-   - ***Synonyms***: integrated, absorbed, incorporated, merged, blended  
-2. **ASSIMILATING**:  
-   - The student was **assimilating** new concepts rapidly during the workshop. *(Verb: gerund form, indicating ongoing absorption of ideas)*  
-   - ***Synonyms***: absorbing, integrating, comprehending, processing, adopting  
-3. **ASSIMILATION**:  
-   - The **assimilation** of modern technology into traditional practices has sparked innovation. *(Noun: the process of integration or absorption)*  
+_Word Form Examples_
+1. **ASSIMILATED**: 🌟
+   - The immigrant community became fully **assimilated** into the local culture over time. *(Adjective: integrated or absorbed)*
+   - ***Synonyms***: integrated, absorbed, incorporated, merged, blended
+2. **ASSIMILATING**:
+   - The student was **assimilating** new concepts rapidly during the workshop. *(Verb: gerund form, indicating ongoing absorption of ideas)*
+   - ***Synonyms***: absorbing, integrating, comprehending, processing, adopting
+3. **ASSIMILATION**:
+   - The **assimilation** of modern technology into traditional practices has sparked innovation. *(Noun: the process of integration or absorption)*
    - ***Synonyms***: integration, absorption, incorporation, adaptation, digestion
-<!--SR:!2025-03-16,2,248-->
+<!--SR:!2025-04-09,5,248-->
 
 =====
 
@@ -3189,6 +3243,28 @@ _Word Form Examples_
 
 =====
 
+### ATTRITION
+@@
+**Noun** | हिंदी: घिसाव / घर्षण; कर्मचारी संख्या में कमी / छीजन : The process of rubbing away or wearing down by friction; A gradual reduction in the number of employees or participants, typically through natural causes like resignation or retirement rather than dismissal.
+- ***Synonyms***:
+    - **Noun:**
+        - *Wearing down/Weakening:* Abrasion, erosion, wearing away, weakening, depreciation, reduction
+        - *Reduction in workforce/numbers:* Reduction, decrease, natural wastage, turnover (natural), shrinkage
+- ***Antonyms***:
+    - **Noun:**
+        - *Wearing down/Weakening:* Strengthening, building up, reinforcement, augmentation
+        - *Reduction in workforce/numbers:* Hiring, recruitment, expansion, growth, augmentation
+
+_Example_:
+1.  The constant wave action caused significant **attrition** of the cliff face over the centuries. *(Noun: wearing down)*
+2.  The company relied on **attrition** to reduce its workforce size without resorting to layoffs. *(Noun: reduction in workforce)*
+
+_Word Form Examples_
+1. **ATTRITIONAL**: 🌟
+   - They engaged in a war of **attritional** warfare, aiming to slowly deplete the enemy's strength. *(Adjective: relating to or characterized by attrition)*
+   - ***Synonyms***: wearing, erosive, weakening, depleting, gradual
+
+=====
 ### ATTENUATE  🪐
 @@  
 **Verb** | हिंदी: कमज़ोर करना, घटाना : To reduce the force, intensity, or severity of something; to make weaker or less concentrated.

@@ -495,36 +495,6 @@ _Word Form Examples_
 
 =====
 
-
-### SCANT
-@@
-**Adjective** | हिंदी: अल्प / थोड़ा; अपर्याप्त : Barely sufficient or adequate; Meager, not enough.
-- ***Synonyms***:
-    - **Adjective:**
-        - *Barely sufficient/Meager:* meager, limited, scarce, insufficient, minimal, paltry, inadequate, sparse
-- ***Antonyms***:
-    - **Adjective:**
-        - *Barely sufficient/Meager:* abundant, plentiful, ample, sufficient, copious, generous, considerable
-_Example_:
-1.  We have **scant** evidence to prove his guilt. *(Adjective: meager, not enough)*
-2.  She paid **scant** attention to the safety instructions. *(Adjective: barely sufficient)*
-
-_Word Form Examples_
-1.  **SCANTILY**: 🌟
-    - The stage was **scantily** decorated for the performance. *(Adverb: sparsely, meagerly)*
-    - ***Synonyms***: sparsely, meagerly, barely, poorly, insufficiently
-2.  **SCANTINESS**: 🌟
-    - The **scantiness** of their supplies became a major concern during the expedition. *(Noun: insufficiency, meagerness)*
-    - ***Synonyms***: insufficiency, meagerness, scarcity, paucity, inadequacy, dearth
-3.  **SCANTED**:
-    - The funding for the arts program was **scanted** in the new budget. *(Verb - Past Tense: provided insufficiently)*
-    - ***Synonyms***: skimped, stinted, neglected, limited
-4.  **SCANTING**:
-    - Accusations of **scanting** their responsibilities were leveled against the committee. *(Gerund: neglecting or providing insufficiently)*
-    - ***Synonyms***: neglecting, stinting, skimping, slighting
-
-=====
-
 ### SCOFF  
 @@  
 **Verb, Noun** | हिंदी: उपहास करना, ठट्ठा उड़ाना :  
@@ -600,27 +570,7 @@ _Word Form Examples_
 
 =====
 
-### SCOURGE
-@@
-**Noun, Verb** | हिंदी: विपत्ति, कोड़ा मारना : 
-1. A cause of widespread suffering, destruction, or punishment; something that afflicts or devastates. *(Noun)*
-2. To whip or lash someone as punishment; historically tied to flogging. *(Verb)*
-- ***Synonyms***: plague, affliction, torment, bane *(Noun)*; whip, flog, lash, beat *(Verb)*
-- ***Antonyms***: blessing, boon, relief, comfort *(Noun)*; soothe, comfort, heal *(Verb)*
 
-_Examples_
-1. Drought has been a **scourge** on the farming community for years. *(Noun: affliction)*
-2. The captors threatened to **scourge** the prisoner if he didn’t confess. *(Verb: whip)*
-
-_Word Form Examples_
-1. **SCOURGED**: 🌟
-   - The village was **scourged** by a relentless epidemic. *(Verb, past tense: afflicted)*
-   - ***Synonyms***: ravaged, devastated, tormented, lashed
-2. **SCOURGING**:
-   - The **scourging** of the rebel was meant to serve as a warning to others. *(Gerund: act of whipping or afflicting)*
-   - ***Synonyms***: whipping, flogging, tormenting, punishing
-
-=====
 
 ### SCRAP
 @@
@@ -1480,29 +1430,6 @@ _Word Form Examples_
 
 =====
 
-### SWINDLE  
-@@  
-**Verb, Noun** | हिंदी: धोखा देना, छल करना : To obtain money or property by deceitful or fraudulent means; a fraudulent scheme or act of deception.  
-- ***Synonyms***: cheat, defraud, deceive, scam, embezzle *(Verb)*; fraud, scam, trickery, deception *(Noun)*  
-- ***Antonyms***: be honest, deal fairly, repay, return *(Verb)*; honesty, integrity, truthfulness *(Noun)*  
-
-_Examples_  
-1. The con artist tried to **swindle** the elderly couple out of their savings. *(Verb: deceive for financial gain)*  
-2. The investment turned out to be a **swindle**, and many people lost their money. *(Noun: fraudulent act)*  
-
-_Word Form Examples_  
-1. **SWINDLER**: 🌟  
-   - The **swindler** was eventually caught and sentenced to prison for his crimes. *(Noun: person who cheats others)*  
-   - ***Synonyms***: fraudster, scammer, trickster, charlatan  
-2. **SWINDLING**:  
-   - The company accused its former employee of **swindling** funds from the accounts department. *(Gerund: act of cheating)*  
-   - ***Synonyms***: cheating, deceiving, defrauding, scamming  
-3. **SWINDLED**:  
-   - Many investors felt **swindled** after realizing the business was a pyramid scheme. *(Adjective: having been cheated)*  
-   - ***Synonyms***: deceived, duped, conned, scammed  
-
-=====
-
 ### SNUB  
 @@  
 **Verb, Noun** | हिंदी: अनदेखा करना, ठुकराना : To ignore or reject someone or something in a deliberate and disdainful manner; an act of intentional disrespect or rejection.  
@@ -1631,27 +1558,6 @@ _Word Form Examples_
 
 =====
 
-### SOAR
-@@
-**Verb** | हिंदी: ऊँचाई पर उड़ना, बढ़ना : 
-1. To fly or rise high into the air, often describing birds or aircraft; to ascend to great heights. *(Verb)*
-2. To increase rapidly in level, amount, or intensity; to rise dramatically. *(Verb)*
-- ***Synonyms***: ascend, climb, glide, skyrocket *(Verb: fly/rise)*; surge, escalate, multiply, boom *(Verb: increase)*
-- ***Antonyms***: descend, plummet, fall, dwindle *(Verb: drop/decrease)*
-
-_Examples_
-1. The eagle began to **soar** gracefully above the mountains, riding the thermal currents. *(Verb: fly high)*
-2. Housing prices continued to **soar**, making it difficult for first-time buyers to enter the market. *(Verb: increase rapidly)*
-
-_Word Form Examples_
-1. **SOARED**: 🌟
-   - Her confidence **soared** after receiving praise from her mentor. *(Verb past tense: increased dramatically)*
-   - ***Synonyms***: skyrocketed, surged, escalated, multiplied
-2. **SOARING**:  
-   - The **soaring** cost of healthcare has become a major concern for many families. *(Adjective/Gerund: rising rapidly)*
-   - ***Synonyms***: climbing, escalating, skyrocketing, booming
-
-=====
 
 ### SOCIAL
 @@
@@ -2507,6 +2413,48 @@ _Word Form Examples_
 
 =====
 
+
+### STEWARD
+@@
+**Noun** | हिंदी: प्रबंधक/सेवक; परिचारक : A person who manages or looks after something; An attendant on a ship, plane, or train.
+**Verb** | हिंदी: प्रबंधन करना; देखरेख करना : To manage or supervise something carefully; To take responsibility for the care of something.
+
+- ***Synonyms***:
+    - **Noun:**
+        - *Manager/caretaker:* administrator, supervisor, custodian, overseer
+        - *Attendant:* server, flight attendant, porter, host
+    - **Verb:**
+        - *Manage carefully:* oversee, handle, direct, administer
+        - *Take responsibility:* protect, maintain, conserve
+
+- ***Antonyms***:
+    - **Noun:**
+        - *Manager/caretaker:* neglecter
+        - *Attendant:* passenger, guest
+    - **Verb:**
+        - *Manage carefully:* mismanage, ignore
+        - *Take responsibility:* abandon, disregard
+
+_Example_:
+1. As a **steward** of the estate, she ensured everything was well-maintained. *(Noun: manager/caretaker)*
+2. The **steward** brought refreshments during the flight. *(Noun: attendant)*
+3. He was chosen to **steward** the community’s environmental initiatives. *(Verb: manage carefully)*
+4. She **stewarded** the project with exceptional dedication. *(Verb: took responsibility)*
+
+_Word Form Examples_  
+1. **STEWARDSHIP** 🌟:  
+   - Good **stewardship** of natural resources is vital for future generations. *(Noun: responsible management)*  
+   - ***Synonyms***: management, guardianship, supervision, administration  
+
+2. **STEWARDED**:  
+   - She **stewarded** the annual fundraiser with great efficiency. *(Verb - past tense: managed)*  
+   - ***Synonyms***: managed, directed, guided, facilitated  
+
+3. **STEWARDING**:  
+   - He is currently **stewarding** a large development project. *(Verb - present participle: overseeing)*  
+   - ***Synonyms***: overseeing, supervising, coordinating, handling  
+
+=====
 ### STINT
 @@
 **Noun, Verb** | हिंदी: कार्यकाल, सीमित करना : 
@@ -2789,25 +2737,6 @@ _Word Form Examples_
 
 =====
 
-### SUBSERVIENT
-@@
-**Adjective** | हिंदी: अधीन, वशीभूत : Compliant and obedient to someone else; excessively willing to serve or follow another’s orders; subordinate in position or function.
-- ***Synonyms***: submissive, compliant, obedient, deferential, subservient, docile  
-- ***Antonyms***: assertive, dominant, rebellious, defiant, independent  
-
-_Examples_  
-1. The employee was **subservient** to his boss, always agreeing with every decision. *(Adjective: excessively obedient)*  
-2. In the feudal system, peasants were often **subservient** to the landowners. *(Adjective: subordinate in position)*  
-
-_Word Form Examples_  
-1. **SUBSERVIENCE**: 🌟  
-   - Her **subservience** to authority made her an easy target for exploitation. *(Noun: the quality of being overly submissive)*  
-   - ***Synonyms***: compliance, obedience, submission, deference, docility  
-2. **SUBSERVIENTLY**:  
-   - He nodded **subserviently**, afraid to express his own opinion. *(Adverb: in a compliant or submissive manner)*  
-   - ***Synonyms***: compliantly, obediently, deferentially, submissively, humbly  
-
-=====
 
 ### SUBSIDIZE  
 @@  
@@ -2948,51 +2877,6 @@ _Word Form Examples_
 
 =====
 
-### SURMISE
-@@
-**Verb, Noun** | हिंदी: अनुमान लगाना, अनुमान : 
-1. To suppose or guess something without strong evidence; to make an inference based on incomplete information. *(Verb)*  
-2. A thought or idea based on scanty evidence; a conjecture or guess. *(Noun)*  
-- ***Synonyms***: guess, conjecture, speculate, infer, assume *(Verb)*; supposition, hypothesis, guess, conjecture *(Noun)*  
-- ***Antonyms***: know, confirm, verify, ascertain, establish *(Verb/Noun)*  
-
-_Examples_  
-1. Based on the clues, she **surmised** that the meeting had been canceled. *(Verb: guessed)*  
-2. His **surmise** about the project’s failure turned out to be incorrect. *(Noun: conjecture)*  
-
-_Word Form Examples_  
-1. **SURMISED**: 🌟  
-   - He **surmised** the outcome of the experiment without conducting proper tests. *(Verb: inferred)*  
-   - ***Synonyms***: guessed, conjectured, speculated, inferred, assumed  
-2. **SURMISING**:  
-   - Her **surmising** nature often led her to jump to conclusions. *(Gerund: the act of guessing)*  
-   - ***Synonyms***: guessing, conjecturing, speculating, inferring, assuming  
-3. **SURMISAL** *(Rare)*:  
-   - His **surmisal** of the situation was based on mere rumors. *(Noun: the act or result of surmising)*  
-   - ***Synonyms***: conjecture, guess, supposition, hypothesis, inference  
-
-=====
-
-### SURPASS
-@@
-**Verb** | हिंदी: पार करना, आगे निकलना : To exceed, go beyond, or be greater than something in quality, quantity, or extent; to excel or outdo.
-- ***Synonyms***: exceed, outstrip, outdo, eclipse, transcend, beat  
-- ***Antonyms***: fall behind, trail, lag, underperform, fail  
-
-_Examples_  
-1. Her performance in the competition **surpassed** all expectations. *(Verb: exceeded)*  
-2. The new model **surpasses** its predecessor in both speed and efficiency. *(Verb: outdoes)*  
-
-_Word Form Examples_  
-1. **SURPASSED**: 🌟  
-   - The athlete **surpassed** the previous world record by a significant margin. *(Verb: exceeded)*  
-   - ***Synonyms***: outstripped, outdid, eclipsed, transcended, beat  
-2. **SURPASSING**:  
-   - The beauty of the landscape was **surpassing**, leaving everyone in awe. *(Adjective: exceeding)*  
-   - ***Synonyms***: outstanding, exceptional, superior, remarkable, extraordinary  
-
-=====
-
 ### SURVEIL
 @@
 **Verb** | हिंदी: निगरानी करना, जासूसी करना : To keep under close observation or surveillance, especially for security, law enforcement, or intelligence purposes; to monitor systematically.
@@ -3069,36 +2953,6 @@ _Word Form Examples_
 
 =====
 
-### SUSTAIN  
-@@  
-**Verb** | हिंदी: बनाए रखना, सहारा देना, सहन करना : To support, maintain, or endure something over a period of time; to uphold or keep going without weakening.  
-- ***Synonyms***: maintain, uphold, support, endure, preserve, continue  
-- ***Antonyms***: weaken, abandon, neglect, discontinue, collapse  
-
-_Examples_  
-1. The bridge was built to **sustain** heavy loads for many years. *(Verb: support structurally)*  
-2. She tried to **sustain** a positive attitude despite the difficulties. *(Verb: maintain emotionally)*  
-3. The food and water supplies were enough to **sustain** the survivors until rescue arrived. *(Verb: keep alive)*  
-
-_Word Form Examples_  
-1. **SUSTAINED**: 🌟  
-   - The country **sustained** significant economic losses due to the recession. *(Verb: suffered or endured)*  
-   - ***Synonyms***: endured, maintained, upheld, prolonged  
-2. **SUSTAINING**:  
-   - A well-balanced diet plays a key role in **sustaining** good health. *(Gerund: keeping or maintaining over time)*  
-   - ***Synonyms***: maintaining, preserving, continuing, upholding  
-3. **SUSTAINABILITY**: 🌟  
-   - The company focuses on **sustainability** by using renewable energy sources. *(Noun: ability to be maintained without depletion or harm)*  
-   - ***Synonyms***: viability, endurance, resilience, eco-friendliness  
-4. **SUSTAINABLE**:  
-   - Solar power is considered a **sustainable** energy source. *(Adjective: able to be maintained over time without harm)*  
-   - ***Synonyms***: renewable, long-lasting, viable, eco-friendly  
-5. **SUSTAINABLY**:  
-   - The resources must be used **sustainably** to ensure future generations can benefit. *(Adverb: in a way that maintains balance or prevents depletion)*  
-   - ***Synonyms***: responsibly, efficiently, conservatively  
-
-=====  
-
 ### SWAMP
 @@
 **Noun, Verb** | हिंदी: दलदल, कीचड़ : 
@@ -3121,28 +2975,6 @@ _Word Form Examples_
 3. **SWAMPY**:
    - The **swampy** terrain made it difficult to build a stable foundation. *(Adjective: marsh-like)*
    - ***Synonyms***: marshy, boggy, muddy, waterlogged, soggy
-
-=====
-
-### SWAY
-@@
-**Verb, Noun** | हिंदी: झुकना, प्रभावित करना, लहराना :
-1. To move or cause to move slowly or rhythmically backward and forward or from side to side. *(Verb)*
-2. Influence or power over someone or something. *(Noun)*
-- ***Synonyms***: swing, waver, oscillate *(Verb: movement)*; influence, dominance, authority *(Noun: power)*
-- ***Antonyms***: stabilize, steady, remain still *(Verb: movement)*; weakness, impotence, insignificance *(Noun: power)*
-
-_Examples_
-1. The trees gently **swayed** in the breeze. *(Verb: move rhythmically)*
-2. The professor had a lot of **sway** over his students' decisions. *(Noun: influence)*
-
-_Word Form Examples_
-1. **SWAYED**: 🌟
-   - The crowd was noticeably **swayed** by the politician's speech. *(Verb: influenced)*
-   - ***Synonyms***: influenced, persuaded, convinced, affected
-2. **SWAYING**:  
-   - She found herself hypnotized by the **swaying** motion of the pendulum. *(Gerund: rhythmic movement)*
-   - ***Synonyms***: swinging, oscillating, wavering, rocking
 
 =====
 

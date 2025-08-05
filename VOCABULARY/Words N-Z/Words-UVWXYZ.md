@@ -119,24 +119,25 @@ _Word Form Examples_
 
 =====
 
-### UNDERMINE  
-@@  
-**Verb** | हिंदी: कमज़ोर करना, नष्ट करना : To weaken or damage something, especially gradually or insidiously; to erode the support, confidence, or effectiveness of someone or something.  
-- ***Synonyms***: weaken, sabotage, subvert, destabilize, impair *(Verb)*  
-- ***Antonyms***: strengthen, support, reinforce, bolster, uphold *(Verb)*  
+### UNDERMINE
+@@
+**Verb** | हिंदी: कमज़ोर करना, नष्ट करना : To weaken or damage something, especially gradually or insidiously; to erode the support, confidence, or effectiveness of someone or something.
+- ***Synonyms***: weaken, sabotage, subvert, destabilize, impair *(Verb)*
+- ***Antonyms***: strengthen, support, reinforce, bolster, uphold *(Verb)*
 
-_Examples_  
-1. Constant criticism can **undermine** a person's self-confidence over time. *(Verb: weaken emotionally)*  
-2. The leaking scandal served to **undermine** the government's credibility. *(Verb: damage reputation or trust)*  
-3. The heavy rain began to **undermine** the foundation of the old house. *(Verb: cause physical weakening)*  
+_Examples_
+1. Constant criticism can **undermine** a person's self-confidence over time. *(Verb: weaken emotionally)*
+2. The leaking scandal served to **undermine** the government's credibility. *(Verb: damage reputation or trust)*
+3. The heavy rain began to **undermine** the foundation of the old house. *(Verb: cause physical weakening)*
 
-_Word Form Examples_  
-1. **UNDERMINED**: 🌟  
-   - The project was severely **undermined** by a lack of proper funding. *(Adjective: weakened or damaged)*  
-   - ***Synonyms***: weakened, sabotaged, compromised, destabilized  
-2. **UNDERMINING**:  
-   - His constant interruptions were **undermining** the team's progress. *(Gerund: the act of weakening or damaging)*  
-   - ***Synonyms***: sabotaging, subverting, eroding, impairing  
+_Word Form Examples_
+1. **UNDERMINED**: 🌟
+   - The project was severely **undermined** by a lack of proper funding. *(Adjective: weakened or damaged)*
+   - ***Synonyms***: weakened, sabotaged, compromised, destabilized
+2. **UNDERMINING**:
+   - His constant interruptions were **undermining** the team's progress. *(Gerund: the act of weakening or damaging)*
+   - ***Synonyms***: sabotaging, subverting, eroding, impairing
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -160,6 +161,7 @@ _Word Form Examples_
 3. **UNDERSTATING**: 🌟
    - By **understating** the risks, the company misled its investors. *(Gerund: act of downplaying)*
    - ***Synonyms***: downplaying, minimizing, belittling, diminishing, playing down
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -177,6 +179,7 @@ _Word Form Examples_
 1. **UNDULY**: 🌟
    - He was **unduly** harsh in his judgment of her minor mistake. *(Adverb: in an excessive or unwarranted manner)*
    - ***Synonyms***: excessively, unreasonably, unjustifiably, disproportionately, overly
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -271,26 +274,6 @@ _Word Form Examples_
 2. **UNVEILING**: 🌟
    - The **unveiling** of the statue attracted thousands of visitors. *(Noun: act of revealing)*
    - ***Synonyms***: revelation, disclosure, exposure, manifestation
-
-=====
-
-### UPHEAVAL
-@@
-**Noun** | हिंदी: उथल-पुथल, विप्लव : A sudden and significant change or disruption, often causing instability; a violent or extreme disturbance in a system, society, or situation.
-- ***Synonyms***: turmoil, chaos, disruption, revolution, convulsion, upheaving
-- ***Antonyms***: stability, calm, order, peace, tranquility
-
-_Examples_
-1. The political **upheaval** led to widespread protests across the country. *(Noun: disruption)*
-2. The earthquake caused an **upheaval** in the landscape, altering the coastline permanently. *(Noun: physical disturbance)*
-
-_Word Form Examples_
-1. **UPHEAVE**: *(Rare)* 🌟
-   - The tectonic plates began to **upheave**, creating massive mountains over millennia. *(Verb: raise or lift forcefully)*
-   - ***Synonyms***: elevate, lift, raise, thrust, upheave
-2. **UPHEAVING**: *(Rare)*
-   - The constant **upheaving** of the ocean waves made navigation nearly impossible. *(Gerund: act of lifting or disturbing)*
-   - ***Synonyms***: lifting, raising, thrusting, churning, disrupting
 
 =====
 
@@ -566,9 +549,10 @@ _Word Form Examples_
 1. **VAPIDLY**: 🌟
    - He spoke **vapidly** about topics he clearly didn’t care about, losing the audience’s attention. *(Adverb: in a dull or uninspired manner)*
    - ***Synonyms***: monotonously, blandly, uninterestingly, unimaginatively
-2. **VAPIDITY**:  
+2. **VAPIDITY**:
    - Critics noted the **vapidity** of the lyrics, which failed to evoke any emotion. *(Noun: state of being vapid)*
    - ***Synonyms***: emptiness, flatness, hollowness, monotony
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -671,25 +655,26 @@ _Word Form Examples_
 
 =====
 
-### VETO  
-@@  
-**Noun, Verb** | हिंदी: वीटो, निषेधाधिकार :  
-1. The power or right to reject or prohibit a decision or proposal. *(Noun)*  
-2. To reject, prohibit, or overrule a decision, especially by someone in authority. *(Verb)*  
-- ***Synonyms***: rejection, prohibition, denial, override *(Noun)*; reject, prohibit, overrule, dismiss *(Verb)*  
-- ***Antonyms***: approval, endorsement, sanction, ratification *(Noun & Verb)*  
+### VETO
+@@
+**Noun, Verb** | हिंदी: वीटो, निषेधाधिकार :
+1. The power or right to reject or prohibit a decision or proposal. *(Noun)*
+2. To reject, prohibit, or overrule a decision, especially by someone in authority. *(Verb)*
+- ***Synonyms***: rejection, prohibition, denial, override *(Noun)*; reject, prohibit, overrule, dismiss *(Verb)*
+- ***Antonyms***: approval, endorsement, sanction, ratification *(Noun & Verb)*
 
-_Examples_  
-1. The president exercised his **veto** to block the controversial bill. *(Noun: power to reject a decision)*  
-2. The manager decided to **veto** the proposal due to budget constraints. *(Verb: reject officially)*  
+_Examples_
+1. The president exercised his **veto** to block the controversial bill. *(Noun: power to reject a decision)*
+2. The manager decided to **veto** the proposal due to budget constraints. *(Verb: reject officially)*
 
-_Word Form Examples_  
-1. **VETOED**: 🌟  
-   - The governor **vetoed** the new tax law, preventing it from being implemented. *(Verb: rejected officially)*  
-   - ***Synonyms***: rejected, overruled, dismissed, nullified  
-2. **VETOING**:  
-   - The senator is considering **vetoing** the legislation due to its negative impact. *(Verb: rejecting in progress)*  
-   - ***Synonyms***: rejecting, prohibiting, overruling, dismissing  
+_Word Form Examples_
+1. **VETOED**: 🌟
+   - The governor **vetoed** the new tax law, preventing it from being implemented. *(Verb: rejected officially)*
+   - ***Synonyms***: rejected, overruled, dismissed, nullified
+2. **VETOING**:
+   - The senator is considering **vetoing** the legislation due to its negative impact. *(Verb: rejecting in progress)*
+   - ***Synonyms***: rejecting, prohibiting, overruling, dismissing
+<!--SR:!2025-04-21,3,250-->
 
 =====  
 
@@ -894,7 +879,7 @@ _Examples_
 2. The medicine works by the **virtue** of its natural ingredients. *(Noun: effectiveness or beneficial quality)*  
 
 _Word Form Examples_  
-1. **VIRTUOUS**: 🌟  
+1. **VIRTUOSO**: 🌟  
    - She was admired for her **virtuous** character and honesty. *(Adjective: having high moral standards)*  
    - ***Synonyms***: righteous, moral, honorable, ethical  
 2. **VIRTUOSITY**:  
@@ -987,24 +972,25 @@ _Word Form Examples_
 
 =====
 
-### VOLATILE  
-@@  
-**Adjective** | हिंदी: अस्थिर, चंचल : Tending to change rapidly and unpredictably; unstable or explosive in behavior, emotions, or characteristics.  
-- ***Synonyms***: unstable, erratic, unpredictable, mercurial, explosive, fleeting  
-- ***Antonyms***: stable, steady, constant, reliable, unchanging  
+### VOLATILE
+@@
+**Adjective** | हिंदी: अस्थिर, चंचल : Tending to change rapidly and unpredictably; unstable or explosive in behavior, emotions, or characteristics.
+- ***Synonyms***: unstable, erratic, unpredictable, mercurial, explosive, fleeting
+- ***Antonyms***: stable, steady, constant, reliable, unchanging
 
-_Examples_  
-1. The political situation in the region remained **volatile**, with frequent protests and unrest. *(Adjective: unstable)*  
-2. His **volatile** temper made it difficult for him to maintain relationships. *(Adjective: explosive)*  
-3. The stock market is known for its **volatile** nature, with prices fluctuating daily. *(Adjective: unpredictable)*  
+_Examples_
+1. The political situation in the region remained **volatile**, with frequent protests and unrest. *(Adjective: unstable)*
+2. His **volatile** temper made it difficult for him to maintain relationships. *(Adjective: explosive)*
+3. The stock market is known for its **volatile** nature, with prices fluctuating daily. *(Adjective: unpredictable)*
 
-_Word Form Examples_  
-1. **VOLATILITY**: 🌟  
-   - The **volatility** of the cryptocurrency market has deterred many investors. *(Noun: state of being unpredictable)*  
-   - ***Synonyms***: instability, unpredictability, fluctuation, variability, capriciousness  
-2. **VOLATILIZE**: *(Rare)*  
-   - Heat can cause certain chemicals to **volatilize**, turning them into vapor. *(Verb: convert into vapor)*  
-   - ***Synonyms***: evaporate, vaporize, dissipate  
+_Word Form Examples_
+1. **VOLATILITY**: 🌟
+   - The **volatility** of the cryptocurrency market has deterred many investors. *(Noun: state of being unpredictable)*
+   - ***Synonyms***: instability, unpredictability, fluctuation, variability, capriciousness
+2. **VOLATILIZE**: *(Rare)*
+   - Heat can cause certain chemicals to **volatilize**, turning them into vapor. *(Verb: convert into vapor)*
+   - ***Synonyms***: evaporate, vaporize, dissipate
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -1049,31 +1035,31 @@ _Word Form Examples_
 
 =====
 
-### VOLUNTARY  
-@@  
-**Adjective, Noun** | हिंदी: स्वैच्छिक, स्वेच्छा से किया गया :  
-1. Done, given, or acting of one's own free will; not forced or required. *(Adjective: free-willed action)*  
-2. Undertaken or performed without external pressure, often for charity or goodwill. *(Adjective: unpaid service)*  
-3. A piece of music played spontaneously, often in a church setting. *(Noun: musical composition)* *(Rare)*  
-- ***Synonyms***: optional, willing, intentional, self-initiated, uncoerced, discretionary  
-- ***Antonyms***: compulsory, forced, involuntary, mandatory, obligatory  
+### VOLUNTARY
+@@
+**Adjective, Noun** | हिंदी: स्वैच्छिक, स्वेच्छा से किया गया :
+1. Done, given, or acting of one's own free will; not forced or required. *(Adjective: free-willed action)*
+2. Undertaken or performed without external pressure, often for charity or goodwill. *(Adjective: unpaid service)*
 
-_Examples_  
-1. Participation in the survey was completely **voluntary**. *(Adjective: free-willed action)*  
-2. She engaged in **voluntary** work at the orphanage every weekend. *(Adjective: unpaid service)*  
-3. The organist played a beautiful **voluntary** before the sermon. *(Noun: musical composition) (Rare)*  
+- ***Synonyms***: optional, willing, intentional, self-initiated, uncoerced, discretionary
+- ***Antonyms***: compulsory, forced, involuntary, mandatory, obligatory
 
-_Word Form Examples_  
-1. **VOLUNTARILY**:  
-   - He **voluntarily** offered to help with the cleanup. *(Adverb: willingly, without force)*  
-   - ***Synonyms***: willingly, freely, intentionally, deliberately  
-2. **VOLUNTEER**: 🌟  
-   - She signed up as a **volunteer** at the animal shelter. *(Noun: a person offering help willingly)*  
-   - They needed more people to **volunteer** for the event. *(Verb: to offer services freely)*  
-   - ***Synonyms***: helper, altruist, philanthropist, enlist, offer  
-3. **INVOLUNTARY**:  
-   - He gave an **involuntary** gasp when he saw the surprise. *(Adjective: not done by choice)*  
-   - ***Synonyms***: unintentional, reflexive, forced, uncontrolled  
+_Examples_
+1. Participation in the survey was completely **voluntary**. *(Adjective: free-willed action)*
+2. She engaged in **voluntary** work at the orphanage every weekend. *(Adjective: unpaid service)*
+
+_Word Form Examples_
+1. **VOLUNTARILY**:
+   - He **voluntarily** offered to help with the cleanup. *(Adverb: willingly, without force)*
+   - ***Synonyms***: willingly, freely, intentionally, deliberately
+2. **VOLUNTEER**: 🌟
+   - She signed up as a **volunteer** at the animal shelter. *(Noun: a person offering help willingly)*
+   - They needed more people to **volunteer** for the event. *(Verb: to offer services freely)*
+   - ***Synonyms***: helper, altruist, philanthropist, enlist, offer
+3. **INVOLUNTARY**:
+   - He gave an **involuntary** gasp when he saw the surprise. *(Adjective: not done by choice)*
+   - ***Synonyms***: unintentional, reflexive, forced, uncontrolled
+<!--SR:!2025-04-21,3,250-->
 
 =====  
 
@@ -1098,25 +1084,26 @@ _Word Form Examples_
 
 =====
 
-### VOW  
-@@  
-**Noun, Verb** | हिंदी: शपथ, प्रतिज्ञा :  
-1. A solemn promise or pledge to do something, often in a formal or religious context. *(Noun)*  
-2. To make a serious commitment or promise to do something. *(Verb)*  
-- ***Synonyms***: oath, pledge, promise, covenant *(Noun)*; swear, commit, undertake, guarantee *(Verb)*  
-- ***Antonyms***: break, renounce, retract, violate *(Verb/Noun related to breaking promises)*  
+### VOW
+@@
+**Noun, Verb** | हिंदी: शपथ, प्रतिज्ञा :
+1. A solemn promise or pledge to do something, often in a formal or religious context. *(Noun)*
+2. To make a serious commitment or promise to do something. *(Verb)*
+- ***Synonyms***: oath, pledge, promise, covenant *(Noun)*; swear, commit, undertake, guarantee *(Verb)*
+- ***Antonyms***: break, renounce, retract, violate *(Verb/Noun related to breaking promises)*
 
-_Examples_  
-1. She took a **vow** of silence as part of her spiritual practice. *(Noun: solemn promise)*  
-2. He vowed to protect his family no matter what happened. *(Verb: make a serious commitment)*  
+_Examples_
+1. She took a **vow** of silence as part of her spiritual practice. *(Noun: solemn promise)*
+2. He vowed to protect his family no matter what happened. *(Verb: make a serious commitment)*
 
-_Word Form Examples_  
-1. **VOWED**: 🌟  
-   - The knight had **vowed** loyalty to the king during the ceremony. *(Adjective: having made a solemn promise)*  
-   - ***Synonyms***: promised, pledged, sworn, guaranteed  
-2. **VOWING**:  
-   - The couple stood together, **vowing** their love for one another. *(Gerund: act of making a solemn promise)*  
-   - ***Synonyms***: promising, pledging, swearing, committing  
+_Word Form Examples_
+1. **VOWED**: 🌟
+   - The knight had **vowed** loyalty to the king during the ceremony. *(Adjective: having made a solemn promise)*
+   - ***Synonyms***: promised, pledged, sworn, guaranteed
+2. **VOWING**:
+   - The couple stood together, **vowing** their love for one another. *(Gerund: act of making a solemn promise)*
+   - ***Synonyms***: promising, pledging, swearing, committing
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -1147,51 +1134,53 @@ _Word Form Examples_
 # WXYZ
 
 ### WANE  🪐
-@@  
-**Verb, Noun** | हिंदी: कम होना, घटना : 
-1. To gradually decrease in size, strength, or intensity. *(Verb)*; 
-2. A gradual decline or reduction. *(Noun)*  
-- ***Synonyms***: diminish, decrease, dwindle, recede *(Verb)*; decline, reduction, fading, ebb *(Noun)*  
-- ***Antonyms***: increase, grow, strengthen, flourish *(Verb)*; rise, growth, peak, climax *(Noun)*  
+@@
+**Verb, Noun** | हिंदी: कम होना, घटना :
+1. To gradually decrease in size, strength, or intensity. *(Verb)*;
+2. A gradual decline or reduction. *(Noun)*
+- ***Synonyms***: diminish, decrease, dwindle, recede *(Verb)*; decline, reduction, fading, ebb *(Noun)*
+- ***Antonyms***: increase, grow, strengthen, flourish *(Verb)*; rise, growth, peak, climax *(Noun)*
 
-_Examples_  
-1. The popularity of the old technology began to **wane** as newer innovations emerged. *(Verb)*  
-2. The **wane** of the moon was visible in the night sky. *(Noun)*  
+_Examples_
+1. The popularity of the old technology began to **wane** as newer innovations emerged. *(Verb)*
+2. The **wane** of the moon was visible in the night sky. *(Noun)*
 
-_Word Form Examples_  
-1. **WANED**: 🌟  
-   - His enthusiasm for the project had **waned** after months of setbacks. *(Adjective: decreased or diminished)*  
-   - ***Synonyms***: diminished, decreased, faded, dwindled, subsided  
-2. **WANING**:  
-   - The **waning** interest in classical music among younger audiences is a growing concern. *(Adjective: gradually decreasing)*  
-   - ***Synonyms***: diminishing, declining, fading, ebbing, weakening  
+_Word Form Examples_
+1. **WANED**: 🌟
+   - His enthusiasm for the project had **waned** after months of setbacks. *(Adjective: decreased or diminished)*
+   - ***Synonyms***: diminished, decreased, faded, dwindled, subsided
+2. **WANING**:
+   - The **waning** interest in classical music among younger audiences is a growing concern. *(Adjective: gradually decreasing)*
+   - ***Synonyms***: diminishing, declining, fading, ebbing, weakening
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
-### WASTE  
-@@  
-**Noun, Verb, Adjective** | हिंदी: बर्बादी, व्यर्थ : Unnecessary or unwanted use of resources, time, or effort. *(Noun)*; To use or expend carelessly or unnecessarily. *(Verb)*; Unused, barren, or unproductive. *(Adjective)*  
-- ***Synonyms***: squander, misuse, fritter away *(Verb)*; garbage, debris, refuse *(Noun)*; desolate, barren, empty *(Adjective)*  
-- ***Antonyms***: conserve, preserve, utilize *(Verb)*; treasure, resource, asset *(Noun)*; fertile, productive, fruitful *(Adjective)*  
+### WASTE
+@@
+**Noun, Verb, Adjective** | हिंदी: बर्बादी, व्यर्थ : Unnecessary or unwanted use of resources, time, or effort. *(Noun)*; To use or expend carelessly or unnecessarily. *(Verb)*; Unused, barren, or unproductive. *(Adjective)*
+- ***Synonyms***: squander, misuse, fritter away *(Verb)*; garbage, debris, refuse *(Noun)*; desolate, barren, empty *(Adjective)*
+- ***Antonyms***: conserve, preserve, utilize *(Verb)*; treasure, resource, asset *(Noun)*; fertile, productive, fruitful *(Adjective)*
 
-_Examples_  
-1. The city council is trying to reduce **waste** by promoting recycling programs. *(Noun)*  
-2. She didn’t want to **waste** her money on expensive gadgets she wouldn’t use. *(Verb)*  
-3. The desert was a **waste** land, with no signs of life for miles. *(Adjective)*  
+_Examples_
+1. The city council is trying to reduce **waste** by promoting recycling programs. *(Noun)*
+2. She didn’t want to **waste** her money on expensive gadgets she wouldn’t use. *(Verb)*
+3. The desert was a **waste** land, with no signs of life for miles. *(Adjective)*
 
-_Word Form Examples_  
-1. **WASTED**: 🌟  
-   - After staying up all night, he felt completely **wasted** and unable to focus. *(Adjective: exhausted or depleted)*  
-   - ***Synonyms***: squandered, misused, lost, depleted, fatigued  
-2. **WASTING**:  
-   - His constant **wasting** of time on social media affected his productivity. *(Verb: gerund form, referring to careless use)*  
-   - ***Synonyms***: squandering, misusing, frittering, dissipating  
-3. **WASTEFUL**:  
-   - Leaving the lights on when not needed is a **wasteful** habit. *(Adjective: characterized by waste or inefficiency)*  
-   - ***Synonyms***: extravagant, profligate, inefficient, reckless, lavish  
-4. **WASTELAND**:  
-   - The industrial disaster turned the once-fertile valley into a barren **wasteland**. *(Noun: an area that is unused or unproductive)*  
-   - ***Synonyms***: desert, wilderness, ruin, rubble, desolation  
+_Word Form Examples_
+1. **WASTED**: 🌟
+   - After staying up all night, he felt completely **wasted** and unable to focus. *(Adjective: exhausted or depleted)*
+   - ***Synonyms***: squandered, misused, lost, depleted, fatigued
+2. **WASTING**:
+   - His constant **wasting** of time on social media affected his productivity. *(Verb: gerund form, referring to careless use)*
+   - ***Synonyms***: squandering, misusing, frittering, dissipating
+3. **WASTEFUL**:
+   - Leaving the lights on when not needed is a **wasteful** habit. *(Adjective: characterized by waste or inefficiency)*
+   - ***Synonyms***: extravagant, profligate, inefficient, reckless, lavish
+4. **WASTELAND**:
+   - The industrial disaster turned the once-fertile valley into a barren **wasteland**. *(Noun: an area that is unused or unproductive)*
+   - ***Synonyms***: desert, wilderness, ruin, rubble, desolation
+<!--SR:!2025-04-20,2,249-->
 
 =====
 
@@ -1335,23 +1324,24 @@ _Word Form Examples_
 
 =====  
 
-### WIELD  
-@@  
-**Verb** | हिंदी: प्रयोग करना, संचालन करना : To handle or use a weapon, tool, or power effectively; to have and exercise influence or authority.  
-- ***Synonyms***: handle, manipulate, exert, command, control, brandish  
-- ***Antonyms***: relinquish, surrender, abandon, misuse  
+### WIELD
+@@
+**Verb** | हिंदी: प्रयोग करना, संचालन करना : To handle or use a weapon, tool, or power effectively; to have and exercise influence or authority.
+- ***Synonyms***: handle, manipulate, exert, command, control, brandish
+- ***Antonyms***: relinquish, surrender, abandon, misuse
 
-_Examples_  
-1. The knight **wielded** his sword skillfully in battle. *(Verb: to handle a weapon effectively)*  
-2. She **wields** great influence over the company's decisions. *(Verb: to exercise power or authority)*  
+_Examples_
+1. The knight **wielded** his sword skillfully in battle. *(Verb: to handle a weapon effectively)*
+2. She **wields** great influence over the company's decisions. *(Verb: to exercise power or authority)*
 
-_Word Form Examples_  
-1. **WIELDED**:  
-   - He **wielded** the hammer with precision. *(Verb: past tense of wield, meaning to use or control something skillfully)*  
-   - ***Synonyms***: used, handled, controlled, exercised  
-2. **WIELDING**:  
-   - The dictator was **wielding** absolute power over the nation. *(Verb: present participle, meaning actively using or exerting control)*  
-   - ***Synonyms***: exercising, commanding, employing, brandishing  
+_Word Form Examples_
+1. **WIELDED**:
+   - He **wielded** the hammer with precision. *(Verb: past tense of wield, meaning to use or control something skillfully)*
+   - ***Synonyms***: used, handled, controlled, exercised
+2. **WIELDING**:
+   - The dictator was **wielding** absolute power over the nation. *(Verb: present participle, meaning actively using or exerting control)*
+   - ***Synonyms***: exercising, commanding, employing, brandishing
+<!--SR:!2025-04-21,3,250-->
 
 =====  
 
@@ -1506,23 +1496,24 @@ _Word Form Examples_
 
 =====
 
-### WREAK  
-@@  
-**Verb** | हिंदी: उत्पन्न करना, कारण बनना : To cause or inflict something, usually damage, harm, or chaos.  
-- ***Synonyms***: inflict, impose, unleash, cause, execute, bring about  
-- ***Antonyms***: prevent, halt, suppress, avert, restrain  
+### WREAK
+@@
+**Verb** | हिंदी: उत्पन्न करना, कारण बनना : To cause or inflict something, usually damage, harm, or chaos.
+- ***Synonyms***: inflict, impose, unleash, cause, execute, bring about
+- ***Antonyms***: prevent, halt, suppress, avert, restrain
 
-_Examples_  
-1. The hurricane **wreaked** havoc across the coastal towns. *(Verb: cause destruction)*  
-2. He swore to **wreak** vengeance on those who wronged him. *(Verb: inflict punishment or revenge)*  
+_Examples_
+1. The hurricane **wreaked** havoc across the coastal towns. *(Verb: cause destruction)*
+2. He swore to **wreak** vengeance on those who wronged him. *(Verb: inflict punishment or revenge)*
 
-_Word Form Examples_  
-1. **WREAKED**: 🌟  
-   - The sudden economic crisis **wreaked** misery on millions. *(Past tense: caused harm or distress)*  
-   - ***Synonyms***: inflicted, imposed, unleashed, triggered  
-2. **WREAKING**:  
-   - The virus is **wreaking** havoc on global healthcare systems. *(Gerund: act of causing harm or chaos)*  
-   - ***Synonyms***: inflicting, imposing, unleashing, bringing about  
+_Word Form Examples_
+1. **WREAKED**: 🌟
+   - The sudden economic crisis **wreaked** misery on millions. *(Past tense: caused harm or distress)*
+   - ***Synonyms***: inflicted, imposed, unleashed, triggered
+2. **WREAKING**:
+   - The virus is **wreaking** havoc on global healthcare systems. *(Gerund: act of causing harm or chaos)*
+   - ***Synonyms***: inflicting, imposing, unleashing, bringing about
+<!--SR:!2025-04-21,3,269-->
 
 =====  
 
@@ -1602,7 +1593,7 @@ _Word Form Examples_
 
 ### ZEAL  🪐
 @@
-**Noun** | हिंदी: उत्साह, जोश : Great energy or enthusiasm in pursuit of a cause or an objective. 
+**Noun** | हिंदी: उत्साह, जोश : Great energy or enthusiasm in pursuit of a cause or an objective.
 - ***Synonyms***: enthusiasm, passion, fervor, dedication, ardor
 - ***Antonyms***: apathy, indifference, lethargy, disinterest, reluctance
 
@@ -1621,7 +1612,7 @@ _Word Form Examples_
 3. **ZEALOT**:
    - The religious **zealot** preached tirelessly about his beliefs. *(Noun: a person who is fanatically enthusiastic or extreme in their views)*
    - ***Synonyms***: fanatic, enthusiast, extremist, devotee
-<!--SR:!2025-03-21,8,250-->
+<!--SR:!2025-04-22,4,230-->
 
 =====
 

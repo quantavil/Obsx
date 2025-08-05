@@ -1,15 +1,58 @@
 #root1
 ```dataviewjs
-const file = dv.current().file.path; // Get the current file's path
+const file = dv.current().file.path;
 app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
-    const matches = content.match(/(^|\s)=====(\s|$)/g); // Match all occurrences of "====="
-    const count = matches ? matches.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "=====" count in the current file: ${count}`);
-    const matches1 = content.match(/(^|\s)###(\s|$)/g); // Match all occurrences of "###"
-    const count1 = matches1 ? matches1.length : 0; // Count matches or default to 0
-    dv.paragraph(`Total "###" count in the current file: ${count1}`);
+    const lines = content.split('\n');
+    let headerCount = 0, separatorCount = 0;
+    let pendingWord = null, lastCorrectWord = null;
+    const issues = [];
+    
+    const addIssue = (word, problem) => issues.push({ word, problem, lastCorrect: lastCorrectWord });
+    
+    lines.forEach(line => {
+        const trimmed = line.trim();
+        
+        if (trimmed.startsWith('### ')) {
+            // Close pending word if exists
+            if (pendingWord) addIssue(pendingWord, 'Missing separator');
+            
+            headerCount++;
+            pendingWord = trimmed.slice(4).split(/\s/)[0].replace(/[🪐@@]/g, '');
+        }
+        else if (/^=+$/.test(trimmed)) {
+            if (trimmed === '=====') {
+                separatorCount++;
+                if (pendingWord) {
+                    lastCorrectWord = pendingWord;
+                    pendingWord = null;
+                } else {
+                    addIssue('UNKNOWN', 'Separator without header');
+                }
+            } else if (pendingWord) {
+                addIssue(pendingWord, `Wrong separator: ${trimmed} (${trimmed.length} equals)`);
+                pendingWord = null;
+            }
+        }
+    });
+    
+    // Handle final pending word
+    if (pendingWord) addIssue(pendingWord, 'Missing separator (EOF)');
+    
+    // Results
+    dv.paragraph(`📊 Headers: ${headerCount} | Separators: ${separatorCount}`);
+    
+    if (headerCount === separatorCount && !issues.length) {
+        dv.paragraph(`✅ **Perfect formatting!** (${headerCount} words)`);
+    } else {
+        dv.paragraph(`❌ **${issues.length} issue(s) found:**`);
+        issues.forEach(({ word, problem, lastCorrect }) => {
+            const ref = lastCorrect ? ` *(after ${lastCorrect})*` : '';
+            dv.paragraph(`• **${word}**: ${problem}${ref}`);
+        });
+    }
 });
 ```
+
 ## **01 AC, ACR** = Sharp Sour, Bitter
 
 ### ACERBIC
@@ -89,6 +132,7 @@ _Example_: The new team member was **amenable** to feedback and quickly adapted 
 **Adjective** | हिंदी: मिलनसार, सौहार्दपूर्ण : Having a pleasant and friendly disposition; good-natured and likeable.
 - ***Synonyms***: Friendly, pleasant, genial, affable, cordial, agreeable
 _Example_: Despite her fame, she maintained an **amiable** personality and was well-liked by everyone she met. *(Adjective: friendly and pleasant)*
+<!--SR:!2025-07-20,20,251-->
 
 =====
 
@@ -201,7 +245,7 @@ _Example_: He has a strong **antipathy** toward seafood and refuses to eat at re
 **Noun** | हिंदी: नवविवाहित पुरुष : A newly married man, especially one who was previously considered a confirmed bachelor.
 - ***Synonyms***: Newlywed, groom, newly married man, husband *(Rare)*
 _Example_: After years of declaring he would never marry, James became a **benedict** last spring in a small ceremony by the lake. *(Noun: newly married man)* *(Somewhat Rare)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-13,13,230-->
 
 =====
 
@@ -230,6 +274,7 @@ _Example_:
 **Noun** | हिंदी: परोपकारिता, दयालुता : The quality of being well-meaning and kind; the disposition to do good.
 - ***Synonyms***: Kindness, generosity, goodwill, compassion, charity, altruism
 _Example_: Her **benevolence** toward the community was demonstrated through years of volunteer work and charitable donations. *(Noun: kindness and generosity)*
+<!--SR:!2025-05-10,7,251-->
 
 =====
 
@@ -383,11 +428,12 @@ _Example_:
 
 =====
 
-### CIRCUMVENT 
-@@  
+### CIRCUMVENT
+@@
 **Verb** | हिंदी: बचना, दरकिनार करना : To find a way around an obstacle, especially rules, laws or regulations, often in a clever and possibly deceptive way.
-- ***Synonyms***: Bypass, avoid, evade, sidestep, get around, outwit  
+- ***Synonyms***: Bypass, avoid, evade, sidestep, get around, outwit
 _Example_: The company attempted to **circumvent** environmental regulations by moving their factory operations to a country with more lenient laws. *(Verb: to get around or bypass)*
+<!--SR:!2025-05-14,9,251-->
 
 =====
 ## **08 CLIN / CLIV** = slope, lean
@@ -418,7 +464,7 @@ _Example_:
 **Noun** | हिंदी: उतार, ढलान : A downward slope or descent.
 - ***Synonyms***: Descent, downslope, downgrade, drop-off, incline
 _Example_: The car gained speed as it moved down the **declivity** of the mountain road. *(Noun: downward slope)* *(Rare)*
-<!--SR:!2025-04-04,4,270-->
+<!--SR:!2025-07-16,16,250-->
 
 =====
 
@@ -565,6 +611,7 @@ _Example_: The **autocrat** silenced all opposition and ruled the country with a
 **Noun** | हिंदी: लोकतंत्रवादी, प्रजातंत्रवादी : A person who believes in and supports democracy.
 - ***Synonyms***: Supporter of democracy, egalitarian, republican
 _Example_: As a committed **democrat**, she fought tirelessly for free elections and equal rights for all citizens. *(Noun: supporter of democracy)*
+<!--SR:!2025-05-12,9,251-->
 
 =====
 
@@ -640,7 +687,7 @@ _Example_:
 **Adjective** | हिंदी: आसानी से विश्वास करने वाला, भोला : Tending to believe things too easily, especially things that are somewhat dubious or unlikely.
 - ***Synonyms***: Gullible, naive, trusting, unsuspecting, innocent
 _Example_: The scammer targeted **credulous** elderly people who readily believed his promises of enormous investment returns. *(Adjective: overly trusting)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-05,5,210-->
 
 =====
 
@@ -697,7 +744,7 @@ _Example_: The authoritarian regime attempted to **indoctrinate** the youth thro
 **Noun** | हिंदी: जलसेतु, पानी की नहर : A bridge-like structure built to carry water over gaps, such as valleys or rivers.
 - ***Synonyms***: Water bridge, water channel, conduit, waterway
 _Example_: The ancient Roman **aqueduct** still stands today, a testament to the engineering prowess of that civilization. *(Noun: water-carrying structure)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-10,10,230-->
 
 =====
 
@@ -712,7 +759,7 @@ _Example_: The ancient Roman **aqueduct** still stands today, a testament to the
 _Example_:
 1. His professional **conduct** during the crisis earned him the respect of his colleagues. *(Noun: behavior)*
 2. The professor will **conduct** research on climate change over the summer. *(Verb: direct/lead)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-05-08,5,230-->
 
 =====
 
@@ -777,7 +824,7 @@ _Example_: The marketing campaign was designed to **seduce** consumers into buyi
 **Noun** | हिंदी: सड़क-सेतु, पुल : A long bridge-like structure, typically a series of arches, carrying a road or railway across a valley or other low ground.
 - ***Synonyms***: Bridge, overpass, flyover, elevated roadway
 _Example_: The railway **viaduct** spans the entire valley, allowing trains to cross without navigating the steep terrain below. *(Noun: bridge-like structure)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-04-17,9,250-->
 
 =====
 ## **15 FRAG/FRACT** = break, shatter
@@ -884,7 +931,7 @@ _Example_: The film blends elements of horror and comedy, creating a hybrid **ge
 **Noun** | हिंदी: सभ्यता, शिष्टता : Social refinement and good breeding; polite or refined behavior typical of the upper class.
 - ***Synonyms***: Refinement, cultivation, elegance, politeness, sophistication, class
 _Example_: Despite their modest circumstances, the family maintained an air of **gentility** in their manners and home. *(Noun: refined behavior)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-13,13,230-->
 
 =====
 
@@ -952,7 +999,7 @@ _Example_:
 _Example_:
 1. It is unprofessional to **degrade** colleagues in front of others. *(Verb: humiliate or lower in status)*
 2. These plastics will **degrade** naturally in the environment over several decades. *(Verb: break down physically)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-05-09,4,230-->
 
 =====
 
@@ -1008,7 +1055,7 @@ _Example_:
 **Adjective** | हिंदी: क्रमिक; धीरे-धीरे होने वाला : Taking place or occurring by degrees; moving, changing, or developing slowly.
 - ***Synonyms***: Slow, incremental, progressive, steady, step-by-step, measured
 _Example_: There has been a **gradual** improvement in her condition since she started the new treatment. *(Adjective: occurring slowly over time)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-09,9,230-->
 
 =====
 
@@ -1324,7 +1371,7 @@ _Example_:
 **Verb** | हिंदी: अधीन करना/दबाना : To bring under control or dominion; to conquer and rule over forcibly.
 - ***Synonyms***: Conquer, subdue, dominate, enslave, overpower, suppress
 _Example_: The empire sought to **subjugate** neighboring territories through military force. *(Verb: bring under control by force)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-11,11,230-->
 
 =====
 ## **21 LOCU/ LOQU/ LOGUE/ ** = speak thought speech
@@ -1406,7 +1453,7 @@ _Example_: The actor delivered a powerful **monologue** that revealed his charac
 **Noun** | हिंदी: प्रस्तावना/प्रारंभिक कथन : A separate introductory section of a literary or musical work; an event or action that leads to another event or situation.
 - ***Synonyms***: Introduction, preface, foreword, preamble, prelude, opening
 _Example_: The **prologue** of the novel set the historical context for the story that followed. *(Noun: introductory section)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-17,17,250-->
 
 =====
 ## **22 LUC/ LUM/ LUS/** = light, shine
@@ -1537,7 +1584,7 @@ _Example_: The economic crisis was merely a **prelude** to the political upheava
 **Adjective** | हिंदी: उदार/दयालु : Very generous or forgiving, especially toward a rival or less powerful person.
 - ***Synonyms***: Generous, benevolent, charitable, big-hearted, noble, altruistic
 _Example_: The CEO was **magnanimous** in victory, praising the hard work of her competitors rather than gloating. *(Adjective: generously forgiving)*
-<!--SR:!2025-04-03,3,250-->
+<!--SR:!2025-07-17,17,250-->
 
 =====
 
@@ -1570,6 +1617,7 @@ _Example_: The microscope can **magnify** cells up to a thousand times their act
 **Adjective** | हिंदी: बड़बोला/अतिशयोक्तिपूर्ण : Using high-flown or extravagantly colorful language, especially in a pompous way.
 - ***Synonyms***: Bombastic, grandiose, pompous, high-flown, pretentious, verbose
 _Example_: The politician's **magniloquent** speeches impressed some but struck others as insincere and overblown. *(Adjective: using overly elaborate language)* *(Rare)*
+<!--SR:!2025-07-19,19,251-->
 
 =====
 
@@ -1584,6 +1632,7 @@ _Example_: The politician's **magniloquent** speeches impressed some but struck 
 _Example_:
 1. Scientists were surprised by the **magnitude** of the earthquake that registered 8.2 on the Richter scale. *(Noun: size or intensity)*
 2. He failed to grasp the **magnitude** of the decision and its potential consequences. *(Noun: importance or significance)*
+<!--SR:!2025-05-11,8,251-->
 
 =====
 
@@ -1676,6 +1725,7 @@ _Example_: The character was portrayed as a **malevolent** force seeking to dest
 **Adjective, Noun** | हिंदी: कदाचारी/अपराधी : Engaging in misconduct or wrongdoing, especially illegal activity by a public official.
 - ***Synonyms***: Corrupt, criminal, wrongdoing, offending, misbehaving, delinquent
 _Example_: The investigation uncovered **malfeasant** activities throughout several departments of the local government. *(Adjective: engaging in misconduct)* *(Rare)*
+<!--SR:!2025-07-18,18,251-->
 
 =====
 
@@ -1765,6 +1815,7 @@ _Example_: After the accident, he suffered from **amnesia** and couldn't remembe
 **Verb** | हिंदी: स्मरण करना/याद करना : To recall and show respect for someone or something in a ceremony or through a monument.
 - ***Synonyms***: Memorialize, celebrate, honor, observe, remember, recognize
 _Example_: The city will **commemorate** the 50th anniversary of the historic event with a special parade. *(Verb: honor the memory of)*
+<!--SR:!2025-05-13,8,251-->
 
 =====
 
@@ -2009,3 +2060,4 @@ _Example_: The **polymorphous** nature of the virus makes it difficult to create
 _Example_: Ancient Egyptian deities were often depicted in **zoomorphic** form, such as the falcon-headed god Horus. *(Adjective: having animal qualities)*
 
 =====
+

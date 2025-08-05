@@ -785,6 +785,76 @@ _Word Form Examples_
 
 =====
 
+
+
+
+### IMPRISON
+@@
+**Verb** | हिंदी: कैद करना / बंदी बनाना; सीमित करना : To put or keep in prison or jail; To confine or restrain someone or something.
+- ***Synonyms***:
+    - **Verb:**
+        - *Put in jail:* Incarcerate, jail, confine, detain, lock up, immure, hold captive
+        - *Confine/Restrain:* Confine, restrain, restrict, trap, enclose
+- ***Antonyms***:
+    - **Verb:**
+        - *Put in jail/Confine:* Release, free, liberate, discharge, emancipate, let go
+_Example_:
+1. The judge sentenced the defendant and ordered him to be **imprisoned** for five years. *(Verb: put in jail)*
+2. Fear can **imprison** the mind, preventing personal growth. *(Verb: confine/restrain metaphorically)*
+
+_Word Form Examples_
+1. **IMPRISONMENT**: 🌟
+   - He received a sentence of life **imprisonment** for his crimes. *(Noun: the state of being confined in prison; the act of confining)*
+   - ***Synonyms***: incarceration, confinement, detention, captivity, custody, internment
+2. **IMPRISONED**:
+   - The **imprisoned** soldiers planned an escape. *(Adjective/Past Participle: confined in prison)*
+   - ***Synonyms***: incarcerated, jailed, confined, detained, captive, locked up
+3. **IMPRISONING**:
+   - The regime was known for **imprisoning** political dissenters. *(Verb Gerund/Present Participle: the act or process of putting someone in prison)*
+   - ***Synonyms***: incarcerating, jailing, confining, detaining, locking up
+
+=====
+
+### INTERN
+@@
+**Noun** | हिंदी: प्रशिक्षु : Someone, especially a student, working temporarily at a job to get experience.
+**Verb** | हिंदी: प्रशिक्षु के रूप में काम करना; नज़रबंद करना : To work as an intern; To confine someone as a prisoner, especially for political or military reasons during wartime.
+- ***Synonyms***:
+    - **Noun:**
+        - *Trainee:* Trainee, apprentice, learner, novice, probationer
+    - **Verb:**
+        - *Work as trainee:* Train, apprentice
+        - *Confine:* Confine, imprison, detain, hold, incarcerate, impound
+- ***Antonyms***:
+    - **Noun:**
+        - *Trainee:* Mentor, expert, professional, master
+    - **Verb:**
+        - *Confine:* Release, liberate, free, discharge
+_Example_:
+1. The company hires several **interns** each summer to assist with various projects. *(Noun: trainee)*
+2. She plans to **intern** at a graphic design studio after finishing her course. *(Verb: work as trainee)*
+3. During World War II, many foreign nationals were **interned** by the government. *(Verb: confine)*
+
+_Word Form Examples_
+1. **INTERNSHIP**: 🌟
+   - He applied for a summer **internship** at the tech company. *(Noun: a period of working as an intern)*
+   - ***Synonyms***: traineeship, apprenticeship, placement, work experience
+2. **INTERNEE**:
+   - The **internees** were kept in camps for the duration of the conflict. *(Noun: a person confined as a prisoner)*
+   - ***Synonyms***: prisoner, detainee, captive, inmate, political prisoner
+3. **INTERNMENT**: 🌟
+   - The policy of **internment** faced significant legal challenges. *(Noun: the state of being confined as a prisoner)*
+   - ***Synonyms***: confinement, imprisonment, detention, captivity, incarceration
+4. **INTERNING**:
+   - While **interning**, she learned valuable skills relevant to her field. *(Verb Gerund/Present Participle: the act of working as an intern)*
+   - ***Synonyms***: training, apprenticing, learning
+5. **INTERNED**:
+   - He **interned** at the hospital before starting his residency. *(Verb Past Tense: worked as an intern)*
+   - Thousands were **interned** without trial during the emergency. *(Verb Past Tense/Past Participle: confined as a prisoner)*
+   - ***Synonyms***: (worked as) trained, apprenticed; (confined) confined, imprisoned, detained, incarcerated
+
+=====
+
 ### INCAPACITATE 🪐
 @@  
 **Verb** | हिंदी: अक्षम करना, निःशक्त करना : To deprive someone or something of the ability to function or perform effectively; to render incapable or unable.
@@ -989,26 +1059,27 @@ _Word Form Examples_
 
 =====
 
-### INCITE  
-@@  
+### INCITE
+@@
 **Verb** | हिंदी: भड़काना, प्रोत्साहित करना : To urge or provoke someone to take action, often violent or rebellious; to stir up or instigate feelings, behaviors, or actions, typically of a hostile or intense nature.
-- ***Synonyms***: provoke, instigate, agitate, inflame, stimulate, spur  
-- ***Antonyms***: calm, pacify, discourage, dissuade, soothe  
+- ***Synonyms***: provoke, instigate, agitate, inflame, stimulate, spur
+- ***Antonyms***: calm, pacify, discourage, dissuade, soothe
 
-_Examples_  
-1. The politician was accused of **inciting** violence during his inflammatory speech. *(Verb: provoke)*  
-2. The coach tried to **incite** the team to play with more energy in the final quarter. *(Verb: motivate)*  
+_Examples_
+1. The politician was accused of **inciting** violence during his inflammatory speech. *(Verb: provoke)*
+2. The coach tried to **incite** the team to play with more energy in the final quarter. *(Verb: motivate)*
 
-_Word Form Examples_  
-1. **INCITEMENT**: 🌟  
-   - The rally was charged with **incitement** to protest against the new policy. *(Noun: act of provoking or urging)*  
-   - ***Synonyms***: provocation, instigation, stimulation, encouragement  
-2. **INCITED**:  
-   - The crowd was **incited** by rumors of unfair treatment and began to riot. *(Adjective: provoked or stirred up)*  
-   - ***Synonyms***: provoked, roused, inflamed, agitated  
-3. **INCITING**:  
-   - The activist was arrested for **inciting** unrest among the workers. *(Gerund: act of urging or provoking)*  
-   - ***Synonyms***: instigating, provoking, stimulating, fomenting  
+_Word Form Examples_
+1. **INCITEMENT**: 🌟
+   - The rally was charged with **incitement** to protest against the new policy. *(Noun: act of provoking or urging)*
+   - ***Synonyms***: provocation, instigation, stimulation, encouragement
+2. **INCITED**:
+   - The crowd was **incited** by rumors of unfair treatment and began to riot. *(Adjective: provoked or stirred up)*
+   - ***Synonyms***: provoked, roused, inflamed, agitated
+3. **INCITING**:
+   - The activist was arrested for **inciting** unrest among the workers. *(Gerund: act of urging or provoking)*
+   - ***Synonyms***: instigating, provoking, stimulating, fomenting
+<!--SR:!2025-04-21,3,250-->
 
 =====
 

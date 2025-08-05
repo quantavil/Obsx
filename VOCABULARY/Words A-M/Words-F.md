@@ -12,6 +12,40 @@ app.vault.read(app.vault.getAbstractFileByPath(file)).then(content => {
 ```
 # F
 
+### FAZE
+@@
+**Verb** | हिंदी: विचलित करना/परेशान करना; निरुत्साहित करना : To disturb someone’s composure or confidence; To discourage or daunt.
+
+- ***Synonyms***:
+    - **Verb**:
+        - *Disturb composure:* disconcert, unsettle, perturb, ruffle, fluster
+        - *Discourage:* deter, dishearten, intimidate, unnerve
+
+- ***Antonyms***:
+    - **Verb**:
+        - *Disturb composure:* reassure, comfort, calm
+        - *Discourage:* encourage, embolden, inspire
+
+_Example_:
+1. A sudden applause can **faze** even the most seasoned speaker. *(Verb: disturb composure)*
+2. The high altitude did not **faze** the climbers; they pressed on undeterred. *(Verb: discourage)*
+
+_Word Form Examples_
+1. **FAZED**:
+   - He was completely **fazed** by the unexpected question. *(Adjective/Verb: disturbed in composure)*
+   - ***Synonyms***: disconcerted, unsettled, perturbed, unnerved, rattled
+
+2. **FAZING**:
+   - The announcement was **fazing** some employees who hadn’t received prior notice. *(Verb: disturbing)*
+   - ***Synonyms***: unsettling, perturbing, disconcerting
+
+3. **UNFAZED**: 🌟
+   - Despite the setbacks, she remained **unfazed**, confident in her abilities. *(Adjective: not disturbed in composure)*
+   - ***Synonyms***: unperturbed, undisturbed, composed, calm, serene
+
+=====  
+
+
 ### FALTER  🪐
 @@  
 **Verb** | हिंदी: ठहरना, हिचकिचाना : To hesitate, waver, or stumble, either physically or in decision-making, often due to uncertainty or lack of confidence.
@@ -1202,6 +1236,36 @@ _Word Form Examples_
 
 =====
 
+### FROLIC
+@@
+**Verb** | हिंदी: खेलना-कूदना; मौज-मस्ती करना : To play and move about cheerfully or energetically; To engage in playful activity.
+**Noun** | हिंदी: खेल-कूद; मौज-मस्ती : Playful action or movement; A lively or playful activity or event.
+- ***Synonyms***:
+    - **Verb:**
+        - *Play cheerfully:* Romp, caper, cavort, frisk, gambol, play, disport, revel
+    - **Noun:**
+        - *Playful activity:* Play, romp, fun, gaiety, merrymaking, amusement, caper, antic
+- ***Antonyms***:
+    - **Verb:**
+        - *Play cheerfully:* Mope, brood, sulk, grieve, mourn
+    - **Noun:**
+        - *Playful activity:* Seriousness, solemnity, gloom, work, drudgery
+_Example_:
+1.  Lambs **frolic** in the green fields during springtime. *(Verb: play cheerfully)*
+2.  The children had a happy **frolic** on the beach. *(Noun: playful activity)*
+
+_Word Form Examples_
+1. **FROLICKING**:
+   - We spent the afternoon **frolicking** in the pool. *(Verb/Gerund: engaging in playful activity)*
+   - ***Synonyms***: playing, romping, capering, cavorting, sporting
+2. **FROLICSOME**: 🌟
+   - The **frolicsome** puppy chased its tail endlessly. *(Adjective: playful and lively)*
+   - ***Synonyms***: playful, frisky, lively, merry, spirited, coltish
+3. **FROLICKED**:
+   - The happy children **frolicked** in the park all afternoon. *(Verb: past tense of frolic)*
+   - ***Synonyms***: romped, capered, played, cavorted, gamboled
+
+=====
 ### FLOUNDER
 @@
 **Verb, Noun** | हिंदी: तड़पना, एक प्रकार की मछली : 

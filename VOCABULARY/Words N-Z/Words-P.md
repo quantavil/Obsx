@@ -566,24 +566,26 @@ _Word Form Examples_
 
 ### PIQUANT
 @@
-**Adjective** | हिंदी: तीखा, चटपटा, रोचक :
-1. Having a pleasantly sharp or appetizing flavour; tangy.
-2. Pleasantly stimulating or exciting to the mind; intriguing or provocative.
-- ***Synonyms***: tangy, spicy, zesty, stimulating, intriguing, provocative, sharp
-- ***Antonyms***: bland, dull, tasteless, insipid, uninteresting, mild
+**Adjective** | हिंदी: चटपटा/तेज़; रोचक : Pleasantly sharp or spicy in taste; Stimulatingly interesting or provocative.
+- ***Synonyms***:
+    - **Adjective:**
+        - *Spicy taste:* Tangy, zesty, peppery, savory, pungent
+        - *Provocative:* Stimulating, intriguing, exciting, provocative, spicy
+- ***Antonyms***:
+    - **Adjective:**
+        - *Spicy taste:* Bland, mild, tasteless, insipid, flat
+        - *Provocative:* Dull, boring, uninteresting, tedious, monotonous
+_Example_:
+1. The **piquant** sauce gave the dish a delightful kick. *(Adjective: spicy taste)*  
+2. She shared a **piquant** anecdote that kept everyone entertained. *(Adjective: stimulatingly interesting)*  
 
-_Examples_
-1. The **piquant** dressing added a delightful kick to the salad. *(Adjective: sharp taste)*
-2. She shared a **piquant** anecdote that captured everyone's attention. *(Adjective: mentally stimulating)*
-3. His **piquant** sense of humor often caught people off guard but made them laugh. *(Adjective: provocative/sharp)*
-
-_Word Form Examples_
-1. **PIQUANTLY**: 🌟
-   - The dish was **piquantly** seasoned with exotic spices. *(Adverb: in a tangy or stimulating way)*
-   - ***Synonyms***:  spicily, stimulatingly, intriguingly
-2. **PIQUANCY**: 🌟
-   - The **piquancy** of the salsa was perfectly balanced. *(Noun: the quality of being pleasantly sharp or stimulating)*
-   - ***Synonyms***: tanginess, zest, spiciness, sharpness, intrigue, stimulation
+_Word Form Examples_  
+1. **PIQUANCY**: 🌟  
+   - The **piquancy** of the salsa made it unforgettable. *(Noun: quality of being piquant)*  
+   - ***Synonyms***: spiciness, zestiness, tang, pungency, sharpness  
+2. **PIQUANTLY**:  
+   - He **piquantly** remarked on the political situation, sparking debate. *(Adverb: in a piquant manner)*  
+   - ***Synonyms***: provocatively, sharply, tartly, bitingly, stimulatingly  
 
 =====
 
@@ -741,9 +743,6 @@ _Word Form Examples_
 4. **PRECEDENT**: 🌟
    - The judge's ruling set a new legal **precedent** for similar cases in the future. *(Noun: an earlier event or action used as an example or guide)*
    - ***Synonyms***: example, model, standard, guideline, instance, pattern
-5. **UNPRECEDENTED**:
-   - The company experienced **unprecedented** growth last year. *(Adjective: never done or known before)*
-   - ***Synonyms***: novel, groundbreaking, revolutionary, unique, unmatched, unheard-of
 
 =====
 
@@ -1044,25 +1043,7 @@ _Word Form Examples_
 
 =====
 
-### PENURIOUS
-@@
-**Adjective** | हिंदी: दरिद्र, कंगाल : Extremely poor; lacking money or material possessions; also, exhibiting a lack of generosity or being stingy.
-- ***Synonyms***: impoverished, destitute, indigent, miserly, stingy
-- ***Antonyms***: affluent, wealthy, generous, munificent, bountiful
 
-_Examples_
-1. The **penurious** family struggled to make ends meet with their meager income. *(Adjective: extremely poor)*
-2. His **penurious** attitude made him refuse to donate even a small amount to charity. *(Adjective: stingy)*
-
-_Word Form Examples_
-1. **PENURIOUSLY**: 🌟
-   - She lived **penuriously**, carefully rationing every meal due to her limited resources. *(Adverb: in an extremely poor manner)*
-   - ***Synonyms***: frugally, stingily, parsimoniously, thriftily
-2. **PENURY**:
-   - After losing his job, he fell into a state of **penury**, barely able to afford basic necessities. *(Noun: extreme poverty)*
-   - ***Synonyms***: destitution, poverty, indigence, want, neediness
-
-=====
 
 ### PERCOLATE
 @@
@@ -1893,30 +1874,6 @@ _Word Form Examples_
 
 =====
 
-
-### PLUNGE
-@@
-**Verb, Noun** | हिंदी: गोता लगाना, झपटना : 
-1. To move or cause to move suddenly and forcefully into liquid or a substance. *(Verb)*  
-2. To fall or drop abruptly, often from a height or into a difficult situation. *(Verb)*  
-3. A sudden or deep descent, often into water or an undesirable state. *(Noun)*  
-- ***Synonyms***: dive, submerge, sink, plummet, crash *(Verb: sudden movement)*; dip, immersion, descent, drop *(Noun)*  
-- ***Antonyms***: rise, ascend, emerge, float, stabilize *(Verb/Noun: opposite of falling/descending)*
-
-_Examples_
-1. She decided to **plunge** into the icy river to rescue the drowning puppy. *(Verb: sudden movement into water)*  
-2. The stock market took a sharp **plunge**, wiping out billions in value overnight. *(Noun: abrupt decline)*  
-3. He felt his life begin to **plunge** into chaos after losing his job. *(Verb: descend into difficulty)*  
-
-_Word Form Examples_
-1. **PLUNGED**: 🌟  
-   - The plane **plunged** into the ocean after losing control mid-flight. *(Adjective: having fallen abruptly)*  
-   - ***Synonyms***: dived, submerged, crashed, nosedived  
-2. **PLUNGING**:  
-   - The hiker was left breathless by the **plunging** cliffs along the trail. *(Gerund: steep descent)*  
-   - ***Synonyms***: diving, sinking, dropping, descending  
-
-=====
 
 ### POLARIZE
 @@

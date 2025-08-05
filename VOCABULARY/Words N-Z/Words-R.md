@@ -1392,27 +1392,35 @@ _Word Form Examples_
 
 =====
 
-### REPATRIATE  
-@@  
-**Verb, Noun** | हिंदी: स्वदेश वापसी करना, देश लौटाना : To send someone back to their own country, especially after a war, crisis, or deportation; to return to one's homeland.  
-- ***Synonyms***: return, restore, deport, send back, reinstate  
-- ***Antonyms***: exile, banish, expatriate, displace  
+### REPATRIATE 🪐
+@@
+**Verb** | हिंदी: स्वदेश भेजना; स्वदेश वापस लाना : To send someone back to their own country; To send money or assets back to one's own country.
+**Noun** | हिंदी: स्वदेश लौटने वाला व्यक्ति : A person who has returned or been sent back to their own country.
+- ***Synonyms***:
+    - **Verb:**
+        - *Send back to own country:* return, send back, bring home
+    - **Noun:**
+        - *Person returned:* returnee, deportee
+- ***Antonyms***:
+    - **Verb:**
+        - *Send back to own country:* expatriate, exile, banish
+    - **Noun:**
+        - *Person returned:* expatriate, exile, immigrant
 
-_Examples_  
-1. The government decided to **repatriate** refugees after the war ended. *(Verb: send back to homeland)*  
-2. Many workers were **repatriated** due to economic downturns. *(Verb: returned to their country)*  
-3. The **repatriate** struggled to adjust after years of living abroad. *(Noun: a person returning to their homeland)*  
+_Example_:
+1.  The government helped to **repatriate** the citizens who were stranded abroad during the crisis. *(Verb: to send someone back to their own country)*
+2.  Multinational corporations often **repatriate** their profits to their home country. *(Verb: to send money back to one's own country)*
+3.  The **repatriate** struggled to readjust to the culture he had left behind decades ago. *(Noun: a person who has returned to their own country)*
 
-_Word Form Examples_  
-1. **REPATRIATED**: 🌟  
-   - The stranded tourists were finally **repatriated** after weeks of waiting. *(Verb: sent back to homeland)*  
-   - ***Synonyms***: returned, restored, deported, reinstated  
-2. **REPATRIATION**: 🌟  
-   - The government announced a new **repatriation** policy for displaced citizens. *(Noun: the act of returning someone to their homeland)*  
-   - ***Synonyms***: return, restoration, deportation, resettlement  
+_Word Form Examples_
+1. **REPATRIATION** 🌟:
+   - The agreement included the safe **repatriation** of all prisoners of war. *(Noun: the act of returning someone or something to their country of origin)*
+   - ***Synonyms***: return, restitution, restoration, sending back, resettlement
+2. **REPATRIATED**:
+   - The **repatriated** funds were invested in local infrastructure projects. *(Adjective: having been sent back to the country of origin)*
+   - ***Synonyms***: returned, sent home, restored
 
-=====  
-
+=====
 ### REPEAL
 @@
 **Verb, Noun** | हिंदी: रद्द करना, निरसन : To officially revoke or withdraw a law, legislative act, or decision.
@@ -2263,6 +2271,59 @@ _Word Form Examples_
 
 =====  
 
+### RULE
+@@
+**Noun** | हिंदी: नियम / सिद्धांत; शासन : An authoritative regulation or principle governing behaviour or procedure; The exercise of political control or authority over an area and its people.
+**Verb** | हिंदी: शासन करना; निर्णय देना; रेखा खींचना : To exercise ultimate power or authority over (an area and its people); To pronounce authoritatively and legally to be the case; To make a straight line on paper using a ruler.
+- ***Synonyms***:
+    - **Noun:**
+        - *Regulation/Principle:* Regulation, law, directive, guideline, principle, standard, ordinance, statute, canon
+        - *Governance/Control:* Reign, sovereignty, dominion, control, command, authority, jurisdiction, regime
+    - **Verb:**
+        - *Govern:* Govern, reign, preside over, command, lead, dominate, control, manage
+        - *Decide Officially:* Decree, judge, decide, determine, adjudicate, find, pronounce
+        - *Draw Line:* Draw, mark
+- ***Antonyms***:
+    - **Noun:**
+        - *Regulation/Principle:* Exception, deviation, irregularity, anomaly
+        - *Governance/Control:* Anarchy, chaos, submission, freedom, servitude
+    - **Verb:**
+        - *Govern:* Obey, submit, follow, serve, comply
+        - *Decide Officially:* Waive, reconsider, defer, equivocate
+_Example_:
+1. Breaking the **rules** can lead to penalties. *(Noun: regulation)*
+2. The country prospered under her **rule**. *(Noun: governance)*
+3. The monarch **rules** justly and wisely. *(Verb: govern)*
+4. The court **ruled** in favour of the plaintiff. *(Verb: decide officially)*
+5. Please **rule** two lines beneath the title. *(Verb: draw line)*
+
+_Word Form Examples_
+1. **RULER**: 🌟
+   - The **ruler** of the ancient kingdom was overthrown. *(Noun: a person exercising government or dominion)*
+   - Use a **ruler** to ensure the lines are straight. *(Noun: a straight strip of plastic, wood, metal, etc., used for drawing straight lines or measuring distances)*
+   - ***Synonyms***: (governor) sovereign, monarch, leader, head of state, chief; (measuring tool) straightedge, measure, yardstick
+2. **RULING**: 🌟
+   - The judge's **ruling** set a new precedent. *(Noun: an authoritative decision or pronouncement)*
+   - The **ruling** party faced criticism over its economic policies. *(Adjective: currently exercising authority or control)*
+   - ***Synonyms***: (noun) decision, judgement, decree, verdict, finding; (adj) governing, reigning, dominant, controlling, incumbent
+3. **RULED**:
+   - The page was neatly **ruled** with blue lines. *(Adjective/Past Participle: marked with straight parallel lines)*
+   - He **ruled** the company for over twenty years. *(Verb Past Tense: governed or decided)*
+   - ***Synonyms***: (adj) lined; (verb) governed, presided, judged, decreed
+4. **RULES**: 🌟
+   - Understanding the basic **rules** is essential before playing. *(Noun Plural: regulations)*
+   - He **rules** with fairness. *(Verb 3rd Person Singular: governs)*
+   - ***Synonyms***: (noun) regulations, laws, guidelines, principles, statutes, ordinances
+5. **UNRULY**: 🌟
+   - The teacher struggled to control the **unruly** class. *(Adjective: disorderly and disruptive; not amenable to discipline or control)*
+   - ***Synonyms***: disorderly, uncontrollable, disobedient, disruptive, rowdy, wild, chaotic
+6. **OVERRULE**:
+   - The Supreme Court can **overrule** decisions made by lower courts. *(Verb: to reject or disallow by exercising superior authority)*
+   - ***Synonyms***: override, reverse, countermand, cancel, veto, quash, rescind
+
+=====
+
+
 ### RETRACT
 @@
 **Verb** | हिंदी: वापस लेना, पीछे खींचना : To withdraw or take back (a statement, accusation, promise, etc.); to pull back or draw in.
@@ -2513,23 +2574,31 @@ _Word Form Examples_
 
 =====
 
-### RHETORIC
+### RHETORIC 🪐
 @@
-**Noun** | हिंदी: वाक्पटुता, अलंकार : The art or skill of effective or persuasive speaking or writing, often using figures of speech and other compositional techniques; sometimes implies exaggerated or insincere language.
-- ***Synonyms***: eloquence, oratory, persuasion, discourse, articulation
-- ***Antonyms***: silence, inarticulateness, simplicity, plainness
+**Noun** | हिंदी: वक्रपटुता / अलंकार शास्त्र; आडंबरपूर्ण भाषा / वाग्जाल : The art of effective or persuasive speaking or writing; Language intended to persuade or impress, often regarded as insincere or lacking meaningful content.
+- ***Synonyms***:
+    - **Noun:**
+        - *Art of persuasion:* oratory, eloquence, discourse, public speaking
+        - *Insincere language:* bombast, hyperbole, grandiloquence, pomposity, wordiness
+- ***Antonyms***:
+    - **Noun:**
+        - *Insincere language:* conciseness, plain-speaking, directness, sincerity, substance
 
-_Examples_
-1. His speech was filled with powerful **rhetoric** that moved the audience to tears. *(Noun: persuasive language)*
-2. The politician’s **rhetoric** sounded impressive but lacked substance. *(Noun: exaggerated speech)*
+_Example_:
+1.  In her literature class, she studied the principles of classical **rhetoric** to analyze famous speeches. *(Noun: the art of persuasive speaking)*
+2.  The candidate's speech was full of passionate **rhetoric** but lacked any concrete policy proposals. *(Noun: insincere or empty language)*
 
 _Word Form Examples_
-1. **RHETORICAL**: 🌟
-   - She posed a **rhetorical** question, not expecting an answer. *(Adjective: related to rhetoric, often for effect rather than substance)*
-   - ***Synonyms***: expressive, stylistic, persuasive, oratorical, symbolic
-2. **RHETORICALLY**:
-   - He spoke **rhetorically**, aiming to inspire rather than inform. *(Adverb: in a manner related to rhetoric)*
-   - ***Synonyms***: eloquently, persuasively, stylistically, dramatically
+1. **RHETORICAL** 🌟:
+   - "Are you kidding me?" is often a **rhetorical** question, not meant to be answered. *(Adjective: asked for effect or to make a point rather than to elicit an answer)*
+   - ***Synonyms***: stylistic, oratorical, linguistic, bombastic, eloquent
+2. **RHETORICIAN**:
+   - The ancient Greek philosopher Aristotle was a famous **rhetorician** who wrote extensively on the art of persuasion. *(Noun: an expert in or teacher of rhetoric)*
+   - ***Synonyms***: orator, speaker, lecturer, declaimer
+3. **RHETORICALLY**:
+   - **Rhetorically**, the speech was a masterpiece, but it failed to inspire real change. *(Adverb: in a way that is related to the art of rhetoric or is intended to persuade or impress)*
+   - ***Synonyms***: eloquently, oratorically, persuasively, stylistically
 
 =====
 

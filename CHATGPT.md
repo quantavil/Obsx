@@ -1,77 +1,50 @@
 
+
+```
+**Solve the following math problem using two distinct methods suitable for competitive bank exams. Present the solutions in order from fastest to slowest.**
+
+**Method 1 (Fastest):** Use the most efficient approach (e.g., ratio/proportion, shortcuts, or mental math).  
+**Method 2 (Alternative):** Apply a traditional method.
+
+**For each method:**
+- Show clear, step-by-step working.
+- Avoid explanations on speed—just present the solution.
+
+If understood, respond with 'YES' only."
+(More concise, removes redundancy, and enforces strict brevity.)
+```
 ```c
-I will provide a bunch of words. Please uppercase each word and generate a single sentence that contain only words separated by ; semi-colon
+I will/have provide(d) a bunch of words. Please uppercase each word/phrase and generate a single sentence that contain only words/phrase separated by ; semi-colon
 ```
 
 ```c
-I will provide a list of words. For each word, perform the following steps: Identify its base or root form (e.g., 'running' → 'run'). Generate all relevant word forms derived from the base word, including but not limited to: Past tense (e.g., 'ran'). Noun, verb, and adjective forms (e.g., 'runner', 'running', 'run'). Combine all derived word forms into a single sentence, ensuring each word is separated by a semicolon (;). Capitalize every word in the final sentence. Ensure the output is a single, cohesive sentence with no additional punctuation or spaces between words and semicolons. Example: Input: 'running' Output: RUN;RAN;RUNNER;RUNNING; AND COMBINE ALL OUTPUT IN SINGLE SENTENCE
+Analyze the sentence STRICTLY, CONCISELY for SBI/IBPS PO error spotting. If grammatically correct, state "CORRECT"** and return POS TABLE and STOP.
+If incorrect then:
+1. First correct the sentence if it Grammatically incorrect.
+2. **POS TABLE (2 COLUMNS):**  
+    | Word | TAG + ROLE |
+    - _TAG_: eg.`Adjective, Comparative`
+    - _ROLE_: eg.`Subject Complement`
+
+3.**Exam Trap Analysis:** Identify common SBI/IBPS error patterns. If a known trap exists, name it and estimate its frequency/importance (e.g., `Incorrect Degree of Comparison: 90%+ error rate with 'than'`). If no trap, state `None`.
+4. **PHRASES/CLAUSES:** Identify and explain ONLY exam-relevant phrases and clauses (e.g., `Adverbial Clause of Comparison`, `Prepositional Phrase acting as Adjectival`). * 
+5. **Quick Scan Tip:** Provide one powerful, bite-sized rule for spotting errors related to the sentence's structure in under 10 seconds.
+6. **Example:**3 more practice sentences based on this common trap?
+
+IF YOU UNDERSTAND SAY "YES" ONLY
+```
+## POS
+
+```c
+Generate a Part-of-Speech (POS) tag analysis for the sentence below, if incorrect Grammar correct the Grammar first. Display the result as a Markdown table: 
+- Each word of the sentence in its own cell. 
+- The corresponding POS tag and grammatical function description (e.g., "Proper Noun (Subject)", "Auxiliary Verb (Linking Verb)", "Adjective (Past Participle, Subject Complement)") for each word in its own cell.
+- Also tell the phrase and clause in the sentence
 ```
 
 # DICT GPT
 
 ## WORD
-
-### TYPE -1
-
-```c
-
-I will give you word(s) , Follow the format below for each word and ensure clarity, accuracy, and correct grammar:
-
-### WORD
-@@ 
-[All applicable forms of Part of Speech] | हिंदी: [translation]  : [Clear, concise meaning with brief context in English]
-- ***Synonyms***: [2-6 most relevant direct synonyms]
-- ***Antonyms***: [2-5 most relevant direct antonyms]
-
-_Examples_
-1. [Contextual sentence showing primary usage] *(Part of Speech: specific meaning hint)*
-2. [Contextual sentence showing secondary usage if applicable] *(Part of Speech: specific meaning hint)*
-	[If the word has additional relevant usages or nuances, provide further contextual sentences here, each preceded by a number.] *(Part of Speech: specific meaning hint)*
-	
-_Word Form Examples_
-[List all relevant word forms derived from the base word, past tense, comparative/superlative forms, noun/verb/adjective forms, etc. ]
-For each derived word:
-[Derived word] : 
-[Contextual sentence using the derived word]*(Part of Speech: specific meaning hint)*
-[Synonyms: [2-6 most relevant direct synonyms for the derived form]]
-
-=====
-
-HERE IS AN EXAMPLE RESULT THAT YOU NEED TO REPRODUCE:
-
-### LIGHT  
-@@  
-**Noun, Verb, Adjective** | हिंदी: प्रकाश, रोशनी :  
-1. The natural agent that stimulates sight and makes things visible. *(Noun)*  
-2. To illuminate or make something brighter. *(Verb)*  
-3. Of little weight; easy to lift or move. *(Adjective)*  
-
-- ***Synonyms***: radiance, glow, illumination *(Noun: brightness)*; brighten, illuminate, spotlight *(Verb)*; lightweight, airy, feathery *(Adjective)*  
-- ***Antonyms***: darkness, shadow, obscurity *(Noun: brightness)*; darken, obscure, dim *(Verb)*; heavy, cumbersome, ponderous *(Adjective)*  
-
-_Examples_  
-1. The room was filled with **light** streaming through the open window. *(Noun: brightness)*  
-2. She used a lantern to **light** the path ahead. *(Verb: illuminate)*  
-3. The suitcase was surprisingly **light**, making it easy to carry. *(Adjective: not heavy)*  
-
-_Word Form Examples_  
-1. **LIGHTED**:  
-   - The hallway was poorly **lighted**, making it hard to see. *(Adjective: illuminated)*  
-   - ***Synonyms***: illuminated, lit, brightened, radiant, glowing  
-2. **LIGHTING**: 🌟  
-   - The stage **lighting** created a dramatic effect during the performance. *(Noun: arrangement of lights)*  
-   - ***Synonyms***: illumination, radiance, brilliance, glow, luminescence  
-3. **LIGHTWEIGHT**:  
-   - The athlete was classified as a **lightweight** in boxing. *(Adjective/Noun: not heavy or a specific category)*  
-   - ***Synonyms***: featherweight, slight, delicate, portable  
-
-=====
-
-NOTE : NEVER FORGET "=====" AT END .
-And add 🌟 important word forms and *(Rare)* when the word is rare or obscure
-RETURN IN CODE BLOCK
-IF YOU UNDERSTAND ALL ABOVE INSTRUCTIONS JUST SAY "Yes".
-```
 
 ### TYPE-2
 
@@ -113,6 +86,7 @@ For each derived word:
 [Synonyms: [2-6 most relevant direct synonyms for the derived form]]
 
 HERE IS AN EXAMPLE RESULT THAT YOU NEED TO REPRODUCE:
+
 
 ### MANDATE
 @@
@@ -205,6 +179,7 @@ _Example_:
 2.  [Second example sentence for a different meaning/POS]. *(Part of Speech: specific meaning hint)*
 *(Provide at least one example sentence for each distinct meaning/POS* defined above. Ensure the word/phrase is bolded. The clarification in parentheses should state the Part of Speech and a brief English hint corresponding to the meaning being illustrated.)*
 
+
 =====
 
 HERE IS AN EXAMPLE RESULT THAT YOU NEED TO REPRODUCE:
@@ -227,78 +202,32 @@ IF YOU UNDERSTAND ALL ABOVE INSTRUCTIONS JUST SAY "Yes".
 
 ```
 
-# lang
-
-
-```
-Analyze the user-provided article to enhance comprehension, vocabulary, and critical thinking for 10th graders. Follow this structure:  
-
----  
-
-### 1. **Article Breakdown**  
-   - Divide the article into **numbered sentences**.  
-   - Format:  
-     ```  
-     1. [Sentence 1]  
-     2. [Sentence 2]  
-     ...  
-     ```  
-
-### 2. **Vocabulary, Idioms & Phrases**  
-   - Identify **5–8 challenging terms per sentence** (prioritize grade-appropriate difficulty).  
-   - For **each term**:  
-     - **English Definition**: Simple, student-friendly explanation.  
-     - **Hindi Translation**: हिंदी अर्थ (contextually accurate).  
-     - **Idioms/Phrases**: Add literal meaning + contextual usage.  
-   - Format:  
-     ```  
-     **Sentence [Number]**: [Original Sentence]  
-       - **[Term]**: [Definition]. हिंदी अर्थ: [Translation].  
-       - **[Idiom/Phrase]**: [Contextual Meaning]. Literal: [Explanation]. हिंदी अर्थ: [Translation].  
-     ```  
-
-### 3. **MCQs (5 Questions)**  
-   - **Types**:  
-     - 2x **Inference** (tone, purpose, implicit ideas).  
-     - 1x **Vocabulary-in-Context**.  
-     - 1x **Text Structure** (e.g., cause-effect, comparison).  
-     - 1x **Textual Evidence** (identify support for a claim).  
-   - **Rules**:  
-     - Options **A–D** are distinct and plausible.  
-     - Avoid trick questions.  
-   - Format:  
-     ```  
-     **Q1.** [Question stem]  
-       A. [Option]  
-       B. [Option]  
-       C. [Option]  
-       D. [Option]  
-     ```  
-
-### 4. **Answer Key**  
-   - Provide **correct answers** with **brief explanations** referencing article sentences.  
-   - Format:  
-     ```  
-     1. **A** – [Explanation, e.g., "Supports the author’s argument in Sentence 3"].  
-     2. **C** – [Explanation]  
-     ...  
-     ```  
-
-**Notes**:  
-- Use **bold** for key terms/questions.  
-- Prioritize **Hindi translations** for terms absent in NCERT 10th-grade textbooks.  
-- For idioms, **always clarify literal vs. contextual meanings**.  
-
-```
-
+# GRAMMAR RULE
 
 ```c
+Please provide a detailed explanation of the rules applied in this context. Additionally, if any of these rules are part of broader general principles, explain those as well in full detail using proper Markdown formatting.
+
+## Rule Name
+Core idea of the rule with examples and Pitfalls.
+
+### General Principle Name 
+If this rule is an instance of a larger pattern or family of rules, name and describe that principle in full details with all the examples and pitfalls.
+
+### Tips & Alternatives
+- Suggestions to avoid confusion—rephrasing, mnemonics, parallel constructions, etc.
+
+```
+# EDITORIAL
+
+
+```js
 Analyze the provided article by:  
-1. Splitting it into individual sentences.  
-2. For each sentence:  
+1. Splitting the article into pairs of two consecutive sentences.  
+2. For each pair of sentences:
+   - A simple explanation of the main point in Hinglish
    - List difficult vocabulary, idioms, or phrases.  
-   - Provide English meanings and Hindi translations for each.  
-3. At last Create 5 moderate-to-hard MCQs (multiple-choice questions) testing comprehension, vocabulary, or inference.  
+   - Provide Hindi Meaning, English meanings and exact synonyms for each .  
+3. At last Create 10 moderate-to-hard MCQs (multiple-choice questions) testing comprehension, vocabulary, or inference.  
 4. Include an answer key at the end.  
 
 Return the analysis in a structured format without additional commentary. 
@@ -306,9 +235,10 @@ Return the analysis in a structured format without additional commentary.
 **Example Workflow:**  
 - User provides article.  
 - Your response:  
-  **Sentence 1:** [Text]  
+  **Sentence 1 & 2:** [Text]
+	- Hinglish Translation
     - **Difficult Terms:**  
-      - [Word/Phrase]: [Hindi Meaning] | [Clear, concise meaning with brief context in English]  
+      - [Word/Phrase]: [Hindi Meaning] | [Clear, concise meaning with brief context in English]; [Exact Synonyms]  
   **MCQs:**  
   1. [Question]  
      a) [Option]  
@@ -323,6 +253,12 @@ At the end :
 ```
 
 
+# CALCULATION
+
+```C
+You are an expert exam‑setter for banking exams (SBI/IBPS).  
+Generate a 63‑question quantitative aptitude test in SBI/IBPS style with seven sections (Addition, Subtraction, Multiplication, Division, Percentages, Fractions, Mixed Aptitude), ten questions each (4 Easy, 3 Medium, 2 Hard) represent the as **E**, **M**, **H**.  At the very end, provide a complete answer key, listing each question number and its correct answer
+```
 # CODING
 
 ```

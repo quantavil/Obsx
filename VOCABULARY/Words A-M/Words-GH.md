@@ -731,33 +731,40 @@ _Word Form Examples_
 
 =====
 
-### HAIL  
-@@  
-**Noun, Verb** | हिंदी: ओला, स्वागत करना :  
-1. Small balls of ice that fall during a storm. *(Noun)*  
-2. To call out to someone in order to attract attention or greet them. *(Verb)*  
-3. To acclaim or praise enthusiastically. *(Verb)*  
-- ***Synonyms***: sleet, ice pellets *(Noun: weather)*; greet, salute, welcome *(Verb: greeting)*; acclaim, applaud, extol *(Verb: praise)*  
-- ***Antonyms***: calm, sunshine *(Noun: weather)*; ignore, dismiss *(Verb: greeting)*; criticize, denounce *(Verb: praise)*  
+### HAIL
+@@
+**Noun** | हिंदी: ओला; बौछार : Pellets of frozen rain; A large number of things thrown or directed forcefully.
+**Verb** | हिंदी: जय-जयकार करना / अभिवादन करना; बुलाना / पुकारना; मूल निवासी होना; ओले पड़ना : To praise or greet enthusiastically; To call out to or summon; To originate from a place; To fall as frozen rain.
+- ***Synonyms***:
+    - **Noun:**
+        - *Frozen precipitation:* hailstones, ice pellets, sleet
+        - *Forceful shower:* barrage, volley, shower, bombardment, torrent
+    - **Verb:**
+        - *Praise/Greet:* acclaim, praise, extol, salute, cheer, welcome
+        - *Call out/Summon:* summon, call, signal, flag down, shout to
+        - *Originate from:* come from, be from
+- ***Antonyms***:
+    - **Verb:**
+        - *Praise/Greet:* condemn, criticize, denounce, boo, jeer
 
-_Examples_  
-1. The **hail**storm damaged the crops and left the fields covered in ice. *(Noun: weather)*  
-2. She **hails** from a small town in the countryside. *(Verb: originate)*  
-3. The crowd began to **hail** the hero with cheers and applause. *(Verb: praise)*  
+_Example_:
+1.  The storm brought heavy rain and **hail** the size of golf balls. *(Noun: frozen precipitation)*
+2.  The speaker faced a **hail** of criticism after his controversial remarks. *(Noun: forceful shower)*
+3.  Critics **hail** the new film as a cinematic masterpiece. *(Verb: to praise enthusiastically)*
+4.  We stepped into the street to **hail** a taxi. *(Verb: to call out to or summon)*
+5.  She **hails** from a small village in the mountains. *(Verb: to originate from a place)*
+6.  It started to **hail** just as we were leaving the house. *(Verb: to fall as frozen rain)*
 
-_Word Form Examples_  
-1. **HAILING**: 🌟  
-   - The taxi driver was **hailing** for customers near the train station. *(Gerund: calling out)*  
-   - ***Synonyms***: calling, signaling, summoning  
-2. **HAILSTONE**:  
-   - A large **hailstone** shattered the windshield of the parked car. *(Noun: piece of hail)*  
-   - ***Synonyms***: ice pellet, frozen droplet  
-3. **HAILED**:  
-   - The singer was **hailed** as the greatest performer of the decade. *(Adjective: praised)*  
-   - ***Synonyms***: acclaimed, celebrated, lauded  
-4. **HAILER**:  
-   - The security guard used a loud **hailer** to direct the crowd. *(Noun: device for amplifying voice)*  
-   - ***Synonyms***: megaphone, amplifier  
+_Word Form Examples_
+1. **HAILSTORM** 🌟:
+   - A sudden **hailstorm** flattened the farmer's cornfield. *(Noun: a storm that produces hail)*
+   - ***Synonyms***: ice storm, sleet storm
+2. **HAILED**:
+   - The returning astronaut was **hailed** as a national hero. *(Verb, past participle: acclaimed or praised)*
+   - ***Synonyms***: acclaimed, celebrated, lauded, praised, commended
+3. **HAILSTONE**:
+   - He found a **hailstone** as large as his thumb on the ground. *(Noun: a single pellet of hail)*
+   - ***Synonyms***: ice pellet, ice ball
 
 =====
 
@@ -825,28 +832,6 @@ _Word Form Examples_
 2. **HAMPERING**:  
    - The ongoing power outage was **hampering** productivity in the office. *(Gerund: hindering)*  
    - ***Synonyms***: obstructing, delaying, slowing  
-
-=====
-
-### HANKER  
-@@  
-**Verb** | हिंदी: तरसना, इच्छा करना :  
-1. To have a strong or persistent desire for something, especially something unattainable or distant. *(Verb)*  
-2. To yearn or long for something with deep emotion. *(Verb)*  
-- ***Synonyms***: yearn, long, crave, desire, pine  
-- ***Antonyms***: disdain, reject, disregard, be indifferent  
-
-_Examples_  
-1. She **hankers** for the simplicity of life in her small hometown. *(Verb: yearn)*  
-2. Despite his success, he still **hankers** after the recognition he never received as a young artist. *(Verb: long for)*  
-
-_Word Form Examples_  
-1. **HANKERING**: 🌟  
-   - His **hankering** for adventure led him to quit his job and travel the world. *(Gerund/Noun: strong desire)*  
-   - ***Synonyms***: craving, longing, yearning  
-2. **HANKERED**:  
-   - The old man often **hankered** for the days when life was simpler and less hectic. *(Verb: past tense of yearn)*  
-   - ***Synonyms***: craved, desired, pined  
 
 =====
 
@@ -1461,37 +1446,38 @@ _Word Form Examples_
 
 =====
 
-### HONOR  
-@@  
-**Noun, Verb** | हिंदी: सम्मान, इज़्ज़त :  
-1. High respect or esteem; recognition of worth or dignity. *(Noun)*  
-2. To regard with great respect or to fulfill an obligation. *(Verb)*  
-- ***Synonyms***: respect, dignity, reverence, admiration, glory *(Noun)*; respect, revere, esteem, uphold, cherish *(Verb)*  
-- ***Antonyms***: disrespect, dishonor, humiliation, shame *(Noun)*; disregard, belittle, degrade, scorn *(Verb)*  
+### HONOR
+@@
+**Noun, Verb** | हिंदी: सम्मान, इज़्ज़त :
+1. High respect or esteem; recognition of worth or dignity. *(Noun)*
+2. To regard with great respect or to fulfill an obligation. *(Verb)*
+- ***Synonyms***: respect, dignity, reverence, admiration, glory *(Noun)*; respect, revere, esteem, uphold, cherish *(Verb)*
+- ***Antonyms***: disrespect, dishonor, humiliation, shame *(Noun)*; disregard, belittle, degrade, scorn *(Verb)*
 
-_Examples_  
-1. The soldier was awarded a medal in **honor** of his bravery. *(Noun: respect)*  
-2. It is important to **honor** one’s commitments and promises. *(Verb: fulfill)*  
+_Examples_
+1. The soldier was awarded a medal in **honor** of his bravery. *(Noun: respect)*
+2. It is important to **honor** one’s commitments and promises. *(Verb: fulfill)*
 
-_Word Form Examples_  
-1. **HONORABLE**: 🌟  
-   - She led an **honorable** life, always striving to do what was right. *(Adjective: morally upright)*  
-   - ***Synonyms***: virtuous, ethical, respectable, dignified, noble  
-2. **HONORABLY**:  
-   - The soldier served his country **honorably** for over two decades. *(Adverb: in a respectful manner)*  
-   - ***Synonyms***: respectfully, admirably, commendably, creditably  
-3. **HONORED**:  
-   - He felt deeply **honored** to receive the lifetime achievement award. *(Adjective: feeling respected or privileged)*  
-   - ***Synonyms***: revered, esteemed, exalted, glorified, admired  
-4. **HONORING**:  
-   - The ceremony was held to celebrate and **honoring** the contributions of veterans. *(Verb: present participle form)*  
-   - ***Synonyms***: respecting, revering, celebrating, commemorating, upholding  
-5. **DISHONOR**:  
-   - The scandal brought **dishonor** to the family name. *(Noun: disgrace)*  
-   - ***Synonyms***: shame, humiliation, discredit, ignominy  
-6. **DISHONORABLE**:  
-   - His **dishonorable** actions led to his dismissal from the organization. *(Adjective: morally wrong or disgraceful)*  
-   - ***Synonyms***: unethical, disgraceful, shameful, corrupt  
+_Word Form Examples_
+1. **HONORABLE**: 🌟
+   - She led an **honorable** life, always striving to do what was right. *(Adjective: morally upright)*
+   - ***Synonyms***: virtuous, ethical, respectable, dignified, noble
+2. **HONORABLY**:
+   - The soldier served his country **honorably** for over two decades. *(Adverb: in a respectful manner)*
+   - ***Synonyms***: respectfully, admirably, commendably, creditably
+3. **HONORED**:
+   - He felt deeply **honored** to receive the lifetime achievement award. *(Adjective: feeling respected or privileged)*
+   - ***Synonyms***: revered, esteemed, exalted, glorified, admired
+4. **HONORING**:
+   - The ceremony was held to celebrate and **honoring** the contributions of veterans. *(Verb: present participle form)*
+   - ***Synonyms***: respecting, revering, celebrating, commemorating, upholding
+5. **DISHONOR**:
+   - The scandal brought **dishonor** to the family name. *(Noun: disgrace)*
+   - ***Synonyms***: shame, humiliation, discredit, ignominy
+6. **DISHONORABLE**:
+   - His **dishonorable** actions led to his dismissal from the organization. *(Adjective: morally wrong or disgraceful)*
+   - ***Synonyms***: unethical, disgraceful, shameful, corrupt
+<!--SR:!2025-04-21,3,250-->
 
 =====
 
@@ -1566,6 +1552,44 @@ _Word Form Examples_
 2. **HOSTILELY**:  
    - The crowd reacted **hostilely** to the politician’s controversial speech. *(Adverb: in an unfriendly or aggressive manner)*  
    - ***Synonyms***: aggressively, antagonistically, belligerently, combatively, unfriendly   
+
+=====
+
+
+
+### HID
+@@
+**Verb (Past Tense, Past Participle of HIDE)** | हिंदी: छुपाया / छिपाया; गुप्त रखा : Concealed or put something out of sight; Kept something secret.
+- ***Synonyms***:
+    - **Verb (action of hiding):**
+        - *Conceal/Keep Secret:* Concealed, secreted, covered, screened, masked, veiled, camouflaged, stowed away, tucked away, obscured.
+- ***Antonyms***:
+    - **Verb (action of hiding):**
+        - *Conceal/Keep Secret:* Revealed, exposed, showed, displayed, uncovered, unveiled, exhibited, found, discovered.
+_Example_:
+1. She **hid** the gift in the closet so he wouldn't see it. *(Verb Past Tense: concealed)*
+2. He **hid** his disappointment behind a forced smile. *(Verb Past Tense: kept secret)*
+3. The treasure map lay **hid** (or more commonly: hidden) beneath the floorboards for years. *(Verb Past Participle: concealed - note: 'hidden' is the more common past participle/adjective form)*
+
+_Word Form Examples_
+1. **HIDE** (Base Form): 🌟
+   - Try not to **hide** your mistakes; learn from them. *(Verb: to conceal)*
+   - They watched the deer from a **hide** in the woods. *(Noun: a concealed shelter for observing wildlife)*
+   - ***Synonyms***: (Verb) conceal, secrete, cover, screen, mask; (Noun) blind, shelter, lookout, screen
+2. **HIDING**: 🌟
+   - The cat is **hiding** under the sofa again. *(Verb Present Participle: in the act of concealing oneself)*
+   - After the robbery, the thieves went into **hiding**. *(Noun: the state of being concealed)*
+   - ***Synonyms***: (Gerund) concealing, secreting, covering; (Noun) concealment, refuge, seclusion, shelter, hideout
+3. **HIDDEN**: 🌟
+   - The key was **hidden** under the doormat. *(Adjective/Past Participle: concealed, not easily found)*
+   - There may be **hidden** fees in the contract. *(Adjective: not immediately obvious)*
+   - ***Synonyms***: concealed, secret, unseen, covert, latent, obscure, camouflaged, underlying
+4. **HIDER**:
+   - In the game of hide-and-seek, the **hider** must find a good spot quickly. *(Noun: a person or animal that hides)*
+   - ***Synonyms***: concealer
+5. **HIDING PLACE**: 🌟
+   - The attic became their favorite **hiding place**. *(Noun Phrase: a location used for concealment)*
+   - ***Synonyms***: hideout, refuge, sanctuary, retreat, shelter, hideaway, safe house
 
 =====
 
